@@ -1,0 +1,18 @@
+{
+    "app_title": "Saloonprived",
+    "common": {
+        "next": "Suivant",
+        "gender_male": "Homme",
+        "gender_female": "Femme",
+        "gender_other": "Autres"
+    },
+    "welcome_screen": {
+        "greeting": "Bienvenue {}",
+        "on_the_world_coolest_chat": "Sur le chat le plus cool au monde",
+        "note": "Votre Inscription à Saloonprived chat est privée et vos abonnés Bantubeat ne seront pas avertis. Votre activité dans Saloonprived n'est pas partagée sur le fil d'actualité Bantubeat."
+    },
+    "image_service": {
+        "choose_camera": "Camera",
+        "choose_gallery": "Gallery"
+    }
+}
