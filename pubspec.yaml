@@ -12,41 +12,25 @@ environment:
 dependencies:
   cached_network_image: ^3.4.1
   carousel_slider: ^5.0.0
-  choice: ^2.3.2
   country_picker: ^2.0.26
-  dotted_border: ^2.1.0
   easy_localization: ^3.0.7
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
   flutter_svg: ^2.0.10+1
-  flutter_tindercard_plus: ^0.0.2
   flutter_vector_icons: ^2.0.0
-  gif_view: ^0.4.4
   google_fonts: ^6.2.1
-  heart_overlay: ^1.4.1
   image_picker: ^1.1.2
-  mockito: ^5.4.4
   path: ^1.9.0
   smart_select: ^4.2.1
   url_strategy: ^0.3.0
-  flutter_chat_bubble:
-  table_calendar: ^3.1.2
-  video_player: ^2.9.1
-  proste_bezier_curve: ^2.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
-
-  # Enable generation of localized Strings from arb files.
-  generate: true
 
   assets:
     # Add assets from the images directory to the application.
