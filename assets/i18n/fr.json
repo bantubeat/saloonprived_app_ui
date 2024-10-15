@@ -14,5 +14,9 @@
     "image_service": {
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
+    },
+    "my_app_bar": {
+        "for_you_text": "Salon pour toi",
+        "for_discover_text": "Salon pour toi"
     }
 }
