@@ -6,4 +6,6 @@ final class AppAssets {
   static const imagesFeatlinkLogo = 'assets/images/featlink_logo.png';
   static const imagesBeat = 'assets/images/beat.png';
   static const imagesMusicNote = 'assets/images/music_note.png';
+  static const imagesSaloonProfileBack =
+      'assets/images/saloon_profile_back.png';
 }

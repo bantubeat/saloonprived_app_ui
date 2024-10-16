@@ -20,7 +20,7 @@ abstract class  LocaleKeys {
   static const my_bottom_navigation_bar_settings = 'my_bottom_navigation_bar.settings';
   static const my_bottom_navigation_bar_feat_link = 'my_bottom_navigation_bar.feat_link';
   static const my_bottom_navigation_bar_log_out = 'my_bottom_navigation_bar.log_out';
-
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
+
 }
