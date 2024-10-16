@@ -49,7 +49,7 @@ class SaloonForYouNoSubcriptionScreen extends StatelessWidget {
                     ),
                     TextSpan(
                       text: LocaleKeys
-                          .saloon_for_you_no_subcription_screen_dicover_saloon
+                          .saloon_for_you_no_subcription_screen_discover_creators
                           .tr(),
                     ),
                     TextSpan(
@@ -61,7 +61,7 @@ class SaloonForYouNoSubcriptionScreen extends StatelessWidget {
                     ),
                     TextSpan(
                       text: LocaleKeys
-                          .saloon_for_you_no_subcription_screen_discover_creators
+                          .saloon_for_you_no_subcription_screen_subscribe_to_creators
                           .tr(),
                     ),
                   ],
