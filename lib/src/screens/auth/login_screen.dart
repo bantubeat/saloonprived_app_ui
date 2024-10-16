@@ -30,7 +30,7 @@ class LoginScreen extends StatelessWidget {
           text: const TextSpan(
             children: [
               TextSpan(
-                text: 'Saloonccc',
+                text: 'Saloon',
                 style: TextStyle(
                   color: Color.fromRGBO(252, 204, 55, 1),
                   fontSize: 20,
