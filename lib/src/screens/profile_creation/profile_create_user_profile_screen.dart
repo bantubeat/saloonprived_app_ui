@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/config/app_colors.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 
 class ProfileCreateUserProfileScreen extends StatelessWidget {
@@ -170,8 +171,8 @@ class ProfileCreateUserProfileScreen extends StatelessWidget {
                         // Action pour ajouter
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors
-                            .orange, // Couleur orange pour le bouton "Ajouter"
+                        backgroundColor: AppColors
+                            .primary, // Couleur orange pour le bouton "Ajouter"
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20),
                         ),
