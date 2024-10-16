@@ -74,7 +74,7 @@ class SaloonForYouNoSubcriptionScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor:
-                    Colors.orange, // Couleur orange pour le bouton "Ajouter"
+                  const  Color(0xFFFCCC37), // Couleur orange pour le bouton "Ajouter"
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                 ),
