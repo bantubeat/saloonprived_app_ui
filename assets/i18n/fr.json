@@ -25,5 +25,9 @@
         "settings": "Paramètres",
         "feat_link": "Featlink",
         "log_out": "Déconnexion"
+    },
+    "my_app_bar": {
+        "for_you_text": "Salon pour toi",
+        "for_discover_text": "Salon à découvrir"
     }
 }
