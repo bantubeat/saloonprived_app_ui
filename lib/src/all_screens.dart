@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/profile_creation/category_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
@@ -12,6 +13,7 @@ import 'screens/notification_screen/notification_screen.dart';
 final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
 	'notification_screen.dart': () => const NotificationsScreen(),
+	'profile_creation/category_screen.dart': () => const CategoryScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
 };
