@@ -21,5 +21,9 @@
         "followers_count": " Abonnes",
         "cancel_button": "Annuler",
         "add_button": "Valider"
+    },
+    "my_app_bar": {
+        "for_you_text": "Salon pour toi",
+        "for_discover_text": "Salon à découvrir"
     }
 }
