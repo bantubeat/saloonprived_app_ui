@@ -14,5 +14,10 @@
     "image_service": {
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
+    },
+    "notification_screen": {
+        "title": "Notifications",
+        "time": "il y'a {} heure",
+        "message": "{}"
     }
 }
