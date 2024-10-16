@@ -23,7 +23,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   // MyAppBar.forYouWithBellIconForYou
-  factory MyAppBar.forYouWithBellIconForYou() {
+  factory MyAppBar.forYouWithBellIcon() {
     return const MyAppBar._(
       showSecondLine: true,
       customIcon: Badge(
