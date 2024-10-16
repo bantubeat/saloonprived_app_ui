@@ -1,7 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
-import 'package:saloonprived_app/src/config/app_colors.dart';
 
 class NotificationCardItem extends StatelessWidget {
   const NotificationCardItem({
