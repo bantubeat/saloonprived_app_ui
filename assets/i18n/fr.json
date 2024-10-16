@@ -18,6 +18,6 @@
     "notification_screen": {
         "title": "Notifications",
         "time": "il y'a {} heure",
-        "message": "{}"
+        "message": "a commencé une diffusion En Direct"
     }
 }
