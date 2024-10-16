@@ -11,6 +11,5 @@ import 'screens/welcome_screen/welcome_screen.dart';
 /// Ce n'est valable QUE pour les SCREENS, les composants n'ont pas besion d'être ici
 final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
-
   // Ajoutez d'autres chemins de fichiers ici
 };
