@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:saloonprived_app/src/config/app_colors.dart';
 
 class CustomDropdownButtonFormField<T> extends StatelessWidget {
   final T? value;
@@ -22,12 +23,24 @@ class CustomDropdownButtonFormField<T> extends StatelessWidget {
       decoration: InputDecoration(
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(30.0),
+          borderSide: const BorderSide(
+            width: 2,
+            color: AppColors.bantubeatPrimary,
+          ),
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(30.0),
+          borderSide: const BorderSide(
+            width: 2,
+            color: AppColors.bantubeatPrimary,
+          ),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(30.0),
+          borderSide: const BorderSide(
+            width: 2,
+            color: AppColors.bantubeatPrimary,
+          ),
         ),
       ),
       items: items

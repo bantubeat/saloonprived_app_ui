@@ -18,11 +18,22 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
   String? selectedYear;
   String? selectedCountry;
 
+  // Ajoutez cette méthode pour calculer la taille du texte
+  double _calculateTextSize(BuildContext context) {
+    final screenSize = MediaQuery.of(context).size;
+    if (screenSize.width <= 375 && screenSize.height <= 667) {
+      return 16; // Taille de texte réduite pour les petits écrans
+    }
+    return 18; // Taille de texte par défaut pour les écrans plus grands
+  }
+
   @override
   Widget build(BuildContext context) {
+    // Calculez la taille du texte
+    final textSize = _calculateTextSize(context);
+
     return Scaffold(
-      appBar: AppBar(
-      ),
+      appBar: AppBar(),
       body: Stack(
         children: [
           Padding(
@@ -40,23 +51,53 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
-                              Text(LocaleKeys.welcome_page_screen_welcome_to_saloonprived.tr(), textAlign: TextAlign.end, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                              Text(
+                                LocaleKeys
+                                    .welcome_page_screen_welcome_to_saloonprived
+                                    .tr(),
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize:
+                                      textSize, // Utilisez la taille calculée
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                               const SizedBox(height: 12),
-                              Text(LocaleKeys.welcome_page_screen_complete_these_information_to_create_your_profile.tr(), textAlign: TextAlign.end),
+                              Text(
+                                LocaleKeys
+                                    .welcome_page_screen_complete_these_information_to_create_your_profile
+                                    .tr(),
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: textSize -
+                                      3, // Utilisez la taille calculée
+                                ),
+                              ),
                             ],
                           ),
                         ),
-                        SizedBox(height: MediaQuery.of(context).size.height * 0.08),
-                        RichTextWidget(text: LocaleKeys.welcome_page_screen_username.tr()),
+                        SizedBox(
+                          height: MediaQuery.of(context).size.height * 0.08,
+                        ),
+                        RichTextWidget(
+                          text: LocaleKeys.welcome_page_screen_username.tr(),
+                        ),
                         const SizedBox(height: 8),
-                        const SimpleTextFormField(),            
-                        SizedBox(height: MediaQuery.of(context).size.height * 0.05),
-                        RichTextWidget(text: LocaleKeys.welcome_page_screen_birth_year.tr()),
+                        const SimpleTextFormField(),
+                        SizedBox(
+                          height: MediaQuery.of(context).size.height * 0.05,
+                        ),
+                        RichTextWidget(
+                          text: LocaleKeys.welcome_page_screen_birth_year.tr(),
+                        ),
                         const SizedBox(height: 8),
                         CustomDropdownButtonFormField<String>(
                           value: selectedYear,
-                          hint: LocaleKeys.welcome_page_screen_choose_in_the_list.tr(),
-                          items: List.generate(100, (index) => DateTime.now().year - index)
+                          hint: LocaleKeys
+                              .welcome_page_screen_choose_in_the_list
+                              .tr(),
+                          items: List.generate(
+                                  100, (index) => DateTime.now().year - index,)
                               .map((year) => year.toString())
                               .toList(),
                           onChanged: (value) {
@@ -65,13 +106,22 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                             });
                           },
                         ),
-                        SizedBox(height: MediaQuery.of(context).size.height * 0.05),
-                        RichTextWidget(text: LocaleKeys.welcome_page_screen_country.tr()),
+                        SizedBox(
+                            height: MediaQuery.of(context).size.height * 0.05,),
+                        RichTextWidget(
+                            text: LocaleKeys.welcome_page_screen_country.tr(),),
                         const SizedBox(height: 8),
                         CustomDropdownButtonFormField<String>(
                           value: selectedCountry,
-                          hint: LocaleKeys.welcome_page_screen_choose_in_the_list.tr(),
-                          items: const ['France', 'Belgique', 'Suisse', 'Canada'],
+                          hint: LocaleKeys
+                              .welcome_page_screen_choose_in_the_list
+                              .tr(),
+                          items: const [
+                            'France',
+                            'Belgique',
+                            'Suisse',
+                            'Canada',
+                          ],
                           onChanged: (value) {
                             setState(() {
                               selectedCountry = value;
@@ -119,7 +169,10 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                   borderRadius: BorderRadius.circular(30.0),
                 ),
               ),
-              child: Text(LocaleKeys.welcome_page_screen_save.tr(), style: const TextStyle(fontSize: 18, color: AppColors.myWhite),),
+              child: Text(
+                LocaleKeys.welcome_page_screen_save.tr(),
+                style: const TextStyle(fontSize: 18, color: AppColors.myWhite),
+              ),
             ),
           ),
         ],
@@ -127,5 +180,3 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
     );
   }
 }
-
-
