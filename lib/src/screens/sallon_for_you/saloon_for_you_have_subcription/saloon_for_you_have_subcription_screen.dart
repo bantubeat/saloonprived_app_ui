@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:saloonprived_app/src/components/my_app_bar.dart';
 
 import 'widgets/header_widget.dart';
 
@@ -8,6 +9,7 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: MyAppBar.forYouSingleLine(),
       backgroundColor: const Color.fromRGBO(244, 244, 244, 1),
       body: Container(
         width: MediaQuery.of(context).size.width,
