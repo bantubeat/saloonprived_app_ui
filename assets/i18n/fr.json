@@ -162,5 +162,15 @@
         "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
+        "message": "{}"
+    },
+    "welcome_page_screen": {
+        "username": "Nom d'utilisateur",
+        "birth_year": "Année de naissance",
+        "country": "Pays",
+        "save": "Enregistrer",
+        "choose_in_the_list": "Choisissez dans la liste",
+        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
+        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
     }
 }
