@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/header_widget.dart';
+
 class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
   const SaloonForYouHaveSubcriptionScreen({super.key});
 
@@ -11,9 +13,14 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         color: const Color.fromRGBO(244, 244, 244, 1),
-        child: const Column(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [],
+          children: [
+            const HeaderWidget(),
+            Expanded(
+              child: Container(),
+            ),
+          ],
         ),
       ),
     );
