@@ -14,5 +14,16 @@
     "image_service": {
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
+    },
+    "my_bottom_navigation_bar": {
+        "home": "Accueil",
+        "messages": "Messages",
+        "bantubeat": "Bantubeat",
+        "profil": "Profil",
+        "music": "Musique",
+        "beat": "Beat",
+        "settings": "Paramètres",
+        "feat_link": "Featlink",
+        "log_out": "Déconnexion"
     }
 }
