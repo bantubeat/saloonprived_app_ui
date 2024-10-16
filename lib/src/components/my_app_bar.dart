@@ -48,7 +48,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   // MyAppBar.forYouWithCustomIconForYou
-  factory MyAppBar.forYouWithCustomIconForYou(Widget customIcon) {
+  factory MyAppBar.forYouWithCustomIcon(Widget customIcon) {
     return MyAppBar._(
       showSecondLine: true,
       customIcon: customIcon,
