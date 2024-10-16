@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/config/app_colors.dart';
 
 class NotificationCardItem extends StatelessWidget {
   const NotificationCardItem({
@@ -64,13 +65,31 @@ class NotificationCardItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 8),
-          Text(
-            message,
+          RichText(
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
+            text: TextSpan(
+              style: DefaultTextStyle.of(context).style,
+              children: _buildMessageText(message),
+            ),
           ),
         ],
       ),
     );
+  }
+
+  List<TextSpan> _buildMessageText(String message) {
+    final parts = message.split('En Direct');
+    if (parts.length == 2) {
+      return [
+        TextSpan(text: parts[0]),
+        const TextSpan(
+          text: 'En Direct',
+          style: TextStyle(color: AppColors.bantubeatPrimary),
+        ),
+        TextSpan(text: parts[1]),
+      ];
+    }
+    return [TextSpan(text: message)];
   }
 }

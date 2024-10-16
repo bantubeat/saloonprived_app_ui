@@ -18,7 +18,7 @@
     "notification_screen": {
         "title": "Notifications",
         "time": "il y'a {} heure",
-        "message": "{}"
+        "message": "a commencé une diffusion En Direct"
     },
     "welcome_page_screen": {
         "username": "Nom d'utilisateur",
