@@ -12,4 +12,6 @@ abstract class LocaleKeys {
   static const welcome_screen_note = 'welcome_screen.note';
   static const image_service_choose_camera = 'image_service.choose_camera';
   static const image_service_choose_gallery = 'image_service.choose_gallery';
+  static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
+  static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
 }
