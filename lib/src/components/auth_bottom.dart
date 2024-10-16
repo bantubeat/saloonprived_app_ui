@@ -47,51 +47,52 @@ class AuthBottom extends StatelessWidget {
                 AppAssets.imagesPaymentMethod,
                 fit: BoxFit.contain,
               ),
-              Wrap(
-                alignment: WrapAlignment.center,
-                children: [
-                  Text(
-                    LocaleKeys.login_screen_account_text.tr(),
-                    textAlign: TextAlign.start,
-                    style: GoogleFonts.archivo(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w500,
-                      color: Colors.black,
-                    ),
-                  ),
-                  Container(
-                    width: 3,
-                    height: 15,
-                    margin: const EdgeInsets.symmetric(
-                      horizontal: 10,
-                    ),
-                    padding: const EdgeInsets.all(15),
-                    decoration: const BoxDecoration(
-                      color: AppColors.myGray,
-                    ),
-                  ),
-                  Text(
-                    LocaleKeys.login_screen_channel_text.tr(),
-                    textAlign: TextAlign.start,
-                    style: GoogleFonts.poppins(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w700,
-                      color: Colors.black,
-                    ),
-                  ),
-                ],
-              ),
               Container(
-                width: MediaQuery.of(context).size.width * 0.45,
-                height: 29,
                 margin: const EdgeInsets.symmetric(
-                  horizontal: 10,
-                  vertical: 10,
+                  horizontal: 20,
+                  vertical: 15,
                 ),
-                padding: const EdgeInsets.all(15),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 15,
+                  vertical: 5,
+                ),
                 decoration: BoxDecoration(
                   color: AppColors.myGray,
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                child: Wrap(
+                  alignment: WrapAlignment.center,
+                  children: [
+                    Text(
+                      LocaleKeys.login_screen_account_text.tr(),
+                      textAlign: TextAlign.start,
+                      style: GoogleFonts.archivo(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Container(
+                      width: 3,
+                      height: 18,
+                      margin: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                      ),
+                      padding: const EdgeInsets.all(15),
+                      decoration: const BoxDecoration(
+                        color: AppColors.myGray600,
+                      ),
+                    ),
+                    Text(
+                      LocaleKeys.login_screen_channel_text.tr(),
+                      textAlign: TextAlign.start,
+                      style: GoogleFonts.poppins(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w700,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],

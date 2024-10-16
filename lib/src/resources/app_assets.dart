@@ -16,4 +16,8 @@ final class AppAssets {
   static const imagesBwyw = 'assets/images/bwyw.png';
   static const imagesStandUP = 'assets/images/stand_up.png';
   static const imagesCoverLogo = 'assets/images/cover_logo.png';
+  static const imagesLogoBantubeat = 'assets/images/logo_bantubeat.png';
+  static const imagesFeatlinkLogo = 'assets/images/featlink_logo.png';
+  static const imagesBeat = 'assets/images/beat.png';
+  static const imagesMusicNote = 'assets/images/music_note.png';
 }
