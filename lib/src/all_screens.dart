@@ -13,6 +13,7 @@ import 'package:saloonprived_app/src/screens/_create_profile/create_profile_rest
 
 import 'screens/search/search_screen/search_screen.dart';
 
+import 'package:saloonprived_app/src/screens/profile_creation/category_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 
@@ -42,6 +43,9 @@ final Map<String, Widget Function()> allScreens = {
 
   'create_profile_restriction_page_screen.dart': () =>
       CreateProfileRestrictionPageScreen(),
+	'notification_screen.dart': () => const NotificationsScreen(),
+	'profile_creation/category_screen.dart': () => const CategoryScreen(),
+
   // Ajoutez d'autres chemins de fichiers ici
 
   'search_screen.dart': () => const SearchScreen(),
