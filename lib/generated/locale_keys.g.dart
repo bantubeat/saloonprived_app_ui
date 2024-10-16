@@ -14,5 +14,16 @@ abstract class  LocaleKeys {
   static const notification_screen_title = 'notification_screen.title';
   static const notification_screen_time = 'notification_screen.time';
   static const notification_screen_message = 'notification_screen.message';
+  static const my_bottom_navigation_bar_home = 'my_bottom_navigation_bar.home';
+  static const my_bottom_navigation_bar_messages = 'my_bottom_navigation_bar.messages';
+  static const my_bottom_navigation_bar_bantubeat = 'my_bottom_navigation_bar.bantubeat';
+  static const my_bottom_navigation_bar_profil = 'my_bottom_navigation_bar.profil';
+  static const my_bottom_navigation_bar_music = 'my_bottom_navigation_bar.music';
+  static const my_bottom_navigation_bar_beat = 'my_bottom_navigation_bar.beat';
+  static const my_bottom_navigation_bar_settings = 'my_bottom_navigation_bar.settings';
+  static const my_bottom_navigation_bar_feat_link = 'my_bottom_navigation_bar.feat_link';
+  static const my_bottom_navigation_bar_log_out = 'my_bottom_navigation_bar.log_out';
+  static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
+  static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
 
 }

@@ -1,6 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/components/my_app_bar.dart';
+import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 import 'package:saloonprived_app/src/screens/notification_screen/widgets/notification_card_item.dart';
 
@@ -33,16 +35,17 @@ class NotificationsScreen extends StatelessWidget {
       ),
     ];
     return Scaffold(
-      appBar: AppBar(
-        leading: IconButton(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.arrow_back,
-            size: 40,
-          ),
-        ),
-        title: Text(LocaleKeys.notification_screen_title.tr()),
-      ),
+      // appBar: AppBar(
+      //   leading: IconButton(
+      //     onPressed: () {},
+      //     icon: const Icon(
+      //       Icons.arrow_back,
+      //       size: 40,
+      //     ),
+      //   ),
+      //   title: Text(LocaleKeys.notification_screen_title.tr()),
+      // ),
+			appBar: MyAppBar.forYouWithBellIcon(),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 5),
         child: ListView.builder(
@@ -59,6 +62,7 @@ class NotificationsScreen extends StatelessWidget {
           },
         ),
       ),
+			bottomNavigationBar: MyBottomNavigationBar(),
     );
   }
 }
