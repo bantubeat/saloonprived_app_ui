@@ -14,5 +14,12 @@
     "image_service": {
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
+    },
+    "saloon_for_you_no_subcription_screen": {
+        "dicover_saloon": "Salon à découvrir",
+        "saloon_for_you": "Salon pour toi.\n\n",
+        "subscription_prompt": "Vous devez être abonné aux créateurs pour voir du contenu dans ",
+        "discover_creators": "Découvrez les créateurs dans le ",
+        "subscribe_to_creators": " et abonnez-vous aux créateurs qui vous plaisent."
     }
 }
