@@ -64,13 +64,31 @@ class NotificationCardItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 8),
-          Text(
-            message,
+          RichText(
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
+            text: TextSpan(
+              style: DefaultTextStyle.of(context).style,
+              children: _buildMessageText(message),
+            ),
           ),
         ],
       ),
     );
+  }
+
+  List<TextSpan> _buildMessageText(String message) {
+    final parts = message.split('En Direct');
+    if (parts.length == 2) {
+      return [
+        TextSpan(text: parts[0]),
+        TextSpan(
+          text: 'En Direct',
+          style: const TextStyle(color: Colors.red),
+        ),
+        TextSpan(text: parts[1]),
+      ];
+    }
+    return [TextSpan(text: message)];
   }
 }
