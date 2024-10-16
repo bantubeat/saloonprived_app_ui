@@ -21,5 +21,20 @@
         "subscription_prompt": "Vous devez être abonné aux créateurs pour voir du contenu dans ",
         "discover_creators": "Découvrez les créateurs dans le ",
         "subscribe_to_creators": " et abonnez-vous aux créateurs qui vous plaisent."
+    },
+    "my_bottom_navigation_bar": {
+        "home": "Accueil",
+        "messages": "Messages",
+        "bantubeat": "Bantubeat",
+        "profil": "Profil",
+        "music": "Musique",
+        "beat": "Beat",
+        "settings": "Paramètres",
+        "feat_link": "Featlink",
+        "log_out": "Déconnexion"
+    },
+    "my_app_bar": {
+        "for_you_text": "Salon pour toi",
+        "for_discover_text": "Salon à découvrir"
     }
 }
