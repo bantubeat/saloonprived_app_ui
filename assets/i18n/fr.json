@@ -19,5 +19,14 @@
         "title": "Notifications",
         "time": "il y'a {} heure",
         "message": "{}"
+    },
+    "welcome_page_screen": {
+        "username": "Nom d'utilisateur",
+        "birth_year": "Année de naissance",
+        "country": "Pays",
+        "save": "Enregistrer",
+        "choose_in_the_list": "Choisissez dans la liste",
+        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
+        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
     }
 }
