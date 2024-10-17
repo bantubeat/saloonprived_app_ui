@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/auth/login_screen.dart';
 import 'package:saloonprived_app/src/screens/auth/register_screen.dart';
+import 'package:saloonprived_app/src/screens/search/search_screen/search_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
+
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
 /// le tester automatique aura besion de savoir comment instancier la classe
@@ -15,7 +17,8 @@ final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
   'login_screen.dart': () => const LoginScreen(),
   'register_screen.dart': () => const RegisterScreen(),
-	'notification_screen.dart': () => const NotificationsScreen(),
+  'notification_screen.dart': () => const NotificationsScreen(),
+  'search_screen.dart': () => const SearchScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
 };

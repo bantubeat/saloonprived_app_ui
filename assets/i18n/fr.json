@@ -69,5 +69,11 @@
     "my_app_bar": {
         "for_you_text": "Salon pour toi",
         "for_discover_text": "Salon à découvrir"
+    },
+    "search_screen": {
+        "find_creator": "Trouver un créateur",
+        "subscribers_count": " Abonnés",
+        "subscribe_button": "S'abonner",
+        "subscribed_label": "Abonné"
     }
 }
