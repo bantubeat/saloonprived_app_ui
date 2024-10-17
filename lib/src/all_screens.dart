@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart' show Widget;
-import 'package:saloonprived_app/src/screens/profile_creation/profile_create_user_profile_screen.dart';
+import 'package:saloonprived_app/src/screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
