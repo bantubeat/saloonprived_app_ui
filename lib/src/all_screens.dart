@@ -14,6 +14,7 @@ import 'screens/search/search_screen/search_screen.dart';
 
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
+import 'screens/adult_warning/adult_warning_screen.dart';
 
 import 'screens/living_room_discover/attention_page_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
