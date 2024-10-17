@@ -11,6 +11,16 @@ abstract class  LocaleKeys {
   static const welcome_screen_note = 'welcome_screen.note';
   static const image_service_choose_camera = 'image_service.choose_camera';
   static const image_service_choose_gallery = 'image_service.choose_gallery';
+  static const saloon_for_you_no_subcription_screen_dicover_saloon = 'saloon_for_you_no_subcription_screen.dicover_saloon';
+  static const saloon_for_you_no_subcription_screen_saloon_for_you = 'saloon_for_you_no_subcription_screen.saloon_for_you';
+  static const saloon_for_you_no_subcription_screen_subscription_prompt = 'saloon_for_you_no_subcription_screen.subscription_prompt';
+  static const saloon_for_you_no_subcription_screen_discover_creators = 'saloon_for_you_no_subcription_screen.discover_creators';
+  static const saloon_for_you_no_subcription_screen_subscribe_to_creators = 'saloon_for_you_no_subcription_screen.subscribe_to_creators';
+  static const profile_create_user_profile_screen_title = 'profile_create_user_profile_screen.title';
+  static const profile_create_user_profile_screen_subscriptions_count = 'profile_create_user_profile_screen.subscriptions_count';
+  static const profile_create_user_profile_screen_followers_count = 'profile_create_user_profile_screen.followers_count';
+  static const profile_create_user_profile_screen_cancel_button = 'profile_create_user_profile_screen.cancel_button';
+  static const profile_create_user_profile_screen_add_button = 'profile_create_user_profile_screen.add_button';
   static const register_screen_header_text = 'register_screen.header_text';
   static const register_screen_title = 'register_screen.title';
   static const register_screen_description = 'register_screen.description';
