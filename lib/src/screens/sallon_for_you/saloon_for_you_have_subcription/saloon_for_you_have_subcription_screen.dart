@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/src/components/my_app_bar.dart';
 import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
+import 'package:saloonprived_app/src/resources/app_assets.dart';
 
 import 'widgets/header_widget.dart';
+import 'widgets/publication_card_widget.dart';
+import 'widgets/suggestions_card_widget.dart';
 
 class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
   const SaloonForYouHaveSubcriptionScreen({super.key});
@@ -11,16 +14,64 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MyAppBar.forYouWithBellIcon(),
-      body: Container(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
-        color: const Color.fromRGBO(244, 244, 244, 1),
+      body: const SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            const HeaderWidget(),
-            Expanded(
-              child: Container(),
+            HeaderWidget(),
+            PublicationCardWidget(
+              isImage: true,
+              isRepost: false,
+              userImage: AppAssets.imagesProfil1,
+              images: [
+                AppAssets.imagesCentent2,
+                AppAssets.imagesCentent3,
+                AppAssets.imagesCentent1,
+              ],
+              name: 'Richachba',
+              userName: '@Richachba',
+              date: "il y'a 1 heure",
+            ),
+            PublicationCardWidget(
+              isImage: true,
+              isRepost: false,
+              userImage: AppAssets.imagesProfil1,
+              images: [AppAssets.imagesProfil1],
+              name: 'Lucia',
+              userName: '@Lucia',
+              date: "il y'a 1 heure",
+            ),
+
+            SuggestionsCardWidget(
+              userImage: AppAssets.imagesProfil2,
+              backgourdImages: AppAssets.imagesSaloonProfileBack,
+              name: 'ZoecrabbTV',
+              userName: '@zoecrabbtv',
+            ),
+
+            PublicationCardWidget(
+              isImage: true,
+              isRepost: false,
+              userImage: AppAssets.imagesProfil3,
+              images: [AppAssets.imagesCentent3],
+              name: 'Lucia',
+              userName: '@Lucia',
+              date: "il y'a 1 heure",
+            ),
+            PublicationCardWidget(
+              isImage: true,
+              isRepost: true,
+              userImage: AppAssets.imagesProfil1,
+              images: [AppAssets.imagesCentent1, AppAssets.imagesCentent2],
+              name: 'Lucia',
+              userName: '@Lucia',
+              date: "il y'a 1 heure",
+            ),
+            // Expanded(
+            //   child: Container(),
+            // ),
+            SizedBox(
+              height: 100,
             ),
           ],
         ),

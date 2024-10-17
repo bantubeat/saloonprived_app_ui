@@ -3,7 +3,6 @@ import 'package:saloonprived_app/src/screens/welcome_screen/welcome_screen.dart'
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'config/app_themes.dart';
-import 'screens/sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
 /// The Widget that configures your application.
 class SaloonprivedApp extends StatelessWidget {
@@ -22,7 +21,7 @@ class SaloonprivedApp extends StatelessWidget {
       darkTheme: AppThemes.darkTheme,
       // Remplace `WelcomeScreen` par ta SCREEN pour la tester et à la fin remet
       // `WelcomeScreen` comme tu vois.
-      home: const SaloonForYouHaveSubcriptionScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }

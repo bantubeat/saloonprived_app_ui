@@ -22,5 +22,9 @@ abstract class  LocaleKeys {
   static const my_bottom_navigation_bar_log_out = 'my_bottom_navigation_bar.log_out';
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
+  static const saloon_for_you_have_subcription_screen_advertisement_title = 'saloon_for_you_have_subcription_screen.advertisement_title';
+  static const saloon_for_you_have_subcription_screen_learn_more = 'saloon_for_you_have_subcription_screen.learn_more';
+  static const saloon_for_you_have_subcription_screen_tip_label = 'saloon_for_you_have_subcription_screen.tip_label';
+  static const saloon_for_you_have_subcription_screen_suggestions_label = 'saloon_for_you_have_subcription_screen.suggestions_label';
 
 }
