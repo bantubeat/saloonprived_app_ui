@@ -88,6 +88,10 @@
         "advertisement_title": "Publicité sur saloonprived:",
         "learn_more": "En savoir plus",
         "tip_label": "POURBOIRE",
-        "suggestions_label": "Suggestions"
+        "suggestions_label": "Suggestions",
+        "comments_count": "Commentaires",
+        "delete": "Supprimer",
+        "swipe_to_load_more": "Glisser pour charger plus",
+        "write_omment": "Ecrire un commentaire"
     }
 }

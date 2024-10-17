@@ -11,7 +11,8 @@ class IconRowWidget extends StatelessWidget {
   final int shares;
   final bool isOldPost;
   final bool isRepost;
-
+  // 0=like, 1=comments , 2=reposts, 3=share , 4 = pourboire
+  final Function(int item) onPressIcon;
   const IconRowWidget({
     required this.likes,
     required this.comments,
@@ -19,6 +20,7 @@ class IconRowWidget extends StatelessWidget {
     required this.shares,
     required this.isOldPost,
     required this.isRepost,
+    required this.onPressIcon,
   });
 
   @override
@@ -34,6 +36,8 @@ class IconRowWidget extends StatelessWidget {
           likes,
           isOldPost,
           false,
+          onPressIcon,
+          0,
         ),
         _buildIconWithValue(
           const Icon(
@@ -44,6 +48,8 @@ class IconRowWidget extends StatelessWidget {
           comments,
           isOldPost,
           false,
+          onPressIcon,
+          1,
         ),
         _buildIconWithValue(
           const Icon(
@@ -54,11 +60,15 @@ class IconRowWidget extends StatelessWidget {
           reposts,
           isOldPost,
           isRepost,
+          onPressIcon,
+          2,
         ),
         _buildIconWithValueExpand(
           _buildRightArrowIcon(),
           shares,
           isOldPost,
+          onPressIcon,
+          3,
         ),
         _buildIconWithValue(
           Image.asset(
@@ -71,6 +81,8 @@ class IconRowWidget extends StatelessWidget {
               .toUpperCase(),
           isOldPost,
           false,
+          onPressIcon,
+          4,
         ),
       ],
     );
@@ -95,47 +107,27 @@ class IconRowWidget extends StatelessWidget {
     dynamic value,
     bool isOldPost,
     bool canRepost,
+    Function(int item) onPress,
+    int index,
   ) {
-    return Container(
-      padding:
-          EdgeInsets.symmetric(horizontal: (isOldPost) ? 8 : 15, vertical: 10),
-      decoration: BoxDecoration(
-        border: Border.all(color: const Color.fromRGBO(244, 244, 244, 1)),
-      ),
-      child: Row(
-        children: [
-          icon,
-          SizedBox(width: (isOldPost) ? 3 : 5),
-          Text(
-            value.toString(),
-            style: GoogleFonts.inter(
-              color: (isOldPost || canRepost)
-                  ? const Color.fromRGBO(138, 150, 163, 1)
-                  : Colors.black,
-              fontSize: 10,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildIconWithValueExpand(Widget icon, dynamic value, bool isOldPost) {
-    return Expanded(
+    return InkWell(
+      onTap: () => onPress(index),
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+        padding: EdgeInsets.symmetric(
+          horizontal: (isOldPost) ? 8 : 15,
+          vertical: 10,
+        ),
         decoration: BoxDecoration(
           border: Border.all(color: const Color.fromRGBO(244, 244, 244, 1)),
         ),
         child: Row(
           children: [
             icon,
-            const SizedBox(width: 5),
+            SizedBox(width: (isOldPost) ? 3 : 5),
             Text(
               value.toString(),
               style: GoogleFonts.inter(
-                color: (isOldPost)
+                color: (isOldPost || canRepost)
                     ? const Color.fromRGBO(138, 150, 163, 1)
                     : Colors.black,
                 fontSize: 10,
@@ -143,6 +135,42 @@ class IconRowWidget extends StatelessWidget {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildIconWithValueExpand(
+    Widget icon,
+    dynamic value,
+    bool isOldPost,
+    Function(int item) onPress,
+    int index,
+  ) {
+    return Expanded(
+      child: InkWell(
+        onTap: () => onPress(index),
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+          decoration: BoxDecoration(
+            border: Border.all(color: const Color.fromRGBO(244, 244, 244, 1)),
+          ),
+          child: Row(
+            children: [
+              icon,
+              const SizedBox(width: 5),
+              Text(
+                value.toString(),
+                style: GoogleFonts.inter(
+                  color: (isOldPost)
+                      ? const Color.fromRGBO(138, 150, 163, 1)
+                      : Colors.black,
+                  fontSize: 10,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

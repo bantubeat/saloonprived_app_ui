@@ -98,4 +98,12 @@ abstract class LocaleKeys {
       'saloon_for_you_have_subcription_screen.tip_label';
   static const saloon_for_you_have_subcription_screen_suggestions_label =
       'saloon_for_you_have_subcription_screen.suggestions_label';
+  static const saloon_for_you_have_subcription_screen_comments_count =
+      'saloon_for_you_have_subcription_screen.comments_count';
+  static const saloon_for_you_have_subcription_screen_delete =
+      'saloon_for_you_have_subcription_screen.delete';
+  static const saloon_for_you_have_subcription_screen_swipe_to_load_more =
+      'saloon_for_you_have_subcription_screen.swipe_to_load_more';
+  static const saloon_for_you_have_subcription_screen_write_omment =
+      'saloon_for_you_have_subcription_screen.write_omment';
 }
