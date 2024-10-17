@@ -5,13 +5,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' as path;
 
+/*
 class CustomBindings extends AutomatedTestWidgetsFlutterBinding {
   @override
   bool get overrideHttpClient => false;
 }
+ */
 
 void main() {
-  CustomBindings();
+  // CustomBindings();
 
   final screenFiles = Directory(path.join('lib', 'src', 'screens'))
       .listSync(recursive: true, followLinks: false)
