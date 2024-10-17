@@ -14,6 +14,12 @@ abstract class  LocaleKeys {
   static const notification_screen_title = 'notification_screen.title';
   static const notification_screen_time = 'notification_screen.time';
   static const notification_screen_message = 'notification_screen.message';
+  static const profile_creation_category_title = 'profile_creation_category.title';
+  static const profile_creation_category_description = 'profile_creation_category.description';
+  static const profile_creation_category_note = 'profile_creation_category.note';
+  static const profile_creation_category_choose_category = 'profile_creation_category.choose_category';
+  static const profile_creation_category_previous = 'profile_creation_category.previous';
+  static const profile_creation_category_next = 'profile_creation_category.next';
   static const welcome_page_screen_username = 'welcome_page_screen.username';
   static const welcome_page_screen_birth_year = 'welcome_page_screen.birth_year';
   static const welcome_page_screen_country = 'welcome_page_screen.country';
