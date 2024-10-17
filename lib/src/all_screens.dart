@@ -5,6 +5,7 @@ import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
 import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
+import 'screens/search/search_screen/search_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 
@@ -25,9 +26,9 @@ final Map<String, Widget Function()> allScreens = {
   'register_screen.dart': () => const RegisterScreen(),
   'saloon_for_you_no_subcription_screen.dart': () =>
       const SaloonForYouNoSubcriptionScreen(),
-
   'profile_create_user_profile_screen.dart': () =>
       const ProfileCreateUserProfileScreen(),
-
-  // Ajoutez d'autres chemins de fichiers ici
+  'search_screen.dart': () => const SearchScreen(),
 };
+
+// Ajoutez d'autres chemins de fichiers ici
