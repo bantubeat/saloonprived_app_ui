@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
-import 'screens/living_room_discover/attention_page_screen.dart';
+import 'screens/adult_warning/adult_warning_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
 /// le tester automatique aura besion de savoir comment instancier la classe
