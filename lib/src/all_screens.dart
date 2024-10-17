@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
+import 'screens/living_room_discover/attention_page_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
 /// le tester automatique aura besion de savoir comment instancier la classe
@@ -12,6 +13,7 @@ import 'screens/notification_screen/notification_screen.dart';
 final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
 	'notification_screen.dart': () => const NotificationsScreen(),
+	'attention_page_screen.dart': () => const AttentionPageScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
 };
