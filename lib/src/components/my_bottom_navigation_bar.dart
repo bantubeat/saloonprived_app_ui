@@ -67,7 +67,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
       ),
       NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_feat_link.tr(),
-        icon: AppAssets.imagesFeatlinkLogo ,
+        icon: AppAssets.imagesFeatlinkLogo,
         type: 'image',
       ),
       NavIcon(

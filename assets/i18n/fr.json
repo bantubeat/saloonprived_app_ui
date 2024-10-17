@@ -15,14 +15,13 @@
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
     },
-<<<<<<< HEAD
     "profile_create_user_profile_screen": {
         "title": "Votre inscription est presque terminée. Cliquez sur valider pour confirmer votre inscription sur Saloonprived ou sur Annuler Si vous ne souhaitez plus utiliser Saloonprived.",
         "subscriptions_count": " Abonnements",
         "followers_count": " Abonnes",
         "cancel_button": "Annuler",
         "add_button": "Valider"
-=======
+    },
     "my_bottom_navigation_bar": {
         "home": "Accueil",
         "messages": "Messages",
@@ -33,7 +32,6 @@
         "settings": "Paramètres",
         "feat_link": "Featlink",
         "log_out": "Déconnexion"
->>>>>>> 08d83acb436cc3e06a7370c2e0d3577e636c3401
     },
     "my_app_bar": {
         "for_you_text": "Salon pour toi",
