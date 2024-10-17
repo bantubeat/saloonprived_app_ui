@@ -35,26 +35,26 @@ class NotificationsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: MyAppBar.forYouWithBellIcon(),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 5),
-        child: ListView.builder(
-          itemCount: notifications.length,
-          itemBuilder: (context, index) {
-            var item = notifications[index];
-            return NotificationCardItem(
-              name: item.name,
-              message: item.message,
-              image: item.image,
-              time: item.time,
-              tags: item.tags,
-            );
-          },
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 5),
+          child: ListView.builder(
+            itemCount: notifications.length,
+            itemBuilder: (context, index) {
+              final item = notifications[index];
+              return NotificationCardItem(
+                name: item.name,
+                message: item.message,
+                image: item.image,
+                time: item.time,
+                tags: item.tags,
+              );
+            },
+          ),
         ),
       ),
-      bottomNavigationBar: SizedBox(
-        height: 200, // Vous pouvez ajuster cette valeur selon vos besoins
-        child: MyBottomNavigationBar(),
-      ),
+      floatingActionButton: MyBottomNavigationBar(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
