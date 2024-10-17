@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/auth/login_screen.dart';
+import 'package:saloonprived_app/src/screens/auth/register_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
@@ -11,6 +13,8 @@ import 'screens/notification_screen/notification_screen.dart';
 /// Ce n'est valable QUE pour les SCREENS, les composants n'ont pas besion d'être ici
 final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
+  'login_screen.dart': () => const LoginScreen(),
+  'register_screen.dart': () => const RegisterScreen(),
 	'notification_screen.dart': () => const NotificationsScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
