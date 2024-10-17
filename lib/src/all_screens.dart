@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart' show Widget;
-import 'screens/sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
+import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 import 'package:saloonprived_app/src/screens/auth/login_screen.dart';
 import 'package:saloonprived_app/src/screens/auth/register_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
