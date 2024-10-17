@@ -15,6 +15,7 @@ import 'screens/search/search_screen/search_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 
+import 'screens/living_room_discover/attention_page_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
 /// le tester automatique aura besion de savoir comment instancier la classe
@@ -41,6 +42,9 @@ final Map<String, Widget Function()> allScreens = {
 
   'create_profile_restriction_page_screen.dart': () =>
       CreateProfileRestrictionPageScreen(),
+	'notification_screen.dart': () => const NotificationsScreen(),
+	'attention_page_screen.dart': () => const AttentionPageScreen(),
+
   // Ajoutez d'autres chemins de fichiers ici
 
   'search_screen.dart': () => const SearchScreen(),

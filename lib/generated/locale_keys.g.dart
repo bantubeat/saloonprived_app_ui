@@ -131,5 +131,23 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet = 'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
   static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading = 'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access = 'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+  static const attention_page_screen_title = 'attention_page_screen.title';
+  static const attention_page_screen_subtitle = 'attention_page_screen.subtitle';
+  static const attention_page_screen_text1 = 'attention_page_screen.text1';
+  static const attention_page_screen_text2 = 'attention_page_screen.text2';
+  static const attention_page_screen_text3 = 'attention_page_screen.text3';
+  static const attention_page_screen_text4 = 'attention_page_screen.text4';
+  static const attention_page_screen_text5 = 'attention_page_screen.text5';
+  static const attention_page_screen_text6 = 'attention_page_screen.text6';
+  static const attention_page_screen_text7 = 'attention_page_screen.text7';
+  static const attention_page_screen_text8 = 'attention_page_screen.text8';
+  static const attention_page_screen_text9 = 'attention_page_screen.text9';
+  static const attention_page_screen_text10 = 'attention_page_screen.text10';
+  static const attention_page_screen_text11 = 'attention_page_screen.text11';
+  static const attention_page_screen_text12 = 'attention_page_screen.text12';
+  static const attention_page_screen_text13 = 'attention_page_screen.text13';
+  static const attention_page_screen_text14 = 'attention_page_screen.text14';
+  static const attention_page_screen_btn_refuse = 'attention_page_screen.btn_refuse';
+  static const attention_page_screen_btn_accept = 'attention_page_screen.btn_accept';
 
 }
