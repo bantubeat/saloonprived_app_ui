@@ -11,6 +11,9 @@ abstract class  LocaleKeys {
   static const welcome_screen_note = 'welcome_screen.note';
   static const image_service_choose_camera = 'image_service.choose_camera';
   static const image_service_choose_gallery = 'image_service.choose_gallery';
+  static const notification_screen_title = 'notification_screen.title';
+  static const notification_screen_time = 'notification_screen.time';
+  static const notification_screen_message = 'notification_screen.message';
   static const my_bottom_navigation_bar_home = 'my_bottom_navigation_bar.home';
   static const my_bottom_navigation_bar_messages = 'my_bottom_navigation_bar.messages';
   static const my_bottom_navigation_bar_bantubeat = 'my_bottom_navigation_bar.bantubeat';
@@ -20,7 +23,7 @@ abstract class  LocaleKeys {
   static const my_bottom_navigation_bar_settings = 'my_bottom_navigation_bar.settings';
   static const my_bottom_navigation_bar_feat_link = 'my_bottom_navigation_bar.feat_link';
   static const my_bottom_navigation_bar_log_out = 'my_bottom_navigation_bar.log_out';
-
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
+
 }
