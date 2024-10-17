@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart' show Widget;
+import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 
 import 'package:saloonprived_app/src/screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
 
 import 'package:saloonprived_app/src/screens/auth/login_screen.dart';
 import 'package:saloonprived_app/src/screens/auth/register_screen.dart';
+
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 
@@ -17,6 +19,8 @@ import 'screens/notification_screen/notification_screen.dart';
 /// Ce n'est valable QUE pour les SCREENS, les composants n'ont pas besion d'être ici
 final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
+  'saloon_for_you_no_subcription_screen.dart': () =>
+      const SaloonForYouNoSubcriptionScreen(),
 
   'profile_create_user_profile_screen.dart': () =>
       const ProfileCreateUserProfileScreen(),

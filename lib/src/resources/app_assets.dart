@@ -2,7 +2,7 @@ final class AppAssets {
   const AppAssets._();
 
   static const imagesLogo = 'assets/images/logo.png';
-
+  static const imagesLogo1 = 'assets/images/logo_1.png';
   static const imagesAuthCover = 'assets/images/auth_Cover.png';
   static const imagesAuthIcon = 'assets/images/auth_icon.png';
   static const imagesAuthSaloonDiscover =
