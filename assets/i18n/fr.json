@@ -89,5 +89,11 @@
         "subscribers_count": " Abonnés",
         "subscribe_button": "S'abonner",
         "subscribed_label": "Abonné"
+    },
+    "saloon_for_you_have_subcription_screen": {
+        "advertisement_title": "Publicité sur saloonprived:",
+        "learn_more": "En savoir plus",
+        "tip_label": "POURBOIRE",
+        "suggestions_label": "Suggestions"
     }
 }

@@ -21,6 +21,26 @@ abstract class  LocaleKeys {
   static const profile_create_user_profile_screen_followers_count = 'profile_create_user_profile_screen.followers_count';
   static const profile_create_user_profile_screen_cancel_button = 'profile_create_user_profile_screen.cancel_button';
   static const profile_create_user_profile_screen_add_button = 'profile_create_user_profile_screen.add_button';
+  static const saloon_for_you_no_subcription_screen_dicover_saloon =
+      'saloon_for_you_no_subcription_screen.dicover_saloon';
+  static const saloon_for_you_no_subcription_screen_saloon_for_you =
+      'saloon_for_you_no_subcription_screen.saloon_for_you';
+  static const saloon_for_you_no_subcription_screen_subscription_prompt =
+      'saloon_for_you_no_subcription_screen.subscription_prompt';
+  static const saloon_for_you_no_subcription_screen_discover_creators =
+      'saloon_for_you_no_subcription_screen.discover_creators';
+  static const saloon_for_you_no_subcription_screen_subscribe_to_creators =
+      'saloon_for_you_no_subcription_screen.subscribe_to_creators';
+  static const profile_create_user_profile_screen_title =
+      'profile_create_user_profile_screen.title';
+  static const profile_create_user_profile_screen_subscriptions_count =
+      'profile_create_user_profile_screen.subscriptions_count';
+  static const profile_create_user_profile_screen_followers_count =
+      'profile_create_user_profile_screen.followers_count';
+  static const profile_create_user_profile_screen_cancel_button =
+      'profile_create_user_profile_screen.cancel_button';
+  static const profile_create_user_profile_screen_add_button =
+      'profile_create_user_profile_screen.add_button';
   static const register_screen_header_text = 'register_screen.header_text';
   static const register_screen_title = 'register_screen.title';
   static const register_screen_description = 'register_screen.description';
@@ -71,4 +91,20 @@ abstract class  LocaleKeys {
   static const search_screen_subscribe_button = 'search_screen.subscribe_button';
   static const search_screen_subscribed_label = 'search_screen.subscribed_label';
 
+  static const my_bottom_navigation_bar_settings =
+      'my_bottom_navigation_bar.settings';
+  static const my_bottom_navigation_bar_feat_link =
+      'my_bottom_navigation_bar.feat_link';
+  static const my_bottom_navigation_bar_log_out =
+      'my_bottom_navigation_bar.log_out';
+  static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
+  static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
+  static const saloon_for_you_have_subcription_screen_advertisement_title =
+      'saloon_for_you_have_subcription_screen.advertisement_title';
+  static const saloon_for_you_have_subcription_screen_learn_more =
+      'saloon_for_you_have_subcription_screen.learn_more';
+  static const saloon_for_you_have_subcription_screen_tip_label =
+      'saloon_for_you_have_subcription_screen.tip_label';
+  static const saloon_for_you_have_subcription_screen_suggestions_label =
+      'saloon_for_you_have_subcription_screen.suggestions_label';
 }
