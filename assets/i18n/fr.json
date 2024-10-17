@@ -164,6 +164,14 @@
         "configure_my_access": "Configurer mes accès"
         "message": "{}"
     },
+    "profile_creation_category": {
+        "title": "Catégorie",
+        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+        "choose_category": "Choisissez la catégorie qui définit la nature de votre salon",
+        "previous": "Précédent",
+        "next": "Suivant"
+    },
     "welcome_page_screen": {
         "username": "Nom d'utilisateur",
         "birth_year": "Année de naissance",

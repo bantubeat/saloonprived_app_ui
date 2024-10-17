@@ -201,6 +201,12 @@ abstract class  LocaleKeys {
       'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
       'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+  static const profile_creation_category_title = 'profile_creation_category.title';
+  static const profile_creation_category_description = 'profile_creation_category.description';
+  static const profile_creation_category_note = 'profile_creation_category.note';
+  static const profile_creation_category_choose_category = 'profile_creation_category.choose_category';
+  static const profile_creation_category_previous = 'profile_creation_category.previous';
+  static const profile_creation_category_next = 'profile_creation_category.next';
   static const welcome_page_screen_username = 'welcome_page_screen.username';
   static const welcome_page_screen_birth_year = 'welcome_page_screen.birth_year';
   static const welcome_page_screen_country = 'welcome_page_screen.country';

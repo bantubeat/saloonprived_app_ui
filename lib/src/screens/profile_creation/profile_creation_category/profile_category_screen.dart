@@ -1,5 +1,8 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
+import 'package:saloonprived_app/src/screens/profile_creation/widgets/custom_button.dart';
 
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({super.key});
@@ -39,9 +42,9 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   child: Column(
                     children: [
                       // Ajout du titre centré ici
-                      const Text(
-                        'Catégorie',
-                        style: TextStyle(
+                      Text(
+                        LocaleKeys.profile_creation_category_title.tr(),
+                        style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 20, // Ajusté pour une meilleure visibilité
                         ),
@@ -63,16 +66,16 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                const Text(
-                                  'Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon',
-                                  style: TextStyle(color: AppColors.myDark),
+                                Text(
+                                  LocaleKeys.profile_creation_category_description.tr(),
+                                  style: const TextStyle(color: AppColors.myDark),
                                 ),
                                 const SizedBox(
                                   height: 40,
                                 ), // Augmenté pour laisser de l'espace pour les boutons
-                                const Text(
-                                  "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
-                                  style: TextStyle(color: AppColors.myDark),
+                                Text(
+                                  LocaleKeys.profile_creation_category_note.tr(),
+                                  style: const TextStyle(color: AppColors.myDark),
                                 ),
                                 const SizedBox(height: 25),
                                 ListView(
@@ -108,7 +111,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                               children: [
                                 Expanded(
                                   child: CustomButton(
-                                    text: 'Précédent',
+                                    text: LocaleKeys.profile_creation_category_previous.tr(),
                                     onPressed: () {
                                       // Action pour le bouton Précédent
                                     },
@@ -118,7 +121,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                 const SizedBox(width: 20),
                                 Expanded(
                                   child: CustomButton(
-                                    text: 'Suivant',
+                                    text: LocaleKeys.profile_creation_category_next.tr(),
                                     onPressed: () {
                                       // Action pour le bouton Suivant
                                     },
@@ -145,40 +148,3 @@ class _CategoryScreenState extends State<CategoryScreen> {
   }
 }
 
-class CustomButton extends StatelessWidget {
-  final String text;
-  final Function() onPressed;
-  final Color color;
-  const CustomButton({
-    required this.text,
-    required this.onPressed,
-    required this.color,
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: onPressed,
-      style: ElevatedButton.styleFrom(
-        backgroundColor: color,
-        foregroundColor: AppColors.myWhite,
-        shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(
-            Radius.circular(100),
-          ),
-        ),
-        padding: const EdgeInsets.symmetric(
-          vertical: 20,
-        ), // Augmenté de 15 à 20
-      ),
-      child: Text(
-        text,
-        style: const TextStyle(
-          fontWeight: FontWeight.bold,
-          fontSize: 14, // Augmenté de 16 à 18
-        ),
-      ),
-    );
-  }
-}
