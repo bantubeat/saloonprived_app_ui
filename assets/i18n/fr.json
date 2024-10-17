@@ -15,6 +15,11 @@
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
     },
+    "notification_screen": {
+        "title": "Notifications",
+        "time": "il y'a {} heure",
+        "message": "a commencé une diffusion En Direct"
+    },
     "my_bottom_navigation_bar": {
         "home": "Accueil",
         "messages": "Messages",

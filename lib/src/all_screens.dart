@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'screens/sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
+import 'screens/notification_screen/notification_screen.dart';
 
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
@@ -14,6 +15,7 @@ final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
   'saloon_for_you_have_subcription_screen.dart': () =>
       const SaloonForYouHaveSubcriptionScreen(),
+  'notification_screen.dart': () => const NotificationsScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
 };
