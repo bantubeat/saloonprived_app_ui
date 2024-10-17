@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'screens/sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
+import 'package:saloonprived_app/src/screens/auth/login_screen.dart';
+import 'package:saloonprived_app/src/screens/auth/register_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 
@@ -16,6 +18,8 @@ final Map<String, Widget Function()> allScreens = {
   'saloon_for_you_have_subcription_screen.dart': () =>
       const SaloonForYouHaveSubcriptionScreen(),
   'notification_screen.dart': () => const NotificationsScreen(),
+  'login_screen.dart': () => const LoginScreen(),
+  'register_screen.dart': () => const RegisterScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
 };
