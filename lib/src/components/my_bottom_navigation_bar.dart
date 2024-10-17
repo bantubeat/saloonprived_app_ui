@@ -4,13 +4,13 @@ import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 
-class NavIcon {
+class _NavIcon {
   final String label;
   final dynamic icon;
   final String type;
   final bool isBlur;
 
-  NavIcon({
+  _NavIcon({
     required this.label,
     required this.icon,
     this.type = 'icon',
@@ -30,47 +30,47 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   Widget build(BuildContext context) {
     final double screenWidth = MediaQuery.of(context).size.width;
 
-    final List<NavIcon> icons = [
-      NavIcon(
+    final List<_NavIcon> icons = [
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_home.tr(),
         icon: Icons.home,
       ),
-      NavIcon(
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_messages.tr(),
         icon: Icons.email,
       ),
-      NavIcon(label: '', icon: Icons.add, type: 'customer'),
-      NavIcon(
+      _NavIcon(label: '', icon: Icons.add, type: 'customer'),
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_bantubeat.tr(),
         icon: AppAssets.imagesLogoBantubeat,
         type: 'image',
       ),
-      NavIcon(
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_profil.tr(),
         icon: Icons.person,
       ),
-      NavIcon(
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_music.tr(),
         icon: AppAssets.imagesMusicNote,
         type: 'image',
         isBlur: true,
       ),
-      NavIcon(
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_beat.tr(),
         icon: AppAssets.imagesBeat,
         type: 'image',
         isBlur: true,
       ),
-      NavIcon(
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_settings.tr(),
         icon: Icons.settings,
       ),
-      NavIcon(
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_feat_link.tr(),
         icon: AppAssets.imagesFeatlinkLogo,
         type: 'image',
       ),
-      NavIcon(
+      _NavIcon(
         label: LocaleKeys.my_bottom_navigation_bar_log_out.tr(),
         icon: Icons.login,
       ),
@@ -120,22 +120,23 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
           bottom: 0,
           child: Container(
             width: screenWidth,
-            padding: const EdgeInsets.only(top: 20, bottom: 16),
+            padding: const EdgeInsets.only(top: 10, bottom: 5),
             decoration: const BoxDecoration(color: Colors.black),
             child: Wrap(
               runSpacing: 16,
               children: List.generate(isExpanded ? icons.length : 5, (index) {
+                final item = icons[index];
                 return SizedBox(
                   width: screenWidth / 5,
                   child: Column(
                     children: [
-                      buildIcon(context, icons[index]),
+                      buildIcon(context, item),
                       Text(
-                        icons[index].label,
+                        item.label,
                         style: TextStyle(
                           fontSize: 10,
                           fontWeight: FontWeight.bold,
-                          color: (icons[index].isBlur)
+                          color: (item.isBlur)
                               ? AppColors.pale.withOpacity(0.2)
                               : Colors.white,
                         ),
@@ -151,7 +152,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
         Positioned(
           left: 0,
           right: 0,
-          bottom: isExpanded ? 140 : 70, // Adjust bottom value as needed
+          bottom: isExpanded ? 132.5 : 65, // Adjust bottom value as needed
           child: Align(
             child: GestureDetector(
               onTap: () => {
