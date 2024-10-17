@@ -2,6 +2,7 @@ final class AppAssets {
   const AppAssets._();
 
   static const imagesLogo = 'assets/images/logo.png';
+
   static const imagesAuthCover = 'assets/images/auth_Cover.png';
   static const imagesAuthIcon = 'assets/images/auth_icon.png';
   static const imagesAuthSaloonDiscover =
@@ -16,6 +17,9 @@ final class AppAssets {
   static const imagesBwyw = 'assets/images/bwyw.png';
   static const imagesStandUP = 'assets/images/stand_up.png';
   static const imagesCoverLogo = 'assets/images/cover_logo.png';
+
+  static const fakeAvatarImage = 'assets/images/fake_avatar.jpg';
+
   static const imagesLogoBantubeat = 'assets/images/logo_bantubeat.png';
   static const imagesFeatlinkLogo = 'assets/images/featlink_logo.png';
   static const imagesBeat = 'assets/images/beat.png';
