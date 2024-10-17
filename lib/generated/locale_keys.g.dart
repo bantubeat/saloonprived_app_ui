@@ -12,7 +12,6 @@ abstract class LocaleKeys {
   static const welcome_screen_note = 'welcome_screen.note';
   static const image_service_choose_camera = 'image_service.choose_camera';
   static const image_service_choose_gallery = 'image_service.choose_gallery';
-
   static const saloon_for_you_no_subcription_screen_dicover_saloon =
       'saloon_for_you_no_subcription_screen.dicover_saloon';
   static const saloon_for_you_no_subcription_screen_saloon_for_you =
@@ -23,7 +22,6 @@ abstract class LocaleKeys {
       'saloon_for_you_no_subcription_screen.discover_creators';
   static const saloon_for_you_no_subcription_screen_subscribe_to_creators =
       'saloon_for_you_no_subcription_screen.subscribe_to_creators';
-
   static const profile_create_user_profile_screen_title =
       'profile_create_user_profile_screen.title';
   static const profile_create_user_profile_screen_subscriptions_count =
@@ -74,7 +72,6 @@ abstract class LocaleKeys {
   static const notification_screen_title = 'notification_screen.title';
   static const notification_screen_time = 'notification_screen.time';
   static const notification_screen_message = 'notification_screen.message';
-
   static const my_bottom_navigation_bar_home = 'my_bottom_navigation_bar.home';
   static const my_bottom_navigation_bar_messages =
       'my_bottom_navigation_bar.messages';
@@ -91,7 +88,14 @@ abstract class LocaleKeys {
       'my_bottom_navigation_bar.feat_link';
   static const my_bottom_navigation_bar_log_out =
       'my_bottom_navigation_bar.log_out';
-
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
+  static const saloon_for_you_have_subcription_screen_advertisement_title =
+      'saloon_for_you_have_subcription_screen.advertisement_title';
+  static const saloon_for_you_have_subcription_screen_learn_more =
+      'saloon_for_you_have_subcription_screen.learn_more';
+  static const saloon_for_you_have_subcription_screen_tip_label =
+      'saloon_for_you_have_subcription_screen.tip_label';
+  static const saloon_for_you_have_subcription_screen_suggestions_label =
+      'saloon_for_you_have_subcription_screen.suggestions_label';
 }
