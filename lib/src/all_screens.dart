@@ -6,7 +6,7 @@ import 'screens/profile_create_user_profile_screen/profile_create_user_profile_s
 import 'screens/profile_creation/profile_creation_screen.dart';
 import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
-import 'package:saloonprived_app/src/screens/profile_creation/category_screen.dart';
+import 'package:saloonprived_app/src/screens/profile_creation/profile_creation_category/category_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
