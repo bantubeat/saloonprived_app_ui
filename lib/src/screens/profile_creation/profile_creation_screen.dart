@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/components/primary_button.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 
 import 'widgets/custom_dropdown_button.dart';
@@ -162,22 +163,7 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
             left: 16,
             right: 16,
             bottom: MediaQuery.of(context).size.height * 0.1,
-            child: ElevatedButton(
-              onPressed: () {
-                // Ajoutez ici la logique pour enregistrer les données
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.bantubeatPrimary,
-                minimumSize: const Size(double.infinity, 50),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0),
-                ),
-              ),
-              child: Text(
-                LocaleKeys.profile_creation_screen_save.tr(),
-                style: const TextStyle(fontSize: 18, color: AppColors.myWhite),
-              ),
-            ),
+            child: PrimaryButton(text: LocaleKeys.profile_creation_screen_save.tr(), onPressed: (context){})
           ),
         ],
       ),
