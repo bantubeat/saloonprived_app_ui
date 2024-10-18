@@ -5,7 +5,8 @@
         "gender_male": "Homme",
         "gender_female": "Femme",
         "gender_other": "Autres",
-        "preview": "Précédent"
+        "preview": "Précédent",
+        "suscriber": "Abonné"
     },
     "welcome_screen": {
         "greeting": "Bienvenue {}",
