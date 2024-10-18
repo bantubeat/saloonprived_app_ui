@@ -1,5 +1,5 @@
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
-import 'package:saloonprived_app/src/screens/notification_screen/notification_screen.dart';
+import 'package:saloonprived_app/src/screens/adult_warning/adult_warning_screen.dart';
 import 'package:saloonprived_app/src/screens/welcome_screen/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -22,7 +22,7 @@ class SaloonprivedApp extends StatelessWidget {
       darkTheme: AppThemes.darkTheme,
       // Remplace `WelcomeScreen` par ta SCREEN pour la tester et à la fin remet
       // `WelcomeScreen` comme tu vois.
-      home: const NotificationsScreen(),
+      home: const AdultWarningScreen(),
     );
   }
 }
