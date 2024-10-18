@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/components/primary_button.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 
 class CategoryScreen extends StatefulWidget {
@@ -146,23 +147,19 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             child: Row(
                               children: [
                                 Expanded(
-                                  child: CustomButton(
-                                    text: LocaleKeys.category_screen_previous.tr(),
-                                    onPressed: () {
-                                      // Action pour le bouton Précédent
-                                    },
-                                    color: AppColors.myDark,
-                                  ),
+                                  child: 
+																		PrimaryButton(
+																			text: LocaleKeys.category_screen_previous.tr(),
+																			onPressed: (context) {
+																				// Action pour le bouton Précédent
+																			},
+																			backgroundColor: AppColors.myDark,
+																		),
                                 ),
                                 const SizedBox(width: 20),
                                 Expanded(
-                                  child: CustomButton(
-                                    text: LocaleKeys.category_screen_next.tr(),
-                                    onPressed: () {
-                                      // Action pour le bouton Suivant
-                                    },
-                                    color: AppColors.bantubeatPrimary,
-                                  ),
+                                  child: PrimaryButton(text: LocaleKeys.category_screen_next.tr(), onPressed: (context){}) 
+																	
                                 ),
                               ],
                             ),
