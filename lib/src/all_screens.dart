@@ -3,6 +3,7 @@ import 'package:flutter/material.dart' show Widget;
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
+import 'screens/profile_creation/profile_creation_screen.dart';
 import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
@@ -27,6 +28,7 @@ final Map<String, Widget Function()> allScreens = {
 
   'profile_create_user_profile_screen.dart': () =>
       const ProfileCreateUserProfileScreen(),
+  'profile_creation_screen.dart': () => const ProfileCreationScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
 };
