@@ -98,4 +98,22 @@ abstract class LocaleKeys {
       'saloon_for_you_have_subcription_screen.tip_label';
   static const saloon_for_you_have_subcription_screen_suggestions_label =
       'saloon_for_you_have_subcription_screen.suggestions_label';
+  static const tip_modal_send_tip_to = 'tip_modal.send_tip_to';
+  static const tip_modal_amount_ofBZC = 'tip_modal.amount_ofBZC';
+  static const tip_modal_balanceBZC = 'tip_modal.balanceBZC';
+  static const tip_modal_zeroBZC = 'tip_modal.zeroBZC';
+  static const tip_modal_insufficient_balance =
+      'tip_modal.insufficient_balance';
+  static const tip_modal_byBZC = 'tip_modal.byBZC';
+  static const tip_modal_cancel = 'tip_modal.cancel';
+  static const tip_modal_send = 'tip_modal.send';
+  static const tip_modal_must_be_creator = 'tip_modal.must_be_creator';
+  static const tip_modal_become_creator = 'tip_modal.become_creator';
+  static const tip_modal_redirection = 'tip_modal.redirection';
+  static const tip_modal_cashout_tokens = 'tip_modal.cashout_tokens';
+  static const tip_modal_click_ok_redirect = 'tip_modal.click_ok_redirect';
+  static const tip_modal_check_no_show = 'tip_modal.check_no_show';
+  static const tip_modal_no_show_message = 'tip_modal.no_show_message';
+  static const tip_modal_ok = 'tip_modal.ok';
+  static const tip_modal_buy_tokens = 'tip_modal.buy_tokens';
 }

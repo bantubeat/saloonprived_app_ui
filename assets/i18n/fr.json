@@ -89,5 +89,24 @@
         "learn_more": "En savoir plus",
         "tip_label": "POURBOIRE",
         "suggestions_label": "Suggestions"
+    },
+    "tip_modal": {
+        "send_tip_to": "Envoyer un pourboire à",
+        "amount_ofBZC": "Quantité de BZC",
+        "balanceBZC": "Solde BZC",
+        "zeroBZC": "00 BZC",
+        "insufficient_balance": "Solde insuffisant",
+        "byBZC": "Acheter des BZC",
+        "cancel": "Annuler",
+        "send": "Envoyer",
+        "must_be_creator": "Vous devez être créateur pour diffuser du contenu sur saloonprived. Cliquez sur Devenir créateur pour valider votre profil.",
+        "become_creator": "DEVENIR CREATEUR",
+        "redirection": "Redirection",
+        "cashout_tokens": "Pour encaisser vos Jetons (Beatzcoin) vous devez vous connecter sur votre compte Bantubeat.",
+        "click_ok_redirect": "Cliquer sur “OK” vous seriez automatiquement redirigé.",
+        "check_no_show": "Cocher “NE PLUS AFFICHER CE MESSAGE” vous seriez automatiquement redirigé les prochaines fois sans voir ce message.",
+        "no_show_message": "NE PLUS AFFICHER CE MESSAGE",
+        "ok": "OK",
+        "buy_tokens": "Pour acheter des Jetons (Beatzcoin) vous devez vous connecter sur votre compte Bantubeat."
     }
 }
