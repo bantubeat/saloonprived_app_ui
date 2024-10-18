@@ -89,5 +89,19 @@
         "learn_more": "En savoir plus",
         "tip_label": "POURBOIRE",
         "suggestions_label": "Suggestions"
+    },
+    "free_connected_user_saloon_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "content_creator": "Content creator",
+        "adult_content": "Adult content",
+        "influencer": "Influenceur",
+        "model": "Model",
+        "edit_profile": "Editer mon profil",
+        "startLive": "Démarrer un direct",
+        "in_construction": "En construction",
+        "message": "Vous pouvez ajoutter des photos pour vos Fans.",
+        "button_text": "+ photos",
+        "your_favoris": "'Les profils que vous enregistrez dans vos favoris ne sont pas visibles par les autres utilisateurs, vous seul pouvez les voir'"
     }
 }

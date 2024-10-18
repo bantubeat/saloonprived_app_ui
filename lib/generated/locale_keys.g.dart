@@ -98,4 +98,28 @@ abstract class LocaleKeys {
       'saloon_for_you_have_subcription_screen.tip_label';
   static const saloon_for_you_have_subcription_screen_suggestions_label =
       'saloon_for_you_have_subcription_screen.suggestions_label';
+  static const free_connected_user_saloon_screen_paid_salon =
+      'free_connected_user_saloon_screen.paid_salon';
+  static const free_connected_user_saloon_screen_free_salon =
+      'free_connected_user_saloon_screen.free_salon';
+  static const free_connected_user_saloon_screen_content_creator =
+      'free_connected_user_saloon_screen.content_creator';
+  static const free_connected_user_saloon_screen_adult_content =
+      'free_connected_user_saloon_screen.adult_content';
+  static const free_connected_user_saloon_screen_influencer =
+      'free_connected_user_saloon_screen.influencer';
+  static const free_connected_user_saloon_screen_model =
+      'free_connected_user_saloon_screen.model';
+  static const free_connected_user_saloon_screen_edit_profile =
+      'free_connected_user_saloon_screen.edit_profile';
+  static const free_connected_user_saloon_screen_startLive =
+      'free_connected_user_saloon_screen.startLive';
+  static const free_connected_user_saloon_screen_in_construction =
+      'free_connected_user_saloon_screen.in_construction';
+  static const free_connected_user_saloon_screen_message =
+      'free_connected_user_saloon_screen.message';
+  static const free_connected_user_saloon_screen_button_text =
+      'free_connected_user_saloon_screen.button_text';
+  static const free_connected_user_saloon_screen_your_favoris =
+      'free_connected_user_saloon_screen.your_favoris';
 }
