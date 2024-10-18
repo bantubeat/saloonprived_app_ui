@@ -53,7 +53,7 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                             children: [
                               Text(
                                 LocaleKeys
-                                    .welcome_page_screen_welcome_to_saloonprived
+                                    .profile_creation_screen_welcome_to_saloonprived
                                     .tr(),
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
@@ -65,7 +65,7 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                               const SizedBox(height: 12),
                               Text(
                                 LocaleKeys
-                                    .welcome_page_screen_complete_these_information_to_create_your_profile
+                                    .profile_creation_screen_complete_these_information_to_create_your_profile
                                     .tr(),
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
@@ -80,7 +80,8 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                           height: MediaQuery.of(context).size.height * 0.08,
                         ),
                         RichTextWidget(
-                          text: LocaleKeys.welcome_page_screen_username.tr(),
+                          text:
+                              LocaleKeys.profile_creation_screen_username.tr(),
                         ),
                         const SizedBox(height: 8),
                         const SimpleTextFormField(),
@@ -88,18 +89,19 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                           height: MediaQuery.of(context).size.height * 0.05,
                         ),
                         RichTextWidget(
-                          text: LocaleKeys.welcome_page_screen_birth_year.tr(),
+                          text: LocaleKeys.profile_creation_screen_birth_year
+                              .tr(),
                         ),
                         const SizedBox(height: 8),
                         CustomDropdownButtonFormField<String>(
                           value: selectedYear,
                           hint: LocaleKeys
-                              .welcome_page_screen_choose_in_the_list
+                              .profile_creation_screen_choose_in_the_list
                               .tr(),
                           items: List.generate(
-                                  100, (index) => DateTime.now().year - index,)
-                              .map((year) => year.toString())
-                              .toList(),
+                            100,
+                            (index) => DateTime.now().year - index,
+                          ).map((year) => year.toString()).toList(),
                           onChanged: (value) {
                             setState(() {
                               selectedYear = value;
@@ -107,14 +109,16 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                           },
                         ),
                         SizedBox(
-                            height: MediaQuery.of(context).size.height * 0.05,),
+                          height: MediaQuery.of(context).size.height * 0.05,
+                        ),
                         RichTextWidget(
-                            text: LocaleKeys.welcome_page_screen_country.tr(),),
+                          text: LocaleKeys.profile_creation_screen_country.tr(),
+                        ),
                         const SizedBox(height: 8),
                         CustomDropdownButtonFormField<String>(
                           value: selectedCountry,
                           hint: LocaleKeys
-                              .welcome_page_screen_choose_in_the_list
+                              .profile_creation_screen_choose_in_the_list
                               .tr(),
                           items: const [
                             'France',
@@ -170,7 +174,7 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
                 ),
               ),
               child: Text(
-                LocaleKeys.welcome_page_screen_save.tr(),
+                LocaleKeys.profile_creation_screen_save.tr(),
                 style: const TextStyle(fontSize: 18, color: AppColors.myWhite),
               ),
             ),

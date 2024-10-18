@@ -15,8 +15,6 @@
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
     },
-<<<<<<< HEAD
-=======
     "saloon_for_you_no_subcription_screen": {
         "dicover_saloon": "Salon à découvrir",
         "saloon_for_you": "Salon pour toi.\n\n",
@@ -66,30 +64,11 @@
         "privacy_text": "Privacy",
         "terms_conditions_text": "Terms and Conditions"
     },
->>>>>>> efbd2b12a97414fa2db1464ec64685483b03491a
     "notification_screen": {
         "title": "Notifications",
         "time": "il y'a {} heure",
         "message": "a commencé une diffusion En Direct"
     },
-<<<<<<< HEAD
-    "profile_creation_category": {
-        "title": "Catégorie",
-        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
-        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
-        "choose_category": "Choisissez la catégorie qui définit la nature de votre salon",
-        "previous": "Précédent",
-        "next": "Suivant"
-    },
-    "welcome_page_screen": {
-        "username": "Nom d'utilisateur",
-        "birth_year": "Année de naissance",
-        "country": "Pays",
-        "save": "Enregistrer",
-        "choose_in_the_list": "Choisissez dans la liste",
-        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
-        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
-=======
     "my_bottom_navigation_bar": {
         "home": "Accueil",
         "messages": "Messages",
@@ -105,11 +84,28 @@
         "for_you_text": "Salon pour toi",
         "for_discover_text": "Salon à découvrir"
     },
+    "profile_creation_screen": {
+        "username": "Nom d'utilisateur",
+        "birth_year": "Année de naissance",
+        "country": "Pays",
+        "save": "Enregistrer",
+        "choose_in_the_list": "Choisissez dans la liste",
+        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
+        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
+    },
+    "profile_creation_category": {
+        "title": "Catégorie",
+        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+        "choose_category": "Choisissez la catégorie qui définit la nature de votre salon",
+        "previous": "Précédent",
+        "next": "Suivant"
+    },
+
     "saloon_for_you_have_subcription_screen": {
         "advertisement_title": "Publicité sur saloonprived:",
         "learn_more": "En savoir plus",
         "tip_label": "POURBOIRE",
         "suggestions_label": "Suggestions"
->>>>>>> efbd2b12a97414fa2db1464ec64685483b03491a
     }
 }
