@@ -33,6 +33,7 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
     final textSize = _calculateTextSize(context);
 
     return Scaffold(
+			backgroundColor: AppColors.myWhite,
       appBar: AppBar(),
       body: Stack(
         children: [
