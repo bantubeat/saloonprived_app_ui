@@ -38,4 +38,6 @@ final class AppAssets {
   static const imagesCentent3 = 'assets/images/centent_3.jpeg';
   static const imagesAsiatInfir = 'assets/images/asiat_infir.jpeg';
   static const imagesLatina = 'assets/images/latina.jpeg';
+
+  static const imagesError = 'assets/images/error.png';
 }
