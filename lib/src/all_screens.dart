@@ -6,6 +6,7 @@ import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
+import 'screens/profile_creation/profile_creation_screen.dart';
 import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
 import 'package:saloonprived_app/src/screens/_create_profile/create_profile_restriction_page_screen.dart';
