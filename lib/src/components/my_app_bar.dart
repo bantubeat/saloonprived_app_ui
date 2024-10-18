@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/config/app_colors.dart';
 
 class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   final bool showSecondLine;
@@ -40,7 +41,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
         ),
         child: Icon(
           Icons.notifications,
-          color: Colors.white,
+          color: AppColors.myDark,
         ),
       ),
       isForYou: true,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/src/components/my_app_bar.dart';
 import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
+import 'package:saloonprived_app/src/config/app_colors.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 import 'package:saloonprived_app/src/screens/notification_screen/widgets/notification_card_item.dart';
 
@@ -34,6 +35,7 @@ class NotificationsScreen extends StatelessWidget {
     ];
 
     return Scaffold(
+			backgroundColor: AppColors.myWhite,
       appBar: MyAppBar.forYouWithBellIcon(),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 5),
@@ -51,10 +53,8 @@ class NotificationsScreen extends StatelessWidget {
           },
         ),
       ),
-      bottomNavigationBar: SizedBox(
-        height: 200, // Vous pouvez ajuster cette valeur selon vos besoins
-        child: MyBottomNavigationBar(),
-      ),
+      floatingActionButton: MyBottomNavigationBar(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
