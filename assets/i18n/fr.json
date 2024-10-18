@@ -15,11 +15,6 @@
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
     },
-    "notification_screen": {
-        "title": "Notifications",
-        "time": "il y'a {} heure",
-        "message": "a commencé une diffusion En Direct"
-    },
     "category_screen": {
         "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
         "previous": "Précédent",
