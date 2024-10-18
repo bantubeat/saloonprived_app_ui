@@ -1,4 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/components/my_app_bar.dart';
 import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
@@ -35,23 +37,43 @@ class NotificationsScreen extends StatelessWidget {
     ];
 
     return Scaffold(
-			backgroundColor: AppColors.myWhite,
+      backgroundColor: AppColors.myWhite,
       appBar: MyAppBar.forYouWithBellIcon(),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 5),
-        child: ListView.builder(
-          itemCount: notifications.length,
-          itemBuilder: (context, index) {
-            var item = notifications[index];
-            return NotificationCardItem(
-              name: item.name,
-              message: item.message,
-              image: item.image,
-              time: item.time,
-              tags: item.tags,
-            );
-          },
-        ),
+      body: Column(
+        children: [
+          Row(
+            children: [
+              IconButton(onPressed: () {}, icon: const Icon(Icons.arrow_back, size: 20)),
+              const SizedBox(width: 5),
+              Text(
+                LocaleKeys.notification_screen_title.tr(),
+                style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          Container(
+            width: MediaQuery.of(context).size.width,
+            height: 1,
+            color: AppColors.myGray,
+          ),
+          const SizedBox(height: 10),
+          Expanded(
+            child: ListView.builder(
+            	itemCount: notifications.length,
+            	itemBuilder: (context, index) {
+            		var item = notifications[index];
+            		return NotificationCardItem(
+            			name: item.name,
+            			message: item.message,
+            			image: item.image,
+            			time: item.time,
+            			tags: item.tags,
+            		);
+            	},
+            ),
+          ),
+        ],
       ),
       floatingActionButton: MyBottomNavigationBar(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
