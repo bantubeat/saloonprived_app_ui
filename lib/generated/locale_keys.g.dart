@@ -12,26 +12,31 @@ abstract class  LocaleKeys {
   static const welcome_screen_note = 'welcome_screen.note';
   static const image_service_choose_camera = 'image_service.choose_camera';
   static const image_service_choose_gallery = 'image_service.choose_gallery';
-  static const saloon_for_you_no_subcription_screen_dicover_saloon =
-      'saloon_for_you_no_subcription_screen.dicover_saloon';
-  static const saloon_for_you_no_subcription_screen_saloon_for_you =
-      'saloon_for_you_no_subcription_screen.saloon_for_you';
-  static const saloon_for_you_no_subcription_screen_subscription_prompt =
-      'saloon_for_you_no_subcription_screen.subscription_prompt';
-  static const saloon_for_you_no_subcription_screen_discover_creators =
-      'saloon_for_you_no_subcription_screen.discover_creators';
-  static const saloon_for_you_no_subcription_screen_subscribe_to_creators =
-      'saloon_for_you_no_subcription_screen.subscribe_to_creators';
-  static const profile_create_user_profile_screen_title =
-      'profile_create_user_profile_screen.title';
-  static const profile_create_user_profile_screen_subscriptions_count =
-      'profile_create_user_profile_screen.subscriptions_count';
-  static const profile_create_user_profile_screen_followers_count =
-      'profile_create_user_profile_screen.followers_count';
-  static const profile_create_user_profile_screen_cancel_button =
-      'profile_create_user_profile_screen.cancel_button';
-  static const profile_create_user_profile_screen_add_button =
-      'profile_create_user_profile_screen.add_button';
+  static const category_screen_description = 'category_screen.description';
+  static const category_screen_previous = 'category_screen.previous';
+  static const category_screen_next = 'category_screen.next';
+  static const category_screen_note = 'category_screen.note';
+  static const category_screen_category = 'category_screen.category';
+  static const category_screen_art_and_culture = 'category_screen.art_and_culture';
+  static const category_screen_news_and_information = 'category_screen.news_and_information';
+  static const category_screen_business_and_coaching = 'category_screen.business_and_coaching';
+  static const category_screen_comedy_and_stand_up = 'category_screen.comedy_and_stand_up';
+  static const category_screen_cuisine_and_gastronomy = 'category_screen.cuisine_and_gastronomy';
+  static const category_screen_nature_and_health = 'category_screen.nature_and_health';
+  static const category_screen_sport_and_leisure = 'category_screen.sport_and_leisure';
+  static const category_screen_fashion_and_beauty = 'category_screen.fashion_and_beauty';
+  static const category_screen_sexuality_and_adult_content = 'category_screen.sexuality_and_adult_content';
+  static const category_screen = 'category_screen';
+  static const saloon_for_you_no_subcription_screen_dicover_saloon = 'saloon_for_you_no_subcription_screen.dicover_saloon';
+  static const saloon_for_you_no_subcription_screen_saloon_for_you = 'saloon_for_you_no_subcription_screen.saloon_for_you';
+  static const saloon_for_you_no_subcription_screen_subscription_prompt = 'saloon_for_you_no_subcription_screen.subscription_prompt';
+  static const saloon_for_you_no_subcription_screen_discover_creators = 'saloon_for_you_no_subcription_screen.discover_creators';
+  static const saloon_for_you_no_subcription_screen_subscribe_to_creators = 'saloon_for_you_no_subcription_screen.subscribe_to_creators';
+  static const profile_create_user_profile_screen_title = 'profile_create_user_profile_screen.title';
+  static const profile_create_user_profile_screen_subscriptions_count = 'profile_create_user_profile_screen.subscriptions_count';
+  static const profile_create_user_profile_screen_followers_count = 'profile_create_user_profile_screen.followers_count';
+  static const profile_create_user_profile_screen_cancel_button = 'profile_create_user_profile_screen.cancel_button';
+  static const profile_create_user_profile_screen_add_button = 'profile_create_user_profile_screen.add_button';
   static const register_screen_header_text = 'register_screen.header_text';
   static const register_screen_title = 'register_screen.title';
   static const register_screen_description = 'register_screen.description';
