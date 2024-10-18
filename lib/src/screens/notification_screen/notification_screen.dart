@@ -1,6 +1,6 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/components/my_app_bar.dart';
+import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 import 'package:saloonprived_app/src/screens/notification_screen/widgets/notification_card_item.dart';
 
@@ -15,50 +15,46 @@ class NotificationsScreen extends StatelessWidget {
         time: '1',
         tags: '@Richachba',
         message: 'a ajouté un nouvelle vidéo',
-        image: AppAssets.imagesFakeAvatar,
+        image: AppAssets.fakeAvatarImage,
       ),
       const NotificationCardItem(
         name: 'Richachba',
         time: '1',
         tags: '@Richachba',
         message: 'Vous a envoyé un message',
-        image: AppAssets.imagesFakeAvatar,
+        image: AppAssets.fakeAvatarImage,
       ),
       const NotificationCardItem(
         name: 'Richachba',
         time: '1',
         tags: '@Richachba',
         message: 'a commencé une diffusion En Direct',
-        image: AppAssets.imagesFakeAvatar,
+        image: AppAssets.fakeAvatarImage,
       ),
     ];
+
     return Scaffold(
-      appBar: AppBar(
-        leading: IconButton(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.arrow_back,
-            size: 40,
+      appBar: MyAppBar.forYouWithBellIcon(),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 5),
+          child: ListView.builder(
+            itemCount: notifications.length,
+            itemBuilder: (context, index) {
+              final item = notifications[index];
+              return NotificationCardItem(
+                name: item.name,
+                message: item.message,
+                image: item.image,
+                time: item.time,
+                tags: item.tags,
+              );
+            },
           ),
         ),
-        title: Text(LocaleKeys.notification_screen_title.tr()),
       ),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 5),
-        child: ListView.builder(
-          itemCount: notifications.length,
-          itemBuilder: (context, index) {
-            var item = notifications[index];
-            return NotificationCardItem(
-              name: item.name,
-              message: item.message,
-              image: item.image,
-              time: item.time,
-              tags: item.tags,
-            );
-          },
-        ),
-      ),
+      floatingActionButton: MyBottomNavigationBar(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }

@@ -15,11 +15,64 @@
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
     },
+<<<<<<< HEAD
+=======
+    "saloon_for_you_no_subcription_screen": {
+        "dicover_saloon": "Salon à découvrir",
+        "saloon_for_you": "Salon pour toi.\n\n",
+        "subscription_prompt": "Vous devez être abonné aux créateurs pour voir du contenu dans ",
+        "discover_creators": "Découvrez les créateurs dans le ",
+        "subscribe_to_creators": " et abonnez-vous aux créateurs qui vous plaisent."
+    },
+    "profile_create_user_profile_screen": {
+        "title": "Votre inscription est presque terminée. Cliquez sur valider pour confirmer votre inscription sur Saloonprived ou sur Annuler Si vous ne souhaitez plus utiliser Saloonprived.",
+        "subscriptions_count": " Abonnements",
+        "followers_count": " Abonnes",
+        "cancel_button": "Annuler",
+        "add_button": "Valider"
+    },
+    "register_screen": {
+        "header_text": "#1 to support and pay African content creators",
+        "title": "Créer un compte",
+        "description": "En vous inscrivant sur Featlink, vous reconnaissez avoir plus de 18 ans ou la majorite dans votre pays de residence. Vous acceptez les conditions de Bantubeat",
+        "sign_up_google": "S'inscrire avec google",
+        "sign_up_email": "S'inscrire avec Email",
+        "email_hint": "Entre votre email",
+        "password_hint": "Entrer votre mot de passe",
+        "sign_up": "S'inscrire",
+        "new_to_featlink": "Vous avez déjà un compte?",
+        "login": "Connexion"
+    },
+    "login_screen": {
+        "title": "Connexion",
+        "description": "votre compte saloonprived, est également votre compte bantubeat, si vous avez déjà un compte bantubeat, connectez vous avec votre compte bantubeat",
+        "login_with_google": "Continuer avec Google",
+        "login": "Continuer",
+        "not_register": "Vous n'avez pas de compte ?",
+        "sign_up": "Créer un compte",
+        "email_hint": "Adresse Email",
+        "password_hint": "Mot de passe",
+        "fogot_password": "Mot de passe oublié?",
+        "or": "ou",
+        "terms": "En continuant,tu acceptes la politique et conditions d'utilisation de Featlink et reconnais avoir lu et accepter 'Les conditions' de bantubeat, la politique de confidentialité pour savoir comment nous collections, utilisons et partageons tes données et notre politique relative aux cookies pour savoir comment nous utilisons les cookies",
+        "first_line_text": "Inscrivez vous pour commencer à gagner de l’argent grâce à vos vidéos",
+        "second_line_text": "Retirer vos gains via",
+        "account_text": "Compte",
+        "channel_text": "Chaine",
+        "support_creators_text": "Saloonprived supports talented creators",
+        "partners_program_text": "Partners and Creators Program Bantubeat",
+        "year_text": "2024 Bantubeat",
+        "cookies_text": "Cookies",
+        "privacy_text": "Privacy",
+        "terms_conditions_text": "Terms and Conditions"
+    },
+>>>>>>> efbd2b12a97414fa2db1464ec64685483b03491a
     "notification_screen": {
         "title": "Notifications",
         "time": "il y'a {} heure",
         "message": "a commencé une diffusion En Direct"
     },
+<<<<<<< HEAD
     "profile_creation_category": {
         "title": "Catégorie",
         "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
@@ -36,5 +89,27 @@
         "choose_in_the_list": "Choisissez dans la liste",
         "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
         "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
+=======
+    "my_bottom_navigation_bar": {
+        "home": "Accueil",
+        "messages": "Messages",
+        "bantubeat": "Bantubeat",
+        "profil": "Profil",
+        "music": "Musique",
+        "beat": "Beat",
+        "settings": "Paramètres",
+        "feat_link": "Featlink",
+        "log_out": "Déconnexion"
+    },
+    "my_app_bar": {
+        "for_you_text": "Salon pour toi",
+        "for_discover_text": "Salon à découvrir"
+    },
+    "saloon_for_you_have_subcription_screen": {
+        "advertisement_title": "Publicité sur saloonprived:",
+        "learn_more": "En savoir plus",
+        "tip_label": "POURBOIRE",
+        "suggestions_label": "Suggestions"
+>>>>>>> efbd2b12a97414fa2db1464ec64685483b03491a
     }
 }
