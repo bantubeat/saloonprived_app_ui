@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
+import 'package:saloonprived_app/src/screens/notification_screen/notification_screen.dart';
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
@@ -13,10 +14,8 @@ import 'package:saloonprived_app/src/screens/_create_profile/create_profile_rest
 import 'screens/search/search_screen/search_screen.dart';
 
 import 'screens/welcome_screen/welcome_screen.dart';
-import 'screens/notification_screen/notification_screen.dart';
 import 'screens/adult_warning/adult_warning_screen.dart';
 
-import 'screens/living_room_discover/attention_page_screen.dart';
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
 /// le tester automatique aura besion de savoir comment instancier la classe
@@ -43,8 +42,7 @@ final Map<String, Widget Function()> allScreens = {
 
   'create_profile_restriction_page_screen.dart': () =>
       CreateProfileRestrictionPageScreen(),
-	'notification_screen.dart': () => const NotificationsScreen(),
-	'attention_page_screen.dart': () => const AttentionPageScreen(),
+	'adult_warning_screen.dart': () => const AdultWarningScreen(),
 
   // Ajoutez d'autres chemins de fichiers ici
 
