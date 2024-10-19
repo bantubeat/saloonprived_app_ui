@@ -95,7 +95,7 @@ class HeaderWidget extends StatelessWidget {
                   ),
                   TextSpan(
                     text: LocaleKeys
-                        .profile_create_user_profile_screen_followers_count
+                        .paid_connected_user_saloon_config_price_screen_followers
                         .tr(),
                     style: GoogleFonts.inter(
                       color: Colors.black,

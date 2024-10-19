@@ -100,6 +100,7 @@
         "followers_count": "Nombres d'abonnés de {} a {}",
         "followers_counts": "Nombres d'abonnés à partir de {}",
         "acces_day": "Acces {} jours",
-        "acces_hour": "Acces {}  heures"
+        "acces_hour": "Acces {}  heures",
+        "followers": " Abonnés"
     }
 }
