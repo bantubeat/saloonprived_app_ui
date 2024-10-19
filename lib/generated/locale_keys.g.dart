@@ -98,4 +98,24 @@ abstract class LocaleKeys {
       'saloon_for_you_have_subcription_screen.tip_label';
   static const saloon_for_you_have_subcription_screen_suggestions_label =
       'saloon_for_you_have_subcription_screen.suggestions_label';
+  static const paid_connected_user_saloon_config_price_screen_paid_salon =
+      'paid_connected_user_saloon_config_price_screen.paid_salon';
+  static const paid_connected_user_saloon_config_price_screen_free_salon =
+      'paid_connected_user_saloon_config_price_screen.free_salon';
+  static const paid_connected_user_saloon_config_price_screen_edit_profile =
+      'paid_connected_user_saloon_config_price_screen.edit_profile';
+  static const paid_connected_user_saloon_config_price_screen_configuration_text =
+      'paid_connected_user_saloon_config_price_screen.configuration_text';
+  static const paid_connected_user_saloon_config_price_screen_configuration_button =
+      'paid_connected_user_saloon_config_price_screen.configuration_button';
+  static const paid_connected_user_saloon_config_price_screen_save =
+      'paid_connected_user_saloon_config_price_screen.save';
+  static const paid_connected_user_saloon_config_price_screen_followers_count =
+      'paid_connected_user_saloon_config_price_screen.followers_count';
+  static const paid_connected_user_saloon_config_price_screen_followers_counts =
+      'paid_connected_user_saloon_config_price_screen.followers_counts';
+  static const paid_connected_user_saloon_config_price_screen_acces_day =
+      'paid_connected_user_saloon_config_price_screen.acces_day';
+  static const paid_connected_user_saloon_config_price_screen_acces_hour =
+      'paid_connected_user_saloon_config_price_screen.acces_hour';
 }

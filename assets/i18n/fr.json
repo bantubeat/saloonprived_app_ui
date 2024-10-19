@@ -89,5 +89,17 @@
         "learn_more": "En savoir plus",
         "tip_label": "POURBOIRE",
         "suggestions_label": "Suggestions"
+    },
+    "paid_connected_user_saloon_config_price_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "edit_profile": "Editer mon profil",
+        "configuration_text": "Afin de permettre à vos fans d'avoir accès à votre contenu payant, vous devez configurer des prix d’accès soit 24h, 7jours ou 30 jours. Le prix de vos accès dépend du nombre d'abonnés que vous avez. Plus vous avez des abonnés, plus vous pourrez choisir des prix plus élevés.",
+        "configuration_button": "Configurer mes accès",
+        "save": "Enregistrer",
+        "followers_count": "Nombres d'abonnés de {} a {}",
+        "followers_counts": "Nombres d'abonnés à partir de {}",
+        "acces_day": "Acces {} jours",
+        "acces_hour": "Acces {}  heures"
     }
 }
