@@ -60,31 +60,31 @@ class ImageTab extends StatelessWidget {
                     fontWeight: FontWeight.w200,
                   ),
                 ),
-                ElevatedButton(
-                  onPressed: () {},
-                  style: ElevatedButton.styleFrom(
-                    elevation: 0,
-                    backgroundColor: const Color(
-                      0xFFFCCC37,
-                    ),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 25,
-                      vertical: 5,
-                    ),
-                  ),
-                  child: Text(
-                    LocaleKeys.free_connected_user_saloon_screen_button_text
-                        .tr(),
-                    style: GoogleFonts.inter(
-                      color: Colors.white,
-                      fontSize: 12,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
-                ),
+                // ElevatedButton(
+                //   onPressed: () {},
+                //   style: ElevatedButton.styleFrom(
+                //     elevation: 0,
+                //     backgroundColor: const Color(
+                //       0xFFFCCC37,
+                //     ),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     padding: const EdgeInsets.symmetric(
+                //       horizontal: 25,
+                //       vertical: 5,
+                //     ),
+                //   ),
+                //   child: Text(
+                //     LocaleKeys.free_connected_user_saloon_screen_button_text
+                //         .tr(),
+                //     style: GoogleFonts.inter(
+                //       color: Colors.white,
+                //       fontSize: 12,
+                //       fontWeight: FontWeight.w700,
+                //     ),
+                //   ),
+                // ),
               ],
             ),
           ),

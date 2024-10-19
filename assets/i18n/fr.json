@@ -102,6 +102,7 @@
         "in_construction": "En construction",
         "message": "Vous pouvez ajoutter des photos pour vos Fans.",
         "button_text": "+ photos",
+        "followers": " Abonnés",
         "your_favoris": "'Les profils que vous enregistrez dans vos favoris ne sont pas visibles par les autres utilisateurs, vous seul pouvez les voir'"
     }
 }

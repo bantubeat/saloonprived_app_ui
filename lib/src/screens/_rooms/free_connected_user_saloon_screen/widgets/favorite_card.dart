@@ -55,7 +55,7 @@ class FavoriteCard extends StatelessWidget {
               ),
               Center(
                 child: Text(
-                  '$subcribe ${LocaleKeys.profile_create_user_profile_screen_followers_count.tr()}',
+                  '$subcribe ${LocaleKeys.free_connected_user_saloon_screen_followers.tr()}',
                   style: GoogleFonts.inter(
                     color: Colors.black,
                     fontSize: 8,
