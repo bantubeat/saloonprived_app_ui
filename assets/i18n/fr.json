@@ -89,5 +89,17 @@
         "learn_more": "En savoir plus",
         "tip_label": "POURBOIRE",
         "suggestions_label": "Suggestions"
+    },
+    "share_bottom_sheet_content": {
+        "share_text": "Partager",
+        "copy_text": "Copier",
+        "copy_link_text": "Copier le lien",
+        "share_whit": "Partager sur {}",
+        "report_text": "Signaler",
+        "delete": "Suprimer",
+        "more": "Plus",
+        "pin": "Épingler",
+        "download": "Télécharger",
+        "report_success_text": "Signalé avec succès"
     }
 }
