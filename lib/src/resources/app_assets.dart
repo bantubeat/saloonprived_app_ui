@@ -39,4 +39,8 @@ final class AppAssets {
   static const imagesAsiatInfir = 'assets/images/asiat_infir.jpeg';
   static const imagesLatina = 'assets/images/latina.jpeg';
   static const imagesXLogo = 'assets/images/x_logo.png';
+  static const imagesPrivedCover = 'assets/images/prived_cover.jpeg';
+  static const imagesWhatsAppLogo = 'assets/images/whatsApp_logo.png';
+
+  static const imagesError = 'assets/images/error.png';
 }
