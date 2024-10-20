@@ -76,7 +76,6 @@ class FreeConnectedUserSaloonScreen extends StatelessWidget {
                 ],
               ),
             ),
-
             Container(
               color: Colors.white,
               child: const TabBar(
@@ -112,13 +111,6 @@ class FreeConnectedUserSaloonScreen extends StatelessWidget {
                 ],
               ),
             ),
-
-            //
-            //
-            //
-            //
-            //
-
             Expanded(
               child: Container(
                 color: Colors.white,
