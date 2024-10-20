@@ -6,7 +6,6 @@
         "gender_female": "Femme",
         "gender_other": "Autres",
         "preview": "Précédent"
-
     },
     "welcome_screen": {
         "greeting": "Bienvenue {}",
@@ -103,6 +102,25 @@
         "write_omment": "Ecrire un commentaire",
         "suggestions_label": "Suggestions"
     },
+    "tip_modal": {
+        "send_tip_to": "Envoyer un pourboire à",
+        "amount_ofBZC": "Quantité de BZC",
+        "balanceBZC": "Solde BZC",
+        "zeroBZC": "00 BZC",
+        "insufficient_balance": "Solde insuffisant",
+        "byBZC": "Acheter des BZC",
+        "cancel": "Annuler",
+        "send": "Envoyer",
+        "must_be_creator": "Vous devez être créateur pour diffuser du contenu sur saloonprived. Cliquez sur Devenir créateur pour valider votre profil.",
+        "become_creator": "DEVENIR CREATEUR",
+        "redirection": "Redirection",
+        "cashout_tokens": "Pour encaisser vos Jetons (Beatzcoin) vous devez vous connecter sur votre compte Bantubeat.",
+        "click_ok_redirect": "Cliquer sur “OK” vous seriez automatiquement redirigé.",
+        "check_no_show": "Cocher “NE PLUS AFFICHER CE MESSAGE” vous seriez automatiquement redirigé les prochaines fois sans voir ce message.",
+        "no_show_message": "NE PLUS AFFICHER CE MESSAGE",
+        "ok": "OK",
+        "buy_tokens": "Pour acheter des Jetons (Beatzcoin) vous devez vous connecter sur votre compte Bantubeat."
+    },
     "create_profile_restriction_page_screen":{
         "app_bar_title": "Restriction contenus à caractère sexuel",
         "slogan": "Afin de toujours mettre en valeur notre slogan “Be What You Want”, les utilisateurs bantubeat qui souhaitent utiliser saloonprived en tant que créateur, peuvent diffuser du contenu qui pourrait être inapproprié pour vous.",
@@ -110,5 +128,6 @@
         "desable_category": "Désactiver   le blocage pour afficher les contenus de la catégorie adulte",
         "subscribers_content":"vous ne verrez dans votre salon  pour toi que le contenu des créateurs auxquels vous êtes abonnés vous pourriez toujours modifier vos préférences dans les paramètres.",
         "preferences": "vous pourriez toujours modifier vos préférences dans les paramètres."
+
     }
 }
