@@ -107,6 +107,7 @@ class PaidConnectedUserSaloonNoConfigPriceScreen extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Container(
                   width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height,
                   color: Colors.white,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 10,
