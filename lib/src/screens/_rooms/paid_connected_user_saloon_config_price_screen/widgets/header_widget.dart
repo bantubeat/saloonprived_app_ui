@@ -109,7 +109,34 @@ class HeaderWidget extends StatelessWidget {
           ],
         ),
         const SizedBox(
-          height: 3,
+          height: 10,
+        ),
+				
+        ElevatedButton(
+          onPressed: () {},
+          style: ElevatedButton.styleFrom(
+            elevation: 0,
+            backgroundColor: const Color(
+              0xFFFCCC37,
+            ),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            padding: const EdgeInsets.symmetric(
+              horizontal: 25,
+              vertical: 5,
+            ),
+          ),
+          child: Text(
+            LocaleKeys
+                .paid_connected_user_saloon_config_price_screen_edit_profile
+                .tr(),
+            style: GoogleFonts.inter(
+              color: Colors.white,
+              fontSize: 12,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
         ),
         Container(
           margin: const EdgeInsets.symmetric(vertical: 5),
@@ -158,32 +185,6 @@ class HeaderWidget extends StatelessWidget {
                 ),
               ),
             ],
-          ),
-        ),
-        ElevatedButton(
-          onPressed: () {},
-          style: ElevatedButton.styleFrom(
-            elevation: 0,
-            backgroundColor: const Color(
-              0xFFFCCC37,
-            ),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20),
-            ),
-            padding: const EdgeInsets.symmetric(
-              horizontal: 25,
-              vertical: 5,
-            ),
-          ),
-          child: Text(
-            LocaleKeys
-                .paid_connected_user_saloon_config_price_screen_edit_profile
-                .tr(),
-            style: GoogleFonts.inter(
-              color: Colors.white,
-              fontSize: 12,
-              fontWeight: FontWeight.w700,
-            ),
           ),
         ),
       ],
