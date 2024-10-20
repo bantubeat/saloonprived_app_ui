@@ -40,4 +40,6 @@ final class AppAssets {
   static const imagesLatina = 'assets/images/latina.jpeg';
   static const imagesPrivedCover = 'assets/images/prived_cover.jpeg';
   static const imagesWhatsAppLogo = 'assets/images/whatsApp_logo.png';
+
+  static const imagesError = 'assets/images/error.png';
 }
