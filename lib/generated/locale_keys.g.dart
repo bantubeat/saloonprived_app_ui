@@ -6,6 +6,7 @@ abstract class  LocaleKeys {
   static const common_gender_male = 'common.gender_male';
   static const common_gender_female = 'common.gender_female';
   static const common_gender_other = 'common.gender_other';
+  static const common_preview = 'common.preview';
   static const welcome_screen_greeting = 'welcome_screen.greeting';
   static const welcome_screen_on_the_world_coolest_chat = 'welcome_screen.on_the_world_coolest_chat';
   static const welcome_screen_note = 'welcome_screen.note';
@@ -66,9 +67,17 @@ abstract class  LocaleKeys {
   static const my_bottom_navigation_bar_log_out = 'my_bottom_navigation_bar.log_out';
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
+  static const search_screen_find_creator = 'search_screen.find_creator';
+  static const search_screen_subscribers_count = 'search_screen.subscribers_count';
+  static const search_screen_subscribe_button = 'search_screen.subscribe_button';
+  static const search_screen_subscribed_label = 'search_screen.subscribed_label';
   static const saloon_for_you_have_subcription_screen_advertisement_title = 'saloon_for_you_have_subcription_screen.advertisement_title';
   static const saloon_for_you_have_subcription_screen_learn_more = 'saloon_for_you_have_subcription_screen.learn_more';
   static const saloon_for_you_have_subcription_screen_tip_label = 'saloon_for_you_have_subcription_screen.tip_label';
+  static const saloon_for_you_have_subcription_screen_comments_count = 'saloon_for_you_have_subcription_screen.comments_count';
+  static const saloon_for_you_have_subcription_screen_delete = 'saloon_for_you_have_subcription_screen.delete';
+  static const saloon_for_you_have_subcription_screen_swipe_to_load_more = 'saloon_for_you_have_subcription_screen.swipe_to_load_more';
+  static const saloon_for_you_have_subcription_screen_write_omment = 'saloon_for_you_have_subcription_screen.write_omment';
   static const saloon_for_you_have_subcription_screen_suggestions_label = 'saloon_for_you_have_subcription_screen.suggestions_label';
   static const paid_connected_user_saloon_config_price_screen_paid_salon = 'paid_connected_user_saloon_config_price_screen.paid_salon';
   static const paid_connected_user_saloon_config_price_screen_free_salon = 'paid_connected_user_saloon_config_price_screen.free_salon';
@@ -81,5 +90,28 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_config_price_screen_acces_day = 'paid_connected_user_saloon_config_price_screen.acces_day';
   static const paid_connected_user_saloon_config_price_screen_acces_hour = 'paid_connected_user_saloon_config_price_screen.acces_hour';
   static const paid_connected_user_saloon_config_price_screen_followers = 'paid_connected_user_saloon_config_price_screen.followers';
+  static const tip_modal_send_tip_to = 'tip_modal.send_tip_to';
+  static const tip_modal_amount_ofBZC = 'tip_modal.amount_ofBZC';
+  static const tip_modal_balanceBZC = 'tip_modal.balanceBZC';
+  static const tip_modal_zeroBZC = 'tip_modal.zeroBZC';
+  static const tip_modal_insufficient_balance = 'tip_modal.insufficient_balance';
+  static const tip_modal_byBZC = 'tip_modal.byBZC';
+  static const tip_modal_cancel = 'tip_modal.cancel';
+  static const tip_modal_send = 'tip_modal.send';
+  static const tip_modal_must_be_creator = 'tip_modal.must_be_creator';
+  static const tip_modal_become_creator = 'tip_modal.become_creator';
+  static const tip_modal_redirection = 'tip_modal.redirection';
+  static const tip_modal_cashout_tokens = 'tip_modal.cashout_tokens';
+  static const tip_modal_click_ok_redirect = 'tip_modal.click_ok_redirect';
+  static const tip_modal_check_no_show = 'tip_modal.check_no_show';
+  static const tip_modal_no_show_message = 'tip_modal.no_show_message';
+  static const tip_modal_ok = 'tip_modal.ok';
+  static const tip_modal_buy_tokens = 'tip_modal.buy_tokens';
+  static const create_profile_restriction_page_screen_app_bar_title = 'create_profile_restriction_page_screen.app_bar_title';
+  static const create_profile_restriction_page_screen_slogan = 'create_profile_restriction_page_screen.slogan';
+  static const create_profile_restriction_page_screen_adult_category_text = 'create_profile_restriction_page_screen.adult_category_text';
+  static const create_profile_restriction_page_screen_desable_category = 'create_profile_restriction_page_screen.desable_category';
+  static const create_profile_restriction_page_screen_subscribers_content = 'create_profile_restriction_page_screen.subscribers_content';
+  static const create_profile_restriction_page_screen_preferences = 'create_profile_restriction_page_screen.preferences';
 
 }
