@@ -354,53 +354,59 @@ class HeaderWidget extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                 ),
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Row(
-                    children: [
-                      const Icon(
-                        Icons.facebook_sharp,
-                        color: Color.fromRGBO(18, 35, 188, 1),
-                        size: 25,
-                      ),
-                      const SizedBox(
-                        width: 10,
-                      ),
-                      Image.asset(
-                        AppAssets.imagesWhatsAppLogo,
-                        width: 20,
-                        height: 20,
-                      ),
-                    ],
-                  ),
-                  ElevatedButton(
-                    onPressed: () {},
-                    style: ElevatedButton.styleFrom(
-                      elevation: 0,
-                      backgroundColor: const Color(
-                        0xFFFCCC37,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 25,
-                        vertical: 5,
+              SizedBox(
+                width: MediaQuery.of(context).size.width,
+                child: Wrap(
+                  alignment: WrapAlignment.spaceBetween,
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  children: [
+                    IntrinsicWidth(
+                      child: Row(
+                        children: [
+                          const Icon(
+                            Icons.facebook_sharp,
+                            color: Color.fromRGBO(18, 35, 188, 1),
+                            size: 25,
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          Image.asset(
+                            AppAssets.imagesWhatsAppLogo,
+                            width: 20,
+                            height: 20,
+                          ),
+                        ],
                       ),
                     ),
-                    child: Text(
-                      LocaleKeys
-                          .paid_connected_user_saloon_unverify_kyc_screen_edit_profile
-                          .tr(),
-                      style: GoogleFonts.inter(
-                        color: Colors.white,
-                        fontSize: 12,
-                        fontWeight: FontWeight.w700,
+                    ElevatedButton(
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        elevation: 0,
+                        backgroundColor: const Color(
+                          0xFFFCCC37,
+                        ),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 25,
+                          vertical: 5,
+                        ),
+                      ),
+                      child: Text(
+                        LocaleKeys
+                            .paid_connected_user_saloon_unverify_kyc_screen_edit_profile
+                            .tr(),
+                        style: GoogleFonts.inter(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ],
           ),
