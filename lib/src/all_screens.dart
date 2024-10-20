@@ -40,7 +40,6 @@ final Map<String, Widget Function()> allScreens = {
   // Ajoutez d'autres chemins de fichiers ici
 
   'search_screen.dart': () => const SearchScreen(),
-
 };
 
 // Ajoutez d'autres chemins de fichiers ici
