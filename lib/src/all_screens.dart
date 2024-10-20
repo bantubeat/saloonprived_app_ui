@@ -2,6 +2,7 @@ import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
+import 'screens/_rooms/paid_connected_user_saloon_unverify_kyc_screen/paid_connected_user_saloon_unverify_kyc_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
@@ -43,6 +44,8 @@ final Map<String, Widget Function()> allScreens = {
   // Ajoutez d'autres chemins de fichiers ici
 
   'search_screen.dart': () => const SearchScreen(),
+  'paid_connected_user_saloon_unverify_kyc_screen.dart': () =>
+      const PaidConnectedUserSaloonUnverifyKycScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
