@@ -101,11 +101,26 @@
         "write_omment": "Ecrire un commentaire",
         "suggestions_label": "Suggestions"
     },
+    "free_connected_user_saloon_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "content_creator": "Content creator",
+        "adult_content": "Adult content",
+        "influencer": "Influenceur",
+        "model": "Model",
+        "edit_profile": "Editer mon profil",
+        "startLive": "Démarrer un direct",
+        "in_construction": "En construction",
+        "message": "Vous pouvez ajoutter des photos pour vos Fans.",
+        "button_text": "+ photos",
+        "followers": " Abonnés",
+        "your_favoris": "'Les profils que vous enregistrez dans vos favoris ne sont pas visibles par les autres utilisateurs, vous seul pouvez les voir'"
+    },
     "paid_connected_user_saloon_config_price_screen": {
         "paid_salon": "Mon salon payant",
         "free_salon": "Mon salon gratuit",
         "edit_profile": "Editer mon profil",
-        "configuration_text": "Afin de permettre à vos fans d'avoir accès à votre contenu payant, vous devez configurer des prix d’accès soit 24h, 7jours ou 30 jours. Le prix de vos accès dépend du nombre d'abonnés que vous avez. Plus vous avez des abonnés, plus vous pourrez choisir des prix plus élevés.",
+        "configuration_text": "Afin de permettre à vos fans d'avoir accès à votre contenu payant, vous devez configurer des prix d'accès soit 24h, 7jours ou 30 jours. Le prix de vos accès dépend du nombre d'abonnés que vous avez. Plus vous avez des abonnés, plus vous pourrez choisir des prix plus élevés.",
         "configuration_button": "Configurer mes accès",
         "save": "Enregistrer",
         "followers_count": "Nombres d'abonnés de {} a {}",

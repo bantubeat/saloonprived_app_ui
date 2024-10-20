@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
 
+import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
@@ -32,6 +33,8 @@ final Map<String, Widget Function()> allScreens = {
       const SaloonForYouNoSubcriptionScreen(),
   'profile_create_user_profile_screen.dart': () =>
       const ProfileCreateUserProfileScreen(),
+  'free_connected_user_saloon_screen.dart': () =>
+      const FreeConnectedUserSaloonScreen(),
   'paid_connected_user_saloon_config_price_screen.dart': () =>
       const PaidConnectedUserSaloonConfigPriceScreen(),
 
