@@ -67,7 +67,10 @@ abstract class  LocaleKeys {
   static const my_bottom_navigation_bar_log_out = 'my_bottom_navigation_bar.log_out';
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
-
+  static const search_screen_find_creator = 'search_screen.find_creator';
+  static const search_screen_subscribers_count = 'search_screen.subscribers_count';
+  static const search_screen_subscribe_button = 'search_screen.subscribe_button';
+  static const search_screen_subscribed_label = 'search_screen.subscribed_label';
   static const saloon_for_you_have_subcription_screen_advertisement_title = 'saloon_for_you_have_subcription_screen.advertisement_title';
   static const saloon_for_you_have_subcription_screen_learn_more = 'saloon_for_you_have_subcription_screen.learn_more';
   static const saloon_for_you_have_subcription_screen_tip_label = 'saloon_for_you_have_subcription_screen.tip_label';
@@ -78,21 +81,5 @@ abstract class  LocaleKeys {
   static const create_profile_restriction_page_screen_desable_category = 'create_profile_restriction_page_screen.desable_category';
   static const create_profile_restriction_page_screen_subscribers_content = 'create_profile_restriction_page_screen.subscribers_content';
   static const create_profile_restriction_page_screen_preferences = 'create_profile_restriction_page_screen.preferences';
-
-  static const search_screen_find_creator = 'search_screen.find_creator';
-  static const search_screen_subscribers_count =
-      'search_screen.subscribers_count';
-  static const search_screen_subscribe_button =
-      'search_screen.subscribe_button';
-  static const search_screen_subscribed_label =
-      'search_screen.subscribed_label';
-  static const saloon_for_you_have_subcription_screen_advertisement_title =
-      'saloon_for_you_have_subcription_screen.advertisement_title';
-  static const saloon_for_you_have_subcription_screen_learn_more =
-      'saloon_for_you_have_subcription_screen.learn_more';
-  static const saloon_for_you_have_subcription_screen_tip_label =
-      'saloon_for_you_have_subcription_screen.tip_label';
-  static const saloon_for_you_have_subcription_screen_suggestions_label =
-      'saloon_for_you_have_subcription_screen.suggestions_label';
 
 }
