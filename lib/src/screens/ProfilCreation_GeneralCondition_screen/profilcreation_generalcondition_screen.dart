@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/components/my_button.dart';
-import 'package:saloonprived_app/src/screens/ProfilCreation_Fan_Creator_Agreement_screen/profilcreation_fan_creator_agreement_screen.dart';
+import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreement_screen/profilcreation_fan_creator_agreement_screen.dart';
 
 class ProfilcreationGeneralconditionScreen extends StatelessWidget {
   const ProfilcreationGeneralconditionScreen({super.key});

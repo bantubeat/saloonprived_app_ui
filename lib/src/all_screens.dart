@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart' show Widget;
-import 'package:saloonprived_app/src/screens/ProfilCreation_Fan_Creator_Agreement_screen/profilcreation_fan_creator_agreement_screen.dart';
-import 'package:saloonprived_app/src/screens/ProfilCreation_GeneralCondition_screen/profilcreation_generalcondition_screen.dart';
+import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreement_screen/profilcreation_fan_creator_agreement_screen.dart';
+import 'package:saloonprived_app/src/screens/profilcreation_generalcondition_screen/profilcreation_generalcondition_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 
 /// Le test unitaire va chercher toute les pages du dossier screens pour se

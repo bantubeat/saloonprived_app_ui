@@ -1,5 +1,3 @@
-// lib/src/components/my_button.dart
-
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 
