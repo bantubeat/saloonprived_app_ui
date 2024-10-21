@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart' show Widget;
-import 'package:saloonprived_app/src/screens/profile_creation_category/profile_creation_category_screen.dart';
-
+import 'package:saloonprived_app/src/screens/profile_creation_category_page/profile_creation_category_page_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
