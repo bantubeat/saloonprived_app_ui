@@ -192,4 +192,14 @@ abstract class LocaleKeys {
       'create_profile_restriction_page_screen.subscribers_content';
   static const create_profile_restriction_page_screen_preferences =
       'create_profile_restriction_page_screen.preferences';
+  static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon =
+      'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
+  static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans =
+      'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
+  static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet =
+      'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
+  static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading =
+      'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
+  static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
+      'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
 }
