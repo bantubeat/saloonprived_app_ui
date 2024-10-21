@@ -47,8 +47,7 @@ final Map<String, Widget Function()> allScreens = {
   'search_screen.dart': () => const SearchScreen(),
   'paid_connected_user_saloon_no_config_price_screen.dart': () =>
       const PaidConnectedUserSaloonNoConfigPriceScreen(),
-  'blocked_user_activity_screen.dart': () =>
-      const BlockedUserActivityScreen(),
+  'blocked_user_activity_screen.dart': () => const BlockedUserActivityScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
