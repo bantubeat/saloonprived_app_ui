@@ -13,8 +13,8 @@ class ItemWidget extends StatelessWidget {
     required this.fillPercentColor,
     required this.color,
     required this.boxShadow,
-    super.key,
     required this.bottomImage,
+    super.key,
   });
   final double percent;
   final String image;
