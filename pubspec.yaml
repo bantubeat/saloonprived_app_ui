@@ -24,6 +24,8 @@ dependencies:
   smart_select: ^4.2.1
   url_strategy: ^0.3.0
   video_player: ^2.9.2
+  fl_chart: ^0.69.0
+  percent_indicator: ^4.2.3
 
 dev_dependencies:
   flutter_test:
