@@ -18,8 +18,6 @@ final class AppAssets {
   static const imagesStandUP = 'assets/images/stand_up.png';
   static const imagesCoverLogo = 'assets/images/cover_logo.png';
 
-  static const fakeAvatarImage = 'assets/images/fake_avatar.jpg';
-
   static const imagesLogoBantubeat = 'assets/images/logo_bantubeat.png';
   static const imagesFeatlinkLogo = 'assets/images/featlink_logo.png';
   static const imagesBeat = 'assets/images/beat.png';
