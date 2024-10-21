@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/_dashboard/income_user_dashboard_screen/income_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
@@ -43,6 +44,7 @@ final Map<String, Widget Function()> allScreens = {
   // Ajoutez d'autres chemins de fichiers ici
 
   'search_screen.dart': () => const SearchScreen(),
+  'income_user_dashboard_screen.dart': () => const IncomeUserDashboardScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici

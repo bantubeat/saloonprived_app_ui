@@ -155,5 +155,24 @@
         "desable_category": "Désactiver   le blocage pour afficher les contenus de la catégorie adulte",
         "subscribers_content": "vous ne verrez dans votre salon  pour toi que le contenu des créateurs auxquels vous êtes abonnés vous pourriez toujours modifier vos préférences dans les paramètres.",
         "preferences": "vous pourriez toujours modifier vos préférences dans les paramètres."
+    },
+    "income_user_dashboard_screen": {
+        "revenue": "Revenu",
+        "access_price": "Prix des Accès",
+        "buy_tokens": "Acheter des jetons",
+        "promote": "Promouvoir",
+        "revenue_analysis_salonprived": "Analyse de vos revenus sur saloonprived",
+        "global_revenue": "REVENU GLOBAL",
+        "total_balance_bzc": "Solde Total BZC",
+        "balance_value_bzc_eur": "valeur solde BZC/€",
+        "financial_account_bantubeat": "Compte financier bantubeat",
+        "withdraw_your_bzc": "Encaisser vos BZC",
+        "salonprived_keys": "Clés saloonprived",
+        "per_month": "Par mois",
+        "byYear": "Par année",
+        "generalRevenue": "Revenu Général",
+        "general": "General",
+        "access": "Accès",
+        "tip": "Pourboire"
     }
 }
