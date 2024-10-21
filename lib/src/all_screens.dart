@@ -28,7 +28,6 @@ final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
   'saloon_for_you_have_subcription_screen.dart': () =>
       const SaloonForYouHaveSubcriptionScreen(),
-  'notification_screen.dart': () => const NotificationsScreen(),
   'login_screen.dart': () => const LoginScreen(),
   'register_screen.dart': () => const RegisterScreen(),
   'saloon_for_you_no_subcription_screen.dart': () =>

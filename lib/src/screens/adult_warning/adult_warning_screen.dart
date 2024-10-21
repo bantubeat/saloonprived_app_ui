@@ -25,12 +25,8 @@ class _AdultWarningScreenState extends State<AdultWarningScreen> {
     final buttonTextSize =
         screenSize.width <= 375 && screenSize.height <= 667 ? 14.0 : 16.0;
     return Scaffold(
-      appBar: MyAppBar.forYouWithCustomIcon(
-        const Text(
-          '+18',
-          style: TextStyle(color: AppColors.bantubeatPrimary),
-        ),
-      ),
+      appBar: MyAppBar.withCenterTextAndBadge(),
+
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
         child: SingleChildScrollView(
