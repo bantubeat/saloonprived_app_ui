@@ -34,7 +34,7 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
     final textSize = _calculateTextSize(context);
 
     return Scaffold(
-			backgroundColor: AppColors.myWhite,
+      backgroundColor: AppColors.myWhite,
       appBar: AppBar(),
       body: Stack(
         children: [
@@ -164,7 +164,10 @@ class _ProfileCreationScreenState extends State<ProfileCreationScreen> {
             left: 16,
             right: 16,
             bottom: MediaQuery.of(context).size.height * 0.1,
-            child: PrimaryButton(text: LocaleKeys.profile_creation_screen_save.tr(), onPressed: (context){})
+            child: PrimaryButton(
+              text: LocaleKeys.profile_creation_screen_save.tr(),
+              onPressed: (context) {},
+            ),
           ),
         ],
       ),
