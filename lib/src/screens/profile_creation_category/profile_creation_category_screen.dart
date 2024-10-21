@@ -4,14 +4,16 @@ import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/components/primary_button.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 
-class CategoryScreen extends StatefulWidget {
-  const CategoryScreen({super.key});
+class ProfileCreationCategoryScreen extends StatefulWidget {
+  const ProfileCreationCategoryScreen({super.key});
 
   @override
-  State<CategoryScreen> createState() => _CategoryScreenState();
+  State<ProfileCreationCategoryScreen> createState() =>
+      _ProfileCreationCategoryScreenState();
 }
 
-class _CategoryScreenState extends State<CategoryScreen> {
+class _ProfileCreationCategoryScreenState
+    extends State<ProfileCreationCategoryScreen> {
   String? _selectedCategory;
 
   final List<String> _categories = [
@@ -68,14 +70,16 @@ class _CategoryScreenState extends State<CategoryScreen> {
                               children: [
                                 Text(
                                   LocaleKeys.category_screen_description.tr(),
-                                  style: const TextStyle(color: AppColors.myDark),
+                                  style:
+                                      const TextStyle(color: AppColors.myDark),
                                 ),
                                 const SizedBox(
                                   height: 40,
                                 ), // Augmenté pour laisser de l'espace pour les boutons
                                 Text(
                                   LocaleKeys.category_screen_note.tr(),
-                                  style: const TextStyle(color: AppColors.myDark),
+                                  style:
+                                      const TextStyle(color: AppColors.myDark),
                                 ),
                                 const SizedBox(height: 25),
                                 ListView.builder(
@@ -85,7 +89,8 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                   itemBuilder: (context, index) {
                                     final category = _categories[index];
                                     return Padding(
-                                      padding: const EdgeInsets.symmetric(vertical: 8.0),
+                                      padding: const EdgeInsets.symmetric(
+                                          vertical: 8.0,),
                                       child: InkWell(
                                         onTap: () {
                                           setState(() {
@@ -95,32 +100,42 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                         child: Row(
                                           children: [
                                             AnimatedContainer(
-                                              duration: const Duration(milliseconds: 300),
+                                              duration: const Duration(
+                                                  milliseconds: 300,),
                                               width: 24,
                                               height: 24,
                                               decoration: BoxDecoration(
-                                                color: _selectedCategory == category
+                                                color: _selectedCategory ==
+                                                        category
                                                     ? AppColors.bantubeatPrimary
                                                     : Colors.white,
-                                                borderRadius: BorderRadius.circular(4),
+                                                borderRadius:
+                                                    BorderRadius.circular(4),
                                                 border: Border.all(
-                                                  color: _selectedCategory == category
-                                                      ? AppColors.bantubeatPrimary
+                                                  color: _selectedCategory ==
+                                                          category
+                                                      ? AppColors
+                                                          .bantubeatPrimary
                                                       : Colors.grey,
                                                   width: 2,
                                                 ),
                                               ),
-                                              child: _selectedCategory == category
-                                                  ? const Icon(Icons.check, size: 18, color: Colors.white)
-                                                  : null,
+                                              child:
+                                                  _selectedCategory == category
+                                                      ? const Icon(Icons.check,
+                                                          size: 18,
+                                                          color: Colors.white,)
+                                                      : null,
                                             ),
                                             const SizedBox(width: 12),
                                             Expanded(
                                               child: Text(
                                                 category,
                                                 style: TextStyle(
-                                                  color: _selectedCategory == category
-                                                      ? AppColors.bantubeatPrimary
+                                                  color: _selectedCategory ==
+                                                          category
+                                                      ? AppColors
+                                                          .bantubeatPrimary
                                                       : Colors.black,
                                                 ),
                                               ),
@@ -147,19 +162,21 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             child: Row(
                               children: [
                                 Expanded(
-                                  child: 
-																		PrimaryButton(
-																			text: LocaleKeys.category_screen_previous.tr(),
-																			onPressed: (context) {
-																				// Action pour le bouton Précédent
-																			},
-																			backgroundColor: AppColors.myDark,
-																		),
+                                  child: PrimaryButton(
+                                    text: LocaleKeys.category_screen_previous
+                                        .tr(),
+                                    onPressed: (context) {
+                                      // Action pour le bouton Précédent
+                                    },
+                                    backgroundColor: AppColors.myDark,
+                                  ),
                                 ),
                                 const SizedBox(width: 20),
                                 Expanded(
-                                  child: PrimaryButton(text: LocaleKeys.category_screen_next.tr(), onPressed: (context){}) 
-																	
+                                  child: PrimaryButton(
+                                      text:
+                                          LocaleKeys.category_screen_next.tr(),
+                                      onPressed: (context) {},),
                                 ),
                               ],
                             ),
