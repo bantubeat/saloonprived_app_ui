@@ -226,19 +226,6 @@ abstract class LocaleKeys {
       'income_user_dashboard_screen.access';
   static const income_user_dashboard_screen_tip =
       'income_user_dashboard_screen.tip';
-
-  static const create_profile_restriction_page_screen_app_bar_title =
-      'create_profile_restriction_page_screen.app_bar_title';
-  static const create_profile_restriction_page_screen_slogan =
-      'create_profile_restriction_page_screen.slogan';
-  static const create_profile_restriction_page_screen_adult_category_text =
-      'create_profile_restriction_page_screen.adult_category_text';
-  static const create_profile_restriction_page_screen_desable_category =
-      'create_profile_restriction_page_screen.desable_category';
-  static const create_profile_restriction_page_screen_subscribers_content =
-      'create_profile_restriction_page_screen.subscribers_content';
-  static const create_profile_restriction_page_screen_preferences =
-      'create_profile_restriction_page_screen.preferences';
   static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon =
       'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
   static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans =
