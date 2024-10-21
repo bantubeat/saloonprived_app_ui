@@ -162,5 +162,9 @@
         "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
+    },
+    "blocked_user_activity_screen": {
+        "blocked_user": "Utilisateurs bloqués",
+        "un_locked": "Débloquer"
     }
 }
