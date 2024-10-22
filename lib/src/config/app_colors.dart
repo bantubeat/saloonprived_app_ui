@@ -12,6 +12,7 @@ final class AppColors {
   static const myWhite = Color(0xFFF9FBFC);
   static const myBlue = Color(0xFF1778F2);
   static const myPink = Color(0xFFffd7d7);
+  static const myGray50 = Color(0xFFEBEBEB);
   static const myGray = Color(0xFFD4D8DE);
   static const myGray600 = Color(0xFF868686);
   static const mySoft = Color(0xFFE2E9DF);
