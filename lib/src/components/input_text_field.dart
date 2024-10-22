@@ -16,6 +16,7 @@ class InputTextField extends StatelessWidget {
   final int maxLine;
   final int minLine;
   final TextAlign textAlign;
+  final bool readOnly;
 
   const InputTextField({
     required this.hintText,
@@ -24,6 +25,7 @@ class InputTextField extends StatelessWidget {
     this.textAlign = TextAlign.center,
     this.color = AppColors.primary,
     this.backgroundColor = Colors.white,
+    this.readOnly = false,
     this.borderWidth = 2,
     this.borderColor = AppColors.primary,
     this.borderRadius = const BorderRadius.all(Radius.circular(50.0)),
@@ -48,6 +50,7 @@ class InputTextField extends StatelessWidget {
           maxLines: maxLine,
           minLines: minLine,
           obscureText: obscureText,
+          readOnly: readOnly,
           decoration: InputDecoration(
             hintText: hintText,
             hintStyle: TextStyle(

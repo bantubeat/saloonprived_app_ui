@@ -5,12 +5,14 @@ import 'package:saloonprived_app/src/config/app_colors.dart';
 class LabelTextFormField extends StatelessWidget {
   const LabelTextFormField({
     required this.label,
+    this.readOnly = false,
     this.hintText,
     super.key,
   });
 
   final String label;
   final String? hintText;
+  final bool readOnly;
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +25,7 @@ class LabelTextFormField extends StatelessWidget {
           borderRadius: const BorderRadius.all(
             Radius.circular(8),
           ),
+          readOnly: readOnly,
           color: AppColors.myGray600,
           backgroundColor: AppColors.myGray50,
           borderColor: AppColors.myGray50,

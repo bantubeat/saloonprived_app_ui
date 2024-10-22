@@ -22,6 +22,7 @@ class EditProfileTab extends StatelessWidget {
             children: [
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_name_label
                       .tr(),
@@ -32,6 +33,7 @@ class EditProfileTab extends StatelessWidget {
               ),
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_first_name_label
                       .tr(),
@@ -46,6 +48,7 @@ class EditProfileTab extends StatelessWidget {
             children: [
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_username_label
                       .tr(),
@@ -56,6 +59,7 @@ class EditProfileTab extends StatelessWidget {
               ),
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_birth_year_label
                       .tr(),
@@ -70,6 +74,7 @@ class EditProfileTab extends StatelessWidget {
             children: [
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_country_label
                       .tr(),
@@ -80,6 +85,7 @@ class EditProfileTab extends StatelessWidget {
               ),
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_email_label
                       .tr(),
@@ -94,6 +100,7 @@ class EditProfileTab extends StatelessWidget {
             children: [
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_phone_number_label
                       .tr(),
@@ -104,6 +111,7 @@ class EditProfileTab extends StatelessWidget {
               ),
               Expanded(
                 child: LabelTextFormField(
+                  readOnly: true,
                   label: LocaleKeys
                       .edit_user_profile_personal_info_screen_city_label
                       .tr(),
