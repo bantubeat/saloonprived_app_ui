@@ -48,7 +48,7 @@ class HeaderWidget extends StatelessWidget {
                   children: [
                     HeaderBlock(
                       text: LocaleKeys
-                          .access_price_user_dashboard_screen_acces_day
+                          .access_price_user_dashboard_screen_acces_hour
                           .tr(args: ['24']),
                       value: '5 896',
                       color: const Color.fromRGBO(231, 237, 255, 1),
