@@ -122,7 +122,7 @@ class PaidConnectedUserSaloonUnverifyKycScreen extends StatelessWidget {
                           .tr(),
                       style: GoogleFonts.poppins(
                         color: Colors.black,
-                        fontWeight: FontWeight.w700,
+                        fontWeight: FontWeight.w600,
                         fontSize: 18,
                       ),
                       textAlign: TextAlign.center,
@@ -144,7 +144,7 @@ class PaidConnectedUserSaloonUnverifyKycScreen extends StatelessWidget {
                           .tr(),
                       style: GoogleFonts.poppins(
                         color: Colors.black,
-                        fontWeight: FontWeight.w700,
+                        fontWeight: FontWeight.w600,
                         fontSize: 18,
                       ),
                       textAlign: TextAlign.center,
