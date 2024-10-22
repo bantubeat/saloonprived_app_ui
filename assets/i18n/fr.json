@@ -6,7 +6,12 @@
         "gender_female": "Femme",
         "gender_other": "Autres",
         "preview": "Précédent",
-        "suscriber": "Abonné"
+        "suscriber": "Abonné",
+        "all": "Tous",
+    "access_in_progress": "Accès encours",
+    "access_expired": "Accès expirés",
+    "subscribers": "{} Abonnés",
+    "subscriptions": "{} Abonnements"
     },
     "welcome_screen": {
         "greeting": "Bienvenue {}",
@@ -440,5 +445,12 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
-    }
+    },
+    "activity_suscription_full_page_screen": {
+    "followed_creator": "Créateurs suivis",
+    "send_tip": "Envoyer un pourboire",
+    "messages": "Messages",
+    "add_to_fovorites": "Ajouter à favori",
+    "unsuscrible": "Se Désabonner"
+  }
 }

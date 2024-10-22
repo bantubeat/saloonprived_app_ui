@@ -47,4 +47,9 @@ final class AppAssets {
   static const imagesValide = 'assets/images/valide.png';
   static const imagesBzc = 'assets/images/bzc.png';
   static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';
+
+  static const imagesActivityProfile = 'assets/images/activity_profile.jpeg';
+  static const imagesActivityProfileCout =
+      'assets/images/activity_profile_cout.jpeg';
+  static const imagesfavorite = 'assets/images/fovorite.png';
 }
