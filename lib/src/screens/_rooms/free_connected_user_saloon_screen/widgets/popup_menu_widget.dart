@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/config/app_colors.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 
 class PopupMenuWidget extends StatelessWidget {
@@ -80,6 +81,29 @@ class PopupMenuWidget extends StatelessWidget {
             leading: const Icon(Icons.dark_mode),
             title: Text(
               LocaleKeys.popup_menu_widget_dark_mode.tr(),
+              style: GoogleFonts.inter(
+                fontSize: 12,
+                fontWeight: FontWeight.w500,
+                color: Colors.black,
+              ),
+            ),
+            trailing: Transform.scale(
+              scale: 0.5,
+              child: Switch(
+                activeColor: AppColors.primary,
+                // inactiveTrackColor: ,
+                value: false,
+                onChanged: (_) {},
+              ),
+            ),
+          ),
+        ),
+        PopupMenuItem(
+          value: 'activites',
+          child: ListTile(
+            leading: const Icon(Icons.person_search_outlined),
+            title: Text(
+              LocaleKeys.popup_menu_widget_activity.tr(),
               style: GoogleFonts.inter(
                 fontSize: 12,
                 fontWeight: FontWeight.w500,

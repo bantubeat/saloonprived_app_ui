@@ -170,6 +170,7 @@
         "balance": "Mon solde bzc",
         "dark_mode": "Mode sombre",
         "settings": "Paramètres",
-        "logout": "Déconnexion"
+        "logout": "Déconnexion",
+        "activity": "Activités"
     }
 }
