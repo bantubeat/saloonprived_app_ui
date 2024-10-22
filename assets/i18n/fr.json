@@ -162,5 +162,30 @@
         "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
+    },
+    "edit_user_profile_personal_info_screen": {
+        "profile_title": "Détails du profil",
+        "bio_title": "Bio",
+        "social_networks_title": "Réseaux sociaux",
+        "name_label": "Nom",
+        "first_name_label": "Prénom",
+        "username_label": "Nom de profile",
+        "birth_year_label": "Année de naissance",
+        "country_label": "Pays",
+        "email_label": "Adresse Email",
+        "phone_number_label": "Téléphone",
+        "city_label": "Ville",
+        "note": "pour modifier vos informations personnelles, vous devez retourner dans votre profil bantubeat.",
+        "edit_profile_on_bantubeat": "Modifier mon profil sur bantubeat",
+        "add_bio": "Ajouter une bio",
+        "cancel_button": "Annuler",
+        "validate_button": "Valider",
+        "facebook": "Facebook",
+        "twitter": "X (Twitter)",
+        "instagram": "Instagram",
+        "tiktok": "Tiktok",
+        "bantubeat": "Bantubeat",
+        "thread": "Thread",
+        "save_changes": "Enregister les modifications"
     }
 }

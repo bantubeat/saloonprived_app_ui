@@ -15,11 +15,13 @@ class InputTextField extends StatelessWidget {
   final double height;
   final int maxLine;
   final int minLine;
+  final TextAlign textAlign;
 
   const InputTextField({
     required this.hintText,
     super.key,
     this.obscureText = false,
+    this.textAlign = TextAlign.center,
     this.color = AppColors.primary,
     this.backgroundColor = Colors.white,
     this.borderWidth = 2,
@@ -42,7 +44,7 @@ class InputTextField extends StatelessWidget {
       ),
       child: Center(
         child: TextFormField(
-          textAlign: TextAlign.center,
+          textAlign: textAlign,
           maxLines: maxLine,
           minLines: minLine,
           obscureText: obscureText,
