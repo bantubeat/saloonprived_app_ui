@@ -120,21 +120,17 @@ class PaidConnectedUserSaloonUnverifyKycScreen extends StatelessWidget {
                       LocaleKeys
                           .paid_connected_user_saloon_unverify_kyc_screen_title1
                           .tr(),
-                      style: GoogleFonts.poppins(
-                        color: Colors.black,
-                        fontWeight: FontWeight.w600,
-                        fontSize: 18,
-                      ),
+                      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                            color: AppColors.myDark,
+                            fontWeight: FontWeight.w600,
+                          ),
                       textAlign: TextAlign.center,
                     ),
                     Text(
                       LocaleKeys
                           .paid_connected_user_saloon_unverify_kyc_screen_message1
                           .tr(),
-                      style: GoogleFonts.poppins(
-                        color: Colors.black,
-                        fontSize: 12,
-                      ),
+                      style: Theme.of(context).textTheme.bodySmall,
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 60),
@@ -142,11 +138,10 @@ class PaidConnectedUserSaloonUnverifyKycScreen extends StatelessWidget {
                       LocaleKeys
                           .paid_connected_user_saloon_unverify_kyc_screen_title2
                           .tr(),
-                      style: GoogleFonts.poppins(
-                        color: Colors.black,
-                        fontWeight: FontWeight.w600,
-                        fontSize: 18,
-                      ),
+                      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                            color: AppColors.myDark,
+                            fontWeight: FontWeight.w600,
+                          ),
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 10),
@@ -154,10 +149,7 @@ class PaidConnectedUserSaloonUnverifyKycScreen extends StatelessWidget {
                       LocaleKeys
                           .paid_connected_user_saloon_unverify_kyc_screen_message2
                           .tr(),
-                      style: GoogleFonts.poppins(
-                        color: Colors.black,
-                        fontSize: 12,
-                      ),
+                      style: Theme.of(context).textTheme.bodySmall,
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 30),
