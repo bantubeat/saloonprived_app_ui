@@ -5,6 +5,7 @@ import 'package:saloonprived_app/src/screens/notification_screen/notification_sc
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
+import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
 import 'screens/_auth/login_screen.dart';
@@ -43,6 +44,8 @@ final Map<String, Widget Function()> allScreens = {
       CreateProfileRestrictionPageScreen(),
 	'adult_warning_screen.dart': () => const AdultWarningScreen(),
 
+  'discover_lounge_non_adults_creators_screen.dart': () =>
+      DiscoverLoungeNonAdultsCreatorsScreen(),
   // Ajoutez d'autres chemins de fichiers ici
 
   'search_screen.dart': () => const SearchScreen(),
