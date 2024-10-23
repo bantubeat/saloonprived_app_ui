@@ -162,5 +162,21 @@
         "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
+    },
+    "publish_video_photo_screen": {
+        "video_title": "Publier une vidéo",
+        "photo_title": "Publier une photo",
+        "video_description_hint": "Description de la publication, ajouter des hastags pour que la vidéo soit trouvé facilement",
+        "photo_description_hint": "Description de la publication",
+        "destination": "Destination",
+        "button_add_other_photos": "Ajouter autres photos",
+        "destination_hint": "Votre contenu est gratuit ou payant",
+        "free": "Salon gratuit",
+        "paid": "Salon payant",
+        "comment": "Autoriser les commentaires",
+        "copyright_title": "Verification des droits d'auteur",
+        "copyright_description": "La verification du droit d'auteur s'effectue automatiquement, si une correspondance est trouvée votre video ne sera pas publiée. Le problème peut être le contenu audio de votre vidéo ou votre vidéo elle meme.",
+        "text_button": " En savoir plus sur les droits d'auteurs",
+        "publish": "Publier"
     }
 }
