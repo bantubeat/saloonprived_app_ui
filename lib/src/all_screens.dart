@@ -4,6 +4,7 @@ import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_c
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
+import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
 import 'screens/profile_creation/profile_creation_screen.dart';
@@ -46,6 +47,8 @@ final Map<String, Widget Function()> allScreens = {
 	'notification_screen.dart': () => const NotificationsScreen(),
 	'profile_creation/category_screen.dart': () => const CategoryScreen(),
 
+  'discover_lounge_non_adults_creators_screen.dart': () =>
+      DiscoverLoungeNonAdultsCreatorsScreen(),
   // Ajoutez d'autres chemins de fichiers ici
 
   'search_screen.dart': () => const SearchScreen(),

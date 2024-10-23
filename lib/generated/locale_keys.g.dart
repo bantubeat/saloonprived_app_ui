@@ -7,6 +7,7 @@ abstract class  LocaleKeys {
   static const common_gender_female = 'common.gender_female';
   static const common_gender_other = 'common.gender_other';
   static const common_preview = 'common.preview';
+  static const common_suscriber = 'common.suscriber';
   static const welcome_screen_greeting = 'welcome_screen.greeting';
   static const welcome_screen_on_the_world_coolest_chat = 'welcome_screen.on_the_world_coolest_chat';
   static const welcome_screen_note = 'welcome_screen.note';
@@ -83,82 +84,46 @@ abstract class  LocaleKeys {
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
   static const search_screen_find_creator = 'search_screen.find_creator';
-  static const search_screen_subscribers_count =
-      'search_screen.subscribers_count';
-  static const search_screen_subscribe_button =
-      'search_screen.subscribe_button';
-  static const search_screen_subscribed_label =
-      'search_screen.subscribed_label';
-  static const saloon_for_you_have_subcription_screen_advertisement_title =
-      'saloon_for_you_have_subcription_screen.advertisement_title';
-  static const saloon_for_you_have_subcription_screen_learn_more =
-      'saloon_for_you_have_subcription_screen.learn_more';
-  static const saloon_for_you_have_subcription_screen_tip_label =
-      'saloon_for_you_have_subcription_screen.tip_label';
-  static const saloon_for_you_have_subcription_screen_comments_count =
-      'saloon_for_you_have_subcription_screen.comments_count';
-  static const saloon_for_you_have_subcription_screen_delete =
-      'saloon_for_you_have_subcription_screen.delete';
-  static const saloon_for_you_have_subcription_screen_swipe_to_load_more =
-      'saloon_for_you_have_subcription_screen.swipe_to_load_more';
-  static const saloon_for_you_have_subcription_screen_write_omment =
-      'saloon_for_you_have_subcription_screen.write_omment';
-  static const saloon_for_you_have_subcription_screen_suggestions_label =
-      'saloon_for_you_have_subcription_screen.suggestions_label';
-  static const free_connected_user_saloon_screen_paid_salon =
-      'free_connected_user_saloon_screen.paid_salon';
-  static const free_connected_user_saloon_screen_free_salon =
-      'free_connected_user_saloon_screen.free_salon';
-  static const free_connected_user_saloon_screen_content_creator =
-      'free_connected_user_saloon_screen.content_creator';
-  static const free_connected_user_saloon_screen_adult_content =
-      'free_connected_user_saloon_screen.adult_content';
-  static const free_connected_user_saloon_screen_influencer =
-      'free_connected_user_saloon_screen.influencer';
-  static const free_connected_user_saloon_screen_model =
-      'free_connected_user_saloon_screen.model';
-  static const free_connected_user_saloon_screen_edit_profile =
-      'free_connected_user_saloon_screen.edit_profile';
-  static const free_connected_user_saloon_screen_startLive =
-      'free_connected_user_saloon_screen.startLive';
-  static const free_connected_user_saloon_screen_in_construction =
-      'free_connected_user_saloon_screen.in_construction';
-  static const free_connected_user_saloon_screen_message =
-      'free_connected_user_saloon_screen.message';
-  static const free_connected_user_saloon_screen_button_text =
-      'free_connected_user_saloon_screen.button_text';
-  static const free_connected_user_saloon_screen_followers =
-      'free_connected_user_saloon_screen.followers';
-  static const free_connected_user_saloon_screen_your_favoris =
-      'free_connected_user_saloon_screen.your_favoris';
-  static const paid_connected_user_saloon_config_price_screen_paid_salon =
-      'paid_connected_user_saloon_config_price_screen.paid_salon';
-  static const paid_connected_user_saloon_config_price_screen_free_salon =
-      'paid_connected_user_saloon_config_price_screen.free_salon';
-  static const paid_connected_user_saloon_config_price_screen_edit_profile =
-      'paid_connected_user_saloon_config_price_screen.edit_profile';
-  static const paid_connected_user_saloon_config_price_screen_configuration_text =
-      'paid_connected_user_saloon_config_price_screen.configuration_text';
-  static const paid_connected_user_saloon_config_price_screen_configuration_button =
-      'paid_connected_user_saloon_config_price_screen.configuration_button';
-  static const paid_connected_user_saloon_config_price_screen_save =
-      'paid_connected_user_saloon_config_price_screen.save';
-  static const paid_connected_user_saloon_config_price_screen_followers_count =
-      'paid_connected_user_saloon_config_price_screen.followers_count';
-  static const paid_connected_user_saloon_config_price_screen_followers_counts =
-      'paid_connected_user_saloon_config_price_screen.followers_counts';
-  static const paid_connected_user_saloon_config_price_screen_acces_day =
-      'paid_connected_user_saloon_config_price_screen.acces_day';
-  static const paid_connected_user_saloon_config_price_screen_acces_hour =
-      'paid_connected_user_saloon_config_price_screen.acces_hour';
-  static const paid_connected_user_saloon_config_price_screen_followers =
-      'paid_connected_user_saloon_config_price_screen.followers';
+  static const search_screen_subscribers_count = 'search_screen.subscribers_count';
+  static const search_screen_subscribe_button = 'search_screen.subscribe_button';
+  static const search_screen_subscribed_label = 'search_screen.subscribed_label';
+  static const saloon_for_you_have_subcription_screen_advertisement_title = 'saloon_for_you_have_subcription_screen.advertisement_title';
+  static const saloon_for_you_have_subcription_screen_learn_more = 'saloon_for_you_have_subcription_screen.learn_more';
+  static const saloon_for_you_have_subcription_screen_tip_label = 'saloon_for_you_have_subcription_screen.tip_label';
+  static const saloon_for_you_have_subcription_screen_comments_count = 'saloon_for_you_have_subcription_screen.comments_count';
+  static const saloon_for_you_have_subcription_screen_delete = 'saloon_for_you_have_subcription_screen.delete';
+  static const saloon_for_you_have_subcription_screen_swipe_to_load_more = 'saloon_for_you_have_subcription_screen.swipe_to_load_more';
+  static const saloon_for_you_have_subcription_screen_write_omment = 'saloon_for_you_have_subcription_screen.write_omment';
+  static const saloon_for_you_have_subcription_screen_suggestions_label = 'saloon_for_you_have_subcription_screen.suggestions_label';
+  static const free_connected_user_saloon_screen_paid_salon = 'free_connected_user_saloon_screen.paid_salon';
+  static const free_connected_user_saloon_screen_free_salon = 'free_connected_user_saloon_screen.free_salon';
+  static const free_connected_user_saloon_screen_content_creator = 'free_connected_user_saloon_screen.content_creator';
+  static const free_connected_user_saloon_screen_adult_content = 'free_connected_user_saloon_screen.adult_content';
+  static const free_connected_user_saloon_screen_influencer = 'free_connected_user_saloon_screen.influencer';
+  static const free_connected_user_saloon_screen_model = 'free_connected_user_saloon_screen.model';
+  static const free_connected_user_saloon_screen_edit_profile = 'free_connected_user_saloon_screen.edit_profile';
+  static const free_connected_user_saloon_screen_startLive = 'free_connected_user_saloon_screen.startLive';
+  static const free_connected_user_saloon_screen_in_construction = 'free_connected_user_saloon_screen.in_construction';
+  static const free_connected_user_saloon_screen_message = 'free_connected_user_saloon_screen.message';
+  static const free_connected_user_saloon_screen_button_text = 'free_connected_user_saloon_screen.button_text';
+  static const free_connected_user_saloon_screen_followers = 'free_connected_user_saloon_screen.followers';
+  static const free_connected_user_saloon_screen_your_favoris = 'free_connected_user_saloon_screen.your_favoris';
+  static const paid_connected_user_saloon_config_price_screen_paid_salon = 'paid_connected_user_saloon_config_price_screen.paid_salon';
+  static const paid_connected_user_saloon_config_price_screen_free_salon = 'paid_connected_user_saloon_config_price_screen.free_salon';
+  static const paid_connected_user_saloon_config_price_screen_edit_profile = 'paid_connected_user_saloon_config_price_screen.edit_profile';
+  static const paid_connected_user_saloon_config_price_screen_configuration_text = 'paid_connected_user_saloon_config_price_screen.configuration_text';
+  static const paid_connected_user_saloon_config_price_screen_configuration_button = 'paid_connected_user_saloon_config_price_screen.configuration_button';
+  static const paid_connected_user_saloon_config_price_screen_save = 'paid_connected_user_saloon_config_price_screen.save';
+  static const paid_connected_user_saloon_config_price_screen_followers_count = 'paid_connected_user_saloon_config_price_screen.followers_count';
+  static const paid_connected_user_saloon_config_price_screen_followers_counts = 'paid_connected_user_saloon_config_price_screen.followers_counts';
+  static const paid_connected_user_saloon_config_price_screen_acces_day = 'paid_connected_user_saloon_config_price_screen.acces_day';
+  static const paid_connected_user_saloon_config_price_screen_acces_hour = 'paid_connected_user_saloon_config_price_screen.acces_hour';
+  static const paid_connected_user_saloon_config_price_screen_followers = 'paid_connected_user_saloon_config_price_screen.followers';
   static const tip_modal_send_tip_to = 'tip_modal.send_tip_to';
   static const tip_modal_amount_ofBZC = 'tip_modal.amount_ofBZC';
   static const tip_modal_balanceBZC = 'tip_modal.balanceBZC';
   static const tip_modal_zeroBZC = 'tip_modal.zeroBZC';
-  static const tip_modal_insufficient_balance =
-      'tip_modal.insufficient_balance';
+  static const tip_modal_insufficient_balance = 'tip_modal.insufficient_balance';
   static const tip_modal_byBZC = 'tip_modal.byBZC';
   static const tip_modal_cancel = 'tip_modal.cancel';
   static const tip_modal_send = 'tip_modal.send';
