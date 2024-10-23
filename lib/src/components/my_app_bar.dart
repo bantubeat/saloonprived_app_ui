@@ -177,5 +177,5 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(showSecondLine ? 90.0 : 47.0);
+  Size get preferredSize => Size.fromHeight(showSecondLine ? 76.0 : 47.0);
 }
