@@ -42,4 +42,5 @@ final class AppAssets {
   static const imagesWhatsAppLogo = 'assets/images/whatsApp_logo.png';
 
   static const imagesError = 'assets/images/error.png';
+  static const imagesValide = 'assets/images/valide.png';
 }

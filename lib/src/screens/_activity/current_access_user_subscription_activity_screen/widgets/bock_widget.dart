@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
 
+import 'activate_modals.dart';
+import 'disabled_modals.dart';
+
 class BockWidget extends StatelessWidget {
   const BockWidget({
     required this.name,
@@ -10,6 +13,7 @@ class BockWidget extends StatelessWidget {
     required this.followerCount,
     required this.coverImage,
     required this.profileImage,
+    required this.isActive,
     super.key,
   });
   final String name;
@@ -17,6 +21,7 @@ class BockWidget extends StatelessWidget {
   final String followerCount;
   final String coverImage;
   final String profileImage;
+  final bool isActive;
 
   @override
   Widget build(BuildContext context) {
@@ -258,28 +263,111 @@ class BockWidget extends StatelessWidget {
           ),
           Container(
             padding: const EdgeInsets.only(
-              left: 30,
+              left: 20,
               right: 20,
               bottom: 5,
             ),
             width: MediaQuery.of(context).size.width,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(10),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(10),
+                bottomRight: Radius.circular(10),
+              ),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const SizedBox(
-                  height: 70,
+                  height: 20,
+                ),
+                Text(
+                  textAlign: TextAlign.left,
+                  LocaleKeys
+                      .current_access_user_subscription_activity_screen_current_access
+                      .tr(),
+                  style: GoogleFonts.inter(
+                    color: Colors.black,
+                    fontSize: 10,
+                    fontWeight: FontWeight.w300,
+                  ),
+                ),
+                const SizedBox(
+                  height: 5,
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 14,
+                    vertical: 7,
+                  ),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(
+                      color: const Color.fromRGBO(249, 191, 13, 1),
+                    ),
+                  ),
+                  child: Wrap(
+                    alignment: WrapAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        textAlign: TextAlign.left,
+                        LocaleKeys
+                            .current_access_user_subscription_activity_screen_acces_hour
+                            .tr(args: ['24']),
+                        style: GoogleFonts.inter(
+                          color: const Color.fromRGBO(249, 191, 13, 1),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                      Text(
+                        textAlign: TextAlign.left,
+                        '\$ 0.56',
+                        style: GoogleFonts.inter(
+                          color: const Color.fromRGBO(249, 191, 13, 1),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                      Text(
+                        textAlign: TextAlign.left,
+                        '45 BZC',
+                        style: GoogleFonts.inter(
+                          color: const Color.fromRGBO(249, 191, 13, 1),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
                 ),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return Dialog(
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(
+                              12.0,
+                            ), // Rounded corners
+                          ),
+                          child: !isActive
+                              ? ActivateModals(userName: name)
+                              : DisabledModals(userName: name),
+                        );
+                      },
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
                     elevation: 0,
-                    backgroundColor: const Color(
-                      0xFFFCCC37,
-                    ),
+                    backgroundColor: isActive
+                        ? Colors.black
+                        : const Color.fromRGBO(249, 191, 13, 1),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
@@ -290,7 +378,13 @@ class BockWidget extends StatelessWidget {
                   ),
                   child: Text(
                     textAlign: TextAlign.left,
-                    "djddjjdjdjdjdjdjdjd",
+                    isActive
+                        ? LocaleKeys
+                            .current_access_user_subscription_activity_screen_cancel_auto_renew
+                            .tr()
+                        : LocaleKeys
+                            .current_access_user_subscription_activity_screen_activate_auto_renew
+                            .tr(),
                     style: GoogleFonts.inter(
                       color: Colors.white,
                       fontSize: 10,
