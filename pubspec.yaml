@@ -24,6 +24,8 @@ dependencies:
   smart_select: ^4.2.1
   url_strategy: ^0.3.0
   video_player: ^2.9.2
+  camera: ^0.11.0+2
+  gallery_picker: ^0.5.1
 
 dev_dependencies:
   flutter_test:
