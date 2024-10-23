@@ -1,40 +1,55 @@
 // DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
 
-abstract class  LocaleKeys {
+abstract class LocaleKeys {
   static const app_title = 'app_title';
   static const common_next = 'common.next';
   static const common_gender_male = 'common.gender_male';
   static const common_gender_female = 'common.gender_female';
   static const common_gender_other = 'common.gender_other';
   static const common_preview = 'common.preview';
+  static const common_suscriber = 'common.suscriber';
   static const welcome_screen_greeting = 'welcome_screen.greeting';
-  static const welcome_screen_on_the_world_coolest_chat = 'welcome_screen.on_the_world_coolest_chat';
+  static const welcome_screen_on_the_world_coolest_chat =
+      'welcome_screen.on_the_world_coolest_chat';
   static const welcome_screen_note = 'welcome_screen.note';
   static const image_service_choose_camera = 'image_service.choose_camera';
   static const image_service_choose_gallery = 'image_service.choose_gallery';
-  static const saloon_for_you_no_subcription_screen_dicover_saloon = 'saloon_for_you_no_subcription_screen.dicover_saloon';
-  static const saloon_for_you_no_subcription_screen_saloon_for_you = 'saloon_for_you_no_subcription_screen.saloon_for_you';
-  static const saloon_for_you_no_subcription_screen_subscription_prompt = 'saloon_for_you_no_subcription_screen.subscription_prompt';
-  static const saloon_for_you_no_subcription_screen_discover_creators = 'saloon_for_you_no_subcription_screen.discover_creators';
-  static const saloon_for_you_no_subcription_screen_subscribe_to_creators = 'saloon_for_you_no_subcription_screen.subscribe_to_creators';
-  static const profile_create_user_profile_screen_title = 'profile_create_user_profile_screen.title';
-  static const profile_create_user_profile_screen_subscriptions_count = 'profile_create_user_profile_screen.subscriptions_count';
-  static const profile_create_user_profile_screen_followers_count = 'profile_create_user_profile_screen.followers_count';
-  static const profile_create_user_profile_screen_cancel_button = 'profile_create_user_profile_screen.cancel_button';
-  static const profile_create_user_profile_screen_add_button = 'profile_create_user_profile_screen.add_button';
+  static const saloon_for_you_no_subcription_screen_dicover_saloon =
+      'saloon_for_you_no_subcription_screen.dicover_saloon';
+  static const saloon_for_you_no_subcription_screen_saloon_for_you =
+      'saloon_for_you_no_subcription_screen.saloon_for_you';
+  static const saloon_for_you_no_subcription_screen_subscription_prompt =
+      'saloon_for_you_no_subcription_screen.subscription_prompt';
+  static const saloon_for_you_no_subcription_screen_discover_creators =
+      'saloon_for_you_no_subcription_screen.discover_creators';
+  static const saloon_for_you_no_subcription_screen_subscribe_to_creators =
+      'saloon_for_you_no_subcription_screen.subscribe_to_creators';
+  static const profile_create_user_profile_screen_title =
+      'profile_create_user_profile_screen.title';
+  static const profile_create_user_profile_screen_subscriptions_count =
+      'profile_create_user_profile_screen.subscriptions_count';
+  static const profile_create_user_profile_screen_followers_count =
+      'profile_create_user_profile_screen.followers_count';
+  static const profile_create_user_profile_screen_cancel_button =
+      'profile_create_user_profile_screen.cancel_button';
+  static const profile_create_user_profile_screen_add_button =
+      'profile_create_user_profile_screen.add_button';
   static const register_screen_header_text = 'register_screen.header_text';
   static const register_screen_title = 'register_screen.title';
   static const register_screen_description = 'register_screen.description';
-  static const register_screen_sign_up_google = 'register_screen.sign_up_google';
+  static const register_screen_sign_up_google =
+      'register_screen.sign_up_google';
   static const register_screen_sign_up_email = 'register_screen.sign_up_email';
   static const register_screen_email_hint = 'register_screen.email_hint';
   static const register_screen_password_hint = 'register_screen.password_hint';
   static const register_screen_sign_up = 'register_screen.sign_up';
-  static const register_screen_new_to_featlink = 'register_screen.new_to_featlink';
+  static const register_screen_new_to_featlink =
+      'register_screen.new_to_featlink';
   static const register_screen_login = 'register_screen.login';
   static const login_screen_title = 'login_screen.title';
   static const login_screen_description = 'login_screen.description';
-  static const login_screen_login_with_google = 'login_screen.login_with_google';
+  static const login_screen_login_with_google =
+      'login_screen.login_with_google';
   static const login_screen_login = 'login_screen.login';
   static const login_screen_not_register = 'login_screen.not_register';
   static const login_screen_sign_up = 'login_screen.sign_up';
@@ -47,67 +62,113 @@ abstract class  LocaleKeys {
   static const login_screen_second_line_text = 'login_screen.second_line_text';
   static const login_screen_account_text = 'login_screen.account_text';
   static const login_screen_channel_text = 'login_screen.channel_text';
-  static const login_screen_support_creators_text = 'login_screen.support_creators_text';
-  static const login_screen_partners_program_text = 'login_screen.partners_program_text';
+  static const login_screen_support_creators_text =
+      'login_screen.support_creators_text';
+  static const login_screen_partners_program_text =
+      'login_screen.partners_program_text';
   static const login_screen_year_text = 'login_screen.year_text';
   static const login_screen_cookies_text = 'login_screen.cookies_text';
   static const login_screen_privacy_text = 'login_screen.privacy_text';
-  static const login_screen_terms_conditions_text = 'login_screen.terms_conditions_text';
+  static const login_screen_terms_conditions_text =
+      'login_screen.terms_conditions_text';
   static const notification_screen_title = 'notification_screen.title';
   static const notification_screen_time = 'notification_screen.time';
   static const notification_screen_message = 'notification_screen.message';
   static const my_bottom_navigation_bar_home = 'my_bottom_navigation_bar.home';
-  static const my_bottom_navigation_bar_messages = 'my_bottom_navigation_bar.messages';
-  static const my_bottom_navigation_bar_bantubeat = 'my_bottom_navigation_bar.bantubeat';
-  static const my_bottom_navigation_bar_profil = 'my_bottom_navigation_bar.profil';
-  static const my_bottom_navigation_bar_music = 'my_bottom_navigation_bar.music';
+  static const my_bottom_navigation_bar_messages =
+      'my_bottom_navigation_bar.messages';
+  static const my_bottom_navigation_bar_bantubeat =
+      'my_bottom_navigation_bar.bantubeat';
+  static const my_bottom_navigation_bar_profil =
+      'my_bottom_navigation_bar.profil';
+  static const my_bottom_navigation_bar_music =
+      'my_bottom_navigation_bar.music';
   static const my_bottom_navigation_bar_beat = 'my_bottom_navigation_bar.beat';
-  static const my_bottom_navigation_bar_settings = 'my_bottom_navigation_bar.settings';
-  static const my_bottom_navigation_bar_feat_link = 'my_bottom_navigation_bar.feat_link';
-  static const my_bottom_navigation_bar_log_out = 'my_bottom_navigation_bar.log_out';
+  static const my_bottom_navigation_bar_settings =
+      'my_bottom_navigation_bar.settings';
+  static const my_bottom_navigation_bar_feat_link =
+      'my_bottom_navigation_bar.feat_link';
+  static const my_bottom_navigation_bar_log_out =
+      'my_bottom_navigation_bar.log_out';
   static const my_app_bar_for_you_text = 'my_app_bar.for_you_text';
   static const my_app_bar_for_discover_text = 'my_app_bar.for_discover_text';
   static const search_screen_find_creator = 'search_screen.find_creator';
-  static const search_screen_subscribers_count = 'search_screen.subscribers_count';
-  static const search_screen_subscribe_button = 'search_screen.subscribe_button';
-  static const search_screen_subscribed_label = 'search_screen.subscribed_label';
-  static const saloon_for_you_have_subcription_screen_advertisement_title = 'saloon_for_you_have_subcription_screen.advertisement_title';
-  static const saloon_for_you_have_subcription_screen_learn_more = 'saloon_for_you_have_subcription_screen.learn_more';
-  static const saloon_for_you_have_subcription_screen_tip_label = 'saloon_for_you_have_subcription_screen.tip_label';
-  static const saloon_for_you_have_subcription_screen_comments_count = 'saloon_for_you_have_subcription_screen.comments_count';
-  static const saloon_for_you_have_subcription_screen_delete = 'saloon_for_you_have_subcription_screen.delete';
-  static const saloon_for_you_have_subcription_screen_swipe_to_load_more = 'saloon_for_you_have_subcription_screen.swipe_to_load_more';
-  static const saloon_for_you_have_subcription_screen_write_omment = 'saloon_for_you_have_subcription_screen.write_omment';
-  static const saloon_for_you_have_subcription_screen_suggestions_label = 'saloon_for_you_have_subcription_screen.suggestions_label';
-  static const free_connected_user_saloon_screen_paid_salon = 'free_connected_user_saloon_screen.paid_salon';
-  static const free_connected_user_saloon_screen_free_salon = 'free_connected_user_saloon_screen.free_salon';
-  static const free_connected_user_saloon_screen_content_creator = 'free_connected_user_saloon_screen.content_creator';
-  static const free_connected_user_saloon_screen_adult_content = 'free_connected_user_saloon_screen.adult_content';
-  static const free_connected_user_saloon_screen_influencer = 'free_connected_user_saloon_screen.influencer';
-  static const free_connected_user_saloon_screen_model = 'free_connected_user_saloon_screen.model';
-  static const free_connected_user_saloon_screen_edit_profile = 'free_connected_user_saloon_screen.edit_profile';
-  static const free_connected_user_saloon_screen_startLive = 'free_connected_user_saloon_screen.startLive';
-  static const free_connected_user_saloon_screen_in_construction = 'free_connected_user_saloon_screen.in_construction';
-  static const free_connected_user_saloon_screen_message = 'free_connected_user_saloon_screen.message';
-  static const free_connected_user_saloon_screen_button_text = 'free_connected_user_saloon_screen.button_text';
-  static const free_connected_user_saloon_screen_followers = 'free_connected_user_saloon_screen.followers';
-  static const free_connected_user_saloon_screen_your_favoris = 'free_connected_user_saloon_screen.your_favoris';
-  static const paid_connected_user_saloon_config_price_screen_paid_salon = 'paid_connected_user_saloon_config_price_screen.paid_salon';
-  static const paid_connected_user_saloon_config_price_screen_free_salon = 'paid_connected_user_saloon_config_price_screen.free_salon';
-  static const paid_connected_user_saloon_config_price_screen_edit_profile = 'paid_connected_user_saloon_config_price_screen.edit_profile';
-  static const paid_connected_user_saloon_config_price_screen_configuration_text = 'paid_connected_user_saloon_config_price_screen.configuration_text';
-  static const paid_connected_user_saloon_config_price_screen_configuration_button = 'paid_connected_user_saloon_config_price_screen.configuration_button';
-  static const paid_connected_user_saloon_config_price_screen_save = 'paid_connected_user_saloon_config_price_screen.save';
-  static const paid_connected_user_saloon_config_price_screen_followers_count = 'paid_connected_user_saloon_config_price_screen.followers_count';
-  static const paid_connected_user_saloon_config_price_screen_followers_counts = 'paid_connected_user_saloon_config_price_screen.followers_counts';
-  static const paid_connected_user_saloon_config_price_screen_acces_day = 'paid_connected_user_saloon_config_price_screen.acces_day';
-  static const paid_connected_user_saloon_config_price_screen_acces_hour = 'paid_connected_user_saloon_config_price_screen.acces_hour';
-  static const paid_connected_user_saloon_config_price_screen_followers = 'paid_connected_user_saloon_config_price_screen.followers';
+  static const search_screen_subscribers_count =
+      'search_screen.subscribers_count';
+  static const search_screen_subscribe_button =
+      'search_screen.subscribe_button';
+  static const search_screen_subscribed_label =
+      'search_screen.subscribed_label';
+  static const saloon_for_you_have_subcription_screen_advertisement_title =
+      'saloon_for_you_have_subcription_screen.advertisement_title';
+  static const saloon_for_you_have_subcription_screen_learn_more =
+      'saloon_for_you_have_subcription_screen.learn_more';
+  static const saloon_for_you_have_subcription_screen_tip_label =
+      'saloon_for_you_have_subcription_screen.tip_label';
+  static const saloon_for_you_have_subcription_screen_comments_count =
+      'saloon_for_you_have_subcription_screen.comments_count';
+  static const saloon_for_you_have_subcription_screen_delete =
+      'saloon_for_you_have_subcription_screen.delete';
+  static const saloon_for_you_have_subcription_screen_swipe_to_load_more =
+      'saloon_for_you_have_subcription_screen.swipe_to_load_more';
+  static const saloon_for_you_have_subcription_screen_write_omment =
+      'saloon_for_you_have_subcription_screen.write_omment';
+  static const saloon_for_you_have_subcription_screen_suggestions_label =
+      'saloon_for_you_have_subcription_screen.suggestions_label';
+  static const free_connected_user_saloon_screen_paid_salon =
+      'free_connected_user_saloon_screen.paid_salon';
+  static const free_connected_user_saloon_screen_free_salon =
+      'free_connected_user_saloon_screen.free_salon';
+  static const free_connected_user_saloon_screen_content_creator =
+      'free_connected_user_saloon_screen.content_creator';
+  static const free_connected_user_saloon_screen_adult_content =
+      'free_connected_user_saloon_screen.adult_content';
+  static const free_connected_user_saloon_screen_influencer =
+      'free_connected_user_saloon_screen.influencer';
+  static const free_connected_user_saloon_screen_model =
+      'free_connected_user_saloon_screen.model';
+  static const free_connected_user_saloon_screen_edit_profile =
+      'free_connected_user_saloon_screen.edit_profile';
+  static const free_connected_user_saloon_screen_startLive =
+      'free_connected_user_saloon_screen.startLive';
+  static const free_connected_user_saloon_screen_in_construction =
+      'free_connected_user_saloon_screen.in_construction';
+  static const free_connected_user_saloon_screen_message =
+      'free_connected_user_saloon_screen.message';
+  static const free_connected_user_saloon_screen_button_text =
+      'free_connected_user_saloon_screen.button_text';
+  static const free_connected_user_saloon_screen_followers =
+      'free_connected_user_saloon_screen.followers';
+  static const free_connected_user_saloon_screen_your_favoris =
+      'free_connected_user_saloon_screen.your_favoris';
+  static const paid_connected_user_saloon_config_price_screen_paid_salon =
+      'paid_connected_user_saloon_config_price_screen.paid_salon';
+  static const paid_connected_user_saloon_config_price_screen_free_salon =
+      'paid_connected_user_saloon_config_price_screen.free_salon';
+  static const paid_connected_user_saloon_config_price_screen_edit_profile =
+      'paid_connected_user_saloon_config_price_screen.edit_profile';
+  static const paid_connected_user_saloon_config_price_screen_configuration_text =
+      'paid_connected_user_saloon_config_price_screen.configuration_text';
+  static const paid_connected_user_saloon_config_price_screen_configuration_button =
+      'paid_connected_user_saloon_config_price_screen.configuration_button';
+  static const paid_connected_user_saloon_config_price_screen_save =
+      'paid_connected_user_saloon_config_price_screen.save';
+  static const paid_connected_user_saloon_config_price_screen_followers_count =
+      'paid_connected_user_saloon_config_price_screen.followers_count';
+  static const paid_connected_user_saloon_config_price_screen_followers_counts =
+      'paid_connected_user_saloon_config_price_screen.followers_counts';
+  static const paid_connected_user_saloon_config_price_screen_acces_day =
+      'paid_connected_user_saloon_config_price_screen.acces_day';
+  static const paid_connected_user_saloon_config_price_screen_acces_hour =
+      'paid_connected_user_saloon_config_price_screen.acces_hour';
+  static const paid_connected_user_saloon_config_price_screen_followers =
+      'paid_connected_user_saloon_config_price_screen.followers';
   static const tip_modal_send_tip_to = 'tip_modal.send_tip_to';
   static const tip_modal_amount_ofBZC = 'tip_modal.amount_ofBZC';
   static const tip_modal_balanceBZC = 'tip_modal.balanceBZC';
   static const tip_modal_zeroBZC = 'tip_modal.zeroBZC';
-  static const tip_modal_insufficient_balance = 'tip_modal.insufficient_balance';
+  static const tip_modal_insufficient_balance =
+      'tip_modal.insufficient_balance';
   static const tip_modal_byBZC = 'tip_modal.byBZC';
   static const tip_modal_cancel = 'tip_modal.cancel';
   static const tip_modal_send = 'tip_modal.send';
@@ -120,31 +181,56 @@ abstract class  LocaleKeys {
   static const tip_modal_no_show_message = 'tip_modal.no_show_message';
   static const tip_modal_ok = 'tip_modal.ok';
   static const tip_modal_buy_tokens = 'tip_modal.buy_tokens';
-  static const create_profile_restriction_page_screen_app_bar_title = 'create_profile_restriction_page_screen.app_bar_title';
-  static const create_profile_restriction_page_screen_slogan = 'create_profile_restriction_page_screen.slogan';
-  static const create_profile_restriction_page_screen_adult_category_text = 'create_profile_restriction_page_screen.adult_category_text';
-  static const create_profile_restriction_page_screen_desable_category = 'create_profile_restriction_page_screen.desable_category';
-  static const create_profile_restriction_page_screen_subscribers_content = 'create_profile_restriction_page_screen.subscribers_content';
-  static const create_profile_restriction_page_screen_preferences = 'create_profile_restriction_page_screen.preferences';
-  static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon = 'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
-  static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans = 'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
-  static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet = 'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
-  static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading = 'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
-  static const paid_connected_user_saloon_no_config_price_screen_configure_my_access = 'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
-  static const current_access_user_subscription_activity_screen_current_access = 'current_access_user_subscription_activity_screen.current_access';
-  static const current_access_user_subscription_activity_screen_cancel_auto_renew = 'current_access_user_subscription_activity_screen.cancel_auto_renew';
-  static const current_access_user_subscription_activity_screen_activate_auto_renew = 'current_access_user_subscription_activity_screen.activate_auto_renew';
-  static const current_access_user_subscription_activity_screen_followed_creators = 'current_access_user_subscription_activity_screen.followed_creators';
-  static const current_access_user_subscription_activity_screen_all = 'current_access_user_subscription_activity_screen.all';
-  static const current_access_user_subscription_activity_screen_expired_access = 'current_access_user_subscription_activity_screen.expired_access';
-  static const current_access_user_subscription_activity_screen_ongoing_access = 'current_access_user_subscription_activity_screen.ongoing_access';
-  static const current_access_user_subscription_activity_screen_cancel = 'current_access_user_subscription_activity_screen.cancel';
-  static const current_access_user_subscription_activity_screen_validate = 'current_access_user_subscription_activity_screen.validate';
-  static const current_access_user_subscription_activity_screen_acces_hour = 'current_access_user_subscription_activity_screen.acces_hour';
-  static const current_access_user_subscription_activity_screen_auto_renewal_activated = 'current_access_user_subscription_activity_screen.auto_renewal_activated';
-  static const current_access_user_subscription_activity_screen_access_renewed = 'current_access_user_subscription_activity_screen.access_renewed';
-  static const current_access_user_subscription_activity_screen_cancel_at_any_time = 'current_access_user_subscription_activity_screen.cancel_at_any_time';
-  static const current_access_user_subscription_activity_screen_auto_enewal_canceled_warning = 'current_access_user_subscription_activity_screen.auto_enewal_canceled_warning';
-  static const current_access_user_subscription_activity_screen_access_ancelled_at_end = 'current_access_user_subscription_activity_screen.access_ancelled_at_end';
-
+  static const create_profile_restriction_page_screen_app_bar_title =
+      'create_profile_restriction_page_screen.app_bar_title';
+  static const create_profile_restriction_page_screen_slogan =
+      'create_profile_restriction_page_screen.slogan';
+  static const create_profile_restriction_page_screen_adult_category_text =
+      'create_profile_restriction_page_screen.adult_category_text';
+  static const create_profile_restriction_page_screen_desable_category =
+      'create_profile_restriction_page_screen.desable_category';
+  static const create_profile_restriction_page_screen_subscribers_content =
+      'create_profile_restriction_page_screen.subscribers_content';
+  static const create_profile_restriction_page_screen_preferences =
+      'create_profile_restriction_page_screen.preferences';
+  static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon =
+      'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
+  static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans =
+      'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
+  static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet =
+      'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
+  static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading =
+      'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
+  static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
+      'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+  static const current_access_user_subscription_activity_screen_current_access =
+      'current_access_user_subscription_activity_screen.current_access';
+  static const current_access_user_subscription_activity_screen_cancel_auto_renew =
+      'current_access_user_subscription_activity_screen.cancel_auto_renew';
+  static const current_access_user_subscription_activity_screen_activate_auto_renew =
+      'current_access_user_subscription_activity_screen.activate_auto_renew';
+  static const current_access_user_subscription_activity_screen_followed_creators =
+      'current_access_user_subscription_activity_screen.followed_creators';
+  static const current_access_user_subscription_activity_screen_all =
+      'current_access_user_subscription_activity_screen.all';
+  static const current_access_user_subscription_activity_screen_expired_access =
+      'current_access_user_subscription_activity_screen.expired_access';
+  static const current_access_user_subscription_activity_screen_ongoing_access =
+      'current_access_user_subscription_activity_screen.ongoing_access';
+  static const current_access_user_subscription_activity_screen_cancel =
+      'current_access_user_subscription_activity_screen.cancel';
+  static const current_access_user_subscription_activity_screen_validate =
+      'current_access_user_subscription_activity_screen.validate';
+  static const current_access_user_subscription_activity_screen_acces_hour =
+      'current_access_user_subscription_activity_screen.acces_hour';
+  static const current_access_user_subscription_activity_screen_auto_renewal_activated =
+      'current_access_user_subscription_activity_screen.auto_renewal_activated';
+  static const current_access_user_subscription_activity_screen_access_renewed =
+      'current_access_user_subscription_activity_screen.access_renewed';
+  static const current_access_user_subscription_activity_screen_cancel_at_any_time =
+      'current_access_user_subscription_activity_screen.cancel_at_any_time';
+  static const current_access_user_subscription_activity_screen_auto_enewal_canceled_warning =
+      'current_access_user_subscription_activity_screen.auto_enewal_canceled_warning';
+  static const current_access_user_subscription_activity_screen_access_ancelled_at_end =
+      'current_access_user_subscription_activity_screen.access_ancelled_at_end';
 }
