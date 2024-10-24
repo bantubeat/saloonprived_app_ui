@@ -164,6 +164,10 @@
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
     },
+    "blocked_user_activity_screen": {
+        "blocked_user": "Utilisateurs bloqués",
+        "un_locked": "Débloquer"
+    },
     "attention_page_screen": {
         "title": "AVERTISSEMENT : ",
         "subtitle": "CETTE PAGE EST RESERVEE AUX ADULTES",
