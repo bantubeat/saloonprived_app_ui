@@ -164,6 +164,20 @@
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
     },
+    "expired_access_user_subscription_activity_screen": {
+        "current_access": "Votre accès actuel",
+        "cancel_auto_renew": "Annuler le renouvellement automatique",
+        "renew_your_access": "Renouveler votre accès",
+        "activate_auto_renew": "Activer le renouvellement automatique",
+        "followed_creators": "Créateurs suivis",
+        "acces_hour": "Accès {}  heures",
+        "acces_day": "Accès {}  heures",
+        "hour": "{}  heures",
+        "day": "{}  jours",
+        "all": "Tout",
+        "expired_access": "Accès expirés",
+        "ongoing_access": "Accès encours"
+    },
     "current_access_user_subscription_activity_screen": {
         "current_access": "Votre accès actuel",
         "cancel_auto_renew": "Annuler le renouvellement automatique",

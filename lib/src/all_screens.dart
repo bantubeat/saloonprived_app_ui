@@ -3,6 +3,8 @@ import 'package:saloonprived_app/src/screens/_activity/current_access_user_subsc
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
 import 'package:saloonprived_app/src/screens/notification_screen/notification_screen.dart';
 
+import 'screens/_activity/expired_access_user_subscription_activity_screen/expired_access_user_subscription_activity_screen.dart';
+
 import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_screen.dart';
 
 import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_dashboard_screen.dart';
@@ -56,6 +58,8 @@ final Map<String, Widget Function()> allScreens = {
   'search_screen.dart': () => const SearchScreen(),
   'paid_connected_user_saloon_no_config_price_screen.dart': () =>
       const PaidConnectedUserSaloonNoConfigPriceScreen(),
+  'expired_access_user_subscription_activity_screen.dart': () =>
+      const ExpiredAccessUserSubscriptionActivityScreen(),
   'current_access_user_subscription_activity_screen.dart': () =>
       const CurrentAccessUserSubscriptionActivityScreen(),
   'blocked_user_activity_screen.dart': () => const BlockedUserActivityScreen(),
