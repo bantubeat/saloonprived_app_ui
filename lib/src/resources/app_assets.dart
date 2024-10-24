@@ -36,4 +36,11 @@ final class AppAssets {
   static const imagesCentent3 = 'assets/images/centent_3.jpeg';
   static const imagesAsiatInfir = 'assets/images/asiat_infir.jpeg';
   static const imagesLatina = 'assets/images/latina.jpeg';
+  static const imagesPrivedCover = 'assets/images/prived_cover.jpeg';
+  static const imagesWhatsAppLogo = 'assets/images/whatsApp_logo.png';
+
+  static const imagesError = 'assets/images/error.png';
+  static const imagesValide = 'assets/images/valide.png';
+  static const imagesBzc = 'assets/images/bzc.png';
+  static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';
 }

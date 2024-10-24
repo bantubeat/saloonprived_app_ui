@@ -15,6 +15,7 @@ class PublicationCardWidget extends StatelessWidget {
     required this.isImage,
     required this.images,
     required this.isRepost,
+    required this.onPressIcon,
     super.key,
     this.isOldPost,
   });
@@ -26,6 +27,8 @@ class PublicationCardWidget extends StatelessWidget {
   final bool isRepost;
   final bool? isOldPost;
   final List<dynamic> images;
+  // 0=like, 1=comments , 2=reposts, 3=share , 4 = pourboire
+  final Function(int item, BuildContext context) onPressIcon;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -65,15 +68,16 @@ class PublicationCardWidget extends StatelessWidget {
                   color: const Color.fromRGBO(186, 185, 185, 1),
                 ),
               ),
-              child: const PublicationCardWidget(
+              child: PublicationCardWidget(
                 isOldPost: true,
                 isImage: true,
                 isRepost: false,
                 userImage: AppAssets.imagesProfil3,
-                images: [AppAssets.imagesCentent1],
+                images: const [AppAssets.imagesCentent1],
                 name: 'Lucia',
                 userName: '@Lucia',
                 date: "il y'a 1 heure",
+                onPressIcon: onPressIcon,
               ),
             ),
           if (!isRepost && isImage)
@@ -95,6 +99,9 @@ class PublicationCardWidget extends StatelessWidget {
             comments: 45,
             reposts: 12,
             shares: 30,
+            onPressIcon: (index) {
+              onPressIcon(index, context);
+            },
           ),
         ],
       ),
