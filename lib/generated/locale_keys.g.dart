@@ -159,6 +159,11 @@ abstract class  LocaleKeys {
       'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
       'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+
+  static const blocked_user_activity_screen_blocked_user =
+      'blocked_user_activity_screen.blocked_user';
+  static const blocked_user_activity_screen_un_locked =
+      'blocked_user_activity_screen.un_locked';
   static const access_price_user_dashboard_screen_revenue =
       'access_price_user_dashboard_screen.revenue';
   static const access_price_user_dashboard_screen_access_price =

@@ -200,6 +200,10 @@
         "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
         "other": "Autres"
     },
+    "blocked_user_activity_screen": {
+        "blocked_user": "Utilisateurs bloqués",
+        "un_locked": "Débloquer"
+    },
     "access_price_user_dashboard_screen": {
         "revenue": "Revenu",
         "access_price": "Prix des Accès",
