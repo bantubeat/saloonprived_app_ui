@@ -376,5 +376,11 @@
         "landing_text_3": "(10.000 à 49.999 FANS) vous pouvez choisir les prix dans ce palier ",
         "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
         "save": "Enregistrer"
+    },
+    "paid_connected_user_saloon_with_followers_screen": {
+        "expired_date": "Votre accès expire dans : ",
+        "renew": "Renouveller",
+        "hour": "{}  heures",
+        "day": "{}  jours"
     }
 }
