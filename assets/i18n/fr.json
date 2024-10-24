@@ -177,5 +177,47 @@
         "all": "Tout",
         "expired_access": "Accès expirés",
         "ongoing_access": "Accès encours"
+    },
+    "current_access_user_subscription_activity_screen": {
+        "current_access": "Votre accès actuel",
+        "cancel_auto_renew": "Annuler le renouvellement automatique",
+        "activate_auto_renew": "Activer le renouvellement automatique",
+        "followed_creators": "Créateurs suivis",
+        "all": "Tout",
+        "expired_access": "Accès expirés",
+        "ongoing_access": "Accès encours",
+        "cancel": "Annuler",
+        "validate": "Valider",
+        "acces_hour": "Accès {}  heures",
+        "auto_renewal_activated": "Vous avez activé le renouvellement automatique au salon payant de ",
+        "access_renewed": "Votre accès sera renouvelé pour la même période au prix fixé par le créateur.",
+        "cancel_at_any_time": "Vous pouvez annuler votre accès à tout moment via la page Activité.",
+        "auto_enewal_canceled_warning": "En annulant le renouvellement automatique vous n’auriez plus accès au contenu de ",
+        "access_ancelled_at_end": "Votre accès sera annulé à la fin de la période encours."
+    },
+    "blocked_user_activity_screen": {
+        "blocked_user": "Utilisateurs bloqués",
+        "un_locked": "Débloquer"
+    },
+    "access_price_user_dashboard_screen": {
+        "revenue": "Revenu",
+        "access_price": "Prix des Accès",
+        "buy_tokens": "Acheter des jetons",
+        "promote": "Promouvoir",
+        "your_curent_acces": "Vos prix  d’accès actuel",
+        "acces_day": "Accès {} jours",
+        "acces_hour": "Accès {}  heures",
+        "update_acces_price": "Modifier vos prix d'accès",
+        "aply_reduction": "Appliquer une réduction",
+        "aply_reduction_text": "Vous pouvez appliquer une réduction sur vos prix pour encourager vos fans à souscrirre plus d’accès",
+        "percent_text": "Pourcentage",
+        "date_text": "Durée",
+        "chose_in_list": "choisir dans la liste",
+        "landing": "Palier {}",
+        "landing_text_1": "(0 à 999 FANS) vous pouvez choisir les prix dans ce palier ",
+        "landing_text_2": "(1000 à 9.999 FANS) vous ne pouvez pas encore choisir les prix dans ce palier ",
+        "landing_text_3": "(10.000 à 49.999 FANS) vous pouvez choisir les prix dans ce palier ",
+        "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
+        "save": "Enregistrer"
     }
 }
