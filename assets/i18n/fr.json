@@ -4,7 +4,9 @@
         "next": "Suivant",
         "gender_male": "Homme",
         "gender_female": "Femme",
-        "gender_other": "Autres"
+        "gender_other": "Autres",
+        "preview": "Précédent",
+        "suscriber": "Abonné"
     },
     "welcome_screen": {
         "greeting": "Bienvenue {}",
@@ -14,6 +16,60 @@
     "image_service": {
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
+    },
+    "saloon_for_you_no_subcription_screen": {
+        "dicover_saloon": "Salon à découvrir",
+        "saloon_for_you": "Salon pour toi.\n\n",
+        "subscription_prompt": "Vous devez être abonné aux créateurs pour voir du contenu dans ",
+        "discover_creators": "Découvrez les créateurs dans le ",
+        "subscribe_to_creators": " et abonnez-vous aux créateurs qui vous plaisent."
+    },
+    "profile_create_user_profile_screen": {
+        "title": "Votre inscription est presque terminée. Cliquez sur valider pour confirmer votre inscription sur Saloonprived ou sur Annuler Si vous ne souhaitez plus utiliser Saloonprived.",
+        "subscriptions_count": " Abonnements",
+        "followers_count": " Abonnes",
+        "cancel_button": "Annuler",
+        "add_button": "Valider"
+    },
+    "register_screen": {
+        "header_text": "#1 to support and pay African content creators",
+        "title": "Créer un compte",
+        "description": "En vous inscrivant sur Featlink, vous reconnaissez avoir plus de 18 ans ou la majorite dans votre pays de residence. Vous acceptez les conditions de Bantubeat",
+        "sign_up_google": "S'inscrire avec google",
+        "sign_up_email": "S'inscrire avec Email",
+        "email_hint": "Entre votre email",
+        "password_hint": "Entrer votre mot de passe",
+        "sign_up": "S'inscrire",
+        "new_to_featlink": "Vous avez déjà un compte?",
+        "login": "Connexion"
+    },
+    "login_screen": {
+        "title": "Connexion",
+        "description": "votre compte saloonprived, est également votre compte bantubeat, si vous avez déjà un compte bantubeat, connectez vous avec votre compte bantubeat",
+        "login_with_google": "Continuer avec Google",
+        "login": "Continuer",
+        "not_register": "Vous n'avez pas de compte ?",
+        "sign_up": "Créer un compte",
+        "email_hint": "Adresse Email",
+        "password_hint": "Mot de passe",
+        "fogot_password": "Mot de passe oublié?",
+        "or": "ou",
+        "terms": "En continuant,tu acceptes la politique et conditions d'utilisation de Featlink et reconnais avoir lu et accepter 'Les conditions' de bantubeat, la politique de confidentialité pour savoir comment nous collections, utilisons et partageons tes données et notre politique relative aux cookies pour savoir comment nous utilisons les cookies",
+        "first_line_text": "Inscrivez vous pour commencer à gagner de l’argent grâce à vos vidéos",
+        "second_line_text": "Retirer vos gains via",
+        "account_text": "Compte",
+        "channel_text": "Chaine",
+        "support_creators_text": "Saloonprived supports talented creators",
+        "partners_program_text": "Partners and Creators Program Bantubeat",
+        "year_text": "2024 Bantubeat",
+        "cookies_text": "Cookies",
+        "privacy_text": "Privacy",
+        "terms_conditions_text": "Terms and Conditions"
+    },
+    "notification_screen": {
+        "title": "Notifications",
+        "time": "il y'a {} heure",
+        "message": "a commencé une diffusion En Direct"
     },
     "my_bottom_navigation_bar": {
         "home": "Accueil",
@@ -138,5 +194,139 @@
                 "next": "Suivant"
             }
         }
+    },
+    "search_screen": {
+        "find_creator": "Trouver un créateur",
+        "subscribers_count": " Abonnés",
+        "subscribe_button": "S'abonner",
+        "subscribed_label": "Abonné"
+    },
+    "saloon_for_you_have_subcription_screen": {
+        "advertisement_title": "Publicité sur saloonprived:",
+        "learn_more": "En savoir plus",
+        "tip_label": "POURBOIRE",
+        "comments_count": "Commentaires",
+        "delete": "Supprimer",
+        "swipe_to_load_more": "Glisser pour charger plus",
+        "write_omment": "Ecrire un commentaire",
+        "suggestions_label": "Suggestions"
+    },
+    "free_connected_user_saloon_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "content_creator": "Content creator",
+        "adult_content": "Adult content",
+        "influencer": "Influenceur",
+        "model": "Model",
+        "edit_profile": "Editer mon profil",
+        "startLive": "Démarrer un direct",
+        "in_construction": "En construction",
+        "message": "Vous pouvez ajoutter des photos pour vos Fans.",
+        "button_text": "+ photos",
+        "followers": " Abonnés",
+        "your_favoris": "'Les profils que vous enregistrez dans vos favoris ne sont pas visibles par les autres utilisateurs, vous seul pouvez les voir'"
+    },
+    "paid_connected_user_saloon_config_price_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "edit_profile": "Editer mon profil",
+        "configuration_text": "Afin de permettre à vos fans d'avoir accès à votre contenu payant, vous devez configurer des prix d'accès soit 24h, 7jours ou 30 jours. Le prix de vos accès dépend du nombre d'abonnés que vous avez. Plus vous avez des abonnés, plus vous pourrez choisir des prix plus élevés.",
+        "configuration_button": "Configurer mes accès",
+        "save": "Enregistrer",
+        "followers_count": "Nombres d'abonnés de {} a {}",
+        "followers_counts": "Nombres d'abonnés à partir de {}",
+        "acces_day": "Acces {} jours",
+        "acces_hour": "Acces {}  heures",
+        "followers": " Abonnés"
+    },
+    "tip_modal": {
+        "send_tip_to": "Envoyer un pourboire à",
+        "amount_ofBZC": "Quantité de BZC",
+        "balanceBZC": "Solde BZC",
+        "zeroBZC": "00 BZC",
+        "insufficient_balance": "Solde insuffisant",
+        "byBZC": "Acheter des BZC",
+        "cancel": "Annuler",
+        "send": "Envoyer",
+        "must_be_creator": "Vous devez être créateur pour diffuser du contenu sur saloonprived. Cliquez sur Devenir créateur pour valider votre profil.",
+        "become_creator": "DEVENIR CREATEUR",
+        "redirection": "Redirection",
+        "cashout_tokens": "Pour encaisser vos Jetons (Beatzcoin) vous devez vous connecter sur votre compte Bantubeat.",
+        "click_ok_redirect": "Cliquer sur “OK” vous seriez automatiquement redirigé.",
+        "check_no_show": "Cocher “NE PLUS AFFICHER CE MESSAGE” vous seriez automatiquement redirigé les prochaines fois sans voir ce message.",
+        "no_show_message": "NE PLUS AFFICHER CE MESSAGE",
+        "ok": "OK",
+        "buy_tokens": "Pour acheter des Jetons (Beatzcoin) vous devez vous connecter sur votre compte Bantubeat."
+    },
+    "create_profile_restriction_page_screen": {
+        "app_bar_title": "Restriction contenus à caractère sexuel",
+        "slogan": "Afin de toujours mettre en valeur notre slogan “Be What You Want”, les utilisateurs bantubeat qui souhaitent utiliser saloonprived en tant que créateur, peuvent diffuser du contenu qui pourrait être inapproprié pour vous.",
+        "adult_category_text": "Certains contenus de la catégorie adulte ne sont pas appropriés pour tout le monde. si vous ne souhaitez pas voir cette catégorie de contenus, vous pouvez activer le blocage.",
+        "desable_category": "Désactiver   le blocage pour afficher les contenus de la catégorie adulte",
+        "subscribers_content": "vous ne verrez dans votre salon  pour toi que le contenu des créateurs auxquels vous êtes abonnés vous pourriez toujours modifier vos préférences dans les paramètres.",
+        "preferences": "vous pourriez toujours modifier vos préférences dans les paramètres."
+    },
+    "paid_connected_user_saloon_no_config_price_screen": {
+        "welcome_to_paid_salon": "Bienvenue dans le salon payant",
+        "paid_salon_reserved_for_fans": "Le salon payant est reservé à vos fans qui ont payé un accès",
+        "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
+        "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
+        "configure_my_access": "Configurer mes accès"
+    },
+    "expired_access_user_subscription_activity_screen": {
+        "current_access": "Votre accès actuel",
+        "cancel_auto_renew": "Annuler le renouvellement automatique",
+        "renew_your_access": "Renouveler votre accès",
+        "activate_auto_renew": "Activer le renouvellement automatique",
+        "followed_creators": "Créateurs suivis",
+        "acces_hour": "Accès {}  heures",
+        "acces_day": "Accès {}  heures",
+        "hour": "{}  heures",
+        "day": "{}  jours",
+        "all": "Tout",
+        "expired_access": "Accès expirés",
+        "ongoing_access": "Accès encours"
+    },
+    "current_access_user_subscription_activity_screen": {
+        "current_access": "Votre accès actuel",
+        "cancel_auto_renew": "Annuler le renouvellement automatique",
+        "activate_auto_renew": "Activer le renouvellement automatique",
+        "followed_creators": "Créateurs suivis",
+        "all": "Tout",
+        "expired_access": "Accès expirés",
+        "ongoing_access": "Accès encours",
+        "cancel": "Annuler",
+        "validate": "Valider",
+        "acces_hour": "Accès {}  heures",
+        "auto_renewal_activated": "Vous avez activé le renouvellement automatique au salon payant de ",
+        "access_renewed": "Votre accès sera renouvelé pour la même période au prix fixé par le créateur.",
+        "cancel_at_any_time": "Vous pouvez annuler votre accès à tout moment via la page Activité.",
+        "auto_enewal_canceled_warning": "En annulant le renouvellement automatique vous n’auriez plus accès au contenu de ",
+        "access_ancelled_at_end": "Votre accès sera annulé à la fin de la période encours."
+    },
+    "blocked_user_activity_screen": {
+        "blocked_user": "Utilisateurs bloqués",
+        "un_locked": "Débloquer"
+    },
+    "access_price_user_dashboard_screen": {
+        "revenue": "Revenu",
+        "access_price": "Prix des Accès",
+        "buy_tokens": "Acheter des jetons",
+        "promote": "Promouvoir",
+        "your_curent_acces": "Vos prix  d’accès actuel",
+        "acces_day": "Accès {} jours",
+        "acces_hour": "Accès {}  heures",
+        "update_acces_price": "Modifier vos prix d'accès",
+        "aply_reduction": "Appliquer une réduction",
+        "aply_reduction_text": "Vous pouvez appliquer une réduction sur vos prix pour encourager vos fans à souscrirre plus d’accès",
+        "percent_text": "Pourcentage",
+        "date_text": "Durée",
+        "chose_in_list": "choisir dans la liste",
+        "landing": "Palier {}",
+        "landing_text_1": "(0 à 999 FANS) vous pouvez choisir les prix dans ce palier ",
+        "landing_text_2": "(1000 à 9.999 FANS) vous ne pouvez pas encore choisir les prix dans ce palier ",
+        "landing_text_3": "(10.000 à 49.999 FANS) vous pouvez choisir les prix dans ce palier ",
+        "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
+        "save": "Enregistrer"
     }
 }
