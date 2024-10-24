@@ -309,6 +309,20 @@
         "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
         "other": "Autres"
     },
+    "promote_user_dashboard_screen": {
+        "revenue": "Revenu",
+        "access_price": "Prix des Accès",
+        "buy_tokens": "Acheter des jetons",
+        "promote": "Promouvoir",
+        "buy_beatzcoin": "Acheter des beatzcoin pour soutenir vos créateurs préférés",
+        "beatzcoin": "Beatzcoin",
+        "beatzcoin_description": "Le Beatzcoin est une monnaie que nous mettons sur pied pour permettre aux fans de soutenir les créateurs qu’ils suivent. Le beatzcoin est disponible et utilisable uniquement sur bantubeat et ses applications. Chaque utilisateur qui détient un stock de beatzcoin peut les échanger contre un paiement de bantubeat. La somme correspondante, déduction des taxes et frais de service, sera créditée sur votre compte financier.",
+        "see_terms": "Voir les",
+        "terms_and_conditions": "conditions d'achat et d'utilisation des Beatzcoin",
+        "account_balance": "Solde de votre compte Beatzcoin",
+        "buyBZC": "Acheter des BZC",
+        "page_under_onstruction": "Page en construction"
+    },
     "expired_access_user_subscription_activity_screen": {
         "current_access": "Votre accès actuel",
         "cancel_auto_renew": "Annuler le renouvellement automatique",
@@ -349,6 +363,14 @@
         "access_price": "Prix des Accès",
         "buy_tokens": "Acheter des jetons",
         "promote": "Promouvoir",
+        "buy_beatzcoin": "Acheter des beatzcoin pour soutenir vos créateurs préférés",
+        "beatzcoin": "Beatzcoin",
+        "beatzcoin_description": "Le Beatzcoin est une monnaie que nous mettons sur pied pour permettre aux fans de soutenir les créateurs qu’ils suivent. Le beatzcoin est disponible et utilisable uniquement sur bantubeat et ses applications. Chaque utilisateur qui détient un stock de beatzcoin peut les échanger contre un paiement de bantubeat. La somme correspondante, déduction des taxes et frais de service, sera créditée sur votre compte financier.",
+        "see_terms": "Voir les",
+        "terms_and_conditions": "conditions d'achat et d'utilisation des Beatzcoin",
+        "account_balance": "Solde de votre compte Beatzcoin",
+        "buyBZC": "Acheter des BZC",
+        "page_under_onstruction": "Page en construction"
         "your_curent_acces": "Vos prix  d’accès actuel",
         "acces_day": "Accès {} jours",
         "acces_hour": "Accès {}  heures",

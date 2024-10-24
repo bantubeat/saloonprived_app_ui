@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
+import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
+
 import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreement_screen/profilcreation_fan_creator_agreement_screen.dart';
 import 'package:saloonprived_app/src/screens/profilcreation_generalcondition_screen/profilcreation_generalcondition_screen.dart';
 
 import 'package:saloonprived_app/src/screens/_activity/current_access_user_subscription_activity_screen/current_access_user_subscription_activity_screen.dart';
+
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
 
 import 'screens/_activity/expired_access_user_subscription_activity_screen/expired_access_user_subscription_activity_screen.dart';
@@ -68,6 +72,11 @@ final Map<String, Widget Function()> allScreens = {
   'search_screen.dart': () => const SearchScreen(),
   'paid_connected_user_saloon_no_config_price_screen.dart': () =>
       const PaidConnectedUserSaloonNoConfigPriceScreen(),
+  'promote_user_dashboard_screen.dart': () =>
+      const PromoteUserDashboardScreen(),
+  'buy_access_user_dashboard_screen.dart': () =>
+      const BuyAccessUserDashboardScreen(),
+
   'expired_access_user_subscription_activity_screen.dart': () =>
       const ExpiredAccessUserSubscriptionActivityScreen(),
   'current_access_user_subscription_activity_screen.dart': () =>
