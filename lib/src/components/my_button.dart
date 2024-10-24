@@ -7,10 +7,10 @@ class MyButton extends StatelessWidget {
   final bool isElevated;
   final Size size;
   final VoidCallback onPressed;
-	final double radius;
+  final double radius;
 
   const MyButton({
-		required this.onPressed,
+    required this.onPressed,
     this.label = 'Button',
     this.backgroundColor = AppColors.bantubeatPrimary,
     this.isElevated = false,
@@ -28,7 +28,6 @@ class MyButton extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(radius),
           color: backgroundColor,
-
           boxShadow: isElevated
               ? [const BoxShadow(color: AppColors.myBlueGray, blurRadius: 4.0)]
               : [],
@@ -36,7 +35,11 @@ class MyButton extends StatelessWidget {
         alignment: Alignment.center,
         child: Text(
           label,
-          style: const TextStyle(color: AppColors.myWhite, fontSize: 16, fontWeight: FontWeight.bold),
+          style: const TextStyle(
+            color: AppColors.myWhite,
+            fontSize: 16,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
     );

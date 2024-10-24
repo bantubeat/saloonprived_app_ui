@@ -309,6 +309,9 @@
         "page_under_onstruction": "Page en construction"
     },
     "expired_access_user_subscription_activity_screen": {
+        "all": "Tout",
+        "expired_access": "Accès expirés",
+        "ongoing_access": "Accès encours",
         "current_access": "Votre accès actuel",
         "cancel_auto_renew": "Annuler le renouvellement automatique",
         "renew_your_access": "Renouveler votre accès",
@@ -323,9 +326,6 @@
         "fans_sallon": "Vous êtes dans un salon réservé aux fans",
         "subscribe_left": "Abonnez vous  gratuitement à ",
         "subscribe_right": " pour avoir accès à son contenu reversé aux fans."
-        "all": "Tout",
-        "expired_access": "Accès expirés",
-        "ongoing_access": "Accès encours"
     },
     "current_access_user_subscription_activity_screen": {
         "current_access": "Votre accès actuel",
@@ -380,10 +380,10 @@
         "terms_and_conditions": "conditions d'achat et d'utilisation des Beatzcoin",
         "account_balance": "Solde de votre compte Beatzcoin",
         "buyBZC": "Acheter des BZC",
-        "page_under_onstruction": "Page en construction"
         "your_curent_acces": "Vos prix  d’accès actuel",
         "acces_day": "Accès {} jours",
         "acces_hour": "Accès {}  heures",
+        "page_under_onstruction": "Page en construction",
         "update_acces_price": "Modifier vos prix d'accès",
         "aply_reduction": "Appliquer une réduction",
         "aply_reduction_text": "Vous pouvez appliquer une réduction sur vos prix pour encourager vos fans à souscrirre plus d’accès",
