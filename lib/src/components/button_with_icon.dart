@@ -35,6 +35,7 @@ class ButtonWithIcon extends Button {
           text,
           style: TextStyle(
             color: color,
+            fontSize: fontSize,
           ),
         ),
       ],

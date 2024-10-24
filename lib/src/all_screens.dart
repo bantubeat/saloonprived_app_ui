@@ -15,6 +15,7 @@ import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_scr
 
 import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_dashboard_screen.dart';
 
+import 'screens/_activities/activity_suscription_full_page_screen/activity_suscription_full_page_screen.dart';
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_access_screen/paid_connected_user_saloon_no_access_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
@@ -85,6 +86,8 @@ final Map<String, Widget Function()> allScreens = {
       const AccessPriceUserDashboardScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'activity_suscription_full_page_screen.dart': () =>
+      ActivitySuscriptionFullPageScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
