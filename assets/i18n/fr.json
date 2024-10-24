@@ -322,7 +322,7 @@
         "buy_access": "Payer un accès pour voir le contenu pour Fans",
         "fans_sallon": "Vous êtes dans un salon réservé aux fans",
         "subscribe_left": "Abonnez vous  gratuitement à ",
-        "subscribe_right": " pour avoir accès à son contenu reversé aux fans."
+        "subscribe_right": " pour avoir accès à son contenu reversé aux fans.",
         "all": "Tout",
         "expired_access": "Accès expirés",
         "ongoing_access": "Accès encours"
@@ -360,7 +360,7 @@
         "terms_and_conditions": "conditions d'achat et d'utilisation des Beatzcoin",
         "account_balance": "Solde de votre compte Beatzcoin",
         "buyBZC": "Acheter des BZC",
-        "page_under_onstruction": "Page en construction"
+        "page_under_onstruction": "Page en construction",
         "your_curent_acces": "Vos prix  d’accès actuel",
         "acces_day": "Accès {} jours",
         "acces_hour": "Accès {}  heures",
@@ -376,5 +376,11 @@
         "landing_text_3": "(10.000 à 49.999 FANS) vous pouvez choisir les prix dans ce palier ",
         "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
         "save": "Enregistrer"
+    },
+    "paid_connected_user_saloon_no_access_screen": {
+        "expired_date": "Votre accès expire dans : ",
+        "renew": "Renouveller",
+        "hour": "{}  heures",
+        "day": "{}  jours"
     }
 }
