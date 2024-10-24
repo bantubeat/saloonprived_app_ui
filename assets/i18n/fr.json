@@ -5,7 +5,8 @@
         "gender_male": "Homme",
         "gender_female": "Femme",
         "gender_other": "Autres",
-        "preview": "Précédent"
+        "preview": "Précédent",
+        "suscriber": "Abonné"
     },
     "welcome_screen": {
         "greeting": "Bienvenue {}",
@@ -166,5 +167,26 @@
     "blocked_user_activity_screen": {
         "blocked_user": "Utilisateurs bloqués",
         "un_locked": "Débloquer"
+    },
+    "access_price_user_dashboard_screen": {
+        "revenue": "Revenu",
+        "access_price": "Prix des Accès",
+        "buy_tokens": "Acheter des jetons",
+        "promote": "Promouvoir",
+        "your_curent_acces": "Vos prix  d’accès actuel",
+        "acces_day": "Accès {} jours",
+        "acces_hour": "Accès {}  heures",
+        "update_acces_price": "Modifier vos prix d'accès",
+        "aply_reduction": "Appliquer une réduction",
+        "aply_reduction_text": "Vous pouvez appliquer une réduction sur vos prix pour encourager vos fans à souscrirre plus d’accès",
+        "percent_text": "Pourcentage",
+        "date_text": "Durée",
+        "chose_in_list": "choisir dans la liste",
+        "landing": "Palier {}",
+        "landing_text_1": "(0 à 999 FANS) vous pouvez choisir les prix dans ce palier ",
+        "landing_text_2": "(1000 à 9.999 FANS) vous ne pouvez pas encore choisir les prix dans ce palier ",
+        "landing_text_3": "(10.000 à 49.999 FANS) vous pouvez choisir les prix dans ce palier ",
+        "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
+        "save": "Enregistrer"
     }
 }
