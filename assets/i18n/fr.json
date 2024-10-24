@@ -163,5 +163,16 @@
         "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
+    },
+    "paid_connected_user_saloon_no_followers_screen": {
+        "acces_hour": "Accès {}  heures",
+        "acces_day": "Accès {}  heures",
+        "hour": "{}  heures",
+        "day": "{}  jours",
+        "free_subcribe": "S'abonner gratuitement",
+        "buy_access": "Payer un accès pour voir le contenu pour Fans",
+        "fans_sallon": "Vous êtes dans un salon réservé aux fans",
+        "subscribe_left": "Abonnez vous  gratuitement à ",
+        "subscribe_right": " pour avoir accès à son contenu reversé aux fans."
     }
 }
