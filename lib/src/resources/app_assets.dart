@@ -47,4 +47,6 @@ final class AppAssets {
   static const imagesIntersect1 = 'assets/images/intersect_1.png';
   static const imagesIntersect2 = 'assets/images/intersect_2.png';
   static const imagesCubes = 'assets/images/cubes.png';
+  static const imagesBzc = 'assets/images/bzc.png';
+  static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';
 }
