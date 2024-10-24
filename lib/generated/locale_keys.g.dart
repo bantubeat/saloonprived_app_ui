@@ -293,6 +293,30 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
       'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+  static const promote_user_dashboard_screen_revenue =
+      'promote_user_dashboard_screen.revenue';
+  static const promote_user_dashboard_screen_access_price =
+      'promote_user_dashboard_screen.access_price';
+  static const promote_user_dashboard_screen_buy_tokens =
+      'promote_user_dashboard_screen.buy_tokens';
+  static const promote_user_dashboard_screen_promote =
+      'promote_user_dashboard_screen.promote';
+  static const promote_user_dashboard_screen_buy_beatzcoin =
+      'promote_user_dashboard_screen.buy_beatzcoin';
+  static const promote_user_dashboard_screen_beatzcoin =
+      'promote_user_dashboard_screen.beatzcoin';
+  static const promote_user_dashboard_screen_beatzcoin_description =
+      'promote_user_dashboard_screen.beatzcoin_description';
+  static const promote_user_dashboard_screen_see_terms =
+      'promote_user_dashboard_screen.see_terms';
+  static const promote_user_dashboard_screen_terms_and_conditions =
+      'promote_user_dashboard_screen.terms_and_conditions';
+  static const promote_user_dashboard_screen_account_balance =
+      'promote_user_dashboard_screen.account_balance';
+  static const promote_user_dashboard_screen_buyBZC =
+      'promote_user_dashboard_screen.buyBZC';
+  static const promote_user_dashboard_screen_page_under_onstruction =
+      'promote_user_dashboard_screen.page_under_onstruction';
   static const current_access_user_subscription_activity_screen_current_access =
       'current_access_user_subscription_activity_screen.current_access';
   static const current_access_user_subscription_activity_screen_cancel_auto_renew =
