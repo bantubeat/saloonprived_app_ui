@@ -200,6 +200,23 @@
         "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
         "other": "Autres"
     },
+    "current_access_user_subscription_activity_screen": {
+        "current_access": "Votre accès actuel",
+        "cancel_auto_renew": "Annuler le renouvellement automatique",
+        "activate_auto_renew": "Activer le renouvellement automatique",
+        "followed_creators": "Créateurs suivis",
+        "all": "Tout",
+        "expired_access": "Accès expirés",
+        "ongoing_access": "Accès encours",
+        "cancel": "Annuler",
+        "validate": "Valider",
+        "acces_hour": "Accès {}  heures",
+        "auto_renewal_activated": "Vous avez activé le renouvellement automatique au salon payant de ",
+        "access_renewed": "Votre accès sera renouvelé pour la même période au prix fixé par le créateur.",
+        "cancel_at_any_time": "Vous pouvez annuler votre accès à tout moment via la page Activité.",
+        "auto_enewal_canceled_warning": "En annulant le renouvellement automatique vous n’auriez plus accès au contenu de ",
+        "access_ancelled_at_end": "Votre accès sera annulé à la fin de la période encours."
+    },
     "blocked_user_activity_screen": {
         "blocked_user": "Utilisateurs bloqués",
         "un_locked": "Débloquer"
