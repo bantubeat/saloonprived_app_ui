@@ -5,7 +5,7 @@ import 'package:saloonprived_app/src/components/my_button.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 
 class ProfilCreationFanCreatorAgreementScreen extends StatelessWidget {
-		const	 ProfilCreationFanCreatorAgreementScreen({super.key});
+  const ProfilCreationFanCreatorAgreementScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,9 @@ class ProfilCreationFanCreatorAgreementScreen extends StatelessWidget {
                           child: Text(
                             LocaleKeys.general_condition_welcome.tr(),
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold,),
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
                             textAlign: TextAlign.center,
                           ),
                         ),

@@ -28,7 +28,9 @@ class ProfilcreationGeneralconditionScreen extends StatelessWidget {
                           child: Text(
                             LocaleKeys.general_condition_welcome.tr(),
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold,),
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
                             textAlign: TextAlign.center,
                           ),
                         ),
@@ -409,7 +411,6 @@ class ProfilcreationGeneralconditionScreen extends StatelessWidget {
                           height: 20,
                         ),
                         Align(
-                          
                           child: Text(
                             LocaleKeys
                                 .general_condition_general_condition_saloonprived_general_condition_drivingrule_title
@@ -737,17 +738,19 @@ class ProfilcreationGeneralconditionScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                       MyButton(
+                      MyButton(
                         size: Size(MediaQuery.of(context).size.width / 3, 30),
                         label: LocaleKeys
                             .general_condition_general_condition_saloonprived_bouton_next
                             .tr(),
                         onPressed: () {
                           Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) =>
-                                    const ProfilCreationFanCreatorAgreementScreen(),),);
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  const ProfilCreationFanCreatorAgreementScreen(),
+                            ),
+                          );
                         },
                       ),
                     ],
