@@ -418,6 +418,12 @@ abstract class LocaleKeys {
       'promote_user_dashboard_screen.buyBZC';
   static const promote_user_dashboard_screen_page_under_onstruction =
       'promote_user_dashboard_screen.page_under_onstruction';
+  static const expired_access_user_subscription_activity_screen_all =
+      'expired_access_user_subscription_activity_screen.all';
+  static const expired_access_user_subscription_activity_screen_expired_access =
+      'expired_access_user_subscription_activity_screen.expired_access';
+  static const expired_access_user_subscription_activity_screen_ongoing_access =
+      'expired_access_user_subscription_activity_screen.ongoing_access';
   static const expired_access_user_subscription_activity_screen_current_access =
       'expired_access_user_subscription_activity_screen.current_access';
   static const expired_access_user_subscription_activity_screen_cancel_auto_renew =
@@ -446,12 +452,6 @@ abstract class LocaleKeys {
       'expired_access_user_subscription_activity_screen.subscribe_left';
   static const expired_access_user_subscription_activity_screen_subscribe_right =
       'expired_access_user_subscription_activity_screen.subscribe_right';
-  static const expired_access_user_subscription_activity_screen_all =
-      'expired_access_user_subscription_activity_screen.all';
-  static const expired_access_user_subscription_activity_screen_expired_access =
-      'expired_access_user_subscription_activity_screen.expired_access';
-  static const expired_access_user_subscription_activity_screen_ongoing_access =
-      'expired_access_user_subscription_activity_screen.ongoing_access';
   static const current_access_user_subscription_activity_screen_current_access =
       'current_access_user_subscription_activity_screen.current_access';
   static const current_access_user_subscription_activity_screen_cancel_auto_renew =
@@ -508,14 +508,14 @@ abstract class LocaleKeys {
       'access_price_user_dashboard_screen.account_balance';
   static const access_price_user_dashboard_screen_buyBZC =
       'access_price_user_dashboard_screen.buyBZC';
-  static const access_price_user_dashboard_screen_page_under_onstruction =
-      'access_price_user_dashboard_screen.page_under_onstruction';
   static const access_price_user_dashboard_screen_your_curent_acces =
       'access_price_user_dashboard_screen.your_curent_acces';
   static const access_price_user_dashboard_screen_acces_day =
       'access_price_user_dashboard_screen.acces_day';
   static const access_price_user_dashboard_screen_acces_hour =
       'access_price_user_dashboard_screen.acces_hour';
+  static const access_price_user_dashboard_screen_page_under_onstruction =
+      'access_price_user_dashboard_screen.page_under_onstruction';
   static const access_price_user_dashboard_screen_update_acces_price =
       'access_price_user_dashboard_screen.update_acces_price';
   static const access_price_user_dashboard_screen_aply_reduction =
@@ -540,12 +540,4 @@ abstract class LocaleKeys {
       'access_price_user_dashboard_screen.landing_text_4';
   static const access_price_user_dashboard_screen_save =
       'access_price_user_dashboard_screen.save';
-  static const paid_connected_user_saloon_no_access_screen_expired_date =
-      'paid_connected_user_saloon_no_access_screen.expired_date';
-  static const paid_connected_user_saloon_no_access_screen_renew =
-      'paid_connected_user_saloon_no_access_screen.renew';
-  static const paid_connected_user_saloon_no_access_screen_hour =
-      'paid_connected_user_saloon_no_access_screen.hour';
-  static const paid_connected_user_saloon_no_access_screen_day =
-      'paid_connected_user_saloon_no_access_screen.day';
 }
