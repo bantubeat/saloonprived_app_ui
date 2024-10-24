@@ -309,6 +309,17 @@
         "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
         "other": "Autres"
     },
+    "paid_connected_user_saloon_no_followers_screen": {
+        "acces_hour": "Accès {}  heures",
+        "acces_day": "Accès {}  heures",
+        "hour": "{}  heures",
+        "day": "{}  jours",
+        "free_subcribe": "S'abonner gratuitement",
+        "buy_access": "Payer un accès pour voir le contenu pour Fans",
+        "fans_sallon": "Vous êtes dans un salon réservé aux fans",
+        "subscribe_left": "Abonnez vous  gratuitement à ",
+        "subscribe_right": " pour avoir accès à son contenu reversé aux fans."
+    },
     "popup_menu_widget": {
         "creator": "Devenir créateur",
         "edit_profile": "Editer mon profil",
@@ -343,6 +354,11 @@
         "acces_day": "Accès {}  heures",
         "hour": "{}  heures",
         "day": "{}  jours",
+        "free_subcribe": "S'abonner gratuitement",
+        "buy_access": "Payer un accès pour voir le contenu pour Fans",
+        "fans_sallon": "Vous êtes dans un salon réservé aux fans",
+        "subscribe_left": "Abonnez vous  gratuitement à ",
+        "subscribe_right": " pour avoir accès à son contenu reversé aux fans."
         "all": "Tout",
         "expired_access": "Accès expirés",
         "ongoing_access": "Accès encours"
