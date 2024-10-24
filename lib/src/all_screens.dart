@@ -1,21 +1,13 @@
 import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
-
 import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreement_screen/profilcreation_fan_creator_agreement_screen.dart';
 import 'package:saloonprived_app/src/screens/profilcreation_generalcondition_screen/profilcreation_generalcondition_screen.dart';
-
 import 'package:saloonprived_app/src/screens/_activity/current_access_user_subscription_activity_screen/current_access_user_subscription_activity_screen.dart';
-
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
-import 'package:saloonprived_app/src/screens/notification_screen/notification_screen.dart';
-
 import 'screens/_activity/expired_access_user_subscription_activity_screen/expired_access_user_subscription_activity_screen.dart';
-
 import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_screen.dart';
-
 import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_dashboard_screen.dart';
-
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_connected_user_saloon_no_followers_screen.dart';
@@ -26,9 +18,7 @@ import 'screens/profile_create_user_profile_screen/profile_create_user_profile_s
 import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
 import 'package:saloonprived_app/src/screens/_create_profile/create_profile_restriction_page_screen.dart';
-
 import 'screens/search/search_screen/search_screen.dart';
-
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/adult_warning/adult_warning_screen.dart';
 
