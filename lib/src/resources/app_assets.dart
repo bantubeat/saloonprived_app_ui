@@ -43,6 +43,7 @@ final class AppAssets {
   static const imagesWhatsAppLogo = 'assets/images/whatsApp_logo.png';
 
   static const imagesError = 'assets/images/error.png';
+  static const imagesLocked = 'assets/images/locked.png';
   static const imagesValide = 'assets/images/valide.png';
   static const imagesBzc = 'assets/images/bzc.png';
   static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';

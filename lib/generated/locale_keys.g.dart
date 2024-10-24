@@ -315,5 +315,9 @@ abstract class  LocaleKeys {
   static const access_price_user_dashboard_screen_landing_text_3 = 'access_price_user_dashboard_screen.landing_text_3';
   static const access_price_user_dashboard_screen_landing_text_4 = 'access_price_user_dashboard_screen.landing_text_4';
   static const access_price_user_dashboard_screen_save = 'access_price_user_dashboard_screen.save';
+  static const paid_connected_user_saloon_no_access_screen_expired_date = 'paid_connected_user_saloon_no_access_screen.expired_date';
+  static const paid_connected_user_saloon_no_access_screen_renew = 'paid_connected_user_saloon_no_access_screen.renew';
+  static const paid_connected_user_saloon_no_access_screen_hour = 'paid_connected_user_saloon_no_access_screen.hour';
+  static const paid_connected_user_saloon_no_access_screen_day = 'paid_connected_user_saloon_no_access_screen.day';
 
 }
