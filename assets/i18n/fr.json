@@ -309,6 +309,16 @@
         "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
         "other": "Autres"
     },
+    "popup_menu_widget": {
+        "creator": "Devenir créateur",
+        "edit_profile": "Editer mon profil",
+        "go_live": "Démarrer un direct",
+        "balance": "Mon solde bzc",
+        "dark_mode": "Mode sombre",
+        "settings": "Paramètres",
+        "logout": "Déconnexion",
+        "activity": "Activités"
+    },
     "promote_user_dashboard_screen": {
         "revenue": "Revenu",
         "access_price": "Prix des Accès",
