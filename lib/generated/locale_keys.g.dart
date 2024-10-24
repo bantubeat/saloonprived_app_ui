@@ -548,4 +548,12 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_no_access_screen.hour';
   static const paid_connected_user_saloon_no_access_screen_day =
       'paid_connected_user_saloon_no_access_screen.day';
+  static const paid_connected_user_saloon_with_followers_screen_expired_date =
+      'paid_connected_user_saloon_with_followers_screen.expired_date';
+  static const paid_connected_user_saloon_with_followers_screen_renew =
+      'paid_connected_user_saloon_with_followers_screen.renew';
+  static const paid_connected_user_saloon_with_followers_screen_hour =
+      'paid_connected_user_saloon_with_followers_screen.hour';
+  static const paid_connected_user_saloon_with_followers_screen_day =
+      'paid_connected_user_saloon_with_followers_screen.day';
 }
