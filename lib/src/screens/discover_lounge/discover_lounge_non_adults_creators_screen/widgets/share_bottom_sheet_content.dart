@@ -289,12 +289,12 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
         height: 32,
       ),
     ),
-    LineItem(
-      name: 'TikTok',
-      icon: FontAwesome.music,
-      backgroundColor: Colors.black,
-      color: Colors.white,
-    ),
+    // LineItem(
+    //   name: 'TikTok',
+    //   icon: FontAwesome.music,
+    //   backgroundColor: Colors.black,
+    //   color: Colors.white,
+    // ),
     LineItem(
       name: LocaleKeys.share_bottom_sheet_content_copy_link_text.tr(),
       icon: FontAwesome.copy,
