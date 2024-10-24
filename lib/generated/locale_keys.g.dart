@@ -345,4 +345,18 @@ abstract class LocaleKeys {
   static const category_screen_sexuality_and_adult_content = 'category_screen.sexuality_and_adult_content';
   static const category_screen = 'category_screen';
 
+
+  static const expired_access_user_subscription_activity_screen_current_access = 'expired_access_user_subscription_activity_screen.current_access';
+  static const expired_access_user_subscription_activity_screen_cancel_auto_renew = 'expired_access_user_subscription_activity_screen.cancel_auto_renew';
+  static const expired_access_user_subscription_activity_screen_renew_your_access = 'expired_access_user_subscription_activity_screen.renew_your_access';
+  static const expired_access_user_subscription_activity_screen_activate_auto_renew = 'expired_access_user_subscription_activity_screen.activate_auto_renew';
+  static const expired_access_user_subscription_activity_screen_followed_creators = 'expired_access_user_subscription_activity_screen.followed_creators';
+  static const expired_access_user_subscription_activity_screen_acces_hour = 'expired_access_user_subscription_activity_screen.acces_hour';
+  static const expired_access_user_subscription_activity_screen_acces_day = 'expired_access_user_subscription_activity_screen.acces_day';
+  static const expired_access_user_subscription_activity_screen_hour = 'expired_access_user_subscription_activity_screen.hour';
+  static const expired_access_user_subscription_activity_screen_day = 'expired_access_user_subscription_activity_screen.day';
+  static const expired_access_user_subscription_activity_screen_all = 'expired_access_user_subscription_activity_screen.all';
+  static const expired_access_user_subscription_activity_screen_expired_access = 'expired_access_user_subscription_activity_screen.expired_access';
+  static const expired_access_user_subscription_activity_screen_ongoing_access = 'expired_access_user_subscription_activity_screen.ongoing_access';
+
 }
