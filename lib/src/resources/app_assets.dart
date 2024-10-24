@@ -42,6 +42,11 @@ final class AppAssets {
   static const imagesWhatsAppLogo = 'assets/images/whatsApp_logo.png';
 
   static const imagesError = 'assets/images/error.png';
+  static const imagesMoeda = 'assets/images/moeda.png';
+  static const imagesIntersect = 'assets/images/intersect.png';
+  static const imagesIntersect1 = 'assets/images/intersect_1.png';
+  static const imagesIntersect2 = 'assets/images/intersect_2.png';
+  static const imagesCubes = 'assets/images/cubes.png';
   static const imagesBzc = 'assets/images/bzc.png';
   static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';
 }

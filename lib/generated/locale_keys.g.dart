@@ -121,6 +121,62 @@ abstract class  LocaleKeys {
   static const tip_modal_no_show_message = 'tip_modal.no_show_message';
   static const tip_modal_ok = 'tip_modal.ok';
   static const tip_modal_buy_tokens = 'tip_modal.buy_tokens';
+  static const create_profile_restriction_page_screen_app_bar_title =
+      'create_profile_restriction_page_screen.app_bar_title';
+  static const create_profile_restriction_page_screen_slogan =
+      'create_profile_restriction_page_screen.slogan';
+  static const create_profile_restriction_page_screen_adult_category_text =
+      'create_profile_restriction_page_screen.adult_category_text';
+  static const create_profile_restriction_page_screen_desable_category =
+      'create_profile_restriction_page_screen.desable_category';
+  static const create_profile_restriction_page_screen_subscribers_content =
+      'create_profile_restriction_page_screen.subscribers_content';
+  static const create_profile_restriction_page_screen_preferences =
+      'create_profile_restriction_page_screen.preferences';
+  static const income_user_dashboard_screen_revenue =
+      'income_user_dashboard_screen.revenue';
+  static const income_user_dashboard_screen_access_price =
+      'income_user_dashboard_screen.access_price';
+  static const income_user_dashboard_screen_buy_tokens =
+      'income_user_dashboard_screen.buy_tokens';
+  static const income_user_dashboard_screen_promote =
+      'income_user_dashboard_screen.promote';
+  static const income_user_dashboard_screen_revenue_analysis_salonprived =
+      'income_user_dashboard_screen.revenue_analysis_salonprived';
+  static const income_user_dashboard_screen_global_revenue =
+      'income_user_dashboard_screen.global_revenue';
+  static const income_user_dashboard_screen_total_balance_bzc =
+      'income_user_dashboard_screen.total_balance_bzc';
+  static const income_user_dashboard_screen_balance_value_bzc_eur =
+      'income_user_dashboard_screen.balance_value_bzc_eur';
+  static const income_user_dashboard_screen_financial_account_bantubeat =
+      'income_user_dashboard_screen.financial_account_bantubeat';
+  static const income_user_dashboard_screen_withdraw_your_bzc =
+      'income_user_dashboard_screen.withdraw_your_bzc';
+  static const income_user_dashboard_screen_salonprived_keys =
+      'income_user_dashboard_screen.salonprived_keys';
+  static const income_user_dashboard_screen_per_month =
+      'income_user_dashboard_screen.per_month';
+  static const income_user_dashboard_screen_byYear =
+      'income_user_dashboard_screen.byYear';
+  static const income_user_dashboard_screen_generalRevenue =
+      'income_user_dashboard_screen.generalRevenue';
+  static const income_user_dashboard_screen_general =
+      'income_user_dashboard_screen.general';
+  static const income_user_dashboard_screen_access =
+      'income_user_dashboard_screen.access';
+  static const income_user_dashboard_screen_tip =
+      'income_user_dashboard_screen.tip';
+  static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon =
+      'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
+  static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans =
+      'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
+  static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet =
+      'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
+  static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading =
+      'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
+  static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
+      'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
   static const create_profile_restriction_page_screen_app_bar_title = 'create_profile_restriction_page_screen.app_bar_title';
   static const create_profile_restriction_page_screen_slogan = 'create_profile_restriction_page_screen.slogan';
   static const create_profile_restriction_page_screen_adult_category_text = 'create_profile_restriction_page_screen.adult_category_text';
@@ -132,5 +188,4 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet = 'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
   static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading = 'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access = 'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
-
 }
