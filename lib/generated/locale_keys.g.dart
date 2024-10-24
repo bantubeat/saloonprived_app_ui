@@ -136,6 +136,79 @@ abstract class  LocaleKeys {
   static const tip_modal_no_show_message = 'tip_modal.no_show_message';
   static const tip_modal_ok = 'tip_modal.ok';
   static const tip_modal_buy_tokens = 'tip_modal.buy_tokens';
+
+  static const create_profile_restriction_page_screen_app_bar_title =
+      'create_profile_restriction_page_screen.app_bar_title';
+  static const create_profile_restriction_page_screen_slogan =
+      'create_profile_restriction_page_screen.slogan';
+  static const create_profile_restriction_page_screen_adult_category_text =
+      'create_profile_restriction_page_screen.adult_category_text';
+  static const create_profile_restriction_page_screen_desable_category =
+      'create_profile_restriction_page_screen.desable_category';
+  static const create_profile_restriction_page_screen_subscribers_content =
+      'create_profile_restriction_page_screen.subscribers_content';
+  static const create_profile_restriction_page_screen_preferences =
+      'create_profile_restriction_page_screen.preferences';
+  static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon =
+      'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
+  static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans =
+      'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
+  static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet =
+      'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
+  static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading =
+      'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
+  static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
+      'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+  static const access_price_user_dashboard_screen_revenue =
+      'access_price_user_dashboard_screen.revenue';
+  static const access_price_user_dashboard_screen_access_price =
+      'access_price_user_dashboard_screen.access_price';
+  static const access_price_user_dashboard_screen_buy_tokens =
+      'access_price_user_dashboard_screen.buy_tokens';
+  static const access_price_user_dashboard_screen_promote =
+      'access_price_user_dashboard_screen.promote';
+  static const access_price_user_dashboard_screen_your_curent_acces =
+      'access_price_user_dashboard_screen.your_curent_acces';
+  static const access_price_user_dashboard_screen_acces_day =
+      'access_price_user_dashboard_screen.acces_day';
+  static const access_price_user_dashboard_screen_acces_hour =
+      'access_price_user_dashboard_screen.acces_hour';
+  static const access_price_user_dashboard_screen_update_acces_price =
+      'access_price_user_dashboard_screen.update_acces_price';
+  static const access_price_user_dashboard_screen_aply_reduction =
+      'access_price_user_dashboard_screen.aply_reduction';
+  static const access_price_user_dashboard_screen_aply_reduction_text =
+      'access_price_user_dashboard_screen.aply_reduction_text';
+  static const access_price_user_dashboard_screen_percent_text =
+      'access_price_user_dashboard_screen.percent_text';
+  static const access_price_user_dashboard_screen_date_text =
+      'access_price_user_dashboard_screen.date_text';
+  static const access_price_user_dashboard_screen_chose_in_list =
+      'access_price_user_dashboard_screen.chose_in_list';
+  static const access_price_user_dashboard_screen_landing =
+      'access_price_user_dashboard_screen.landing';
+  static const access_price_user_dashboard_screen_landing_text_1 =
+      'access_price_user_dashboard_screen.landing_text_1';
+  static const access_price_user_dashboard_screen_landing_text_2 =
+      'access_price_user_dashboard_screen.landing_text_2';
+  static const access_price_user_dashboard_screen_landing_text_3 =
+      'access_price_user_dashboard_screen.landing_text_3';
+  static const access_price_user_dashboard_screen_landing_text_4 =
+      'access_price_user_dashboard_screen.landing_text_4';
+  static const access_price_user_dashboard_screen_save =
+      'access_price_user_dashboard_screen.save';
+
+  static const create_profile_restriction_page_screen_app_bar_title = 'create_profile_restriction_page_screen.app_bar_title';
+  static const create_profile_restriction_page_screen_slogan = 'create_profile_restriction_page_screen.slogan';
+  static const create_profile_restriction_page_screen_adult_category_text = 'create_profile_restriction_page_screen.adult_category_text';
+  static const create_profile_restriction_page_screen_desable_category = 'create_profile_restriction_page_screen.desable_category';
+  static const create_profile_restriction_page_screen_subscribers_content = 'create_profile_restriction_page_screen.subscribers_content';
+  static const create_profile_restriction_page_screen_preferences = 'create_profile_restriction_page_screen.preferences';
+  static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon = 'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
+  static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans = 'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
+  static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet = 'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
+  static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading = 'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
+  static const paid_connected_user_saloon_no_config_price_screen_configure_my_access = 'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
   static const create_profile_restriction_page_screen_app_bar_title =
       'create_profile_restriction_page_screen.app_bar_title';
   static const create_profile_restriction_page_screen_slogan =
