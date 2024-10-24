@@ -5,8 +5,6 @@ import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 
-import 'popup_menu_widget.dart';
-
 class HeaderWidget extends StatelessWidget {
   const HeaderWidget({
     super.key,
@@ -126,7 +124,11 @@ class HeaderWidget extends StatelessWidget {
                         ),
                       ],
                     ),
-                    PopupMenuWidget(context: context),
+                    const Icon(
+                      Icons.more_vert_outlined,
+                      size: 16,
+                      color: Colors.white,
+                    ),
                   ],
                 ),
               ),
@@ -248,7 +250,7 @@ class HeaderWidget extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
                                 Container(
-                                  padding: const EdgeInsets.all(2),
+                                  padding: const EdgeInsets.all(3),
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
                                     border: Border.all(
@@ -270,7 +272,7 @@ class HeaderWidget extends StatelessWidget {
                                   width: 20,
                                 ),
                                 Container(
-                                  padding: const EdgeInsets.all(2),
+                                  padding: const EdgeInsets.all(3),
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
                                     border: Border.all(
@@ -282,10 +284,32 @@ class HeaderWidget extends StatelessWidget {
                                       ),
                                     ),
                                   ),
-                                  child: Image.asset(
-                                    AppAssets.imagesPourb,
-                                    width: 15,
-                                    height: 15,
+                                  child: const Icon(
+                                    Icons.sms_rounded,
+                                    color: AppColors.primary,
+                                    size: 15,
+                                  ),
+                                ),
+                                const SizedBox(
+                                  width: 20,
+                                ),
+                                Container(
+                                  padding: const EdgeInsets.all(3),
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                      color: const Color.fromRGBO(
+                                        209,
+                                        213,
+                                        219,
+                                        1,
+                                      ),
+                                    ),
+                                  ),
+                                  child: const Icon(
+                                    Icons.star,
+                                    color: AppColors.primary,
+                                    size: 15,
                                   ),
                                 ),
                               ],
@@ -322,24 +346,49 @@ class HeaderWidget extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                 ),
               ),
-              Text(
-                LocaleKeys.free_connected_user_saloon_screen_adult_content.tr(),
-                style: GoogleFonts.inter(
-                  color: Colors.black,
-                  fontSize: 10,
-                  fontWeight: FontWeight.w400,
-                ),
-              ),
-              Text(
-                LocaleKeys.free_connected_user_saloon_screen_influencer.tr(),
-                style: GoogleFonts.inter(
-                  color: Colors.black,
-                  fontSize: 10,
-                  fontWeight: FontWeight.w400,
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    LocaleKeys.free_connected_user_saloon_screen_influencer
+                        .tr(),
+                    style: GoogleFonts.inter(
+                      color: Colors.black,
+                      fontSize: 10,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(3),
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: const Color.fromRGBO(
+                          209,
+                          213,
+                          219,
+                          1,
+                        ),
+                      ),
+                    ),
+                    child: Image.asset(
+                      AppAssets.imagesPourb,
+                      width: 15,
+                      height: 15,
+                    ),
+                  ),
+                ],
               ),
               Text(
                 LocaleKeys.free_connected_user_saloon_screen_model.tr(),
+                style: GoogleFonts.inter(
+                  color: Colors.black,
+                  fontSize: 10,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              Text(
+                LocaleKeys.free_connected_user_saloon_screen_adult_content.tr(),
                 style: GoogleFonts.inter(
                   color: Colors.black,
                   fontSize: 10,
@@ -366,28 +415,34 @@ class HeaderWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  ElevatedButton(
-                    onPressed: () {},
-                    style: ElevatedButton.styleFrom(
-                      elevation: 0,
-                      backgroundColor: const Color(
-                        0xFFFCCC37,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 25,
-                        vertical: 5,
-                      ),
-                    ),
-                    child: Text(
-                      LocaleKeys.free_connected_user_saloon_screen_edit_profile
-                          .tr(),
-                      style: GoogleFonts.inter(
-                        color: Colors.white,
-                        fontSize: 12,
-                        fontWeight: FontWeight.w700,
+                  Expanded(
+                    child: Align(
+                      alignment: Alignment.centerRight,
+                      child: ElevatedButton(
+                        onPressed: () {},
+                        style: ElevatedButton.styleFrom(
+                          elevation: 0,
+                          backgroundColor: const Color(
+                            0xFFFCCC37,
+                          ),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 25,
+                            vertical: 5,
+                          ),
+                        ),
+                        child: Text(
+                          LocaleKeys
+                              .paid_connected_user_saloon_no_followers_screen_free_subcribe
+                              .tr(),
+                          style: GoogleFonts.inter(
+                            color: Colors.white,
+                            fontSize: 12,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
                       ),
                     ),
                   ),
