@@ -97,6 +97,9 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
       itemCount: socialMediaItems.length,
       itemBuilder: (context, index) {
         return ListTile(
+          contentPadding: const EdgeInsets.symmetric(
+            vertical: 4,
+          ),
           leading: _buildIcon(
             socialMediaItems[index].icon,
             socialMediaItems[index].color,
@@ -219,15 +222,32 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
       color: Colors.white,
     ),
     LineItem(
-      name: 'X ',
-      icon: Octicons.x, // Remplacement temporaire pour X
-      backgroundColor: Colors.black,
+      name: 'WhatsApp',
+      icon: FontAwesome.whatsapp,
+      backgroundColor: const Color.fromRGBO(101, 208, 114, 1),
       color: Colors.white,
-      image: Image.asset(
-        AppAssets.imagesXLogo,
-        width: 32,
-        height: 32,
+    ),
+    LineItem(
+      name: 'Telegram',
+      icon: FontAwesome.send,
+      rotate: -0.10,
+      backgroundColor: Colors.blue,
+      color: Colors.white,
+      gradient: const LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [
+          Color(0xFF2AABEE), // #2AABEE
+          Color(0xFF229ED9), // #229ED9
+        ],
+        stops: [0.0, 0.9926], // Correspond à 0% et 99.26%
       ),
+    ),
+    LineItem(
+      name: 'Snapchat',
+      icon: FontAwesome.snapchat,
+      backgroundColor: const Color.fromRGBO(255, 252, 0, 1),
+      color: Colors.black,
     ),
     LineItem(
       name: 'Instagram',
@@ -247,43 +267,26 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
       ),
     ),
     LineItem(
-      name: 'LinkedIn',
-      icon: FontAwesome.linkedin,
-      backgroundColor: const Color.fromRGBO(10, 102, 194, 1),
-      color: Colors.white,
-    ),
-    LineItem(
-      name: 'WhatsApp',
-      icon: FontAwesome.whatsapp,
-      backgroundColor: const Color.fromRGBO(101, 208, 114, 1),
-      color: Colors.white,
-    ),
-    LineItem(
-      name: 'Snapchat',
-      icon: FontAwesome.snapchat,
-      backgroundColor: const Color.fromRGBO(255, 252, 0, 1),
-      color: Colors.black,
-    ),
-    LineItem(
       name: 'Reddit',
       icon: FontAwesome.reddit,
       backgroundColor: const Color.fromRGBO(255, 69, 0, 1),
       color: Colors.white,
     ),
     LineItem(
-      name: 'Telegram',
-      icon: FontAwesome.send,
-      rotate: -0.10,
-      backgroundColor: Colors.blue,
+      name: 'LinkedIn',
+      icon: FontAwesome.linkedin,
+      backgroundColor: const Color.fromRGBO(10, 102, 194, 1),
       color: Colors.white,
-      gradient: const LinearGradient(
-        begin: Alignment.topCenter,
-        end: Alignment.bottomCenter,
-        colors: [
-          Color(0xFF2AABEE), // #2AABEE
-          Color(0xFF229ED9), // #229ED9
-        ],
-        stops: [0.0, 0.9926], // Correspond à 0% et 99.26%
+    ),
+    LineItem(
+      name: 'X ',
+      icon: Octicons.x, // Remplacement temporaire pour X
+      backgroundColor: Colors.black,
+      color: Colors.white,
+      image: Image.asset(
+        AppAssets.imagesXLogo,
+        width: 32,
+        height: 32,
       ),
     ),
     LineItem(
