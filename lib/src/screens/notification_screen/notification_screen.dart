@@ -4,7 +4,6 @@ import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/resources/app_assets.dart';
 import 'package:saloonprived_app/src/screens/notification_screen/widgets/notification_card_item.dart';
 
-
 class NotificationsScreen extends StatelessWidget {
   const NotificationsScreen({super.key});
 
@@ -42,10 +41,10 @@ class NotificationsScreen extends StatelessWidget {
             size: 40,
           ),
         ),
-				title: Text(LocaleKeys.notification_screen_title.tr()),
+        title: Text(LocaleKeys.notification_screen_title.tr()),
       ),
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 5),
         child: ListView.builder(
           itemCount: notifications.length,
           itemBuilder: (context, index) {

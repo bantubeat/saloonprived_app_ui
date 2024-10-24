@@ -85,7 +85,7 @@ class NotificationCardItem extends StatelessWidget {
         TextSpan(text: parts[0]),
         const TextSpan(
           text: 'En Direct',
-          style: TextStyle(color: AppColors.bantubeatPrimary),
+          style: TextStyle(color: Colors.red),
         ),
         TextSpan(text: parts[1]),
       ];
