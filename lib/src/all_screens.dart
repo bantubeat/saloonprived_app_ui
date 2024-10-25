@@ -23,6 +23,7 @@ import 'screens/_rooms/paid_connected_user_saloon_no_access_screen/paid_connecte
 
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_connected_user_saloon_no_followers_screen.dart';
+import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_connected_user_saloon_with_followers_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
 import 'screens/edit_user_profile_personal_info_screen/edit_user_profile_personal_info_screen.dart';
@@ -82,7 +83,7 @@ final Map<String, Widget Function()> allScreens = {
 
   'edit_user_profile_personal_info_screen.dart': () =>
       const EditUserProfilePersonalInfoScreen(),
-  
+
   'paid_connected_user_saloon_no_followers_screen.dart': () =>
       const PaidConnectedUserSaloonNoFollowersScreen(),
   'promote_user_dashboard_screen.dart': () =>
@@ -97,6 +98,8 @@ final Map<String, Widget Function()> allScreens = {
   'blocked_user_activity_screen.dart': () => const BlockedUserActivityScreen(),
   'access_price_user_dashboard_screen.dart': () =>
       const AccessPriceUserDashboardScreen(),
+  'paid_connected_user_saloon_with_followers_screen.dart': () =>
+      const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
 };
