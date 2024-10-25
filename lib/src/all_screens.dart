@@ -83,7 +83,7 @@ final Map<String, Widget Function()> allScreens = {
 
   'edit_user_profile_personal_info_screen.dart': () =>
       const EditUserProfilePersonalInfoScreen(),
-  
+
   'paid_connected_user_saloon_no_followers_screen.dart': () =>
       const PaidConnectedUserSaloonNoFollowersScreen(),
   'promote_user_dashboard_screen.dart': () =>
