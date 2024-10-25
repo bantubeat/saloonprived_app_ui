@@ -278,6 +278,21 @@
         "subscribers_content": "vous ne verrez dans votre salon  pour toi que le contenu des créateurs auxquels vous êtes abonnés vous pourriez toujours modifier vos préférences dans les paramètres.",
         "preferences": "vous pourriez toujours modifier vos préférences dans les paramètres."
     },
+    "paid_connected_user_saloon_unverify_kyc_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "content_creator": "Content creator",
+        "adult_content": "Adult content",
+        "influencer": "Influenceur",
+        "model": "Model",
+        "edit_profile": "Editer mon profil",
+        "message1": "Le salon payant est reservé à vos fans qui ont payé un accès",
+        "title2": "Vous ne pouvez pas encore déposer de contenus payants",
+        "title1": "Bienvenu dans le salon payant",
+        "message2": "Pour déposer des vidéos dans votre salon payant vous devez avoir le statut créateur saloonprived en validant la procédure de vérification d’identité",
+        "button_text": "Devenir créateur",
+        "followers": " Abonnés"
+    },
     "paid_connected_user_saloon_no_config_price_screen": {
         "welcome_to_paid_salon": "Bienvenue dans le salon payant",
         "paid_salon_reserved_for_fans": "Le salon payant est reservé à vos fans qui ont payé un accès",

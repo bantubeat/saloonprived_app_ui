@@ -164,6 +164,7 @@ abstract class  LocaleKeys {
   static const saloon_for_you_have_subcription_screen_write_omment = 'saloon_for_you_have_subcription_screen.write_omment';
   static const saloon_for_you_have_subcription_screen_suggestions_label = 'saloon_for_you_have_subcription_screen.suggestions_label';
 
+
   static const share_bottom_sheet_content_share_text = 'share_bottom_sheet_content.share_text';
   static const share_bottom_sheet_content_copy_text = 'share_bottom_sheet_content.copy_text';
   static const share_bottom_sheet_content_copy_link_text = 'share_bottom_sheet_content.copy_link_text';
@@ -222,11 +223,27 @@ abstract class  LocaleKeys {
   static const create_profile_restriction_page_screen_desable_category = 'create_profile_restriction_page_screen.desable_category';
   static const create_profile_restriction_page_screen_subscribers_content = 'create_profile_restriction_page_screen.subscribers_content';
   static const create_profile_restriction_page_screen_preferences = 'create_profile_restriction_page_screen.preferences';
+
+  static const paid_connected_user_saloon_unverify_kyc_screen_paid_salon = 'paid_connected_user_saloon_unverify_kyc_screen.paid_salon';
+  static const paid_connected_user_saloon_unverify_kyc_screen_free_salon = 'paid_connected_user_saloon_unverify_kyc_screen.free_salon';
+  static const paid_connected_user_saloon_unverify_kyc_screen_content_creator = 'paid_connected_user_saloon_unverify_kyc_screen.content_creator';
+  static const paid_connected_user_saloon_unverify_kyc_screen_adult_content = 'paid_connected_user_saloon_unverify_kyc_screen.adult_content';
+  static const paid_connected_user_saloon_unverify_kyc_screen_influencer = 'paid_connected_user_saloon_unverify_kyc_screen.influencer';
+  static const paid_connected_user_saloon_unverify_kyc_screen_model = 'paid_connected_user_saloon_unverify_kyc_screen.model';
+  static const paid_connected_user_saloon_unverify_kyc_screen_edit_profile = 'paid_connected_user_saloon_unverify_kyc_screen.edit_profile';
+  static const paid_connected_user_saloon_unverify_kyc_screen_message1 = 'paid_connected_user_saloon_unverify_kyc_screen.message1';
+  static const paid_connected_user_saloon_unverify_kyc_screen_title2 = 'paid_connected_user_saloon_unverify_kyc_screen.title2';
+  static const paid_connected_user_saloon_unverify_kyc_screen_title1 = 'paid_connected_user_saloon_unverify_kyc_screen.title1';
+  static const paid_connected_user_saloon_unverify_kyc_screen_message2 = 'paid_connected_user_saloon_unverify_kyc_screen.message2';
+  static const paid_connected_user_saloon_unverify_kyc_screen_button_text = 'paid_connected_user_saloon_unverify_kyc_screen.button_text';
+  static const paid_connected_user_saloon_unverify_kyc_screen_followers = 'paid_connected_user_saloon_unverify_kyc_screen.followers';
+
   static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon = 'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
   static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans = 'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
   static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet = 'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
   static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading = 'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access = 'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+
 
   static const edit_user_profile_personal_info_screen_profile_title = 'edit_user_profile_personal_info_screen.profile_title';
   static const edit_user_profile_personal_info_screen_bio_title = 'edit_user_profile_personal_info_screen.bio_title';
@@ -346,6 +363,5 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_no_access_screen_renew = 'paid_connected_user_saloon_no_access_screen.renew';
   static const paid_connected_user_saloon_no_access_screen_hour = 'paid_connected_user_saloon_no_access_screen.hour';
   static const paid_connected_user_saloon_no_access_screen_day = 'paid_connected_user_saloon_no_access_screen.day';
-
 
 }
