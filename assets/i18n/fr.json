@@ -440,5 +440,15 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
+    },
+    "settings_unsubscribe_screen": {
+        "unsubscribe_title": "Se Désinscrire de saloonprived",
+        "unsubscribe_confirmation": "Êtes-vous sûr de vouloir vous désinscrire de Saloonprived?",
+        "unsubscribe_info": "Vous êtes connecté à saloonprived avec votre compte bantubeat. Vous désinscrire de saloonprived ne supprimera pas votre compte bantubeat, mais votre profil, vos vidéos, vos commentaires, vos messages directs sur saloonprived seront définitivement supprimés.",
+        "unsubscribe_process": "Si vous décidez de continuer, il va se passer ce qui suit :",
+        "profile_deactivation": "Votre profil saloonprived sera désactivé pendant 60 jours. Votre profil ne sera plus visible par d'autres utilisateurs.",
+        "permanent_seletion": "Après 60 jours, votre compte et toute votre activité seront définitivement perdus.",
+        "profile_recovery_info": "Si vous vous connectez sur saloonprived avant les 60 jours, vous pourriez récupérer votre profil et tout son contenu.",
+        "unsubscribe_button": "Se désinscrire"
     }
 }
