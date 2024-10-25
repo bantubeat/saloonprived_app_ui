@@ -22,14 +22,10 @@ import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_h
 import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
-import 'screens/profile_creation/profile_creation_screen.dart';
 import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
 import 'package:saloonprived_app/src/screens/_create_profile/create_profile_restriction_page_screen.dart';
-
 import 'screens/search/search_screen/search_screen.dart';
-
-import 'package:saloonprived_app/src/screens/profile_creation/category_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 import 'screens/notification_screen/notification_screen.dart';
 
@@ -63,8 +59,6 @@ final Map<String, Widget Function()> allScreens = {
 
   'create_profile_restriction_page_screen.dart': () =>
       CreateProfileRestrictionPageScreen(),
-	'notification_screen.dart': () => const NotificationsScreen(),
-	'profile_creation/category_screen.dart': () => const CategoryScreen(),
 
   'discover_lounge_non_adults_creators_screen.dart': () =>
       DiscoverLoungeNonAdultsCreatorsScreen(),
