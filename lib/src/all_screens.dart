@@ -13,6 +13,7 @@ import 'screens/_activity/expired_access_user_subscription_activity_screen/expir
 
 import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_screen.dart';
 
+import 'screens/_activity/fans_activity_screen/fans_activity_screen.dart';
 import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_dashboard_screen.dart';
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
@@ -85,6 +86,7 @@ final Map<String, Widget Function()> allScreens = {
       const AccessPriceUserDashboardScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'fans_activity_screen.dart': () => const FansActivityScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
