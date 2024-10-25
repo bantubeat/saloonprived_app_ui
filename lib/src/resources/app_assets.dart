@@ -45,7 +45,4 @@ final class AppAssets {
   static const imagesValide = 'assets/images/valide.png';
   static const imagesBzc = 'assets/images/bzc.png';
   static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';
-  static const imagesValide = 'assets/images/valide.png';
-  static const imagesBzc = 'assets/images/bzc.png';
-  static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';
 }
