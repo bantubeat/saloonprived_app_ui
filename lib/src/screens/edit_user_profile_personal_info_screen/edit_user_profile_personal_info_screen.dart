@@ -16,7 +16,7 @@ class EditUserProfilePersonalInfoScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.myWhite,
+      backgroundColor: Colors.white,
       body: DefaultTabController(
         length: 3,
         child: Column(
