@@ -163,6 +163,7 @@ abstract class  LocaleKeys {
   static const saloon_for_you_have_subcription_screen_swipe_to_load_more = 'saloon_for_you_have_subcription_screen.swipe_to_load_more';
   static const saloon_for_you_have_subcription_screen_write_omment = 'saloon_for_you_have_subcription_screen.write_omment';
   static const saloon_for_you_have_subcription_screen_suggestions_label = 'saloon_for_you_have_subcription_screen.suggestions_label';
+
   static const share_bottom_sheet_content_share_text = 'share_bottom_sheet_content.share_text';
   static const share_bottom_sheet_content_copy_text = 'share_bottom_sheet_content.copy_text';
   static const share_bottom_sheet_content_copy_link_text = 'share_bottom_sheet_content.copy_link_text';
@@ -173,6 +174,7 @@ abstract class  LocaleKeys {
   static const share_bottom_sheet_content_pin = 'share_bottom_sheet_content.pin';
   static const share_bottom_sheet_content_download = 'share_bottom_sheet_content.download';
   static const share_bottom_sheet_content_report_success_text = 'share_bottom_sheet_content.report_success_text';
+
   static const free_connected_user_saloon_screen_paid_salon = 'free_connected_user_saloon_screen.paid_salon';
   static const free_connected_user_saloon_screen_free_salon = 'free_connected_user_saloon_screen.free_salon';
   static const free_connected_user_saloon_screen_content_creator = 'free_connected_user_saloon_screen.content_creator';
@@ -225,6 +227,31 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet = 'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
   static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading = 'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access = 'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+
+  static const edit_user_profile_personal_info_screen_profile_title = 'edit_user_profile_personal_info_screen.profile_title';
+  static const edit_user_profile_personal_info_screen_bio_title = 'edit_user_profile_personal_info_screen.bio_title';
+  static const edit_user_profile_personal_info_screen_social_networks_title = 'edit_user_profile_personal_info_screen.social_networks_title';
+  static const edit_user_profile_personal_info_screen_name_label = 'edit_user_profile_personal_info_screen.name_label';
+  static const edit_user_profile_personal_info_screen_first_name_label = 'edit_user_profile_personal_info_screen.first_name_label';
+  static const edit_user_profile_personal_info_screen_username_label = 'edit_user_profile_personal_info_screen.username_label';
+  static const edit_user_profile_personal_info_screen_birth_year_label = 'edit_user_profile_personal_info_screen.birth_year_label';
+  static const edit_user_profile_personal_info_screen_country_label = 'edit_user_profile_personal_info_screen.country_label';
+  static const edit_user_profile_personal_info_screen_email_label = 'edit_user_profile_personal_info_screen.email_label';
+  static const edit_user_profile_personal_info_screen_phone_number_label = 'edit_user_profile_personal_info_screen.phone_number_label';
+  static const edit_user_profile_personal_info_screen_city_label = 'edit_user_profile_personal_info_screen.city_label';
+  static const edit_user_profile_personal_info_screen_note = 'edit_user_profile_personal_info_screen.note';
+  static const edit_user_profile_personal_info_screen_edit_profile_on_bantubeat = 'edit_user_profile_personal_info_screen.edit_profile_on_bantubeat';
+  static const edit_user_profile_personal_info_screen_add_bio = 'edit_user_profile_personal_info_screen.add_bio';
+  static const edit_user_profile_personal_info_screen_cancel_button = 'edit_user_profile_personal_info_screen.cancel_button';
+  static const edit_user_profile_personal_info_screen_validate_button = 'edit_user_profile_personal_info_screen.validate_button';
+  static const edit_user_profile_personal_info_screen_facebook = 'edit_user_profile_personal_info_screen.facebook';
+  static const edit_user_profile_personal_info_screen_twitter = 'edit_user_profile_personal_info_screen.twitter';
+  static const edit_user_profile_personal_info_screen_instagram = 'edit_user_profile_personal_info_screen.instagram';
+  static const edit_user_profile_personal_info_screen_tiktok = 'edit_user_profile_personal_info_screen.tiktok';
+  static const edit_user_profile_personal_info_screen_bantubeat = 'edit_user_profile_personal_info_screen.bantubeat';
+  static const edit_user_profile_personal_info_screen_thread = 'edit_user_profile_personal_info_screen.thread';
+  static const edit_user_profile_personal_info_screen_save_changes = 'edit_user_profile_personal_info_screen.save_changes';
+
   static const paid_connected_user_saloon_no_followers_screen_acces_hour = 'paid_connected_user_saloon_no_followers_screen.acces_hour';
   static const paid_connected_user_saloon_no_followers_screen_acces_day = 'paid_connected_user_saloon_no_followers_screen.acces_day';
   static const paid_connected_user_saloon_no_followers_screen_hour = 'paid_connected_user_saloon_no_followers_screen.hour';
@@ -319,5 +346,6 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_no_access_screen_renew = 'paid_connected_user_saloon_no_access_screen.renew';
   static const paid_connected_user_saloon_no_access_screen_hour = 'paid_connected_user_saloon_no_access_screen.hour';
   static const paid_connected_user_saloon_no_access_screen_day = 'paid_connected_user_saloon_no_access_screen.day';
+
 
 }
