@@ -445,9 +445,9 @@
         "title": "Notification",
         "preferences": "Préférences",
         "receive_notifications": "Recevoir les Notifications",
-        "receive_notifications_description": "recevoir les notifications pour être informé des l’activités de saloonprived et de vos créateurs préférés.",
+        "receive_notifications_description": "recevoir les notifications pour  être informé des activités de saloonprived et de vos créateurs préférés.",
         "disable_notifications_info": "vous pouvez les désactiver à tout moment.",
-        "receive_email_notifications": "Recevoir les Notifications par Email",
+        "receive_email_notifications": "Recevoir les Notification par Email",
         "receive_email_notifications_description": "recevoir les notifications par Email",
         "disable_email_notifications_info": "vous pouvez les désactiver à tout moment",
         "continue": "Continuer"
