@@ -83,9 +83,7 @@ class PaidSaloonBuyAccessScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
-                      LocaleKeys
-                          .paid_connected_user_saloon_no_access_screen_renew
-                          .tr(),
+                      LocaleKeys.paid_saloon_buy_access_screen_renew.tr(),
                       style: GoogleFonts.inter(
                         color: Colors.white,
                         fontSize: 9,

@@ -462,6 +462,7 @@
         "renewal_terms": "Votre accès sera renouvelé pour la même période au prix fixé par le créateur. vous pouvez annuler votre accès à tout moment via la page Activité",
         "activate_auto_renewal_button": "ACTIVER LE RENOUVELLEMENT AUTOMATIQUE",
         "not_now": "Pas maintenant",
-        "activate": "ACTIVER"
+        "activate": "ACTIVER",
+        "renew": "Renouveler"
     }
 }

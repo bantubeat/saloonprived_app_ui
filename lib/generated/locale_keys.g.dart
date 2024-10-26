@@ -690,4 +690,6 @@ abstract class LocaleKeys {
       'paid_saloon_buy_access_screen.not_now';
   static const paid_saloon_buy_access_screen_activate =
       'paid_saloon_buy_access_screen.activate';
+  static const paid_saloon_buy_access_screen_renew =
+      'paid_saloon_buy_access_screen.renew';
 }
