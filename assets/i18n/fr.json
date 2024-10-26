@@ -440,5 +440,28 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
+    },
+    "paid_saloon_buy_access_screen": {
+        "payment_to": "Paiement à",
+        "total": "Total",
+        "total_amount": "Total",
+        "discount": "Remise",
+        "amount_to_pay": "Montant à payer",
+        "pay_with_balance": "Payer avec le balance",
+        "beatzcoin_balance": "Solde Beatzcoin",
+        "insufficient_balance": "Le solde de ce compte est insuffisant pour cet achat",
+        "sufficient_balance": "Le solde de ce compte est suffisant pour cet achat",
+        "buy_tokens": "Acheter des Jetons",
+        "pay": "Payer",
+        "buy_access": "Payer un accès",
+        "payment_success": "PAIEMENT DE L’ACCES REUSSI",
+        "enable_auto_renewal": "ACTIVER LE RENOUVELLEMENT AUTOMATIQUE",
+        "auto_renewal_left": "En activant le renouvellement automatique, vous auriez toujours accès au contenu exclusif de.",
+        "auto_renewal_center": "et également à toutes les sessions live lorsque.",
+        "auto_renewal_right": "sera en live.",
+        "renewal_terms": "Votre accès sera renouvelé pour la même période au prix fixé par le créateur. vous pouvez annuler votre accès à tout moment via la page Activité",
+        "activate_auto_renewal_button": "ACTIVER LE RENOUVELLEMENT AUTOMATIQUE",
+        "not_now": "Pas maintenant",
+        "activate": "ACTIVER"
     }
 }
