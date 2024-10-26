@@ -440,5 +440,28 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
+    },
+    "settings_main_screen": {
+        "settings": "Paramètres",
+        "content": "Contenu",
+        "notifications": "Notifications",
+        "creators_portal": "Portail des créateurs",
+        "promote": "Promouvoir",
+        "business": "Entreprise et annonceurs",
+        "account": "Compte",
+        "logout": "Déconnexion",
+        "unsubscribe_saloonprived": "Se désinscrire de Saloonprived",
+        "restriction": "Restriction",
+        "block_adult_content": "En activant, vous bloquer la diffusion de la catégorie, sexualité et contenu adulte",
+        "help": "Support",
+        "security": "Sécurité",
+        "help_page": "Page d'aide",
+        "legal_mentions": "Mentions légales",
+        "terms_conditions": "Conditions générales",
+        "privacy_policy": "Politique de confidentialité",
+        "cookie_policy": "Politique des cookies",
+        "advertising": "Publicité",
+        "virtual_item_policy": "Politique des articles virtuels",
+        "copyright_policy": "Politique droit d'auteur"
     }
 }
