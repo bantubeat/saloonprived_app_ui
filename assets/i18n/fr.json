@@ -440,5 +440,9 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
+    },
+    "messages_and_conversations_list_screen": {
+        "messages": "Messages",
+        "channel": "chats channel"
     }
 }

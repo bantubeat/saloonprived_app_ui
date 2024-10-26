@@ -13,6 +13,7 @@ import 'screens/_activity/expired_access_user_subscription_activity_screen/expir
 
 import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_screen.dart';
 
+import 'screens/_chats/messages_and_conversations_list_screen/messages_and_conversations_list_screen.dart';
 import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_dashboard_screen.dart';
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
@@ -102,6 +103,8 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'messages_and_conversations_list_screen.dart': () =>
+      const MessagesAndConversationsListScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
