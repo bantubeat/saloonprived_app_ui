@@ -648,4 +648,20 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_with_followers_screen.hour';
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
+  static const principal_activity_screen_title =
+      'principal_activity_screen.title';
+  static const principal_activity_screen_blocked =
+      'principal_activity_screen.blocked';
+  static const principal_activity_screen_my_followers =
+      'principal_activity_screen.my_followers';
+  static const principal_activity_screen_my_subscriptions =
+      'principal_activity_screen.my_subscriptions';
+  static const principal_activity_screen_my_creators =
+      'principal_activity_screen.my_creators';
+  static const principal_activity_screen_followers =
+      'principal_activity_screen.followers';
+  static const principal_activity_screen_subscriptions =
+      'principal_activity_screen.subscriptions';
+  static const principal_activity_screen_user =
+      'principal_activity_screen.user';
 }
