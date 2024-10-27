@@ -648,6 +648,7 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_with_followers_screen.hour';
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
+
   static const settings_notification_screen_title =
       'settings_notification_screen.title';
   static const settings_notification_screen_preferences =
@@ -666,4 +667,90 @@ abstract class LocaleKeys {
       'settings_notification_screen.disable_email_notifications_info';
   static const settings_notification_screen_continue =
       'settings_notification_screen.continue';
+
+  static const settings_unsubscribe_screen_unsubscribe_title =
+      'settings_unsubscribe_screen.unsubscribe_title';
+  static const settings_unsubscribe_screen_unsubscribe_confirmation =
+      'settings_unsubscribe_screen.unsubscribe_confirmation';
+  static const settings_unsubscribe_screen_unsubscribe_info =
+      'settings_unsubscribe_screen.unsubscribe_info';
+  static const settings_unsubscribe_screen_unsubscribe_process =
+      'settings_unsubscribe_screen.unsubscribe_process';
+  static const settings_unsubscribe_screen_profile_deactivation =
+      'settings_unsubscribe_screen.profile_deactivation';
+  static const settings_unsubscribe_screen_permanent_seletion =
+      'settings_unsubscribe_screen.permanent_seletion';
+  static const settings_unsubscribe_screen_profile_recovery_info =
+      'settings_unsubscribe_screen.profile_recovery_info';
+  static const settings_unsubscribe_screen_unsubscribe_button =
+      'settings_unsubscribe_screen.unsubscribe_button';
+  static const general_condition_screen_title =
+      'general_condition_screen.title';
+  static const general_condition_screen_last_update =
+      'general_condition_screen.last_update';
+  static const general_condition_screen_next = 'general_condition_screen.next';
+  static const settings_copyright_screen_update =
+      'settings_copyright_screen.update';
+  static const settings_copyright_screen_appbar_title =
+      'settings_copyright_screen.appbar_title';
+  static const settings_copyright_screen_welcome =
+      'settings_copyright_screen.welcome';
+  static const settings_copyright_screen_title =
+      'settings_copyright_screen.title';
+  static const settings_copyright_screen_button_label =
+      'settings_copyright_screen.button_label';
+  static const settings_copyright_screen_content_preamble =
+      'settings_copyright_screen.content.preamble';
+  static const settings_copyright_screen_content_paragraph_1_title =
+      'settings_copyright_screen.content.paragraph_1.title';
+  static const settings_copyright_screen_content_paragraph_1_content =
+      'settings_copyright_screen.content.paragraph_1.content';
+  static const settings_copyright_screen_content_paragraph_2_title =
+      'settings_copyright_screen.content.paragraph_2.title';
+  static const settings_copyright_screen_content_paragraph_2_content =
+      'settings_copyright_screen.content.paragraph_2.content';
+  static const settings_copyright_screen_content_paragraph_3_title =
+      'settings_copyright_screen.content.paragraph_3.title';
+  static const settings_copyright_screen_content_paragraph_3_content =
+      'settings_copyright_screen.content.paragraph_3.content';
+  static const settings_copyright_screen_content_paragraph_4_title =
+      'settings_copyright_screen.content.paragraph_4.title';
+  static const settings_copyright_screen_content_paragraph_4_content =
+      'settings_copyright_screen.content.paragraph_4.content';
+  static const settings_copyright_screen_content_paragraph_5_title =
+      'settings_copyright_screen.content.paragraph_5.title';
+  static const settings_copyright_screen_content_paragraph_5_content =
+      'settings_copyright_screen.content.paragraph_5.content';
+  static const settings_copyright_screen_content_paragraph_6_title =
+      'settings_copyright_screen.content.paragraph_6.title';
+  static const settings_copyright_screen_content_paragraph_6_content =
+      'settings_copyright_screen.content.paragraph_6.content';
+  static const settings_copyright_screen_content_paragraph_7_title =
+      'settings_copyright_screen.content.paragraph_7.title';
+  static const settings_copyright_screen_content_paragraph_7_content =
+      'settings_copyright_screen.content.paragraph_7.content';
+  static const settings_copyright_screen_content_paragraph_8_title =
+      'settings_copyright_screen.content.paragraph_8.title';
+  static const settings_copyright_screen_content_paragraph_8_content =
+      'settings_copyright_screen.content.paragraph_8.content';
+  static const settings_copyright_screen_content_paragraph_9_title =
+      'settings_copyright_screen.content.paragraph_9.title';
+  static const settings_copyright_screen_content_paragraph_9_content =
+      'settings_copyright_screen.content.paragraph_9.content';
+  static const settings_copyright_screen_content_paragraph_10_title =
+      'settings_copyright_screen.content.paragraph_10.title';
+  static const settings_copyright_screen_content_paragraph_10_content =
+      'settings_copyright_screen.content.paragraph_10.content';
+  static const settings_copyright_screen_content_paragraph_11_title =
+      'settings_copyright_screen.content.paragraph_11.title';
+  static const settings_copyright_screen_content_paragraph_11_content =
+      'settings_copyright_screen.content.paragraph_11.content';
+  static const settings_copyright_screen_content_paragraph_12_title =
+      'settings_copyright_screen.content.paragraph_12.title';
+  static const settings_copyright_screen_content_paragraph_12_content =
+      'settings_copyright_screen.content.paragraph_12.content';
+  static const settings_copyright_screen_content_paragraph_13_title =
+      'settings_copyright_screen.content.paragraph_13.title';
+  static const settings_copyright_screen_content_paragraph_13_content =
+      'settings_copyright_screen.content.paragraph_13.content';
 }

@@ -9,6 +9,7 @@ import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_sc
 import 'package:saloonprived_app/src/screens/_activity/current_access_user_subscription_activity_screen/current_access_user_subscription_activity_screen.dart';
 
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
+import 'package:saloonprived_app/src/screens/settings_copyright_screen/settings_copyright_screen.dart';
 
 import 'screens/_activity/expired_access_user_subscription_activity_screen/expired_access_user_subscription_activity_screen.dart';
 
@@ -26,6 +27,9 @@ import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_connected_user_saloon_no_followers_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_connected_user_saloon_with_followers_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
+
+import 'screens/_settings/settings_unsubscribe_screen.dart';
+import 'screens/_settings/general_condition_screen.dart';
 
 import 'screens/edit_user_profile_personal_info_screen/edit_user_profile_personal_info_screen.dart';
 
@@ -104,6 +108,13 @@ final Map<String, Widget Function()> allScreens = {
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
   'settings_notification_screen.dart': () => const SettingsNotificationScreen(),
+
+  'settings_unsubscribe_screen.dart': () => const SettingsUnsubscribeScreen(),
+
+  'general_condition_screen.dart': () => const GeneralConditionScreen(),
+
+  'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
+
 };
 
 // Ajoutez d'autres chemins de fichiers ici
