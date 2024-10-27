@@ -648,6 +648,26 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_with_followers_screen.hour';
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
+
+  static const settings_notification_screen_title =
+      'settings_notification_screen.title';
+  static const settings_notification_screen_preferences =
+      'settings_notification_screen.preferences';
+  static const settings_notification_screen_receive_notifications =
+      'settings_notification_screen.receive_notifications';
+  static const settings_notification_screen_receive_notifications_description =
+      'settings_notification_screen.receive_notifications_description';
+  static const settings_notification_screen_disable_notifications_info =
+      'settings_notification_screen.disable_notifications_info';
+  static const settings_notification_screen_receive_email_notifications =
+      'settings_notification_screen.receive_email_notifications';
+  static const settings_notification_screen_receive_email_notifications_description =
+      'settings_notification_screen.receive_email_notifications_description';
+  static const settings_notification_screen_disable_email_notifications_info =
+      'settings_notification_screen.disable_email_notifications_info';
+  static const settings_notification_screen_continue =
+      'settings_notification_screen.continue';
+
   static const settings_unsubscribe_screen_unsubscribe_title =
       'settings_unsubscribe_screen.unsubscribe_title';
   static const settings_unsubscribe_screen_unsubscribe_confirmation =
