@@ -648,4 +648,9 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_with_followers_screen.hour';
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
+  static const general_condition_screen_title =
+      'general_condition_screen.title';
+  static const general_condition_screen_last_update =
+      'general_condition_screen.last_update';
+  static const general_condition_screen_next = 'general_condition_screen.next';
 }

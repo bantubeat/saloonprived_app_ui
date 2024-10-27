@@ -440,5 +440,10 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
+    },
+    "general_condition_screen": {
+        "title": "Conditions de services",
+        "last_update": "Mise à jour le {}",
+        "next": "Continuer"
     }
 }
