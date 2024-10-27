@@ -27,6 +27,7 @@ import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_conne
 import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_connected_user_saloon_with_followers_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
+import 'screens/_settings/virtual_item_settings_screen.dart';
 import 'screens/edit_user_profile_personal_info_screen/edit_user_profile_personal_info_screen.dart';
 
 import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
@@ -104,6 +105,7 @@ final Map<String, Widget Function()> allScreens = {
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
   'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
+  'virtual_item_settings_screen.dart': () => const VirtualItemSettingsScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
