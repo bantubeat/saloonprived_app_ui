@@ -496,6 +496,16 @@
         "hour": "{}  heures",
         "day": "{}  jours"
     },
+    "principal_activity_screen": {
+        "title": "Activités",
+        "blocked": "Bloqués",
+        "my_followers": "Mes Fans",
+        "my_subscriptions": "Mes \n Abonnements",
+        "my_creators": "Mes Créateurs",
+        "followers": "{} \n Abonnés",
+        "subscriptions": "{} \n Créateurs",
+        "user": "{} \n Utilisateurs"
+    },
     "settings_main_screen": {
         "settings": "Paramètres",
         "content": "Contenu",
