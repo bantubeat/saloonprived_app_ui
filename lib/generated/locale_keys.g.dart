@@ -155,6 +155,15 @@ abstract class  LocaleKeys {
   static const search_screen_subscribers_count = 'search_screen.subscribers_count';
   static const search_screen_subscribe_button = 'search_screen.subscribe_button';
   static const search_screen_subscribed_label = 'search_screen.subscribed_label';
+
+  static const profile_creation_screen_username = 'profile_creation_screen.username';
+  static const profile_creation_screen_birth_year = 'profile_creation_screen.birth_year';
+  static const profile_creation_screen_country = 'profile_creation_screen.country';
+  static const profile_creation_screen_save = 'profile_creation_screen.save';
+  static const profile_creation_screen_choose_in_the_list = 'profile_creation_screen.choose_in_the_list';
+  static const profile_creation_screen_welcome_to_saloonprived = 'profile_creation_screen.welcome_to_saloonprived';
+  static const profile_creation_screen_complete_these_information_to_create_your_profile = 'profile_creation_screen.complete_these_information_to_create_your_profile';
+
   static const saloon_for_you_have_subcription_screen_advertisement_title = 'saloon_for_you_have_subcription_screen.advertisement_title';
   static const saloon_for_you_have_subcription_screen_learn_more = 'saloon_for_you_have_subcription_screen.learn_more';
   static const saloon_for_you_have_subcription_screen_tip_label = 'saloon_for_you_have_subcription_screen.tip_label';
@@ -163,6 +172,7 @@ abstract class  LocaleKeys {
   static const saloon_for_you_have_subcription_screen_swipe_to_load_more = 'saloon_for_you_have_subcription_screen.swipe_to_load_more';
   static const saloon_for_you_have_subcription_screen_write_omment = 'saloon_for_you_have_subcription_screen.write_omment';
   static const saloon_for_you_have_subcription_screen_suggestions_label = 'saloon_for_you_have_subcription_screen.suggestions_label';
+
   static const share_bottom_sheet_content_share_text = 'share_bottom_sheet_content.share_text';
   static const share_bottom_sheet_content_copy_text = 'share_bottom_sheet_content.copy_text';
   static const share_bottom_sheet_content_copy_link_text = 'share_bottom_sheet_content.copy_link_text';
@@ -173,6 +183,7 @@ abstract class  LocaleKeys {
   static const share_bottom_sheet_content_pin = 'share_bottom_sheet_content.pin';
   static const share_bottom_sheet_content_download = 'share_bottom_sheet_content.download';
   static const share_bottom_sheet_content_report_success_text = 'share_bottom_sheet_content.report_success_text';
+
   static const free_connected_user_saloon_screen_paid_salon = 'free_connected_user_saloon_screen.paid_salon';
   static const free_connected_user_saloon_screen_free_salon = 'free_connected_user_saloon_screen.free_salon';
   static const free_connected_user_saloon_screen_content_creator = 'free_connected_user_saloon_screen.content_creator';
@@ -220,6 +231,7 @@ abstract class  LocaleKeys {
   static const create_profile_restriction_page_screen_desable_category = 'create_profile_restriction_page_screen.desable_category';
   static const create_profile_restriction_page_screen_subscribers_content = 'create_profile_restriction_page_screen.subscribers_content';
   static const create_profile_restriction_page_screen_preferences = 'create_profile_restriction_page_screen.preferences';
+
   static const paid_connected_user_saloon_unverify_kyc_screen_paid_salon = 'paid_connected_user_saloon_unverify_kyc_screen.paid_salon';
   static const paid_connected_user_saloon_unverify_kyc_screen_free_salon = 'paid_connected_user_saloon_unverify_kyc_screen.free_salon';
   static const paid_connected_user_saloon_unverify_kyc_screen_content_creator = 'paid_connected_user_saloon_unverify_kyc_screen.content_creator';
@@ -233,11 +245,13 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_unverify_kyc_screen_message2 = 'paid_connected_user_saloon_unverify_kyc_screen.message2';
   static const paid_connected_user_saloon_unverify_kyc_screen_button_text = 'paid_connected_user_saloon_unverify_kyc_screen.button_text';
   static const paid_connected_user_saloon_unverify_kyc_screen_followers = 'paid_connected_user_saloon_unverify_kyc_screen.followers';
+
   static const paid_connected_user_saloon_no_config_price_screen_welcome_to_paid_salon = 'paid_connected_user_saloon_no_config_price_screen.welcome_to_paid_salon';
   static const paid_connected_user_saloon_no_config_price_screen_paid_salon_reserved_for_fans = 'paid_connected_user_saloon_no_config_price_screen.paid_salon_reserved_for_fans';
   static const paid_connected_user_saloon_no_config_price_screen_cannot_upload_videos_yet = 'paid_connected_user_saloon_no_config_price_screen.cannot_upload_videos_yet';
   static const paid_connected_user_saloon_no_config_price_screen_must_configure_access_before_uploading = 'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access = 'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+
   static const edit_user_profile_personal_info_screen_profile_title = 'edit_user_profile_personal_info_screen.profile_title';
   static const edit_user_profile_personal_info_screen_bio_title = 'edit_user_profile_personal_info_screen.bio_title';
   static const edit_user_profile_personal_info_screen_social_networks_title = 'edit_user_profile_personal_info_screen.social_networks_title';
@@ -261,6 +275,7 @@ abstract class  LocaleKeys {
   static const edit_user_profile_personal_info_screen_bantubeat = 'edit_user_profile_personal_info_screen.bantubeat';
   static const edit_user_profile_personal_info_screen_thread = 'edit_user_profile_personal_info_screen.thread';
   static const edit_user_profile_personal_info_screen_save_changes = 'edit_user_profile_personal_info_screen.save_changes';
+
   static const paid_connected_user_saloon_no_followers_screen_acces_hour = 'paid_connected_user_saloon_no_followers_screen.acces_hour';
   static const paid_connected_user_saloon_no_followers_screen_acces_day = 'paid_connected_user_saloon_no_followers_screen.acces_day';
   static const paid_connected_user_saloon_no_followers_screen_hour = 'paid_connected_user_saloon_no_followers_screen.hour';
@@ -352,6 +367,36 @@ abstract class  LocaleKeys {
   static const access_price_user_dashboard_screen_landing_text_3 = 'access_price_user_dashboard_screen.landing_text_3';
   static const access_price_user_dashboard_screen_landing_text_4 = 'access_price_user_dashboard_screen.landing_text_4';
   static const access_price_user_dashboard_screen_save = 'access_price_user_dashboard_screen.save';
+
+  static const category_screen_description = 'category_screen.description';
+  static const category_screen_previous = 'category_screen.previous';
+  static const category_screen_next = 'category_screen.next';
+  static const category_screen_note = 'category_screen.note';
+  static const category_screen_category = 'category_screen.category';
+  static const category_screen_art_and_culture = 'category_screen.art_and_culture';
+  static const category_screen_news_and_information = 'category_screen.news_and_information';
+  static const category_screen_business_and_coaching = 'category_screen.business_and_coaching';
+  static const category_screen_comedy_and_stand_up = 'category_screen.comedy_and_stand_up';
+  static const category_screen_cuisine_and_gastronomy = 'category_screen.cuisine_and_gastronomy';
+  static const category_screen_nature_and_health = 'category_screen.nature_and_health';
+  static const category_screen_sport_and_leisure = 'category_screen.sport_and_leisure';
+  static const category_screen_fashion_and_beauty = 'category_screen.fashion_and_beauty';
+  static const category_screen_sexuality_and_adult_content = 'category_screen.sexuality_and_adult_content';
+  static const category_screen = 'category_screen';
+  static const profile_creation_category_title = 'profile_creation_category.title';
+  static const profile_creation_category_description = 'profile_creation_category.description';
+  static const profile_creation_category_note = 'profile_creation_category.note';
+  static const profile_creation_category_choose_category = 'profile_creation_category.choose_category';
+  static const profile_creation_category_previous = 'profile_creation_category.previous';
+  static const profile_creation_category_next = 'profile_creation_category.next';
+  static const welcome_page_screen_username = 'welcome_page_screen.username';
+  static const welcome_page_screen_birth_year = 'welcome_page_screen.birth_year';
+  static const welcome_page_screen_country = 'welcome_page_screen.country';
+  static const welcome_page_screen_save = 'welcome_page_screen.save';
+  static const welcome_page_screen_choose_in_the_list = 'welcome_page_screen.choose_in_the_list';
+  static const welcome_page_screen_welcome_to_saloonprived = 'welcome_page_screen.welcome_to_saloonprived';
+  static const welcome_page_screen_complete_these_information_to_create_your_profile = 'welcome_page_screen.complete_these_information_to_create_your_profile';
+
   static const paid_connected_user_saloon_no_access_screen_expired_date = 'paid_connected_user_saloon_no_access_screen.expired_date';
   static const paid_connected_user_saloon_no_access_screen_renew = 'paid_connected_user_saloon_no_access_screen.renew';
   static const paid_connected_user_saloon_no_access_screen_hour = 'paid_connected_user_saloon_no_access_screen.hour';
@@ -667,6 +712,5 @@ abstract class  LocaleKeys {
       'settings_copyright_screen.content.paragraph_13.title';
   static const settings_copyright_screen_content_paragraph_13_content =
       'settings_copyright_screen.content.paragraph_13.content';
-
 
 }
