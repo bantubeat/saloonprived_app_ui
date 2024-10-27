@@ -1,4 +1,4 @@
-{
+    {
     "app_title": "Saloonprived",
     "common": {
         "next": "Suivant",
@@ -195,12 +195,23 @@
             }
         }
     },
+    
     "search_screen": {
         "find_creator": "Trouver un créateur",
         "subscribers_count": " Abonnés",
         "subscribe_button": "S'abonner",
         "subscribed_label": "Abonné"
     },
+    "profile_creation_screen": {
+        "username": "Nom d'utilisateur",
+        "birth_year": "Année de naissance",
+        "country": "Pays",
+        "save": "Enregistrer",
+        "choose_in_the_list": "Choisissez dans la liste",
+        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
+        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
+    },
+
     "saloon_for_you_have_subcription_screen": {
         "advertisement_title": "Publicité sur saloonprived:",
         "learn_more": "En savoir plus",
@@ -429,6 +440,40 @@
         "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
         "save": "Enregistrer"
     },
+    "category_screen": {
+        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+        "category": "Catégorie",
+        "art_and_culture": "Art et culture",
+        "news_and_information": "Actualités et informations",
+        "business_and_coaching": "Business et coaching",
+        "comedy_and_stand_up": "Comédie et Stand-up",
+        "cuisine_and_gastronomy": "Cuisine et Gastronomie",
+        "nature_and_health": "Nature et Santé",
+        "sport_and_leisure": "Sport et Loisirs",
+        "fashion_and_beauty": "Fashion et beauté",
+        "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
+        "other": "Autres"
+    },
+    "profile_creation_category": {
+        "title": "Catégorie",
+        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+        "choose_category": "Choisissez la catégorie qui définit la nature de votre salon",
+        "previous": "Précédent",
+        "next": "Suivant"
+    },
+    "welcome_page_screen": {
+        "username": "Nom d'utilisateur",
+        "birth_year": "Année de naissance",
+        "country": "Pays",
+        "save": "Enregistrer",
+        "choose_in_the_list": "Choisissez dans la liste",
+        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
+        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
+    },
     "paid_connected_user_saloon_no_access_screen": {
         "expired_date": "Votre accès expire dans : ",
         "renew": "Renouveller",
@@ -440,6 +485,65 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
+    },
+    "settings_main_screen": {
+        "settings": "Paramètres",
+        "content": "Contenu",
+        "notifications": "Notifications",
+        "creators_portal": "Portail des créateurs",
+        "promote": "Promouvoir",
+        "business": "Entreprise et annonceurs",
+        "account": "Compte",
+        "logout": "Déconnexion",
+        "unsubscribe_saloonprived": "Se désinscrire de Saloonprived",
+        "restriction": "Restriction",
+        "block_adult_content": "En activant, vous bloquez la diffusion de la catégorie, sexualité et contenu adulte",
+        "help": "Support",
+        "security": "Sécurité",
+        "help_page": "Page d'aide",
+        "legal_mentions": "Mentions légales",
+        "terms_conditions": "Conditions générales",
+        "privacy_policy": "Politique de confidentialité",
+        "cookie_policy": "Politique des cookies",
+        "advertising": "Publicité",
+        "virtual_item_policy": "Politique des articles virtuels",
+        "copyright_policy": "Politique droit d'auteur"
+    },
+    "settings_restriction_screen": {
+        "content_restriction_title": "Restriction contenus à caractère sexuel",
+        "content_restriction_intro": "Afin de toujours mettre en valeur notre slogan 'Be What You Want', les utilisateurs bantubeat qui souhaitent utiliser saloonprived en tant que créateur, peuvent diffuser du contenu qui pourrait être inapproprié pour vous.",
+        "adult_content_info": "Certains contenus de la catégorie adulte ne sont pas appropriés pour tout le monde. Si vous ne souhaitez pas voir cette catégorie de contenus, vous pouvez activer le blocage.",
+        "disable_adult_category": "Désactiver la catégorie 'Sexualité et contenu pour adultes' pour masquer le contenu adulte.",
+        "forYou_feed_restriction": "Vous ne verrez dans votre salon 'pour toi' que le contenu des créateurs auxquels vous êtes abonnés.",
+        "modify_preferences": "Vous pourriez toujours modifier vos préférences dans les paramètres.",
+        "previous_button": "Précédent",
+        "next_button": "Suivant"
+    },
+    "settings_notification_screen": {
+        "title": "Notification",
+        "preferences": "Préférences",
+        "receive_notifications": "Recevoir les Notifications",
+        "receive_notifications_description": "recevoir les notifications pour  être informé des activités de saloonprived et de vos créateurs préférés.",
+        "disable_notifications_info": "vous pouvez les désactiver à tout moment.",
+        "receive_email_notifications": "Recevoir les Notification par Email",
+        "receive_email_notifications_description": "recevoir les notifications par Email",
+        "disable_email_notifications_info": "vous pouvez les désactiver à tout moment",
+        "continue": "Continuer"
+    },
+    "settings_unsubscribe_screen": {
+        "unsubscribe_title": "Se Désinscrire de saloonprived",
+        "unsubscribe_confirmation": "Êtes-vous sûr de vouloir vous désinscrire de Saloonprived?",
+        "unsubscribe_info": "Vous êtes connecté à saloonprived avec votre compte bantubeat. Vous désinscrire de saloonprived ne supprimera pas votre compte bantubeat, mais votre profil, vos vidéos, vos commentaires, vos messages directs sur saloonprived seront définitivement supprimés.",
+        "unsubscribe_process": "Si vous décidez de continuer, il va se passer ce qui suit :",
+        "profile_deactivation": "Votre profil saloonprived sera désactivé pendant 60 jours. Votre profil ne sera plus visible par d'autres utilisateurs.",
+        "permanent_seletion": "Après 60 jours, votre compte et toute votre activité seront définitivement perdus.",
+        "profile_recovery_info": "Si vous vous connectez sur saloonprived avant les 60 jours, vous pourriez récupérer votre profil et tout son contenu.",
+        "unsubscribe_button": "Se désinscrire"
+    },
+    "general_condition_screen": {
+        "title": "Conditions de services",
+        "last_update": "Mise à jour le {}",
+        "next": "Continuer"
     },
     "settings_copyright_screen": {
         "update": "Mise a jour le 01/01/2023",

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
+import 'package:saloonprived_app/src/screens/_settings/settings_notification_screen.dart';
 
 import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreements_screen/profilcreation_fan_creator_agreements_screen.dart';
 import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_screen/profilcreation_generalconditions_screen.dart';
@@ -28,20 +29,25 @@ import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_con
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
 import 'screens/_settings/virtual_item_settings_screen.dart';
+import 'screens/_settings/settings_main_screen/settings_main_screen.dart';
+
+import 'screens/_settings/settings_restriction_screen.dart';
+
+import 'screens/_settings/settings_unsubscribe_screen.dart';
+import 'screens/_settings/general_condition_screen.dart';
+
 import 'screens/edit_user_profile_personal_info_screen/edit_user_profile_personal_info_screen.dart';
 
 import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
 
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
+import 'screens/profile_creation/profile_creation_screen.dart';
 import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
 import 'package:saloonprived_app/src/screens/_create_profile/create_profile_restriction_page_screen.dart';
-
 import 'screens/search/search_screen/search_screen.dart';
-
 import 'screens/welcome_screen/welcome_screen.dart';
-import 'screens/notification_screen/notification_screen.dart';
 
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
 /// rassurer qu'il s'affiche sans erreur, seulement pour chaque fichier,
@@ -59,7 +65,6 @@ final Map<String, Widget Function()> allScreens = {
       const ProfilCreationFanCreatorAgreementScreen(),
   'saloon_for_you_have_subcription_screen.dart': () =>
       const SaloonForYouHaveSubcriptionScreen(),
-  'notification_screen.dart': () => const NotificationsScreen(),
   'login_screen.dart': () => const LoginScreen(),
   'register_screen.dart': () => const RegisterScreen(),
   'saloon_for_you_no_subcription_screen.dart': () =>
@@ -70,9 +75,11 @@ final Map<String, Widget Function()> allScreens = {
       const FreeConnectedUserSaloonScreen(),
   'paid_connected_user_saloon_config_price_screen.dart': () =>
       const PaidConnectedUserSaloonConfigPriceScreen(),
+  'profile_creation_screen.dart': () => const ProfileCreationScreen(),
 
   'create_profile_restriction_page_screen.dart': () =>
       CreateProfileRestrictionPageScreen(),
+
   'discover_lounge_non_adults_creators_screen.dart': () =>
       DiscoverLoungeNonAdultsCreatorsScreen(),
   // Ajoutez d'autres chemins de fichiers ici
@@ -104,6 +111,15 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'settings_main_screen.dart': () => const SettingsMainScreen(),
+
+  'settings_restriction_screen.dart': () => const SettingsRestrictionScreen(),
+  'settings_notification_screen.dart': () => const SettingsNotificationScreen(),
+
+  'settings_unsubscribe_screen.dart': () => const SettingsUnsubscribeScreen(),
+
+  'general_condition_screen.dart': () => const GeneralConditionScreen(),
+
   'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
   'virtual_item_settings_screen.dart': () => const VirtualItemSettingsScreen(),
 };
