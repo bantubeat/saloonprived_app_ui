@@ -1,10 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
-import 'package:saloonprived_app/src/components/my_button.dart';
 import 'package:saloonprived_app/src/components/primary_button.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
-import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreements_screen/profilcreation_fan_creator_agreements_screen.dart';
 
 class SettingsCopyrightScreen extends StatelessWidget {
   const SettingsCopyrightScreen({super.key});
@@ -35,7 +33,7 @@ class SettingsCopyrightScreen extends StatelessWidget {
           Positioned.fill(
             child: Container(
               padding: const EdgeInsets.only(
-                  bottom: 80, left: 20, right: 20, top: 10),
+                  bottom: 80, left: 20, right: 20, top: 10,),
               child: Scrollbar(
                 interactive: true,
                 child: SingleChildScrollView(
@@ -425,7 +423,7 @@ class SettingsCopyrightScreen extends StatelessWidget {
                 ),
               ),
             ),
-          )
+          ),
         ],
       ),
     );
