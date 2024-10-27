@@ -33,7 +33,11 @@ class SettingsCopyrightScreen extends StatelessWidget {
           Positioned.fill(
             child: Container(
               padding: const EdgeInsets.only(
-                  bottom: 80, left: 20, right: 20, top: 10,),
+                bottom: 80,
+                left: 20,
+                right: 20,
+                top: 10,
+              ),
               child: Scrollbar(
                 interactive: true,
                 child: SingleChildScrollView(

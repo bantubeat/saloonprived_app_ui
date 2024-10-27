@@ -111,7 +111,6 @@ final Map<String, Widget Function()> allScreens = {
   'general_condition_screen.dart': () => const GeneralConditionScreen(),
 
   'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
-
 };
 
 // Ajoutez d'autres chemins de fichiers ici
