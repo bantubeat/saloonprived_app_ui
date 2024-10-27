@@ -8,6 +8,7 @@ import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_sc
 import 'package:saloonprived_app/src/screens/_activity/current_access_user_subscription_activity_screen/current_access_user_subscription_activity_screen.dart';
 
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
+import 'package:saloonprived_app/src/screens/settings_copyright_screen/settings_copyright_screen.dart';
 
 import 'screens/_activity/expired_access_user_subscription_activity_screen/expired_access_user_subscription_activity_screen.dart';
 
@@ -102,6 +103,7 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
