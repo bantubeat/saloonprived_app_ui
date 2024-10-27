@@ -649,6 +649,24 @@ abstract class LocaleKeys {
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
 
+  static const settings_restriction_screen_content_restriction_title =
+      'settings_restriction_screen.content_restriction_title';
+  static const settings_restriction_screen_content_restriction_intro =
+      'settings_restriction_screen.content_restriction_intro';
+  static const settings_restriction_screen_adult_content_info =
+      'settings_restriction_screen.adult_content_info';
+  static const settings_restriction_screen_disable_adult_category =
+      'settings_restriction_screen.disable_adult_category';
+  static const settings_restriction_screen_forYou_feed_restriction =
+      'settings_restriction_screen.forYou_feed_restriction';
+  static const settings_restriction_screen_modify_preferences =
+      'settings_restriction_screen.modify_preferences';
+  static const settings_restriction_screen_previous_button =
+      'settings_restriction_screen.previous_button';
+  static const settings_restriction_screen_next_button =
+      'settings_restriction_screen.next_button';
+
+
   static const settings_notification_screen_title =
       'settings_notification_screen.title';
   static const settings_notification_screen_preferences =
@@ -753,4 +771,5 @@ abstract class LocaleKeys {
       'settings_copyright_screen.content.paragraph_13.title';
   static const settings_copyright_screen_content_paragraph_13_content =
       'settings_copyright_screen.content.paragraph_13.content';
+
 }

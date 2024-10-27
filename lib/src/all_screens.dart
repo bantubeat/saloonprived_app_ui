@@ -28,6 +28,8 @@ import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_conne
 import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_connected_user_saloon_with_followers_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
+import 'screens/_settings/settings_restriction_screen.dart';
+
 import 'screens/_settings/settings_unsubscribe_screen.dart';
 import 'screens/_settings/general_condition_screen.dart';
 
@@ -107,6 +109,7 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'settings_restriction_screen.dart': () => const SettingsRestrictionScreen(),
   'settings_notification_screen.dart': () => const SettingsNotificationScreen(),
 
   'settings_unsubscribe_screen.dart': () => const SettingsUnsubscribeScreen(),
@@ -114,7 +117,6 @@ final Map<String, Widget Function()> allScreens = {
   'general_condition_screen.dart': () => const GeneralConditionScreen(),
 
   'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
-
 };
 
 // Ajoutez d'autres chemins de fichiers ici
