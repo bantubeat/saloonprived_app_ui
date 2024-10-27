@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
+import 'package:saloonprived_app/src/screens/_settings/settings_notification_screen.dart';
 
 import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreements_screen/profilcreation_fan_creator_agreements_screen.dart';
 import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_screen/profilcreation_generalconditions_screen.dart';
@@ -8,6 +9,7 @@ import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_sc
 import 'package:saloonprived_app/src/screens/_activity/current_access_user_subscription_activity_screen/current_access_user_subscription_activity_screen.dart';
 
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
+import 'package:saloonprived_app/src/screens/settings_copyright_screen/settings_copyright_screen.dart';
 
 import 'screens/_activity/expired_access_user_subscription_activity_screen/expired_access_user_subscription_activity_screen.dart';
 
@@ -27,6 +29,10 @@ import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_con
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
 import 'screens/_settings/settings_restriction_screen.dart';
+
+import 'screens/_settings/settings_unsubscribe_screen.dart';
+import 'screens/_settings/general_condition_screen.dart';
+
 import 'screens/edit_user_profile_personal_info_screen/edit_user_profile_personal_info_screen.dart';
 
 import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
@@ -104,6 +110,13 @@ final Map<String, Widget Function()> allScreens = {
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
   'settings_restriction_screen.dart': () => const SettingsRestrictionScreen(),
+  'settings_notification_screen.dart': () => const SettingsNotificationScreen(),
+
+  'settings_unsubscribe_screen.dart': () => const SettingsUnsubscribeScreen(),
+
+  'general_condition_screen.dart': () => const GeneralConditionScreen(),
+
+  'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
