@@ -10,6 +10,7 @@ import 'package:saloonprived_app/src/screens/_activity/current_access_user_subsc
 
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
 
+import 'screens/_chats/messages_settings_screen/messages_settings_screen.dart';
 import 'screens/_publish_video/publish_video_image_camera_screen/publish_video_image_camera_screen.dart';
 import 'screens/_publish_video/publish_video_image_camera_screen/visualized_media_screen.dart';
 
@@ -139,6 +140,7 @@ final Map<String, Widget Function()> allScreens = {
   'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
   'virtual_item_settings_screen.dart': () => const VirtualItemSettingsScreen(),
   'notification_screen.dart': () => const NotificationsScreen(),
+  'messages_settings_screen.dart': () => const MessagesSettingsScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
