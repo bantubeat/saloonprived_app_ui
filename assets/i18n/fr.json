@@ -311,6 +311,16 @@
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
     },
+    "publish_video_image_camera_screen": {
+        "cancer": "Annuler",
+        "video": "Vidéo",
+        "photo": "Photo",
+        "select": "Sélectionner",
+        "renverse": "Retourner",
+        "muet": "Muet",
+        "next": "Suivant",
+        "browse": "Parcourir"
+    },
     "edit_user_profile_personal_info_screen": {
         "profile_title": "Détails du profil",
         "bio_title": "Bio",

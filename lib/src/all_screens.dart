@@ -9,6 +9,10 @@ import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_sc
 import 'package:saloonprived_app/src/screens/_activity/current_access_user_subscription_activity_screen/current_access_user_subscription_activity_screen.dart';
 
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
+
+import 'screens/_publish_video/publish_video_image_camera_screen/publish_video_image_camera_screen.dart';
+import 'screens/_publish_video/publish_video_image_camera_screen/visualized_media_screen.dart';
+
 import 'package:saloonprived_app/src/screens/settings_copyright_screen/settings_copyright_screen.dart';
 
 import 'screens/_activity/expired_access_user_subscription_activity_screen/expired_access_user_subscription_activity_screen.dart';
@@ -87,7 +91,15 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonUnverifyKycScreen(),
   'paid_connected_user_saloon_no_config_price_screen.dart': () =>
       const PaidConnectedUserSaloonNoConfigPriceScreen(),
-
+  'publish_video_image_camera_screen.dart': () =>
+      const PublishVideoImageCameraScreen(
+        camera: [],
+      ),
+  'visualized_media_screen.dart': () => const VisualizedMediaScreen(
+        isMedia: false,
+        file: null,
+        isImage: true,
+      ),
   'edit_user_profile_personal_info_screen.dart': () =>
       const EditUserProfilePersonalInfoScreen(),
 
