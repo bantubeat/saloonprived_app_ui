@@ -562,12 +562,11 @@
         "title": "Politique en matière de Propriété Intellectuelle et droits d'auteur",
         "button_label": "Accepter",
         "content": {
-            "preamble" : "\t\tBantubeat respecte les droits de propriété intellectuelle des tiers et nous attendons de nos utilisateurs qu'ils en fassent de même. Les Conditions Générale d'utilisation du Services et les Règles Communautaires de Bantubeat interdisent de poster, de partager ou d'envoyer tout contenu qui porte atteinte à un droit d'auteur, à une marque ou à tout autre droit de propriété intellectuelle d'autrui.",
-            
+            "preamble": "\t\tBantubeat respecte les droits de propriété intellectuelle des tiers et nous attendons de nos utilisateurs qu'ils en fassent de même. Les Conditions Générale d'utilisation du Services et les Règles Communautaires de Bantubeat interdisent de poster, de partager ou d'envoyer tout contenu qui porte atteinte à un droit d'auteur, à une marque ou à tout autre droit de propriété intellectuelle d'autrui.",
             "paragraph_1": {
                 "title": "Droit d'auteur",
                 "content": "\t\tLe droit d'auteur est un droit prévu par la législation qui protège les œuvres de l'esprit originales (par ex., musique, vidéo, etc.). En général, le droit d'auteur protège l'expression originale d'une idée (par ex., la manière spécifique dont une vidéo ou une musique est créée) mais ne protège pas les idées ou faits sous-jacents."
-           },
+            },
             "paragraph_2": {
                 "title": "Violation du Droit d'auteur",
                 "content": "\t\tNous n'autorisons aucun contenu qui porte atteinte au droit d'auteur. L'utilisation de contenus protégés par le droit d'auteur sans l'autorisation des titulaires des droits ou sans raison légale valable peut conduire à une violation des règles et politiques de Bantubeat. Cependant, toutes les utilisations non autorisées de contenus protégés par le droit d'auteur ne constituent pas nécessairement une violation du droit d'auteur. Dans de nombreux pays, des exceptions au droit d'auteur permettent, dans certaines circonstances, d'utiliser des œuvres protégées par le droit d'auteur sans autorisation. Il s'agit notamment de la doctrine du fair use aux États-Unis et des exceptions et limitations au droit d'auteur au sein de l'Union européenne (et toutes autres exceptions équivalentes prévues par les législations locales d'autres pays)."
@@ -615,6 +614,58 @@
             "paragraph_13": {
                 "title": "Remarque Générale",
                 "content": "\t\tEn tant qu'utilisateur de Bantubeat, vous êtes responsable du contenu que vous publiez. Si vous avez des questions sur le droit d'auteur ou sur le droit des marques, telles que le fait que votre contenu ou que votre utilisation du nom ou de la marque d'un tiers constitue ou non une atteinte aux droits d'un tiers, il vous est recommandé de contacter un avocat. Si vous n'êtes pas sûr que le contenu que vous envisagez de nous signaler porte atteinte aux droits d'un tiers, vous pouvez également demander un avis juridique avant de nous signaler ce contenu."
+            }
+        }
+    },
+    "virtual_item_settings_screen": {
+        "title": "Politique des articles virtuels",
+        "last_update": "Mise à jour le {}",
+        "next": "Continuer",
+        "welcome": "Bienvenue sur Bantubeat.",
+        "content_title": "Politique relative aux articles virtuels",
+        "group_1": "PIÈCES DE MONNAIE (BEATZCOIN)",
+        "group_2": "CADEAUX",
+        "content": {
+            "preamble": "\t\tLe programme de diffusion en direct Saloonprived (le « programme ») est fourni par Bantubeat (« plate-forme ») pour que les utilisateurs puissent diffuser en direct et utiliser les fonctionnalités de diffusion en direct. Il est ouvert aux utilisateurs des Services âgés de 18 ans ou plus et est soumis aux termes et conditions suivants de la présente Politique des objets virtuels. Si vous avez entre 18 ans et l'âge de la majorité légale dans votre juridiction, vous ne pouvez participer au Programme qu'avec l'autorisation d'un parent ou d'un tuteur légal qui accepte d'être lié par la présente Politique relative aux objets virtuels.",
+            "paragraph_1": {
+                "title": "Qui est éligible pour participer au Programme ?",
+                "content": "\t\tL'utilisateurs n'ayant pas atteint l'âge de la majorité dans sa juridiction peut participer au programme avec l'autorisation d'un parent ou d'un tuteur légal. Certains utilisateurs, âgés de 18 ans ou plus, peuvent participer au Programme. Ces utilisateurs seront sélectionnés exclusivement à la discrétion de la Plateforme sur la base de divers critères, notamment leur expérience dans la création de contenu de qualité, le nombre d'abonnés, etc. Seuls les utilisateurs âgés de 18 ans ou plus (ou ayant atteint l'âge de la majorité dans votre juridiction) peuvent : acheter des pièces et des cadeaux ; envoyer des Cadeaux à d'autres Utilisateurs ; recevoir des cadeaux ayant une valeur monétaire ; ou gagnez des diamants et retirez des diamants."
+            },
+            "paragraph_2": {
+                "title": "Qui peut acheter des pièces ?",
+                "content": "\t\tLes utilisateurs de nos Services qui sont âgés de 18 ans (ou l'âge de la majorité dans votre juridiction) ou plus peuvent acheter des « pièces » virtuelles (« Pièces ») auprès de nous en utilisant des méthodes de paiement autorisées et par l'intermédiaire de fournisseurs de paiement mis à disposition et autorisés par nous."
+            },
+            "paragraph_3": {
+                "title": "Acheter des pièces",
+                "content": "\t\tLe prix des pièces sera affiché au point d'achat. Tous les frais et paiements pour les Beatzcoin seront effectués dans la devise spécifiée au point d'achat via le mécanisme de paiement approprié. Le paiement des Beatzcoin se fait exclusivement avec le compte financier de votre profil Bantubeat. Vous devez au préalable recharger votre compte financier pour acheter des Beatzcoin. Les règlements de change, les frais de transaction à l'étranger et les frais de canal de paiement, le cas échéant, sont basés sur votre accord avec le fournisseur de paiement applicable voir conditions de paiement Bantubeat."
+            },
+            "paragraph_4": {
+                "title": "Vous serez responsable du paiement de toutes les pièces achetées par vous. Une fois votre achat effectué, votre compte Beatzcoin sur Bantubeat sera crédité.",
+                "content": "\t\tSi vous souhaitez apporter des modifications à votre achat, veuillez nous contacter à l'adresse e-mail indiquée ci-dessous. Nous vous ferons savoir si ce changement est possible. Veuillez noter que les modifications peuvent avoir un impact sur le prix ainsi que sur d'autres aspects de votre achat. Si vous vivez dans l'Union européenne, vous disposez de certains droits de rétractation d'un achat en vertu de la directive sur les droits des consommateurs et de sa législation de mise en ?uvre. Cependant, si vous achetez des Beatzcoins, vous reconnaissez et acceptez que nous commencions à vous fournir les Beatzcoins dès que l'achat est terminé et, par conséquent, votre droit d'annuler ou de vous retirer du contrat d'achat est perdu à ce stade."
+            },
+            "paragraph_5": {
+                "title": "Comment utiliser les pièces",
+                "content": "\t\tBantubeat et toutes ses applications connexes fonctionnent avec Les Beatzcoin. Pour tout achat sur bantubeat vous utilisez vos Beatzcoin disponible. Peuvent être utilisées pour acheter des cadeaux virtuels, les accès au contenus, le streaming payant, le contenu téléchargeable et tout contenu sur bantubeat.\nLes pièces ne peuvent être utilisées que sur notre plate-forme et dans le cadre de nos services. Aucune pièce ne peut être attribuée ou transférée à un autre utilisateur des services ou à un tiers, sauf dans les cas de paiement autorisation sur le service Bantubeat. La vente, le troc, la cession ou toute autre cession de pièces, autre que par nous, est expressément interdite. \nToutes les pièces attribuées, vendues ou autrement transférées sans notre consentement écrit exprès sont nulles. Tout utilisateur des Services qui enfreint cette restriction peut voir son compte résilié, perdre des pièces de son compte et/ou être tenu responsable des dommages et des frais de justice et de transaction. \n Toutes les pièces d'un utilisateur expireront automatiquement lors de la résiliation du compte de l'utilisateur pour quelque raison que ce soit. \n Vous acceptez que nous ayons le droit absolu de gérer, réglementer, contrôler, modifier et/ou éliminer ces pièces, lorsque nous avons une raison valable de le faire, dans tout cas général ou spécifique, et que nous n'aurons aucune responsabilité envers vous en fonction sur l'exercice de ce droit. Si nous décidons d'éliminer complètement les Beatzcoin de nos services, nous le ferons en vous envoyant un préavis raisonnable."
+            },
+            "paragraph_6": {
+                "title": "Echange",
+                "content": "Les Beatzcoin accumulés restent la propriété exclusive de bantubeat tant que vous ne les échanger pas. Vous pouvez uniquement échanger vos beatzcoin sur la plate-forme pour recevoir une valeur monétaire. Pour chaque échange de beatzcoin les frais et taxes seront appliqués sur le montant définitif et le solde sera crédité sur votre compte financier. Pour plus d'information sur l'échange de beatzcoin voir les conditions de paiement Bantubeat."
+            },
+            "paragraph_7": {
+                "title": "Qui peut acheter des Cadeaux ?",
+                "content": "\t\tL'utilisateur de nos Services âgé de 18 ans (ou ayant atteint l'âge de la majorité dans votre juridiction) ou plus peut acheter des cadeaux virtuels (« Cadeaux ») en échangeant des Beatzcoin contre des Cadeaux."
+            },
+            "paragraph_8": {
+                "title": "Acheter des cadeaux",
+                "content": "\t\tLes cadeaux constituent une licence limitée à certaines fonctionnalités des produits et services numériques. Le taux de change entre chaque pièce et chaque cadeau sera affiché sur notre plateforme au point d'échange. \nLes prix publiés incluent les taxes, sauf indication contraire en vertu des lois applicables dans votre juridiction. Si des cadeaux sont soumis à la taxe de vente dans votre juridiction et que vous ne nous avez pas payé la taxe de vente applicable, vous serez alors responsable du paiement de cette taxe de vente et de toute pénalité ou intérêt connexe à l'autorité fiscale compétente.\nVous acceptez que nous ayons le droit absolu de gérer, réglementer, contrôler, modifier et/ou éliminer le taux de change que nous jugeons approprié à notre seule discrétion, dans tout cas général ou spécifique, et que nous n'aurons aucune responsabilité envers vous en fonction de notre exercice de ce droit.\nSi vous souhaitez apporter des modifications à votre achat, veuillez nous contacter à l'adresse e-mail indiquée ci-dessous. Nous vous ferons savoir si ce changement est possible. Veuillez noter que les changements peuvent avoir un impact sur le prix ainsi que sur d'autres aspects de l'achat.\n Sauf indication contraire dans la présente politique, toutes les ventes de cadeaux sont définitives et nous n'offrons aucun remboursement pour les cadeaux achetés. Lorsque vous avez échangé vos Pièces contre des Cadeaux, ces Pièces seront déduites de votre compte utilisateur et créditées de Cadeaux.\n Les cadeaux ont une valeur équivalente en Beatzcoin, chaque fois que vous offrer un cadeau à un autre utilisateur, le nombre de beatzcoin équivalent est débité de votre compte beatzcoin. Chaque fois que vous recevez un cadeau d'un autre utilisateur, le nombre de beatzcoin est crédité sur votre compte beatzcoin. Les cadeaux que vous recevez ne peuvent pas être convertis ou échangés contre de l'argent, ni être remboursés ou remboursés par nous pour quelque raison que ce soit.\n Les cadeaux échangés ou reçus par tout utilisateur ne constituent pas un bien et ne sont pas transférables : (a) en cas de décès ; (b) dans le cadre d'une affaire de relations familiales ; ou (c) autrement par effet de la loi.\n Nous pouvons remplacer les copies de cadeaux précédemment échangées si nous déterminons, à notre seule discrétion, que les cadeaux échangés ou reçus par un utilisateur sont corrompus ou autrement endommagés. Nous ne facturerons pas de frais supplémentaires pour la réémission d'un cadeau corrompu ou autrement endommagé. Si vous recevez un cadeau corrompu ou autrement endommagé, contactez-nous à https://bantubeat.com/contact\n Nous nous réservons le droit de résilier ou de prendre d'autres mesures appropriées à l'encontre du compte de tout utilisateur qui est réputé abuser du programme ou de la présente politique sur les objets virtuels."
+            },
+            "paragraph_9": {
+                "title": "Comment utiliser les cadeaux",
+                "content": "\t\tEn ce qui concerne un produit de diffusion en direct, vous pouvez utiliser des cadeaux pour évaluer ou montrer votre appréciation pour un élément de contenu utilisateur qui est téléchargé ou diffusé par un autre utilisateur (« fournisseur de contenu ») .\n Lorsque cette fonctionnalité est disponible sur les Services, vous pouvez apporter des Cadeaux au Contenu Utilisateur en cliquant sur le bouton « Envoyer un cadeau » sous le Contenu Utilisateur concerné. \nDans les conversations, diffusion en directe, lorsque la fonctionnalité est activée dans votre région, vous envoyer des cadeaux aux autres utilisateurs via l'espace cadeau approprié. \nVeuillez noter que lorsque vous offrez un cadeau à un autre utilisateur, vous le faites publiquement afin que les autres utilisateurs des services (y compris le destinataire du cadeau) puissent voir votre nom, votre identifiant et les détails du cadeau que vous avez offert."
+            },
+            "paragraph_10": {
+                "title": "Contactez-nous",
+                "content": "\t\tSi vous rencontrez des problèmes avec les cadeaux, contactez-nous à : https://bantubeat.com/contact."
             }
         }
     }
