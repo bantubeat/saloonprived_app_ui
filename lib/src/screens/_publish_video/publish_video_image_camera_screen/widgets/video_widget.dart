@@ -190,9 +190,6 @@ class _VideoWidgetState extends State<VideoWidget> {
   }
 }
 
-
-
-
 // VoidCallback? videoPlayerListener;
 // VideoPlayerController? videoController;
 // @override

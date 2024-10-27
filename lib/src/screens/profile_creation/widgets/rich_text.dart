@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
+
 class RichTextWidget extends StatelessWidget {
   final String text;
   const RichTextWidget({
-    required this.text, super.key,
+    required this.text,
+    super.key,
   });
 
   @override
@@ -11,7 +13,10 @@ class RichTextWidget extends StatelessWidget {
     return RichText(
       text: TextSpan(
         text: text,
-        style: const TextStyle(color: AppColors.myDark, fontWeight: FontWeight.w900),
+        style: const TextStyle(
+          color: AppColors.myDark,
+          fontWeight: FontWeight.w900,
+        ),
         children: const [
           TextSpan(
             text: ' *',
