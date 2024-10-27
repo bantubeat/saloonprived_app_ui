@@ -441,6 +441,11 @@
         "hour": "{}  heures",
         "day": "{}  jours"
     },
+    "general_condition_screen": {
+        "title": "Conditions de services",
+        "last_update": "Mise à jour le {}",
+        "next": "Continuer"
+    },
     "settings_copyright_screen": {
         "update": "Mise a jour le 01/01/2023",
         "appbar_title": "Politique de droit d'auteur",
