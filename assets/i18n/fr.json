@@ -1,4 +1,4 @@
-{
+    {
     "app_title": "Saloonprived",
     "common": {
         "next": "Suivant",
@@ -16,6 +16,23 @@
     "image_service": {
         "choose_camera": "Camera",
         "choose_gallery": "Gallery"
+    },
+    "category_screen": {
+        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+        "category": "Catégorie",
+        "art_and_culture": "Art et culture",
+        "news_and_information": "Actualités et informations",
+        "business_and_coaching": "Business et coaching",
+        "comedy_and_stand_up": "Comédie et Stand-up",
+        "cuisine_and_gastronomy": "Cuisine et Gastronomie",
+        "nature_and_health": "Nature et Santé",
+        "sport_and_leisure": "Sport et Loisirs",
+        "fashion_and_beauty": "Fashion et beauté",
+        "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
+        "other": "Autres"
     },
     "saloon_for_you_no_subcription_screen": {
         "dicover_saloon": "Salon à découvrir",

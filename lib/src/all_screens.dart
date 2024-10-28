@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/profile_creation_category/profile_creation_category_screen.dart';
+
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_rooms/opend_post_saloon_free_and_paid_screen/video_full_screen.dart';
@@ -41,6 +43,7 @@ import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_connected_user_saloon_no_followers_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_connected_user_saloon_with_followers_screen.dart';
 import 'screens/_rooms/paid_saloon_buy_access_screen/paid_saloon_buy_access_screen.dart';
+
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
 import 'screens/_settings/virtual_item_settings_screen.dart';
@@ -74,10 +77,15 @@ import 'screens/welcome_screen/welcome_screen.dart';
 /// Ce n'est valable QUE pour les SCREENS, les composants n'ont pas besion d'être ici
 final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
+
+  'profile_creation_category_screen.dart': () =>
+      const ProfileCreationCategoryScreen(),
+
   'profilcreation_generalconditions_screen.dart': () =>
       const ProfilcreationGeneralconditionScreen(),
   'profilcreation_fan_creator_agreements_screen.dart': () =>
       const ProfilCreationFanCreatorAgreementScreen(),
+
   'saloon_for_you_have_subcription_screen.dart': () =>
       const SaloonForYouHaveSubcriptionScreen(),
   'login_screen.dart': () => const LoginScreen(),
