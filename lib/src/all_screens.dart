@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
+import 'package:saloonprived_app/src/screens/_rooms/opend_post_saloon_free_and_paid_screen/video_full_screen.dart';
 import 'package:saloonprived_app/src/screens/_settings/settings_notification_screen.dart';
 import 'package:saloonprived_app/src/screens/notification_screen/notification_screen.dart';
 
@@ -31,6 +32,7 @@ import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 
+import 'screens/_rooms/opend_post_saloon_free_and_paid_screen/opend_post_saloon_free_and_paid_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_unverify_kyc_screen/paid_connected_user_saloon_unverify_kyc_screen.dart';
 
 import 'screens/_rooms/paid_connected_user_saloon_no_access_screen/paid_connected_user_saloon_no_access_screen.dart';
@@ -132,6 +134,9 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'opend_post_saloon_free_and_paid_screen.dart': () =>
+      const OpendPostSaloonFreeAndPaidScreen(),
+  'video_full_screen.dart': () => const VideoFullScreen(),
 
   'messages_and_conversations_list_screen.dart': () =>
       const MessagesAndConversationsListScreen(),
