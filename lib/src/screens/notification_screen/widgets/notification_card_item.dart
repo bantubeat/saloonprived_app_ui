@@ -20,7 +20,7 @@ class NotificationCardItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      contentPadding: const EdgeInsets.all(5),
+      contentPadding: const EdgeInsets.all(0),
       leading: CircleAvatar(
         radius: 35,
         backgroundImage: AssetImage(image),
@@ -36,7 +36,10 @@ class NotificationCardItem extends StatelessWidget {
                     Flexible(
                       child: Text(
                         name,
-                        style: const TextStyle(fontWeight: FontWeight.bold),
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 12,
+                        ),
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
@@ -52,9 +55,12 @@ class NotificationCardItem extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 8),
-              Text(
-                LocaleKeys.notification_screen_time.tr(args: [time]),
-                style: Theme.of(context).textTheme.bodySmall,
+              Padding(
+                padding: const EdgeInsets.only(right: 20),
+                child: Text(
+                  LocaleKeys.notification_screen_time.tr(args: [time]),
+                  style: const TextStyle(fontSize: 10),
+                ),
               ),
             ],
           ),
@@ -68,7 +74,7 @@ class NotificationCardItem extends StatelessWidget {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             text: TextSpan(
-              style: DefaultTextStyle.of(context).style,
+              style: const TextStyle(fontSize: 12),
               children: _buildMessageText(message),
             ),
           ),
@@ -89,6 +95,6 @@ class NotificationCardItem extends StatelessWidget {
         TextSpan(text: parts[1]),
       ];
     }
-    return [TextSpan(text: message)];
+    return [TextSpan(text: message, style: const TextStyle(fontSize: 12))];
   }
 }

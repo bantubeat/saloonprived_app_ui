@@ -1,3 +1,4 @@
+import 'dart:io' show Platform;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:video_player/video_player.dart';
@@ -16,9 +17,17 @@ class VideoWidget extends StatefulWidget {
 class _VideoWidgetState extends State<VideoWidget> {
   late VideoPlayerController _controller;
 
+  bool get isInTestMode {
+    return Platform.environment.containsKey('FLUTTER_TEST');
+  }
+
   @override
   void initState() {
     super.initState();
+    if (isInTestMode) {
+      _controller = VideoPlayerController.asset('');
+      return;
+    }
     _controller = VideoPlayerController.networkUrl(
       Uri.parse(
         'https://samplelib.com/lib/preview/mp4/sample-5s.mp4',

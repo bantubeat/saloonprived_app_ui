@@ -9,29 +9,30 @@ class NotificationsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-		List<NotificationCardItem> notifications = [
-			const NotificationCardItem(
-				name: 'Richachba',
-				time: '1',
-				tags: '@Richachba',
-				message: 'a ajouté un nouvelle vidéo',
-				image: AppAssets.imagesFakeAvatar,
-			),
-			const NotificationCardItem(
-				name: 'Richachba',
-				time: '1',
-				tags: '@Richachba',
-				message: 'Vous a envoyé un message',
-				image: AppAssets.imagesFakeAvatar,
-			),
-			const NotificationCardItem(
-				name: 'Richachba',
-				time: '1',
-				tags: '@Richachba',
-				message: 'a commencé une diffusion En Direct',
-				image: AppAssets.imagesFakeAvatar,
-			),
-		];
+    List<NotificationCardItem> notifications = [
+      const NotificationCardItem(
+        name: 'Richachba',
+        time: '1',
+        tags: '@Richachba',
+        message: 'a ajouté un nouvelle vidéo',
+        image: AppAssets.imagesFakeAvatar,
+      ),
+      const NotificationCardItem(
+        name: 'Richachba',
+        time: '1',
+        tags: '@Richachba',
+        message: 'Vous a envoyé un message',
+        image: AppAssets.imagesFakeAvatar,
+      ),
+      const NotificationCardItem(
+        name: 'Richachba',
+        time: '1',
+        tags: '@Richachba',
+        message: 'a commencé une diffusion En Direct',
+        image: AppAssets.imagesFakeAvatar,
+      ),
+    ];
+
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
