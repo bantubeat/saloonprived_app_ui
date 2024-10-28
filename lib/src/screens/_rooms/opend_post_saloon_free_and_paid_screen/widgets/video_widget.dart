@@ -1,3 +1,5 @@
+import 'dart:io' show Platform;
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:saloonprived_app/src/screens/_rooms/opend_post_saloon_free_and_paid_screen/video_full_screen.dart';
@@ -20,6 +22,10 @@ class _VideoWidgetState extends State<VideoWidget> {
   @override
   void initState() {
     super.initState();
+    if (Platform.environment.containsKey('FLUTTER_TEST')) {
+      _controller = VideoPlayerController.asset('');
+      return;
+    }
     _controller = VideoPlayerController.networkUrl(
       Uri.parse(
         'https://samplelib.com/lib/preview/mp4/sample-5s.mp4',

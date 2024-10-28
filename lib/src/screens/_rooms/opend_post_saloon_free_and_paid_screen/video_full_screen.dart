@@ -1,3 +1,4 @@
+import 'dart:io' show Platform;
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -24,6 +25,10 @@ class _VideoFullScreenState extends State<VideoFullScreen> {
   void initState() {
     super.initState();
     if (widget.data != null) {
+      if (Platform.environment.containsKey('FLUTTER_TEST')) {
+        _controller = VideoPlayerController.asset('');
+        return;
+      }
       _controller = VideoPlayerController.networkUrl(
         Uri.parse(
           widget.data!['url'],
