@@ -40,14 +40,14 @@ class _AdultWarningScreenState extends State<AdultWarningScreen> {
                     style: Theme.of(context).textTheme.bodyLarge,
                     children: [
                       TextSpan(
-                        text: LocaleKeys.attention_page_screen_title.tr(),
+                        text: LocaleKeys.adult_warning_screen_title.tr(),
                         style: const TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       TextSpan(
-                        text: LocaleKeys.attention_page_screen_subtitle.tr(),
+                        text: LocaleKeys.adult_warning_screen_subtitle.tr(),
                         style: const TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w700,
@@ -59,51 +59,51 @@ class _AdultWarningScreenState extends State<AdultWarningScreen> {
               ),
               const SizedBox(height: 60),
               Text(
-                LocaleKeys.attention_page_screen_text1.tr(),
+                LocaleKeys.adult_warning_screen_text1.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text2.tr(),
+                LocaleKeys.adult_warning_screen_text2.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text3.tr(),
+                LocaleKeys.adult_warning_screen_text3.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text4.tr(),
+                LocaleKeys.adult_warning_screen_text4.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text5.tr(),
+                LocaleKeys.adult_warning_screen_text5.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text6.tr(),
+                LocaleKeys.adult_warning_screen_text6.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text7.tr(),
+                LocaleKeys.adult_warning_screen_text7.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text8.tr(),
+                LocaleKeys.adult_warning_screen_text8.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text9.tr(),
+                LocaleKeys.adult_warning_screen_text9.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text10.tr(),
+                LocaleKeys.adult_warning_screen_text10.tr(),
               ),
               const SizedBox(height: 40),
               Text(
-                LocaleKeys.attention_page_screen_text11.tr(),
+                LocaleKeys.adult_warning_screen_text11.tr(),
               ),
               const SizedBox(height: 20),
               Text(
-                LocaleKeys.attention_page_screen_text12.tr(),
+                LocaleKeys.adult_warning_screen_text12.tr(),
               ),
               const SizedBox(height: 35),
               Row(
@@ -127,7 +127,7 @@ class _AdultWarningScreenState extends State<AdultWarningScreen> {
                   ),
                   Expanded(
                     child: Text(
-                      LocaleKeys.attention_page_screen_text13.tr(),
+                      LocaleKeys.adult_warning_screen_text13.tr(),
                       softWrap: true,
                     ),
                   ),
@@ -153,7 +153,7 @@ class _AdultWarningScreenState extends State<AdultWarningScreen> {
                     },
                   ),
                   Text(
-                    LocaleKeys.attention_page_screen_text14.tr(),
+                    LocaleKeys.adult_warning_screen_text14.tr(),
                   ),
                 ],
               ),
@@ -178,7 +178,7 @@ class _AdultWarningScreenState extends State<AdultWarningScreen> {
                         child: Padding(
                           padding: const EdgeInsets.all(3.0),
                           child: Text(
-                            LocaleKeys.attention_page_screen_btn_refuse.tr(),
+                            LocaleKeys.adult_warning_screen_btn_refuse.tr(),
                             style: TextStyle(
                               color: AppColors.myWhite,
                               fontSize: buttonTextSize,
@@ -210,7 +210,7 @@ class _AdultWarningScreenState extends State<AdultWarningScreen> {
                         child: Padding(
                           padding: const EdgeInsets.all(3.0),
                           child: Text(
-                            LocaleKeys.attention_page_screen_btn_accept.tr(),
+                            LocaleKeys.adult_warning_screen_btn_accept.tr(),
                             style: TextStyle(
                               color: AppColors.myWhite,
                               fontSize: buttonTextSize,
