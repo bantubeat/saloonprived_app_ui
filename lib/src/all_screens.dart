@@ -53,7 +53,6 @@ import 'screens/edit_user_profile_personal_info_screen/edit_user_profile_persona
 
 import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
 
-import 'screens/notification_screen/notification_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
 import 'screens/profile_creation/profile_creation_screen.dart';
@@ -157,8 +156,6 @@ final Map<String, Widget Function()> allScreens = {
   'notification_screen.dart': () => const NotificationsScreen(),
 
   'messages_settings_screen.dart': () => const MessagesSettingsScreen(),
-
-  'notification_screen.dart': () => const NotificationsScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
