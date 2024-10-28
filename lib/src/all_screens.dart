@@ -34,6 +34,7 @@ import 'screens/_rooms/paid_connected_user_saloon_no_access_screen/paid_connecte
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_connected_user_saloon_no_followers_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_connected_user_saloon_with_followers_screen.dart';
+import 'screens/_rooms/paid_saloon_buy_access_screen/paid_saloon_buy_access_screen.dart';
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
 import 'screens/_settings/virtual_item_settings_screen.dart';
@@ -128,6 +129,8 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+
+  'paid_saloon_buy_access_screen.dart': () => const PaidSaloonBuyAccessScreen(),
 
   'fans_activity_screen.dart': () => const FansActivityScreen(),
 
