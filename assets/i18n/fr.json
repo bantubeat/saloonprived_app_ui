@@ -17,6 +17,23 @@
             "choose_camera": "Camera",
             "choose_gallery": "Gallery"
         },
+        "category_screen": {
+            "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+            "previous": "Précédent",
+            "next": "Suivant",
+            "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+            "category": "Catégorie",
+            "art_and_culture": "Art et culture",
+            "news_and_information": "Actualités et informations",
+            "business_and_coaching": "Business et coaching",
+            "comedy_and_stand_up": "Comédie et Stand-up",
+            "cuisine_and_gastronomy": "Cuisine et Gastronomie",
+            "nature_and_health": "Nature et Santé",
+            "sport_and_leisure": "Sport et Loisirs",
+            "fashion_and_beauty": "Fashion et beauté",
+            "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
+            "other": "Autres"
+        },
         "saloon_for_you_no_subcription_screen": {
             "dicover_saloon": "Salon à découvrir",
             "saloon_for_you": "Salon pour toi.\n\n",
@@ -625,6 +642,42 @@
                 }
             }
         },
+        "fans_activity_screen": {
+            "subscribe_button": "S'abonner",
+            "unsubscribe_button": "Se Désabonner",
+            "messages": "Messages",
+            "send_tip_to": "Envoyer un pourboire",
+            "fans": "Fans",
+            "add_to_favorite": "Ajouter à favori"
+        },
+        "messages_and_conversations_list_screen": {
+            "messages": "Messages",
+            "channel": "chats channel"
+        },
+        "paid_saloon_buy_access_screen": {
+            "payment_to": "Paiement à",
+            "total": "Total",
+            "total_amount": "Total",
+            "discount": "Remise",
+            "amount_to_pay": "Montant à payer",
+            "pay_with_balance": "Payer avec le balance",
+            "beatzcoin_balance": "Solde Beatzcoin",
+            "insufficient_balance": "Le solde de ce compte est insuffisant pour cet achat",
+            "sufficient_balance": "Le solde de ce compte est suffisant pour cet achat",
+            "buy_tokens": "Acheter des Jetons",
+            "pay": "Payer",
+            "buy_access": "Payer un accès",
+            "payment_success": "PAIEMENT DE L’ACCES REUSSI",
+            "enable_auto_renewal": "ACTIVER LE RENOUVELLEMENT AUTOMATIQUE",
+            "auto_renewal_left": "En activant le renouvellement automatique, vous auriez toujours accès au contenu exclusif de.",
+            "auto_renewal_center": "et également à toutes les sessions live lorsque.",
+            "auto_renewal_right": "sera en live.",
+            "renewal_terms": "Votre accès sera renouvelé pour la même période au prix fixé par le créateur. vous pouvez annuler votre accès à tout moment via la page Activité",
+            "activate_auto_renewal_button": "ACTIVER LE RENOUVELLEMENT AUTOMATIQUE",
+            "not_now": "Pas maintenant",
+            "activate": "ACTIVER",
+            "renew": "Renouveler"
+        },
         "virtual_item_settings_screen": {
             "title": "Politique des articles virtuels",
             "last_update": "Mise à jour le {}",
@@ -676,6 +729,12 @@
                     "content": "\t\tSi vous rencontrez des problèmes avec les cadeaux, contactez-nous à : https://bantubeat.com/contact."
                 }
             }
+        },
+        "messages_settings_screen": {
+            "messages": "Messages",
+            "channel": "chats channel",
+            "diffusion": "Canal de diffusion",
+            "welcome_message": "Message de bienvenue"
         },
         "messages_welcome_screen": {
             "messages": "Messages",

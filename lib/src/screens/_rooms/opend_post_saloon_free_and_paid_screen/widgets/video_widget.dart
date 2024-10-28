@@ -1,6 +1,8 @@
 import 'dart:io' show Platform;
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:saloonprived_app/src/screens/_rooms/opend_post_saloon_free_and_paid_screen/video_full_screen.dart';
 import 'package:video_player/video_player.dart';
 
 class VideoWidget extends StatefulWidget {
@@ -17,14 +19,10 @@ class VideoWidget extends StatefulWidget {
 class _VideoWidgetState extends State<VideoWidget> {
   late VideoPlayerController _controller;
 
-  bool get isInTestMode {
-    return Platform.environment.containsKey('FLUTTER_TEST');
-  }
-
   @override
   void initState() {
     super.initState();
-    if (isInTestMode) {
+    if (Platform.environment.containsKey('FLUTTER_TEST')) {
       _controller = VideoPlayerController.asset('');
       return;
     }
@@ -32,9 +30,12 @@ class _VideoWidgetState extends State<VideoWidget> {
       Uri.parse(
         'https://samplelib.com/lib/preview/mp4/sample-5s.mp4',
       ),
-    )..initialize().then((_) {
-        setState(() {});
-      });
+    );
+
+    // Initialisation du lecteur vidéo avec gestion des erreurs
+    _controller.initialize().then((_) {
+      setState(() {});
+    });
   }
 
   @override
@@ -135,27 +136,57 @@ class _VideoWidgetState extends State<VideoWidget> {
                       ),
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        InkWell(
-                          onTap: () {
-                            setState(() {
-                              _controller.value.isPlaying
-                                  ? _controller.pause()
-                                  : _controller.play();
-                            });
-                          },
-                          child: Icon(
-                            _controller.value.isPlaying
-                                ? Icons.pause
-                                : Icons.play_arrow,
-                            color: Colors.white,
-                            size: 20,
-                          ),
+                        Row(
+                          children: [
+                            InkWell(
+                              onTap: () {
+                                setState(() {
+                                  _controller.value.isPlaying
+                                      ? _controller.pause()
+                                      : _controller.play();
+                                });
+                              },
+                              child: Icon(
+                                _controller.value.isPlaying
+                                    ? Icons.pause
+                                    : Icons.play_arrow,
+                                color: Colors.white,
+                                size: 20,
+                              ),
+                            ),
+                            const Icon(
+                              Icons.volume_down_sharp,
+                              color: Colors.white,
+                              size: 20,
+                            ),
+                          ],
                         ),
-                        const Icon(
-                          Icons.volume_down_sharp,
-                          color: Colors.white,
-                          size: 20,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 40.0),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const VideoFullScreen(
+                                    data: {
+                                      'url':
+                                          'https://videos.pexels.com/video-files/7699696/7699696-uhd_1440_2732_24fps.mp4',
+                                    },
+                                  ),
+                                ),
+                              );
+                            },
+                            child: Icon(
+                              _controller.value.isPlaying
+                                  ? Icons.fullscreen
+                                  : Icons.fullscreen,
+                              color: Colors.white,
+                              size: 20,
+                            ),
+                          ),
                         ),
                       ],
                     ),

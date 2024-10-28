@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'dart:io' show File;
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -189,9 +189,6 @@ class _VideoWidgetState extends State<VideoWidget> {
     );
   }
 }
-
-
-
 
 // VoidCallback? videoPlayerListener;
 // VideoPlayerController? videoController;

@@ -5,11 +5,6 @@ class Avatar extends StatelessWidget {
   const Avatar({required this.avatarUrl});
   @override
   Widget build(BuildContext context) {
-    return CircleAvatar(
-      radius: 20.0,
-      backgroundImage: AssetImage(
-        avatarUrl,
-      ),
-    );
+    return CircleAvatar(radius: 20.0, backgroundImage: AssetImage(avatarUrl));
   }
 }

@@ -44,15 +44,11 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
                   },
                   child: const Padding(
                     padding: EdgeInsets.all(8.0),
-                    child: Icon(
-                      Icons.close,
-                    ),
+                    child: Icon(Icons.close),
                   ),
                 ),
               ),
-              const Divider(
-                color: Color.fromRGBO(235, 235, 235, 1),
-              ),
+              const Divider(color: Color.fromRGBO(235, 235, 235, 1)),
               Expanded(
                 child: _bottomSheetHeightPercentage == 0.30
                     ? _buildGridViewWithIcons(context, 5) // 5 items per row
@@ -90,16 +86,11 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
   // Display icons in column with their names
   Widget _buildColumnWithIcons(BuildContext context) {
     return ListView.builder(
-      padding: const EdgeInsets.symmetric(
-        horizontal: 20,
-        vertical: 10,
-      ),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       itemCount: socialMediaItems.length,
       itemBuilder: (context, index) {
         return ListTile(
-          contentPadding: const EdgeInsets.symmetric(
-            vertical: 4,
-          ),
+          contentPadding: const EdgeInsets.symmetric(vertical: 4),
           leading: _buildIcon(
             socialMediaItems[index].icon,
             socialMediaItems[index].color,
@@ -109,10 +100,7 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
             socialMediaItems[index].image,
           ),
           title: Padding(
-            padding: const EdgeInsets.only(
-              bottom: 10,
-              left: 10.0,
-            ),
+            padding: const EdgeInsets.only(bottom: 10, left: 10.0),
             child: Text(
               socialMediaItems[index].isLink != null
                   ? socialMediaItems[index].name
@@ -191,17 +179,11 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
             child: image ??
                 Transform.rotate(
                   angle: rotate ?? 0,
-                  child: Icon(
-                    icon,
-                    size: 30,
-                    color: color,
-                  ),
+                  child: Icon(icon, size: 30, color: color),
                 ),
           ),
         ),
-        const SizedBox(
-          height: 5,
-        ),
+        const SizedBox(height: 5),
         Text(
           name,
           style: GoogleFonts.inter(
@@ -283,11 +265,7 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
       icon: Octicons.x, // Remplacement temporaire pour X
       backgroundColor: Colors.black,
       color: Colors.white,
-      image: Image.asset(
-        AppAssets.imagesXLogo,
-        width: 32,
-        height: 32,
-      ),
+      image: Image.asset(AppAssets.imagesXLogo, width: 32, height: 32),
     ),
     // LineItem(
     //   name: 'TikTok',
@@ -322,11 +300,7 @@ class _ShareBottomSheetContentState extends State<ShareBottomSheetContent> {
       icon: Octicons.x, // Remplacement temporaire pour X
       backgroundColor: Colors.black,
       color: Colors.white,
-      image: Image.asset(
-        AppAssets.imagesXLogo,
-        width: 32,
-        height: 32,
-      ),
+      image: Image.asset(AppAssets.imagesXLogo, width: 32, height: 32),
     ),
     LineItem(
       name: 'Telegram',

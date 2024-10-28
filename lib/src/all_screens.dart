@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/profile_creation_category/profile_creation_category_screen.dart';
+
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
+import 'package:saloonprived_app/src/screens/_rooms/opend_post_saloon_free_and_paid_screen/video_full_screen.dart';
 import 'package:saloonprived_app/src/screens/_settings/settings_notification_screen.dart';
+import 'package:saloonprived_app/src/screens/notification_screen/notification_screen.dart';
 
 import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreements_screen/profilcreation_fan_creator_agreements_screen.dart';
 import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_screen/profilcreation_generalconditions_screen.dart';
@@ -11,6 +15,7 @@ import 'package:saloonprived_app/src/screens/_activity/current_access_user_subsc
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
 
 import 'screens/_chats/messages_welcome_screen/messages_welcome_screen.dart';
+import 'screens/_chats/messages_settings_screen/messages_settings_screen.dart';
 import 'screens/_publish_video/publish_video_image_camera_screen/publish_video_image_camera_screen.dart';
 import 'screens/_publish_video/publish_video_image_camera_screen/visualized_media_screen.dart';
 
@@ -20,11 +25,17 @@ import 'screens/_activity/expired_access_user_subscription_activity_screen/expir
 
 import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_screen.dart';
 
+import 'screens/_chats/messages_and_conversations_list_screen/messages_and_conversations_list_screen.dart';
+
+import 'screens/_activity/fans_activity_screen/fans_activity_screen.dart';
+
 import 'screens/_activity/principal_activity_screen/principal_activity_screen.dart';
+
 import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_dashboard_screen.dart';
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 
+import 'screens/_rooms/opend_post_saloon_free_and_paid_screen/opend_post_saloon_free_and_paid_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_unverify_kyc_screen/paid_connected_user_saloon_unverify_kyc_screen.dart';
 
 import 'screens/_rooms/paid_connected_user_saloon_no_access_screen/paid_connected_user_saloon_no_access_screen.dart';
@@ -32,6 +43,8 @@ import 'screens/_rooms/paid_connected_user_saloon_no_access_screen/paid_connecte
 import 'screens/_rooms/paid_connected_user_saloon_no_config_price_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_no_followers_screen/paid_connected_user_saloon_no_followers_screen.dart';
 import 'screens/_rooms/paid_connected_user_saloon_with_followers_screen/paid_connected_user_saloon_with_followers_screen.dart';
+import 'screens/_rooms/paid_saloon_buy_access_screen/paid_saloon_buy_access_screen.dart';
+
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
 import 'screens/_settings/virtual_item_settings_screen.dart';
@@ -46,7 +59,6 @@ import 'screens/edit_user_profile_personal_info_screen/edit_user_profile_persona
 
 import 'screens/discover_lounge/discover_lounge_non_adults_creators_screen/discover_lounge_non_adults_creators_screen.dart';
 
-import 'screens/notification_screen/notification_screen.dart';
 import 'screens/sallon_for_you/saloon_for_you_no_subcription_screen.dart';
 import 'screens/profile_create_user_profile_screen/profile_create_user_profile_screen.dart';
 import 'screens/profile_creation/profile_creation_screen.dart';
@@ -66,10 +78,15 @@ import 'screens/welcome_screen/welcome_screen.dart';
 /// Ce n'est valable QUE pour les SCREENS, les composants n'ont pas besion d'être ici
 final Map<String, Widget Function()> allScreens = {
   'welcome_screen.dart': () => const WelcomeScreen(),
+
+  'profile_creation_category_screen.dart': () =>
+      const ProfileCreationCategoryScreen(),
+
   'profilcreation_generalconditions_screen.dart': () =>
       const ProfilcreationGeneralconditionScreen(),
   'profilcreation_fan_creator_agreements_screen.dart': () =>
       const ProfilCreationFanCreatorAgreementScreen(),
+
   'saloon_for_you_have_subcription_screen.dart': () =>
       const SaloonForYouHaveSubcriptionScreen(),
   'login_screen.dart': () => const LoginScreen(),
@@ -126,6 +143,17 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+  'opend_post_saloon_free_and_paid_screen.dart': () =>
+      const OpendPostSaloonFreeAndPaidScreen(),
+  'video_full_screen.dart': () => const VideoFullScreen(),
+
+  'messages_and_conversations_list_screen.dart': () =>
+      const MessagesAndConversationsListScreen(),
+
+  'paid_saloon_buy_access_screen.dart': () => const PaidSaloonBuyAccessScreen(),
+
+  'fans_activity_screen.dart': () => const FansActivityScreen(),
+
   'principal_activity_screen.dart': () => const PrincipalActivityScreen(),
 
   'settings_main_screen.dart': () => const SettingsMainScreen(),
@@ -141,6 +169,8 @@ final Map<String, Widget Function()> allScreens = {
   'virtual_item_settings_screen.dart': () => const VirtualItemSettingsScreen(),
   'notification_screen.dart': () => const NotificationsScreen(),
   'messages_welcome_screen.dart': () => const MessagesWelcomeScreen(),
+
+  'messages_settings_screen.dart': () => const MessagesSettingsScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
