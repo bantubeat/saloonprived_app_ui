@@ -5,10 +5,10 @@ import 'package:saloonprived_app/generated/locale_keys.g.dart';
 import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 
-import 'widgets.dart/bio_tab.dart';
-import 'widgets.dart/edit_profile_tab.dart';
-import 'widgets.dart/header_widget.dart';
-import 'widgets.dart/social_network_tab.dart';
+import 'widgets/bio_tab.dart';
+import 'widgets/edit_profile_tab.dart';
+import 'widgets/header_widget.dart';
+import 'widgets/social_network_tab.dart';
 
 class EditUserProfilePersonalInfoScreen extends StatelessWidget {
   const EditUserProfilePersonalInfoScreen({super.key});

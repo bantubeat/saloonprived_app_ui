@@ -15,21 +15,21 @@ class NotificationsScreen extends StatelessWidget {
         time: '1',
         tags: '@Richachba',
         message: 'a ajouté un nouvelle vidéo',
-        image: AppAssets.fakeAvatarImage,
+        image: AppAssets.imagesFakeAvatar,
       ),
       const NotificationCardItem(
         name: 'Richachba',
         time: '1',
         tags: '@Richachba',
         message: 'Vous a envoyé un message',
-        image: AppAssets.fakeAvatarImage,
+        image: AppAssets.imagesFakeAvatar,
       ),
       const NotificationCardItem(
         name: 'Richachba',
         time: '1',
         tags: '@Richachba',
         message: 'a commencé une diffusion En Direct',
-        image: AppAssets.fakeAvatarImage,
+        image: AppAssets.imagesFakeAvatar,
       ),
     ];
 

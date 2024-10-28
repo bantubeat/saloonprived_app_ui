@@ -201,6 +201,15 @@
         "subscribe_button": "S'abonner",
         "subscribed_label": "Abonné"
     },
+    "profile_creation_screen": {
+        "username": "Nom d'utilisateur",
+        "birth_year": "Année de naissance",
+        "country": "Pays",
+        "save": "Enregistrer",
+        "choose_in_the_list": "Choisissez dans la liste",
+        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
+        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
+    },
     "saloon_for_you_have_subcription_screen": {
         "advertisement_title": "Publicité sur saloonprived:",
         "learn_more": "En savoir plus",
@@ -299,6 +308,16 @@
         "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
         "must_configure_access_before_uploading": "Pour déposer des vidéos dans votre salon payant vous devez d'abord configurer vos accès",
         "configure_my_access": "Configurer mes accès"
+    },
+    "publish_video_image_camera_screen": {
+        "cancer": "Annuler",
+        "video": "Vidéo",
+        "photo": "Photo",
+        "select": "Sélectionner",
+        "renverse": "Retourner",
+        "muet": "Muet",
+        "next": "Suivant",
+        "browse": "Parcourir"
     },
     "edit_user_profile_personal_info_screen": {
         "profile_title": "Détails du profil",
@@ -429,6 +448,40 @@
         "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
         "save": "Enregistrer"
     },
+    "category_screen": {
+        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+        "category": "Catégorie",
+        "art_and_culture": "Art et culture",
+        "news_and_information": "Actualités et informations",
+        "business_and_coaching": "Business et coaching",
+        "comedy_and_stand_up": "Comédie et Stand-up",
+        "cuisine_and_gastronomy": "Cuisine et Gastronomie",
+        "nature_and_health": "Nature et Santé",
+        "sport_and_leisure": "Sport et Loisirs",
+        "fashion_and_beauty": "Fashion et beauté",
+        "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
+        "other": "Autres"
+    },
+    "profile_creation_category": {
+        "title": "Catégorie",
+        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
+        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
+        "choose_category": "Choisissez la catégorie qui définit la nature de votre salon",
+        "previous": "Précédent",
+        "next": "Suivant"
+    },
+    "welcome_page_screen": {
+        "username": "Nom d'utilisateur",
+        "birth_year": "Année de naissance",
+        "country": "Pays",
+        "save": "Enregistrer",
+        "choose_in_the_list": "Choisissez dans la liste",
+        "welcome_to_saloonprived": "Bienvenue sur Saloonprived",
+        "complete_these_information_to_create_your_profile": "Complétez ces informations pour créer votre profil"
+    },
     "paid_connected_user_saloon_no_access_screen": {
         "expired_date": "Votre accès expire dans : ",
         "renew": "Renouveller",
@@ -440,5 +493,230 @@
         "renew": "Renouveller",
         "hour": "{}  heures",
         "day": "{}  jours"
+    },
+    "principal_activity_screen": {
+        "title": "Activités",
+        "blocked": "Bloqués",
+        "my_followers": "Mes Fans",
+        "my_subscriptions": "Mes \n Abonnements",
+        "my_creators": "Mes Créateurs",
+        "followers": "{} \n Abonnés",
+        "subscriptions": "{} \n Créateurs",
+        "user": "{} \n Utilisateurs"
+    },
+    "settings_main_screen": {
+        "settings": "Paramètres",
+        "content": "Contenu",
+        "notifications": "Notifications",
+        "creators_portal": "Portail des créateurs",
+        "promote": "Promouvoir",
+        "business": "Entreprise et annonceurs",
+        "account": "Compte",
+        "logout": "Déconnexion",
+        "unsubscribe_saloonprived": "Se désinscrire de Saloonprived",
+        "restriction": "Restriction",
+        "block_adult_content": "En activant, vous bloquez la diffusion de la catégorie, sexualité et contenu adulte",
+        "help": "Support",
+        "security": "Sécurité",
+        "help_page": "Page d'aide",
+        "legal_mentions": "Mentions légales",
+        "terms_conditions": "Conditions générales",
+        "privacy_policy": "Politique de confidentialité",
+        "cookie_policy": "Politique des cookies",
+        "advertising": "Publicité",
+        "virtual_item_policy": "Politique des articles virtuels",
+        "copyright_policy": "Politique droit d'auteur"
+    },
+    "settings_restriction_screen": {
+        "content_restriction_title": "Restriction contenus à caractère sexuel",
+        "content_restriction_intro": "Afin de toujours mettre en valeur notre slogan 'Be What You Want', les utilisateurs bantubeat qui souhaitent utiliser saloonprived en tant que créateur, peuvent diffuser du contenu qui pourrait être inapproprié pour vous.",
+        "adult_content_info": "Certains contenus de la catégorie adulte ne sont pas appropriés pour tout le monde. Si vous ne souhaitez pas voir cette catégorie de contenus, vous pouvez activer le blocage.",
+        "disable_adult_category": "Désactiver la catégorie 'Sexualité et contenu pour adultes' pour masquer le contenu adulte.",
+        "forYou_feed_restriction": "Vous ne verrez dans votre salon 'pour toi' que le contenu des créateurs auxquels vous êtes abonnés.",
+        "modify_preferences": "Vous pourriez toujours modifier vos préférences dans les paramètres.",
+        "previous_button": "Précédent",
+        "next_button": "Suivant"
+    },
+    "settings_notification_screen": {
+        "title": "Notification",
+        "preferences": "Préférences",
+        "receive_notifications": "Recevoir les Notifications",
+        "receive_notifications_description": "recevoir les notifications pour  être informé des activités de saloonprived et de vos créateurs préférés.",
+        "disable_notifications_info": "vous pouvez les désactiver à tout moment.",
+        "receive_email_notifications": "Recevoir les Notification par Email",
+        "receive_email_notifications_description": "recevoir les notifications par Email",
+        "disable_email_notifications_info": "vous pouvez les désactiver à tout moment",
+        "continue": "Continuer"
+    },
+    "settings_unsubscribe_screen": {
+        "unsubscribe_title": "Se Désinscrire de saloonprived",
+        "unsubscribe_confirmation": "Êtes-vous sûr de vouloir vous désinscrire de Saloonprived?",
+        "unsubscribe_info": "Vous êtes connecté à saloonprived avec votre compte bantubeat. Vous désinscrire de saloonprived ne supprimera pas votre compte bantubeat, mais votre profil, vos vidéos, vos commentaires, vos messages directs sur saloonprived seront définitivement supprimés.",
+        "unsubscribe_process": "Si vous décidez de continuer, il va se passer ce qui suit :",
+        "profile_deactivation": "Votre profil saloonprived sera désactivé pendant 60 jours. Votre profil ne sera plus visible par d'autres utilisateurs.",
+        "permanent_seletion": "Après 60 jours, votre compte et toute votre activité seront définitivement perdus.",
+        "profile_recovery_info": "Si vous vous connectez sur saloonprived avant les 60 jours, vous pourriez récupérer votre profil et tout son contenu.",
+        "unsubscribe_button": "Se désinscrire"
+    },
+    "general_condition_screen": {
+        "title": "Conditions de services",
+        "last_update": "Mise à jour le {}",
+        "next": "Continuer"
+    },
+    "settings_copyright_screen": {
+        "update": "Mise a jour le 01/01/2023",
+        "appbar_title": "Politique de droit d'auteur",
+        "welcome": "Bienvenue sur Bantubeat.",
+        "title": "Politique en matière de Propriété Intellectuelle et droits d'auteur",
+        "button_label": "Accepter",
+        "content": {
+            "preamble": "\t\tBantubeat respecte les droits de propriété intellectuelle des tiers et nous attendons de nos utilisateurs qu'ils en fassent de même. Les Conditions Générale d'utilisation du Services et les Règles Communautaires de Bantubeat interdisent de poster, de partager ou d'envoyer tout contenu qui porte atteinte à un droit d'auteur, à une marque ou à tout autre droit de propriété intellectuelle d'autrui.",
+            "paragraph_1": {
+                "title": "Droit d'auteur",
+                "content": "\t\tLe droit d'auteur est un droit prévu par la législation qui protège les œuvres de l'esprit originales (par ex., musique, vidéo, etc.). En général, le droit d'auteur protège l'expression originale d'une idée (par ex., la manière spécifique dont une vidéo ou une musique est créée) mais ne protège pas les idées ou faits sous-jacents."
+            },
+            "paragraph_2": {
+                "title": "Violation du Droit d'auteur",
+                "content": "\t\tNous n'autorisons aucun contenu qui porte atteinte au droit d'auteur. L'utilisation de contenus protégés par le droit d'auteur sans l'autorisation des titulaires des droits ou sans raison légale valable peut conduire à une violation des règles et politiques de Bantubeat. Cependant, toutes les utilisations non autorisées de contenus protégés par le droit d'auteur ne constituent pas nécessairement une violation du droit d'auteur. Dans de nombreux pays, des exceptions au droit d'auteur permettent, dans certaines circonstances, d'utiliser des œuvres protégées par le droit d'auteur sans autorisation. Il s'agit notamment de la doctrine du fair use aux États-Unis et des exceptions et limitations au droit d'auteur au sein de l'Union européenne (et toutes autres exceptions équivalentes prévues par les législations locales d'autres pays)."
+            },
+            "paragraph_3": {
+                "title": "Retrait de Contenus ; Suspension ou Résiliation de Compte",
+                "content": "\t\tTout contenu d'un utilisateur qui porte atteinte au droit d'auteur d'un tiers peut être retiré de Bantubeat. Tout compte utilisateur peut faire l'objet d'une suspension ou d'une fermeture en cas de violations multiples du droit d'auteur sur Bantubeat ou d'autres violations des Conditions de Services et Règles Communautaires. Nous nous réservons le droit de refuser à tout titulaire de compte, dont le compte a été utilisé pour des activités non autorisées, l'ouverture d'un nouveau compte sur Bantubeat ou sur tout autre site ou application hébergé(e) par Bantubeat."
+            },
+            "paragraph_4": {
+                "title": "Informations à l'attention des Titulaires de droits : Signalement d'une Violation du Droit d'auteur",
+                "content": "\t\tContacter l'utilisateur directement peut vous permettre de régler votre réclamation plus rapidement et d'une manière plus efficace pour vous, pour l'utilisateur et pour notre communauté. Vous pouvez également effectuer un Signalement de Violation du Droit d'auteur pour réclamer le retrait d'un contenu présumé contrefaisant de Bantubeat. Toutes les réclamations doivent contenir les informations demandées dans notre formulaire en ligne de Signalement de Violation du Droit d'auteur. Le fait de ne pas inclure ces informations nécessaires peut limiter notre capacité à examiner votre réclamation et peut entraîner son rejet. Nous sommes susceptibles de transmettre vos coordonnées de contact au titulaire du compte en cause, notamment l'adresse électronique et le nom du titulaire des droits d'auteur et/ou des informations concernant la réclamation. Avant de soumettre une notification, sachez que le fait de soumettre intentionnellement un signalement trompeur ou frauduleux peut engager votre responsabilité et vous exposer à une obligation d'indemnisation en vertu de l'article 512(f) du Digital Millennium Copyright Act des États-Unis ou de lois similaires qui pourraient s'appliquer dans d'autres pays. Si vous nous signalez une violation d'un droit d'auteur, nous pourrons vous contacter si nous avons des questions complémentaires concernant votre signalement. Veuillez noter qu'il n'appartient pas à Bantubeat de trancher les différends entre tiers et que Bantubeat pourrait ne pas être en mesure de retirer le contenu ou de suspendre le compte que vous avez signalé. Alternativement, vous pouvez contacter la personne qui a publié le contenu en cause ou qui est titulaire du compte en cause afin de tenter de résoudre votre problème directement."
+            },
+            "paragraph_5": {
+                "title": "Directive sur le Droit d'auteur de l'Union européenne",
+                "content": "\t\tConformément à l'Article 17 de la Directive EU 2019/790 relative au droit d'auteur, si vous souhaitez octroyer une autorisation à Bantubeat pour rendre vos œuvres protégées par le droit d'auteur disponibles sur Bantubeat, veuillez remplir ce formulaire. Nous examinerons votre demande et prendrons contact avec vous. Si vous souhaitez demander que votre musique ou vos œuvres audiovisuelles ne soient pas mises à disposition sur Bantubeat dans l'Union européenne, veuillez remplir ce formulaire. Afin que Bantubeat puisse analyser votre demande, vous devrez nous fournir certaines informations pertinentes et nécessaires vous concernant et concernant vos œuvres protégées par le droit d'auteur. Une fois que Bantubeat aura reçu ces informations et validé votre demande, nous ferons de notre mieux pour empêcher la disponibilité de vos œuvres protégées par le droit d'auteur sur Bantubeat au sein de l'Union européenne. Veuillez noter que, conformément à ses obligations légales, Bantubeat met à la disposition des utilisateurs et des titulaires de droits un mécanisme de règlement des litiges relatifs aux atteintes au droit d'auteur. Toutefois, les titulaires de droits restent libres de faire valoir leurs droits devant les tribunaux compétents."
+            },
+            "paragraph_6": {
+                "title": "Informations à l'attention des Utilisateurs : Contre-notification relative à une Violation du Droit d'auteur",
+                "content": "\t\tSi vous êtes un utilisateur situé en dehors de l'Union européenne Si vous recevez une notification relative à une violation du droit d'auteur et que vous pensez qu'il s'agit d'une erreur ou que vous estimez être autorisé à utiliser le contenu, vous pouvez contacter le titulaire du droit d'auteur directement pour demander une rétractation. Vous pouvez également nous transmettre une contre-notification via notre Formulaire de Contre-notification. Toute contre-notification doit contenir les informations demandées dans le Formulaire de Contre-notification. Le fait de ne pas inclure les informations nécessaires peut limiter notre capacité à examiner vos réclamations et peut entraîner le rejet de votre contre-notification. La procédure de contre-notification prendra un certain temps, veuillez faire preuve de patience. Pendant le délai de traitement, le titulaire de droits peut engager une action en justice afin d'obtenir une décision judiciaire pour empêcher la publication du contenu, conformément au Digital Millennium Copyright Act ou à des lois similaires dans d'autres pays. Veuillez noter que, s'il y a lieu et si la législation l'autorise, nous transmettrons l'intégralité de la contre-notification à l'auteur du signalement d'origine, y compris les coordonnées que vous pourriez nous communiquer, conformément à nos Conditions de Services et à notre Politique de Confidentialité. L'auteur du signalement pourra utiliser ces informations pour intenter une action en justice à votre encontre. Si nous ne recevons aucune information indiquant que l'auteur du signalement d'origine a entamé une action judiciaire afin de faire cesser l'utilisation contrefaisante de l'œuvre en cause, nous pourrons mettre un terme à la suspension du contenu ayant fait l'objet d'un retrait s'il ne porte atteinte à aucun droit d'auteur. La décision de réautoriser un contenu en ligne est à l'entière discrétion de Bantubeat."
+            },
+            "paragraph_7": {
+                "title": "Si vous êtes un utilisateur situé dans l'Union européenne",
+                "content": "\t\tSi vous recevez une notification relative à une violation du droit d'auteur et que vous estimez être en droit de publier le contenu en question, vous pouvez remplir notre Formulaire de Contre-notification. En vertu du droit de l'Union européenne, les utilisateurs sont autorisés à utiliser les œuvres protégées par le droit d'auteur sans l'autorisation du titulaire des droits d'auteur à des fins de citation, de critique, de revue, ou de caricature, de parodie ou de pastiche, sous réserve que cette utilisation soit raisonnable. Les pays de l'Union européenne peuvent également prévoir des exceptions supplémentaires. Plus d'informations concernant les exceptions et limitations au droit d'auteur qui s'appliquent dans l'Union européenne figurent ci-dessous : - Citation, critique et revue La citation est l'utilisation d'un extrait d'une œuvre protégée par le droit d'auteur à des fins telles que l'illustration d'un propos, la défense d'une opinion ou la participation à un débat. Les citations peuvent également être utilisées à des fins de critique d'une œuvre protégée par le droit d'auteur (par ex. commentaire critique sur un film) ou de revue d'une telle œuvre (par ex. revue d'un livre ou d'un album de musiques). - Caricature, parodie et pastiche Les caricatures visent à exagérer ou à déformer la réalité, généralement à des fins humoristiques. Une parodie évoque une œuvre protégée par le droit d'auteur existante tout en étant sensiblement différente de celle-ci et constitue une expression d'humour ou de dérision. Un pastiche intégrera généralement des éléments distinctifs d'autres œuvres ou styles dans une nouvelle œuvre. Pour que l'utilisation d'une œuvre protégée par le droit d'auteur relève d'une exception ou d'une limitation, elle doit être raisonnable, ce qui signifie qu'elle doit, selon le cas : (i) ne pas être plus longue que nécessaire ; (ii) être accompagnée d'une mention suffisante de la source d'origine et (iii) ne pas porter atteinte de manière déraisonnable aux intérêts légitimes du titulaire des droits. Les vidéos qui relèvent d'une exception ou d'une limitation du droit d'auteur n'en restent pas moins soumises à nos Règles Communautaires. Cela signifie que ces vidéos ne doivent contenir aucun discours de haine, ne doivent impliquer aucun comportement haineux et ne doivent pas être utilisées pour insulter, se moquer, humilier, embarrasser, intimider ou nuire à quiconque. Veuillez noter que, conformément à ses obligations légales, Bantubeat met à la disposition des utilisateurs et des titulaires de droits un mécanisme de règlement des litiges relatif aux atteintes au droit d'auteur. Toutefois, les utilisateurs restent libres de faire valoir leurs droits devant les tribunaux."
+            },
+            "paragraph_8": {
+                "title": "Marque",
+                "content": "\t\tUne marque est un mot, un symbole, un slogan, un dessin ou une combinaison de tout ou partie de ces éléments, qui identifie l'origine d'un produit ou service et le distingue des autres produits ou services."
+            },
+            "paragraph_9": {
+                "title": "Atteinte à une Marque",
+                "content": "\t\tLe droit des marques interdit toute contrefaçon de marque, ce qui correspond généralement à l'utilisation non autorisée d'une marque de commerce ou d'une marque de service en rapport avec des produits ou services d'une manière qui est susceptible de donner lieu à une confusion, une tromperie ou une erreur concernant la source, l'origine, le parrainage ou l'affiliation des produits et/ou services associés. Dans le même temps, l'utilisation de la marque d'un tiers à des fins de référencement correct, de commentaire légitime, de critique, de parodie ou de revue des produits ou services du titulaire de la marque ou pour les comparer à d'autres produits ou services, lorsque la marque n'est pas utilisée pour désigner les propres produits ou services de l'utilisateur ou ceux d'un tiers, n'est généralement pas considérée comme contraire à nos politiques. De même, il est généralement autorisé de créer une fan page dédiée à une marque, même sans l'autorisation du titulaire de la marque, sous réserve que vous ne prétendiez pas vous exprimer au nom de la marque ou y être associé et que vous ne portiez autrement atteinte à la marque."
+            },
+            "paragraph_10": {
+                "title": "Retrait de Contenu ; Suspension ou Résiliation de Compte",
+                "content": "\t\tTout contenu portant atteinte à la marque d'un tiers est susceptible de faire l'objet d'un retrait. En cas d'atteintes répétées à une marque dans le cadre de l'utilisation du site ou de l'application Bantubeat ou d'autres violations des Conditions de Services et des Règles communautaires, le compte de l'utilisateur en cause peut faire l'objet d'une suspension ou d'une fermeture. Nous nous réservons le droit de refuser à tout titulaire de compte, dont le compte a été utilisé pour des activités non autorisées, l'ouverture d'un nouveau compte sur le site ou l'application Bantubeat ou sur tout autre site ou application hébergé(e) par Bantubeat."
+            },
+            "paragraph_11": {
+                "title": "Réclamation et Signalement concernant une Marque",
+                "content": "\t\tContacter l'utilisateur directement peut vous permettre de régler votre réclamation plus rapidement et d'une manière plus efficace pour vous, pour l'utilisateur et pour notre communauté. Vous pouvez également effectuer un Signalement de Contrefaçon de Marque. Toutes les réclamations doivent contenir les informations demandées dans notre formulaire en ligne de Signalement de Contrefaçon de Marque. Le fait de ne pas inclure les informations nécessaires peut limiter notre capacité à examiner vos réclamations et peut entraîner leur rejet. Nous pourrons transmettre vos coordonnées au titulaire du compte en cause, notamment l'adresse électronique et le nom du titulaire de la marque et/ou des informations concernant la réclamation, conformément à nos Conditions de Services et à notre Politique de Confidentialité. Avant d'effectuer un signalement, sachez que le fait de soumettre intentionnellement un signalement trompeur ou frauduleux peut engager votre responsabilité et vous exposer à une obligation d'indemnisation en vertu de la législation qui pourrait s'appliquer dans certains pays."
+            },
+            "paragraph_12": {
+                "title": "Contre-notification relative à une Contrefaçon de Marque",
+                "content": "\t\tSi vous recevez une notification relative à une contrefaçon de marque et que vous pensez qu'il s'agit d'une erreur ou que vous estimez être autorisé à utiliser le contenu, vous pouvez contacter le titulaire de la marque directement pour demander une rétractation. Vous pouvez également nous soumettre une contre-notification via notre Formulaire de Contre-notification. Toute contre-notification doit contenir les informations demandées dans notre Formulaire de contre-notification en ligne. Le fait de ne pas inclure les informations nécessaires peut limiter notre capacité à examiner vos réclamations et peut entraîner le rejet de votre contre-notification."
+            },
+            "paragraph_13": {
+                "title": "Remarque Générale",
+                "content": "\t\tEn tant qu'utilisateur de Bantubeat, vous êtes responsable du contenu que vous publiez. Si vous avez des questions sur le droit d'auteur ou sur le droit des marques, telles que le fait que votre contenu ou que votre utilisation du nom ou de la marque d'un tiers constitue ou non une atteinte aux droits d'un tiers, il vous est recommandé de contacter un avocat. Si vous n'êtes pas sûr que le contenu que vous envisagez de nous signaler porte atteinte aux droits d'un tiers, vous pouvez également demander un avis juridique avant de nous signaler ce contenu."
+            }
+        }
+    },
+    "fans_activity_screen": {
+        "subscribe_button": "S'abonner",
+        "unsubscribe_button": "Se Désabonner",
+        "messages": "Messages",
+        "send_tip_to": "Envoyer un pourboire",
+        "fans": "Fans",
+        "add_to_favorite": "Ajouter à favori"
+    },
+    "messages_and_conversations_list_screen": {
+        "messages": "Messages",
+        "channel": "chats channel"
+    },
+    "paid_saloon_buy_access_screen": {
+        "payment_to": "Paiement à",
+        "total": "Total",
+        "total_amount": "Total",
+        "discount": "Remise",
+        "amount_to_pay": "Montant à payer",
+        "pay_with_balance": "Payer avec le balance",
+        "beatzcoin_balance": "Solde Beatzcoin",
+        "insufficient_balance": "Le solde de ce compte est insuffisant pour cet achat",
+        "sufficient_balance": "Le solde de ce compte est suffisant pour cet achat",
+        "buy_tokens": "Acheter des Jetons",
+        "pay": "Payer",
+        "buy_access": "Payer un accès",
+        "payment_success": "PAIEMENT DE L’ACCES REUSSI",
+        "enable_auto_renewal": "ACTIVER LE RENOUVELLEMENT AUTOMATIQUE",
+        "auto_renewal_left": "En activant le renouvellement automatique, vous auriez toujours accès au contenu exclusif de.",
+        "auto_renewal_center": "et également à toutes les sessions live lorsque.",
+        "auto_renewal_right": "sera en live.",
+        "renewal_terms": "Votre accès sera renouvelé pour la même période au prix fixé par le créateur. vous pouvez annuler votre accès à tout moment via la page Activité",
+        "activate_auto_renewal_button": "ACTIVER LE RENOUVELLEMENT AUTOMATIQUE",
+        "not_now": "Pas maintenant",
+        "activate": "ACTIVER",
+        "renew": "Renouveler"
+    },
+    "virtual_item_settings_screen": {
+        "title": "Politique des articles virtuels",
+        "last_update": "Mise à jour le {}",
+        "next": "Continuer",
+        "welcome": "Bienvenue sur Bantubeat.",
+        "content_title": "Politique relative aux articles virtuels",
+        "group_1": "PIÈCES DE MONNAIE (BEATZCOIN)",
+        "group_2": "CADEAUX",
+        "content": {
+            "preamble": "\t\tLe programme de diffusion en direct Saloonprived (le « programme ») est fourni par Bantubeat (« plate-forme ») pour que les utilisateurs puissent diffuser en direct et utiliser les fonctionnalités de diffusion en direct. Il est ouvert aux utilisateurs des Services âgés de 18 ans ou plus et est soumis aux termes et conditions suivants de la présente Politique des objets virtuels. Si vous avez entre 18 ans et l'âge de la majorité légale dans votre juridiction, vous ne pouvez participer au Programme qu'avec l'autorisation d'un parent ou d'un tuteur légal qui accepte d'être lié par la présente Politique relative aux objets virtuels.",
+            "paragraph_1": {
+                "title": "Qui est éligible pour participer au Programme ?",
+                "content": "\t\tL'utilisateurs n'ayant pas atteint l'âge de la majorité dans sa juridiction peut participer au programme avec l'autorisation d'un parent ou d'un tuteur légal. Certains utilisateurs, âgés de 18 ans ou plus, peuvent participer au Programme. Ces utilisateurs seront sélectionnés exclusivement à la discrétion de la Plateforme sur la base de divers critères, notamment leur expérience dans la création de contenu de qualité, le nombre d'abonnés, etc. Seuls les utilisateurs âgés de 18 ans ou plus (ou ayant atteint l'âge de la majorité dans votre juridiction) peuvent : acheter des pièces et des cadeaux ; envoyer des Cadeaux à d'autres Utilisateurs ; recevoir des cadeaux ayant une valeur monétaire ; ou gagnez des diamants et retirez des diamants."
+            },
+            "paragraph_2": {
+                "title": "Qui peut acheter des pièces ?",
+                "content": "\t\tLes utilisateurs de nos Services qui sont âgés de 18 ans (ou l'âge de la majorité dans votre juridiction) ou plus peuvent acheter des « pièces » virtuelles (« Pièces ») auprès de nous en utilisant des méthodes de paiement autorisées et par l'intermédiaire de fournisseurs de paiement mis à disposition et autorisés par nous."
+            },
+            "paragraph_3": {
+                "title": "Acheter des pièces",
+                "content": "\t\tLe prix des pièces sera affiché au point d'achat. Tous les frais et paiements pour les Beatzcoin seront effectués dans la devise spécifiée au point d'achat via le mécanisme de paiement approprié. Le paiement des Beatzcoin se fait exclusivement avec le compte financier de votre profil Bantubeat. Vous devez au préalable recharger votre compte financier pour acheter des Beatzcoin. Les règlements de change, les frais de transaction à l'étranger et les frais de canal de paiement, le cas échéant, sont basés sur votre accord avec le fournisseur de paiement applicable voir conditions de paiement Bantubeat."
+            },
+            "paragraph_4": {
+                "title": "Vous serez responsable du paiement de toutes les pièces achetées par vous. Une fois votre achat effectué, votre compte Beatzcoin sur Bantubeat sera crédité.",
+                "content": "\t\tSi vous souhaitez apporter des modifications à votre achat, veuillez nous contacter à l'adresse e-mail indiquée ci-dessous. Nous vous ferons savoir si ce changement est possible. Veuillez noter que les modifications peuvent avoir un impact sur le prix ainsi que sur d'autres aspects de votre achat. Si vous vivez dans l'Union européenne, vous disposez de certains droits de rétractation d'un achat en vertu de la directive sur les droits des consommateurs et de sa législation de mise en ?uvre. Cependant, si vous achetez des Beatzcoins, vous reconnaissez et acceptez que nous commencions à vous fournir les Beatzcoins dès que l'achat est terminé et, par conséquent, votre droit d'annuler ou de vous retirer du contrat d'achat est perdu à ce stade."
+            },
+            "paragraph_5": {
+                "title": "Comment utiliser les pièces",
+                "content": "\t\tBantubeat et toutes ses applications connexes fonctionnent avec Les Beatzcoin. Pour tout achat sur bantubeat vous utilisez vos Beatzcoin disponible. Peuvent être utilisées pour acheter des cadeaux virtuels, les accès au contenus, le streaming payant, le contenu téléchargeable et tout contenu sur bantubeat.\nLes pièces ne peuvent être utilisées que sur notre plate-forme et dans le cadre de nos services. Aucune pièce ne peut être attribuée ou transférée à un autre utilisateur des services ou à un tiers, sauf dans les cas de paiement autorisation sur le service Bantubeat. La vente, le troc, la cession ou toute autre cession de pièces, autre que par nous, est expressément interdite. \nToutes les pièces attribuées, vendues ou autrement transférées sans notre consentement écrit exprès sont nulles. Tout utilisateur des Services qui enfreint cette restriction peut voir son compte résilié, perdre des pièces de son compte et/ou être tenu responsable des dommages et des frais de justice et de transaction. \n Toutes les pièces d'un utilisateur expireront automatiquement lors de la résiliation du compte de l'utilisateur pour quelque raison que ce soit. \n Vous acceptez que nous ayons le droit absolu de gérer, réglementer, contrôler, modifier et/ou éliminer ces pièces, lorsque nous avons une raison valable de le faire, dans tout cas général ou spécifique, et que nous n'aurons aucune responsabilité envers vous en fonction sur l'exercice de ce droit. Si nous décidons d'éliminer complètement les Beatzcoin de nos services, nous le ferons en vous envoyant un préavis raisonnable."
+            },
+            "paragraph_6": {
+                "title": "Echange",
+                "content": "Les Beatzcoin accumulés restent la propriété exclusive de bantubeat tant que vous ne les échanger pas. Vous pouvez uniquement échanger vos beatzcoin sur la plate-forme pour recevoir une valeur monétaire. Pour chaque échange de beatzcoin les frais et taxes seront appliqués sur le montant définitif et le solde sera crédité sur votre compte financier. Pour plus d'information sur l'échange de beatzcoin voir les conditions de paiement Bantubeat."
+            },
+            "paragraph_7": {
+                "title": "Qui peut acheter des Cadeaux ?",
+                "content": "\t\tL'utilisateur de nos Services âgé de 18 ans (ou ayant atteint l'âge de la majorité dans votre juridiction) ou plus peut acheter des cadeaux virtuels (« Cadeaux ») en échangeant des Beatzcoin contre des Cadeaux."
+            },
+            "paragraph_8": {
+                "title": "Acheter des cadeaux",
+                "content": "\t\tLes cadeaux constituent une licence limitée à certaines fonctionnalités des produits et services numériques. Le taux de change entre chaque pièce et chaque cadeau sera affiché sur notre plateforme au point d'échange. \nLes prix publiés incluent les taxes, sauf indication contraire en vertu des lois applicables dans votre juridiction. Si des cadeaux sont soumis à la taxe de vente dans votre juridiction et que vous ne nous avez pas payé la taxe de vente applicable, vous serez alors responsable du paiement de cette taxe de vente et de toute pénalité ou intérêt connexe à l'autorité fiscale compétente.\nVous acceptez que nous ayons le droit absolu de gérer, réglementer, contrôler, modifier et/ou éliminer le taux de change que nous jugeons approprié à notre seule discrétion, dans tout cas général ou spécifique, et que nous n'aurons aucune responsabilité envers vous en fonction de notre exercice de ce droit.\nSi vous souhaitez apporter des modifications à votre achat, veuillez nous contacter à l'adresse e-mail indiquée ci-dessous. Nous vous ferons savoir si ce changement est possible. Veuillez noter que les changements peuvent avoir un impact sur le prix ainsi que sur d'autres aspects de l'achat.\n Sauf indication contraire dans la présente politique, toutes les ventes de cadeaux sont définitives et nous n'offrons aucun remboursement pour les cadeaux achetés. Lorsque vous avez échangé vos Pièces contre des Cadeaux, ces Pièces seront déduites de votre compte utilisateur et créditées de Cadeaux.\n Les cadeaux ont une valeur équivalente en Beatzcoin, chaque fois que vous offrer un cadeau à un autre utilisateur, le nombre de beatzcoin équivalent est débité de votre compte beatzcoin. Chaque fois que vous recevez un cadeau d'un autre utilisateur, le nombre de beatzcoin est crédité sur votre compte beatzcoin. Les cadeaux que vous recevez ne peuvent pas être convertis ou échangés contre de l'argent, ni être remboursés ou remboursés par nous pour quelque raison que ce soit.\n Les cadeaux échangés ou reçus par tout utilisateur ne constituent pas un bien et ne sont pas transférables : (a) en cas de décès ; (b) dans le cadre d'une affaire de relations familiales ; ou (c) autrement par effet de la loi.\n Nous pouvons remplacer les copies de cadeaux précédemment échangées si nous déterminons, à notre seule discrétion, que les cadeaux échangés ou reçus par un utilisateur sont corrompus ou autrement endommagés. Nous ne facturerons pas de frais supplémentaires pour la réémission d'un cadeau corrompu ou autrement endommagé. Si vous recevez un cadeau corrompu ou autrement endommagé, contactez-nous à https://bantubeat.com/contact\n Nous nous réservons le droit de résilier ou de prendre d'autres mesures appropriées à l'encontre du compte de tout utilisateur qui est réputé abuser du programme ou de la présente politique sur les objets virtuels."
+            },
+            "paragraph_9": {
+                "title": "Comment utiliser les cadeaux",
+                "content": "\t\tEn ce qui concerne un produit de diffusion en direct, vous pouvez utiliser des cadeaux pour évaluer ou montrer votre appréciation pour un élément de contenu utilisateur qui est téléchargé ou diffusé par un autre utilisateur (« fournisseur de contenu ») .\n Lorsque cette fonctionnalité est disponible sur les Services, vous pouvez apporter des Cadeaux au Contenu Utilisateur en cliquant sur le bouton « Envoyer un cadeau » sous le Contenu Utilisateur concerné. \nDans les conversations, diffusion en directe, lorsque la fonctionnalité est activée dans votre région, vous envoyer des cadeaux aux autres utilisateurs via l'espace cadeau approprié. \nVeuillez noter que lorsque vous offrez un cadeau à un autre utilisateur, vous le faites publiquement afin que les autres utilisateurs des services (y compris le destinataire du cadeau) puissent voir votre nom, votre identifiant et les détails du cadeau que vous avez offert."
+            },
+            "paragraph_10": {
+                "title": "Contactez-nous",
+                "content": "\t\tSi vous rencontrez des problèmes avec les cadeaux, contactez-nous à : https://bantubeat.com/contact."
+            }
+        }
+    },
+    "messages_settings_screen": {
+        "messages": "Messages",
+        "channel": "chats channel",
+        "diffusion": "Canal de diffusion",
+        "welcome_message": "Message de bienvenue"
     }
 }

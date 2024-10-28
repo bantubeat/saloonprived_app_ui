@@ -17,14 +17,10 @@ class BioTab extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const SizedBox(
-            height: 20,
-          ),
+          const SizedBox(height: 20),
           Container(
             decoration: BoxDecoration(
-              border: Border.all(
-                color: AppColors.myGray,
-              ),
+              border: Border.all(color: AppColors.myGray),
               borderRadius: BorderRadius.circular(8),
             ),
             child: TextFormField(
@@ -45,15 +41,9 @@ class BioTab extends StatelessWidget {
               maxLines: null,
             ),
           ),
-          const SizedBox(
-            height: 20,
-          ),
-          Text(
-            LocaleKeys.edit_user_profile_personal_info_screen_note.tr(),
-          ),
-          const SizedBox(
-            height: 70,
-          ),
+          const SizedBox(height: 20),
+          Text(LocaleKeys.edit_user_profile_personal_info_screen_note.tr()),
+          const SizedBox(height: 70),
           Row(
             children: [
               Expanded(
@@ -66,9 +56,7 @@ class BioTab extends StatelessWidget {
                   color: AppColors.myWhite,
                 ),
               ),
-              const SizedBox(
-                width: 20,
-              ),
+              const SizedBox(width: 20),
               Expanded(
                 child: PrimaryButton(
                   text: LocaleKeys
@@ -80,9 +68,7 @@ class BioTab extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(
-            height: 70,
-          ),
+          const SizedBox(height: 70),
         ],
       ),
     );

@@ -263,6 +263,19 @@ abstract class LocaleKeys {
       'search_screen.subscribe_button';
   static const search_screen_subscribed_label =
       'search_screen.subscribed_label';
+  static const profile_creation_screen_username =
+      'profile_creation_screen.username';
+  static const profile_creation_screen_birth_year =
+      'profile_creation_screen.birth_year';
+  static const profile_creation_screen_country =
+      'profile_creation_screen.country';
+  static const profile_creation_screen_save = 'profile_creation_screen.save';
+  static const profile_creation_screen_choose_in_the_list =
+      'profile_creation_screen.choose_in_the_list';
+  static const profile_creation_screen_welcome_to_saloonprived =
+      'profile_creation_screen.welcome_to_saloonprived';
+  static const profile_creation_screen_complete_these_information_to_create_your_profile =
+      'profile_creation_screen.complete_these_information_to_create_your_profile';
   static const saloon_for_you_have_subcription_screen_advertisement_title =
       'saloon_for_you_have_subcription_screen.advertisement_title';
   static const saloon_for_you_have_subcription_screen_learn_more =
@@ -413,6 +426,22 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_no_config_price_screen.must_configure_access_before_uploading';
   static const paid_connected_user_saloon_no_config_price_screen_configure_my_access =
       'paid_connected_user_saloon_no_config_price_screen.configure_my_access';
+  static const publish_video_image_camera_screen_cancer =
+      'publish_video_image_camera_screen.cancer';
+  static const publish_video_image_camera_screen_video =
+      'publish_video_image_camera_screen.video';
+  static const publish_video_image_camera_screen_photo =
+      'publish_video_image_camera_screen.photo';
+  static const publish_video_image_camera_screen_select =
+      'publish_video_image_camera_screen.select';
+  static const publish_video_image_camera_screen_renverse =
+      'publish_video_image_camera_screen.renverse';
+  static const publish_video_image_camera_screen_muet =
+      'publish_video_image_camera_screen.muet';
+  static const publish_video_image_camera_screen_next =
+      'publish_video_image_camera_screen.next';
+  static const publish_video_image_camera_screen_browse =
+      'publish_video_image_camera_screen.browse';
   static const edit_user_profile_personal_info_screen_profile_title =
       'edit_user_profile_personal_info_screen.profile_title';
   static const edit_user_profile_personal_info_screen_bio_title =
@@ -632,6 +661,53 @@ abstract class LocaleKeys {
       'access_price_user_dashboard_screen.landing_text_4';
   static const access_price_user_dashboard_screen_save =
       'access_price_user_dashboard_screen.save';
+  static const category_screen_description = 'category_screen.description';
+  static const category_screen_previous = 'category_screen.previous';
+  static const category_screen_next = 'category_screen.next';
+  static const category_screen_note = 'category_screen.note';
+  static const category_screen_category = 'category_screen.category';
+  static const category_screen_art_and_culture =
+      'category_screen.art_and_culture';
+  static const category_screen_news_and_information =
+      'category_screen.news_and_information';
+  static const category_screen_business_and_coaching =
+      'category_screen.business_and_coaching';
+  static const category_screen_comedy_and_stand_up =
+      'category_screen.comedy_and_stand_up';
+  static const category_screen_cuisine_and_gastronomy =
+      'category_screen.cuisine_and_gastronomy';
+  static const category_screen_nature_and_health =
+      'category_screen.nature_and_health';
+  static const category_screen_sport_and_leisure =
+      'category_screen.sport_and_leisure';
+  static const category_screen_fashion_and_beauty =
+      'category_screen.fashion_and_beauty';
+  static const category_screen_sexuality_and_adult_content =
+      'category_screen.sexuality_and_adult_content';
+  static const category_screen = 'category_screen';
+  static const profile_creation_category_title =
+      'profile_creation_category.title';
+  static const profile_creation_category_description =
+      'profile_creation_category.description';
+  static const profile_creation_category_note =
+      'profile_creation_category.note';
+  static const profile_creation_category_choose_category =
+      'profile_creation_category.choose_category';
+  static const profile_creation_category_previous =
+      'profile_creation_category.previous';
+  static const profile_creation_category_next =
+      'profile_creation_category.next';
+  static const welcome_page_screen_username = 'welcome_page_screen.username';
+  static const welcome_page_screen_birth_year =
+      'welcome_page_screen.birth_year';
+  static const welcome_page_screen_country = 'welcome_page_screen.country';
+  static const welcome_page_screen_save = 'welcome_page_screen.save';
+  static const welcome_page_screen_choose_in_the_list =
+      'welcome_page_screen.choose_in_the_list';
+  static const welcome_page_screen_welcome_to_saloonprived =
+      'welcome_page_screen.welcome_to_saloonprived';
+  static const welcome_page_screen_complete_these_information_to_create_your_profile =
+      'welcome_page_screen.complete_these_information_to_create_your_profile';
   static const paid_connected_user_saloon_no_access_screen_expired_date =
       'paid_connected_user_saloon_no_access_screen.expired_date';
   static const paid_connected_user_saloon_no_access_screen_renew =
@@ -648,4 +724,295 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_with_followers_screen.hour';
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
+  static const principal_activity_screen_title =
+      'principal_activity_screen.title';
+  static const principal_activity_screen_blocked =
+      'principal_activity_screen.blocked';
+  static const principal_activity_screen_my_followers =
+      'principal_activity_screen.my_followers';
+  static const principal_activity_screen_my_subscriptions =
+      'principal_activity_screen.my_subscriptions';
+  static const principal_activity_screen_my_creators =
+      'principal_activity_screen.my_creators';
+  static const principal_activity_screen_followers =
+      'principal_activity_screen.followers';
+  static const principal_activity_screen_subscriptions =
+      'principal_activity_screen.subscriptions';
+  static const principal_activity_screen_user =
+      'principal_activity_screen.user';
+  static const settings_main_screen_settings = 'settings_main_screen.settings';
+  static const settings_main_screen_content = 'settings_main_screen.content';
+  static const settings_main_screen_notifications =
+      'settings_main_screen.notifications';
+  static const settings_main_screen_creators_portal =
+      'settings_main_screen.creators_portal';
+  static const settings_main_screen_promote = 'settings_main_screen.promote';
+  static const settings_main_screen_business = 'settings_main_screen.business';
+  static const settings_main_screen_account = 'settings_main_screen.account';
+  static const settings_main_screen_logout = 'settings_main_screen.logout';
+  static const settings_main_screen_unsubscribe_saloonprived =
+      'settings_main_screen.unsubscribe_saloonprived';
+  static const settings_main_screen_restriction =
+      'settings_main_screen.restriction';
+  static const settings_main_screen_block_adult_content =
+      'settings_main_screen.block_adult_content';
+  static const settings_main_screen_help = 'settings_main_screen.help';
+  static const settings_main_screen_security = 'settings_main_screen.security';
+  static const settings_main_screen_help_page =
+      'settings_main_screen.help_page';
+  static const settings_main_screen_legal_mentions =
+      'settings_main_screen.legal_mentions';
+  static const settings_main_screen_terms_conditions =
+      'settings_main_screen.terms_conditions';
+  static const settings_main_screen_privacy_policy =
+      'settings_main_screen.privacy_policy';
+  static const settings_main_screen_cookie_policy =
+      'settings_main_screen.cookie_policy';
+  static const settings_main_screen_advertising =
+      'settings_main_screen.advertising';
+  static const settings_main_screen_virtual_item_policy =
+      'settings_main_screen.virtual_item_policy';
+  static const settings_main_screen_copyright_policy =
+      'settings_main_screen.copyright_policy';
+  static const settings_restriction_screen_content_restriction_title =
+      'settings_restriction_screen.content_restriction_title';
+  static const settings_restriction_screen_content_restriction_intro =
+      'settings_restriction_screen.content_restriction_intro';
+  static const settings_restriction_screen_adult_content_info =
+      'settings_restriction_screen.adult_content_info';
+  static const settings_restriction_screen_disable_adult_category =
+      'settings_restriction_screen.disable_adult_category';
+  static const settings_restriction_screen_forYou_feed_restriction =
+      'settings_restriction_screen.forYou_feed_restriction';
+  static const settings_restriction_screen_modify_preferences =
+      'settings_restriction_screen.modify_preferences';
+  static const settings_restriction_screen_previous_button =
+      'settings_restriction_screen.previous_button';
+  static const settings_restriction_screen_next_button =
+      'settings_restriction_screen.next_button';
+  static const settings_notification_screen_title =
+      'settings_notification_screen.title';
+  static const settings_notification_screen_preferences =
+      'settings_notification_screen.preferences';
+  static const settings_notification_screen_receive_notifications =
+      'settings_notification_screen.receive_notifications';
+  static const settings_notification_screen_receive_notifications_description =
+      'settings_notification_screen.receive_notifications_description';
+  static const settings_notification_screen_disable_notifications_info =
+      'settings_notification_screen.disable_notifications_info';
+  static const settings_notification_screen_receive_email_notifications =
+      'settings_notification_screen.receive_email_notifications';
+  static const settings_notification_screen_receive_email_notifications_description =
+      'settings_notification_screen.receive_email_notifications_description';
+  static const settings_notification_screen_disable_email_notifications_info =
+      'settings_notification_screen.disable_email_notifications_info';
+  static const settings_notification_screen_continue =
+      'settings_notification_screen.continue';
+  static const settings_unsubscribe_screen_unsubscribe_title =
+      'settings_unsubscribe_screen.unsubscribe_title';
+  static const settings_unsubscribe_screen_unsubscribe_confirmation =
+      'settings_unsubscribe_screen.unsubscribe_confirmation';
+  static const settings_unsubscribe_screen_unsubscribe_info =
+      'settings_unsubscribe_screen.unsubscribe_info';
+  static const settings_unsubscribe_screen_unsubscribe_process =
+      'settings_unsubscribe_screen.unsubscribe_process';
+  static const settings_unsubscribe_screen_profile_deactivation =
+      'settings_unsubscribe_screen.profile_deactivation';
+  static const settings_unsubscribe_screen_permanent_seletion =
+      'settings_unsubscribe_screen.permanent_seletion';
+  static const settings_unsubscribe_screen_profile_recovery_info =
+      'settings_unsubscribe_screen.profile_recovery_info';
+  static const settings_unsubscribe_screen_unsubscribe_button =
+      'settings_unsubscribe_screen.unsubscribe_button';
+  static const general_condition_screen_title =
+      'general_condition_screen.title';
+  static const general_condition_screen_last_update =
+      'general_condition_screen.last_update';
+  static const general_condition_screen_next = 'general_condition_screen.next';
+  static const settings_copyright_screen_update =
+      'settings_copyright_screen.update';
+  static const settings_copyright_screen_appbar_title =
+      'settings_copyright_screen.appbar_title';
+  static const settings_copyright_screen_welcome =
+      'settings_copyright_screen.welcome';
+  static const settings_copyright_screen_title =
+      'settings_copyright_screen.title';
+  static const settings_copyright_screen_button_label =
+      'settings_copyright_screen.button_label';
+  static const settings_copyright_screen_content_preamble =
+      'settings_copyright_screen.content.preamble';
+  static const settings_copyright_screen_content_paragraph_1_title =
+      'settings_copyright_screen.content.paragraph_1.title';
+  static const settings_copyright_screen_content_paragraph_1_content =
+      'settings_copyright_screen.content.paragraph_1.content';
+  static const settings_copyright_screen_content_paragraph_2_title =
+      'settings_copyright_screen.content.paragraph_2.title';
+  static const settings_copyright_screen_content_paragraph_2_content =
+      'settings_copyright_screen.content.paragraph_2.content';
+  static const settings_copyright_screen_content_paragraph_3_title =
+      'settings_copyright_screen.content.paragraph_3.title';
+  static const settings_copyright_screen_content_paragraph_3_content =
+      'settings_copyright_screen.content.paragraph_3.content';
+  static const settings_copyright_screen_content_paragraph_4_title =
+      'settings_copyright_screen.content.paragraph_4.title';
+  static const settings_copyright_screen_content_paragraph_4_content =
+      'settings_copyright_screen.content.paragraph_4.content';
+  static const settings_copyright_screen_content_paragraph_5_title =
+      'settings_copyright_screen.content.paragraph_5.title';
+  static const settings_copyright_screen_content_paragraph_5_content =
+      'settings_copyright_screen.content.paragraph_5.content';
+  static const settings_copyright_screen_content_paragraph_6_title =
+      'settings_copyright_screen.content.paragraph_6.title';
+  static const settings_copyright_screen_content_paragraph_6_content =
+      'settings_copyright_screen.content.paragraph_6.content';
+  static const settings_copyright_screen_content_paragraph_7_title =
+      'settings_copyright_screen.content.paragraph_7.title';
+  static const settings_copyright_screen_content_paragraph_7_content =
+      'settings_copyright_screen.content.paragraph_7.content';
+  static const settings_copyright_screen_content_paragraph_8_title =
+      'settings_copyright_screen.content.paragraph_8.title';
+  static const settings_copyright_screen_content_paragraph_8_content =
+      'settings_copyright_screen.content.paragraph_8.content';
+  static const settings_copyright_screen_content_paragraph_9_title =
+      'settings_copyright_screen.content.paragraph_9.title';
+  static const settings_copyright_screen_content_paragraph_9_content =
+      'settings_copyright_screen.content.paragraph_9.content';
+  static const settings_copyright_screen_content_paragraph_10_title =
+      'settings_copyright_screen.content.paragraph_10.title';
+  static const settings_copyright_screen_content_paragraph_10_content =
+      'settings_copyright_screen.content.paragraph_10.content';
+  static const settings_copyright_screen_content_paragraph_11_title =
+      'settings_copyright_screen.content.paragraph_11.title';
+  static const settings_copyright_screen_content_paragraph_11_content =
+      'settings_copyright_screen.content.paragraph_11.content';
+  static const settings_copyright_screen_content_paragraph_12_title =
+      'settings_copyright_screen.content.paragraph_12.title';
+  static const settings_copyright_screen_content_paragraph_12_content =
+      'settings_copyright_screen.content.paragraph_12.content';
+  static const settings_copyright_screen_content_paragraph_13_title =
+      'settings_copyright_screen.content.paragraph_13.title';
+  static const settings_copyright_screen_content_paragraph_13_content =
+      'settings_copyright_screen.content.paragraph_13.content';
+  static const fans_activity_screen_subscribe_button =
+      'fans_activity_screen.subscribe_button';
+  static const fans_activity_screen_unsubscribe_button =
+      'fans_activity_screen.unsubscribe_button';
+  static const fans_activity_screen_messages = 'fans_activity_screen.messages';
+  static const fans_activity_screen_send_tip_to =
+      'fans_activity_screen.send_tip_to';
+  static const fans_activity_screen_fans = 'fans_activity_screen.fans';
+  static const fans_activity_screen_add_to_favorite =
+      'fans_activity_screen.add_to_favorite';
+  static const messages_and_conversations_list_screen_messages =
+      'messages_and_conversations_list_screen.messages';
+  static const messages_and_conversations_list_screen_channel =
+      'messages_and_conversations_list_screen.channel';
+  static const paid_saloon_buy_access_screen_payment_to =
+      'paid_saloon_buy_access_screen.payment_to';
+  static const paid_saloon_buy_access_screen_total =
+      'paid_saloon_buy_access_screen.total';
+  static const paid_saloon_buy_access_screen_total_amount =
+      'paid_saloon_buy_access_screen.total_amount';
+  static const paid_saloon_buy_access_screen_discount =
+      'paid_saloon_buy_access_screen.discount';
+  static const paid_saloon_buy_access_screen_amount_to_pay =
+      'paid_saloon_buy_access_screen.amount_to_pay';
+  static const paid_saloon_buy_access_screen_pay_with_balance =
+      'paid_saloon_buy_access_screen.pay_with_balance';
+  static const paid_saloon_buy_access_screen_beatzcoin_balance =
+      'paid_saloon_buy_access_screen.beatzcoin_balance';
+  static const paid_saloon_buy_access_screen_insufficient_balance =
+      'paid_saloon_buy_access_screen.insufficient_balance';
+  static const paid_saloon_buy_access_screen_sufficient_balance =
+      'paid_saloon_buy_access_screen.sufficient_balance';
+  static const paid_saloon_buy_access_screen_buy_tokens =
+      'paid_saloon_buy_access_screen.buy_tokens';
+  static const paid_saloon_buy_access_screen_pay =
+      'paid_saloon_buy_access_screen.pay';
+  static const paid_saloon_buy_access_screen_buy_access =
+      'paid_saloon_buy_access_screen.buy_access';
+  static const paid_saloon_buy_access_screen_payment_success =
+      'paid_saloon_buy_access_screen.payment_success';
+  static const paid_saloon_buy_access_screen_enable_auto_renewal =
+      'paid_saloon_buy_access_screen.enable_auto_renewal';
+  static const paid_saloon_buy_access_screen_auto_renewal_left =
+      'paid_saloon_buy_access_screen.auto_renewal_left';
+  static const paid_saloon_buy_access_screen_auto_renewal_center =
+      'paid_saloon_buy_access_screen.auto_renewal_center';
+  static const paid_saloon_buy_access_screen_auto_renewal_right =
+      'paid_saloon_buy_access_screen.auto_renewal_right';
+  static const paid_saloon_buy_access_screen_renewal_terms =
+      'paid_saloon_buy_access_screen.renewal_terms';
+  static const paid_saloon_buy_access_screen_activate_auto_renewal_button =
+      'paid_saloon_buy_access_screen.activate_auto_renewal_button';
+  static const paid_saloon_buy_access_screen_not_now =
+      'paid_saloon_buy_access_screen.not_now';
+  static const paid_saloon_buy_access_screen_activate =
+      'paid_saloon_buy_access_screen.activate';
+  static const paid_saloon_buy_access_screen_renew =
+      'paid_saloon_buy_access_screen.renew';
+  static const virtual_item_settings_screen_title =
+      'virtual_item_settings_screen.title';
+  static const virtual_item_settings_screen_last_update =
+      'virtual_item_settings_screen.last_update';
+  static const virtual_item_settings_screen_next =
+      'virtual_item_settings_screen.next';
+  static const virtual_item_settings_screen_welcome =
+      'virtual_item_settings_screen.welcome';
+  static const virtual_item_settings_screen_content_title =
+      'virtual_item_settings_screen.content_title';
+  static const virtual_item_settings_screen_group_1 =
+      'virtual_item_settings_screen.group_1';
+  static const virtual_item_settings_screen_group_2 =
+      'virtual_item_settings_screen.group_2';
+  static const virtual_item_settings_screen_content_preamble =
+      'virtual_item_settings_screen.content.preamble';
+  static const virtual_item_settings_screen_content_paragraph_1_title =
+      'virtual_item_settings_screen.content.paragraph_1.title';
+  static const virtual_item_settings_screen_content_paragraph_1_content =
+      'virtual_item_settings_screen.content.paragraph_1.content';
+  static const virtual_item_settings_screen_content_paragraph_2_title =
+      'virtual_item_settings_screen.content.paragraph_2.title';
+  static const virtual_item_settings_screen_content_paragraph_2_content =
+      'virtual_item_settings_screen.content.paragraph_2.content';
+  static const virtual_item_settings_screen_content_paragraph_3_title =
+      'virtual_item_settings_screen.content.paragraph_3.title';
+  static const virtual_item_settings_screen_content_paragraph_3_content =
+      'virtual_item_settings_screen.content.paragraph_3.content';
+  static const virtual_item_settings_screen_content_paragraph_4_title =
+      'virtual_item_settings_screen.content.paragraph_4.title';
+  static const virtual_item_settings_screen_content_paragraph_4_content =
+      'virtual_item_settings_screen.content.paragraph_4.content';
+  static const virtual_item_settings_screen_content_paragraph_5_title =
+      'virtual_item_settings_screen.content.paragraph_5.title';
+  static const virtual_item_settings_screen_content_paragraph_5_content =
+      'virtual_item_settings_screen.content.paragraph_5.content';
+  static const virtual_item_settings_screen_content_paragraph_6_title =
+      'virtual_item_settings_screen.content.paragraph_6.title';
+  static const virtual_item_settings_screen_content_paragraph_6_content =
+      'virtual_item_settings_screen.content.paragraph_6.content';
+  static const virtual_item_settings_screen_content_paragraph_7_title =
+      'virtual_item_settings_screen.content.paragraph_7.title';
+  static const virtual_item_settings_screen_content_paragraph_7_content =
+      'virtual_item_settings_screen.content.paragraph_7.content';
+  static const virtual_item_settings_screen_content_paragraph_8_title =
+      'virtual_item_settings_screen.content.paragraph_8.title';
+  static const virtual_item_settings_screen_content_paragraph_8_content =
+      'virtual_item_settings_screen.content.paragraph_8.content';
+  static const virtual_item_settings_screen_content_paragraph_9_title =
+      'virtual_item_settings_screen.content.paragraph_9.title';
+  static const virtual_item_settings_screen_content_paragraph_9_content =
+      'virtual_item_settings_screen.content.paragraph_9.content';
+  static const virtual_item_settings_screen_content_paragraph_10_title =
+      'virtual_item_settings_screen.content.paragraph_10.title';
+  static const virtual_item_settings_screen_content_paragraph_10_content =
+      'virtual_item_settings_screen.content.paragraph_10.content';
+  static const messages_settings_screen_messages =
+      'messages_settings_screen.messages';
+  static const messages_settings_screen_channel =
+      'messages_settings_screen.channel';
+  static const messages_settings_screen_diffusion =
+      'messages_settings_screen.diffusion';
+  static const messages_settings_screen_welcome_message =
+      'messages_settings_screen.welcome_message';
 }

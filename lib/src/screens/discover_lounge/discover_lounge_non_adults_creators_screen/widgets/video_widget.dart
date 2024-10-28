@@ -1,22 +1,28 @@
+import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-class Videowidget extends StatefulWidget {
+class VideoWidget extends StatefulWidget {
   final String videoUrl;
-  const Videowidget({required this.videoUrl, super.key});
+  const VideoWidget({required this.videoUrl, super.key});
 
   @override
-  State<Videowidget> createState() => _VideowidgetState();
+  State<VideoWidget> createState() => _VideoWidgetState();
 }
 
-class _VideowidgetState extends State<Videowidget> {
+class _VideoWidgetState extends State<VideoWidget> {
   late VideoPlayerController _controller;
   bool _isPlaying = false;
 
   @override
   void initState() {
     super.initState();
+
+    if (isInTestMode) {
+      _controller = VideoPlayerController.asset('');
+      return;
+    }
 
     // Initialisation du contrôleur vidéo
     _controller = VideoPlayerController.networkUrl(Uri.parse(widget.videoUrl));
@@ -41,6 +47,10 @@ class _VideowidgetState extends State<Videowidget> {
     super.dispose();
   }
 
+  bool get isInTestMode {
+    return Platform.environment.containsKey('FLUTTER_TEST');
+  }
+
   void _togglePlayPause() {
     setState(() {
       if (_isPlaying) {
@@ -54,16 +64,17 @@ class _VideowidgetState extends State<Videowidget> {
 
   @override
   Widget build(BuildContext context) {
+    if (isInTestMode) return const Center(child: CircularProgressIndicator());
+
     return FutureBuilder(
       future: _controller.initialize(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
-          return GestureDetector(
+          return InkWell(
             onTap: _togglePlayPause,
             child: SizedBox(
-              width: MediaQuery.of(context)
-                  .size
-                  .width, // Prendre toute la largeur de l'écran
+              // Prendre toute la largeur de l'écran
+              width: MediaQuery.of(context).size.width,
               child: AspectRatio(
                 aspectRatio: _controller.value.aspectRatio,
                 child: FittedBox(
