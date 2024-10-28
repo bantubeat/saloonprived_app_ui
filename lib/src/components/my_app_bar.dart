@@ -1,17 +1,20 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
+import 'package:saloonprived_app/src/config/app_colors.dart';
 
 class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   final bool showSecondLine;
   final Widget? customIcon;
   final bool isForYou;
+  final String? centerText;
 
   // Constructeur privé appelé par les constructeurs personnalisés
   const MyAppBar._({
     required this.showSecondLine,
     required this.isForYou,
     this.customIcon,
+    this.centerText,
   });
 
   // MyAppBar.forYouSingleLine
@@ -97,6 +100,32 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
       isForYou: false,
     );
   }
+
+  factory MyAppBar.withCenterTextAndBadge() {
+    return const MyAppBar._(
+      showSecondLine: true,
+      isForYou: false,
+      centerText: '+18',
+      customIcon: Badge(
+        backgroundColor: Color.fromRGBO(249, 191, 13, 1),
+        smallSize: 20,
+        label: Text(
+          '+99',
+          maxLines: 1,
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 6,
+            fontWeight: FontWeight.w400,
+          ),
+        ),
+        child: Icon(
+          Icons.notifications,
+          color: Colors.white,
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final double size = showSecondLine ? 90.0 : 47.0;
@@ -167,6 +196,15 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                     Icons.menu,
                     color: Color.fromRGBO(249, 191, 13, 1),
                   ),
+                  if (centerText != null)
+                    Text(
+                      centerText!,
+                      style: const TextStyle(
+                        color: AppColors.bantubeatPrimary,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
+                    ),
                   if (customIcon != null) customIcon!,
                 ],
               ),
