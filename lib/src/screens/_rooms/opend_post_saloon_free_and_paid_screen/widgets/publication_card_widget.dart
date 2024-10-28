@@ -33,9 +33,10 @@ class PublicationCardWidget extends StatelessWidget {
   final Function(int item, BuildContext context) onPressIcon;
   @override
   Widget build(BuildContext context) {
+    final screenSize = MediaQuery.of(context).size;
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 6),
-      width: MediaQuery.of(context).size.width,
+      width: screenSize.width,
       color: Colors.white,
       child: Column(
         children: [
@@ -46,10 +47,7 @@ class PublicationCardWidget extends StatelessWidget {
             date: "il y'a 1 heure",
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 8.0,
-              vertical: 15,
-            ),
+            padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 15),
             child: Align(
               alignment: Alignment.centerLeft,
               child: Text(
@@ -86,20 +84,13 @@ class PublicationCardWidget extends StatelessWidget {
           if (isLocked != null)
             Image.asset(
               AppAssets.imagesPostLocked,
-              width: MediaQuery.of(context).size.width,
+              width: screenSize.width,
             ),
           if (isLocked == null && (!isRepost && isImage))
-            ImageWidget(
-              images: images,
-              onClose: () {},
-            ),
+            ImageWidget(images: images, onClose: () {}),
           if (isLocked == null && (!isRepost && !isImage))
-            VideoWidget(
-              onClose: () {},
-            ),
-          const SizedBox(
-            height: 30,
-          ),
+            VideoWidget(onClose: () {}),
+          const SizedBox(height: 30),
           IconRowWidget(
             isRepost: isRepost,
             isOldPost: isOldPost != null ? isOldPost! : false,
@@ -107,9 +98,7 @@ class PublicationCardWidget extends StatelessWidget {
             comments: 45,
             reposts: 12,
             shares: 30,
-            onPressIcon: (index) {
-              onPressIcon(index, context);
-            },
+            onPressIcon: (index) => onPressIcon(index, context),
           ),
         ],
       ),

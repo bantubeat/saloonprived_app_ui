@@ -153,12 +153,23 @@ class OpendPostSaloonFreeAndPaidScreen extends StatelessWidget {
                 userName: '@Lucia',
                 date: "il y'a 1 heure",
               ),
+              PublicationCardWidget(
+                isImage: false,
+                isRepost: false,
+                userImage: AppAssets.imagesProfil1,
+                onPressIcon: onPressIcon,
+                images: const [
+                  AppAssets.imagesCentent1,
+                  AppAssets.imagesCentent2,
+                ],
+                name: 'Lucia',
+                userName: '@Lucia',
+                date: "il y'a 4 heure",
+              ),
               // Expanded(
               //   child: Container(),
               // ),
-              const SizedBox(
-                height: 100,
-              ),
+              const SizedBox(height: 100),
             ],
           ),
         ),
