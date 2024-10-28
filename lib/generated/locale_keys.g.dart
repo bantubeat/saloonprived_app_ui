@@ -599,6 +599,11 @@ abstract class  LocaleKeys {
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
 
+  static const messages_and_conversations_list_screen_messages =
+      'messages_and_conversations_list_screen.messages';
+  static const messages_and_conversations_list_screen_channel =
+      'messages_and_conversations_list_screen.channel';
+
   static const paid_saloon_buy_access_screen_payment_to =
       'paid_saloon_buy_access_screen.payment_to';
   static const paid_saloon_buy_access_screen_total =

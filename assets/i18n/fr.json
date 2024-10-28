@@ -504,6 +504,10 @@
         "hour": "{}  heures",
         "day": "{}  jours"
     },
+    "messages_and_conversations_list_screen": {
+        "messages": "Messages",
+        "channel": "chats channel"
+    },
     "paid_saloon_buy_access_screen": {
         "payment_to": "Paiement à",
         "total": "Total",

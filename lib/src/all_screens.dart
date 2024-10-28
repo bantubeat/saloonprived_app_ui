@@ -19,6 +19,8 @@ import 'screens/_activity/expired_access_user_subscription_activity_screen/expir
 
 import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_screen.dart';
 
+import 'screens/_chats/messages_and_conversations_list_screen/messages_and_conversations_list_screen.dart';
+
 import 'screens/_activity/fans_activity_screen/fans_activity_screen.dart';
 
 import 'screens/_activity/principal_activity_screen/principal_activity_screen.dart';
@@ -129,6 +131,9 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+
+  'messages_and_conversations_list_screen.dart': () =>
+      const MessagesAndConversationsListScreen(),
 
   'paid_saloon_buy_access_screen.dart': () => const PaidSaloonBuyAccessScreen(),
 
