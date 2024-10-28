@@ -490,6 +490,14 @@
         "hour": "{}  heures",
         "day": "{}  jours"
     },
+    "fans_activity_screen": {
+        "subscribe_button": "S'abonner",
+        "unsubscribe_button": "Se Désabonner",
+        "messages": "Messages",
+        "send_tip_to": "Envoyer un pourboire",
+        "fans": "Fans",
+        "add_to_favorite": "Ajouter à favori"
+    },
     "paid_connected_user_saloon_with_followers_screen": {
         "expired_date": "Votre accès expire dans : ",
         "renew": "Renouveller",

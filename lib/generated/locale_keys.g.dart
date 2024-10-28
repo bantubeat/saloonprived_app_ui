@@ -578,6 +578,18 @@ abstract class  LocaleKeys {
       'paid_connected_user_saloon_no_access_screen.hour';
   static const paid_connected_user_saloon_no_access_screen_day =
       'paid_connected_user_saloon_no_access_screen.day';
+
+  static const fans_activity_screen_subscribe_button =
+      'fans_activity_screen.subscribe_button';
+  static const fans_activity_screen_unsubscribe_button =
+      'fans_activity_screen.unsubscribe_button';
+  static const fans_activity_screen_messages = 'fans_activity_screen.messages';
+  static const fans_activity_screen_send_tip_to =
+      'fans_activity_screen.send_tip_to';
+  static const fans_activity_screen_fans = 'fans_activity_screen.fans';
+  static const fans_activity_screen_add_to_favorite =
+      'fans_activity_screen.add_to_favorite';
+
   static const paid_connected_user_saloon_with_followers_screen_expired_date =
       'paid_connected_user_saloon_with_followers_screen.expired_date';
   static const paid_connected_user_saloon_with_followers_screen_renew =

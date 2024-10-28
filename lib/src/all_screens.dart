@@ -19,7 +19,10 @@ import 'screens/_activity/expired_access_user_subscription_activity_screen/expir
 
 import 'screens/_activity/blocked_user_activity_screen/blocked_user_activity_screen.dart';
 
+import 'screens/_activity/fans_activity_screen/fans_activity_screen.dart';
+
 import 'screens/_activity/principal_activity_screen/principal_activity_screen.dart';
+
 import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_dashboard_screen.dart';
 
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
@@ -125,6 +128,9 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonWithFollowersScreen(),
   'paid_connected_user_saloon_no_access_screen.dart': () =>
       const PaidConnectedUserSaloonNoAccessScreen(),
+
+  'fans_activity_screen.dart': () => const FansActivityScreen(),
+
   'principal_activity_screen.dart': () => const PrincipalActivityScreen(),
 
   'settings_main_screen.dart': () => const SettingsMainScreen(),
@@ -139,6 +145,7 @@ final Map<String, Widget Function()> allScreens = {
   'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
   'virtual_item_settings_screen.dart': () => const VirtualItemSettingsScreen(),
   'notification_screen.dart': () => const NotificationsScreen(),
+
 };
 
 // Ajoutez d'autres chemins de fichiers ici
