@@ -53,11 +53,7 @@ class _DiscoverLoungeNonAdultsCreatorsScreenState
         children: data.map((item) {
           return Stack(
             children: [
-              Positioned.fill(
-                child: Videowidget(
-                  videoUrl: item['url'],
-                ),
-              ),
+              Positioned.fill(child: VideoWidget(videoUrl: item['url'])),
               Positioned(
                 bottom: 120.0,
                 left: 20.0,
@@ -66,14 +62,10 @@ class _DiscoverLoungeNonAdultsCreatorsScreenState
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(
-                        bottom: 8.0,
-                      ),
+                      padding: const EdgeInsets.only(bottom: 8.0),
                       child: UserProfile(user: item['user']),
                     ),
-                    VideoCaption(
-                      videoDescription: item['description'],
-                    ),
+                    VideoCaption(videoDescription: item['description']),
                   ],
                 ),
               ),

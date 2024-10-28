@@ -12,9 +12,7 @@ class ActionSidebar extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.only(
-            bottom: 5.0,
-          ),
+          padding: const EdgeInsets.only(bottom: 5.0),
           child: ActionButton(
             icon: Icons.favorite,
             count: item['likeCount'],
@@ -22,9 +20,7 @@ class ActionSidebar extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(
-            bottom: 5.0,
-          ),
+          padding: const EdgeInsets.only(bottom: 5.0),
           child: ActionButton(
             icon: Icons.comment_rounded,
             count: item['commentCount'],
@@ -32,9 +28,7 @@ class ActionSidebar extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(
-            bottom: 10.0,
-          ),
+          padding: const EdgeInsets.only(bottom: 10.0),
           child: ActionButton(
             icon: Icons.reply_sharp,
             count: item['shareCount'],
@@ -46,9 +40,7 @@ class ActionSidebar extends StatelessWidget {
         ),
         const CircleAvatar(
           radius: 18.0,
-          backgroundImage: AssetImage(
-            AppAssets.imagesBzc,
-          ),
+          backgroundImage: AssetImage(AppAssets.imagesBzc),
         ),
       ],
     );

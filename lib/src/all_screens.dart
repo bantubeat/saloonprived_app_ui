@@ -2,6 +2,7 @@ import 'package:flutter/material.dart' show Widget;
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_dashboard/promote_user_dashboard_screen.dart';
 import 'package:saloonprived_app/src/screens/_settings/settings_notification_screen.dart';
+import 'package:saloonprived_app/src/screens/notification_screen/notification_screen.dart';
 
 import 'package:saloonprived_app/src/screens/profilcreation_fan_creator_agreements_screen/profilcreation_fan_creator_agreements_screen.dart';
 import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_screen/profilcreation_generalconditions_screen.dart';
@@ -132,6 +133,8 @@ final Map<String, Widget Function()> allScreens = {
   'general_condition_screen.dart': () => const GeneralConditionScreen(),
 
   'settings_copyright_screen.dart': () => const SettingsCopyrightScreen(),
+
+  'notification_screen.dart': () => const NotificationsScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
