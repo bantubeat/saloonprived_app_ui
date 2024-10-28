@@ -716,6 +716,18 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_no_access_screen.hour';
   static const paid_connected_user_saloon_no_access_screen_day =
       'paid_connected_user_saloon_no_access_screen.day';
+
+  static const fans_activity_screen_subscribe_button =
+      'fans_activity_screen.subscribe_button';
+  static const fans_activity_screen_unsubscribe_button =
+      'fans_activity_screen.unsubscribe_button';
+  static const fans_activity_screen_messages = 'fans_activity_screen.messages';
+  static const fans_activity_screen_send_tip_to =
+      'fans_activity_screen.send_tip_to';
+  static const fans_activity_screen_fans = 'fans_activity_screen.fans';
+  static const fans_activity_screen_add_to_favorite =
+      'fans_activity_screen.add_to_favorite';
+
   static const paid_connected_user_saloon_with_followers_screen_expired_date =
       'paid_connected_user_saloon_with_followers_screen.expired_date';
   static const paid_connected_user_saloon_with_followers_screen_renew =
@@ -724,6 +736,57 @@ abstract class LocaleKeys {
       'paid_connected_user_saloon_with_followers_screen.hour';
   static const paid_connected_user_saloon_with_followers_screen_day =
       'paid_connected_user_saloon_with_followers_screen.day';
+
+  static const messages_and_conversations_list_screen_messages =
+      'messages_and_conversations_list_screen.messages';
+  static const messages_and_conversations_list_screen_channel =
+      'messages_and_conversations_list_screen.channel';
+
+  static const paid_saloon_buy_access_screen_payment_to =
+      'paid_saloon_buy_access_screen.payment_to';
+  static const paid_saloon_buy_access_screen_total =
+      'paid_saloon_buy_access_screen.total';
+  static const paid_saloon_buy_access_screen_total_amount =
+      'paid_saloon_buy_access_screen.total_amount';
+  static const paid_saloon_buy_access_screen_discount =
+      'paid_saloon_buy_access_screen.discount';
+  static const paid_saloon_buy_access_screen_amount_to_pay =
+      'paid_saloon_buy_access_screen.amount_to_pay';
+  static const paid_saloon_buy_access_screen_pay_with_balance =
+      'paid_saloon_buy_access_screen.pay_with_balance';
+  static const paid_saloon_buy_access_screen_beatzcoin_balance =
+      'paid_saloon_buy_access_screen.beatzcoin_balance';
+  static const paid_saloon_buy_access_screen_insufficient_balance =
+      'paid_saloon_buy_access_screen.insufficient_balance';
+  static const paid_saloon_buy_access_screen_sufficient_balance =
+      'paid_saloon_buy_access_screen.sufficient_balance';
+  static const paid_saloon_buy_access_screen_buy_tokens =
+      'paid_saloon_buy_access_screen.buy_tokens';
+  static const paid_saloon_buy_access_screen_pay =
+      'paid_saloon_buy_access_screen.pay';
+  static const paid_saloon_buy_access_screen_buy_access =
+      'paid_saloon_buy_access_screen.buy_access';
+  static const paid_saloon_buy_access_screen_payment_success =
+      'paid_saloon_buy_access_screen.payment_success';
+  static const paid_saloon_buy_access_screen_enable_auto_renewal =
+      'paid_saloon_buy_access_screen.enable_auto_renewal';
+  static const paid_saloon_buy_access_screen_auto_renewal_left =
+      'paid_saloon_buy_access_screen.auto_renewal_left';
+  static const paid_saloon_buy_access_screen_auto_renewal_center =
+      'paid_saloon_buy_access_screen.auto_renewal_center';
+  static const paid_saloon_buy_access_screen_auto_renewal_right =
+      'paid_saloon_buy_access_screen.auto_renewal_right';
+  static const paid_saloon_buy_access_screen_renewal_terms =
+      'paid_saloon_buy_access_screen.renewal_terms';
+  static const paid_saloon_buy_access_screen_activate_auto_renewal_button =
+      'paid_saloon_buy_access_screen.activate_auto_renewal_button';
+  static const paid_saloon_buy_access_screen_not_now =
+      'paid_saloon_buy_access_screen.not_now';
+  static const paid_saloon_buy_access_screen_activate =
+      'paid_saloon_buy_access_screen.activate';
+  static const paid_saloon_buy_access_screen_renew =
+      'paid_saloon_buy_access_screen.renew';
+
   static const principal_activity_screen_title =
       'principal_activity_screen.title';
   static const principal_activity_screen_blocked =
