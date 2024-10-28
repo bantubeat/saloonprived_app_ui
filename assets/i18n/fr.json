@@ -465,23 +465,6 @@
         "landing_text_4": "(50.000  FANS) vous ne pouvez pas encore choisir les prix dans ce palier  ",
         "save": "Enregistrer"
     },
-    "category_screen": {
-        "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
-        "previous": "Précédent",
-        "next": "Suivant",
-        "note": "*Vous ne pouvez choisir qu'une seule catégorie, si vous souhaitez devenir créateur saloonprived, selectionnez réellement la catégorie qui s'identifie au mieux au style de contenu que vous voulez publier sur saloonprived",
-        "category": "Catégorie",
-        "art_and_culture": "Art et culture",
-        "news_and_information": "Actualités et informations",
-        "business_and_coaching": "Business et coaching",
-        "comedy_and_stand_up": "Comédie et Stand-up",
-        "cuisine_and_gastronomy": "Cuisine et Gastronomie",
-        "nature_and_health": "Nature et Santé",
-        "sport_and_leisure": "Sport et Loisirs",
-        "fashion_and_beauty": "Fashion et beauté",
-        "sexuality_and_adult_content": "Sexualité et contenu pour adultes",
-        "other": "Autres"
-    },
     "profile_creation_category": {
         "title": "Catégorie",
         "description": "Afin de permettre aux fans de trouver facilement votre salon dans les recherches par categorie, veuillez choisir la categorie qui définit la nature de votre salon",
@@ -735,5 +718,17 @@
         "channel": "chats channel",
         "diffusion": "Canal de diffusion",
         "welcome_message": "Message de bienvenue"
+    },
+    "paid_connected_user_saloon_of_5_content_free_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "welcome_to_paid_salon": "Bienvenue dans le salon payant",
+        "paid_salon_reserved_for_fans": "Le salon payant est reservé à vos fans qui ont payé un accès",
+        "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
+        "must_have_5_content_free": "Pour utiliser le salon payant, vous devez: ",
+        "have_5_content_free": "• Avoir minimum 5 contenus dans votre salon gratuit",
+        "configure_access_price": "• Configurer les prix d'accès à votre salon payant",
+        "validate_identity_procedure": "• Valider la procédure de vérification d'identité",
+        "add_more_video": "Deposer plus de vidéos gratuits"
     }
 }
