@@ -123,7 +123,7 @@ class IconRowWidget extends StatelessWidget {
         child: Row(
           children: [
             icon,
-            const SizedBox(width: 3),
+            SizedBox(width: (isOldPost) ? 3 : 5),
             Text(
               value.toString(),
               style: GoogleFonts.inter(
@@ -151,7 +151,7 @@ class IconRowWidget extends StatelessWidget {
       child: InkWell(
         onTap: () => onPress(index),
         child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
           decoration: BoxDecoration(
             border: Border.all(color: const Color.fromRGBO(244, 244, 244, 1)),
           ),
