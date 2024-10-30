@@ -24,13 +24,15 @@ class CustomSwitch extends StatelessWidget {
       width: width,
       height: height,
       child: Transform.scale(
-        scaleX: width / 50.0, 
-        scaleY: height / 30.0,
+        scale: 0.7,
         child: Switch(
           value: value,
           onChanged: onChanged,
-          activeColor: activeColor,
-          inactiveTrackColor: inactiveColor,
+          activeColor: AppColors.myWhite,
+          thumbColor: WidgetStateProperty.all(AppColors.myWhite),
+          trackOutlineColor: WidgetStateProperty.all(AppColors.myWhite),
+          activeTrackColor: activeColor,
+          inactiveTrackColor: AppColors.myGray,
         ),
       ),
     );

@@ -20,11 +20,12 @@ class PublishPhotoScreen extends StatelessWidget {
     ];
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         centerTitle: true,
         title: Text(
           LocaleKeys.publish_video_photo_screen_photo_title.tr(),
-          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
         ),
         bottom: const PreferredSize(
           preferredSize: Size.fromHeight(1.0),
@@ -66,7 +67,7 @@ class PublishPhotoScreen extends StatelessWidget {
                       padding: const EdgeInsets.all(5),
                       child: SizedBox(
                         width: MediaQuery.of(context).size.width,
-                        height: 150,
+                        height: 159,
                         child: ListView.builder(
                           itemCount: imageUrls.length,
                           scrollDirection: Axis.horizontal,
@@ -87,19 +88,42 @@ class PublishPhotoScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    ButtonWithIcon(
-                      color: AppColors.myWhite,
-                      text: LocaleKeys
-                          .publish_video_photo_screen_button_add_other_photos
-                          .tr(),
-                      icon: const Icon(
-                        Icons.photo_library,
-                        color: AppColors.myWhite,
-                        size: 18,
+                    ElevatedButton(
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                        ),
+                        backgroundColor: AppColors.primary,
+                        fixedSize: const Size(155.06, 20),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        elevation: 0,
+                        enableFeedback: true,
+                        overlayColor: AppColors.primaryLight,
+                        splashFactory: InkRipple.splashFactory,
                       ),
-                      onPressed: (context) {},
-                      fixedSize:
-                          Size(MediaQuery.of(context).size.width / 1.5, 14),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(
+                            Icons.photo_library,
+                            color: AppColors.myWhite,
+                            size: 12,
+                          ),
+                          const SizedBox(width: 5),
+                          Text(
+                            LocaleKeys
+                                .publish_video_photo_screen_button_add_other_photos
+                                .tr(),
+                            style: const TextStyle(
+                              color: AppColors.myWhite,
+                              fontSize: 11,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                     const Padding(
                       padding: EdgeInsets.symmetric(vertical: 10),
@@ -110,7 +134,9 @@ class PublishPhotoScreen extends StatelessWidget {
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 10,),
+                        horizontal: 20,
+                        vertical: 10,
+                      ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -118,14 +144,18 @@ class PublishPhotoScreen extends StatelessWidget {
                             LocaleKeys.publish_video_photo_screen_destination
                                 .tr(),
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold,),
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                           Text(
                             LocaleKeys
                                 .publish_video_photo_screen_destination_hint
                                 .tr(),
                             style: const TextStyle(
-                                fontSize: 14, color: Colors.grey,),
+                              fontSize: 11,
+                              color: Colors.grey,
+                            ),
                           ),
                           const SizedBox(
                             height: 4,
@@ -133,8 +163,12 @@ class PublishPhotoScreen extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text(LocaleKeys.publish_video_photo_screen_free
-                                  .tr(),),
+                              Text(
+                                LocaleKeys.publish_video_photo_screen_free.tr(),
+                                style: const TextStyle(
+                                  fontSize: 12,
+                                ),
+                              ),
                               CustomSwitch(
                                 height: 14,
                                 width: 30,
@@ -149,8 +183,16 @@ class PublishPhotoScreen extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text(LocaleKeys.publish_video_photo_screen_paid
-                                  .tr(),),
+                              Padding(
+                                padding: const EdgeInsets.only(right: 7),
+                                child: Text(
+                                  LocaleKeys.publish_video_photo_screen_paid
+                                      .tr(),
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                  ),
+                                ),
+                              ),
                               const Icon(
                                 Icons.lock_outlined,
                                 color: AppColors.primary,
@@ -177,13 +219,26 @@ class PublishPhotoScreen extends StatelessWidget {
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 10,),
+                        horizontal: 20,
+                        vertical: 10,
+                      ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          const Icon(Icons.chat_outlined),
-                          Text(LocaleKeys.publish_video_photo_screen_comment
-                              .tr(),),
+                          const Icon(
+                            Icons.chat_outlined,
+                            size: 16,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 7),
+                            child: Text(
+                              LocaleKeys.publish_video_photo_screen_comment
+                                  .tr(),
+                              style: const TextStyle(
+                                fontSize: 12,
+                              ),
+                            ),
+                          ),
                           const Spacer(),
                           CustomSwitch(
                             height: 14,
@@ -196,7 +251,9 @@ class PublishPhotoScreen extends StatelessWidget {
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 10,),
+                        horizontal: 20,
+                        vertical: 10,
+                      ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -205,7 +262,9 @@ class PublishPhotoScreen extends StatelessWidget {
                                 .publish_video_photo_screen_copyright_title
                                 .tr(),
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold,),
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                           const SizedBox(
                             height: 10,
@@ -215,7 +274,9 @@ class PublishPhotoScreen extends StatelessWidget {
                                 .publish_video_photo_screen_copyright_description
                                 .tr(),
                             style: const TextStyle(
-                                fontSize: 14, color: Colors.grey,),
+                              fontSize: 11,
+                              color: Colors.grey,
+                            ),
                           ),
                           TextButton(
                             style: TextButton.styleFrom(
@@ -227,7 +288,7 @@ class PublishPhotoScreen extends StatelessWidget {
                               LocaleKeys.publish_video_photo_screen_text_button
                                   .tr(),
                               style: const TextStyle(
-                                fontSize: 14,
+                                fontSize: 11,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -253,14 +314,14 @@ class PublishPhotoScreen extends StatelessWidget {
                 ),
                 child: Center(
                   child: PrimaryButton(
-                    fixedSize: Size(MediaQuery.of(context).size.width / 3, 30),
+                    fixedSize: const Size(119, 40),
                     onPressed: (context) {},
                     text: LocaleKeys.publish_video_photo_screen_publish.tr(),
                   ),
                 ),
               ),
-            )
-          ,],
+            ),
+          ],
         ),
       ),
     );
