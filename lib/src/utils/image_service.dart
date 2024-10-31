@@ -10,6 +10,14 @@ class ImageService {
     return file;
   }
 
+  static Future<XFile?> pickVideo(
+    BuildContext context,
+    ImageSource source,
+  ) async {
+    final XFile? file = await ImagePicker().pickVideo(source: source);
+    return file;
+  }
+
   static void showPickImage(
     BuildContext context, {
     required Function(XFile?) onImagePicked,
