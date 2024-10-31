@@ -741,5 +741,16 @@
             "share": "Partager",
             "message_placeholder": "Donnez votre avis, utilisez @ pour mentionner d’autres utilisateurs",
             "share_out": "Partager en dehors de saloonprived"
+        },
+        "messages_welcome_screen": {
+            "messages": "Messages",
+            "channel": "chats channel",
+            "add_video": "Ajouter une Vidéo",
+            "write_message": "Ecrire votre message",
+            "description": "Accueillez vos nouveaux Fans avec un message de bienvenue dans votre Salon. ",
+            "save": "Enregistrer",
+            "delete": "Supprimer",
+            "change_media": "Changer le Média",
+            "comment_text": "(montrer ce que contient votre salon payant, incitera le fan à rapidement faire un achat) "
         }
     }
