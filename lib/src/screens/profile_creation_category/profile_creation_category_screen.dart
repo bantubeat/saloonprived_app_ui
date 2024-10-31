@@ -90,7 +90,8 @@ class _ProfileCreationCategoryScreenState
                                     final category = _categories[index];
                                     return Padding(
                                       padding: const EdgeInsets.symmetric(
-                                          vertical: 8.0,),
+                                        vertical: 8.0,
+                                      ),
                                       child: InkWell(
                                         onTap: () {
                                           setState(() {
@@ -101,7 +102,8 @@ class _ProfileCreationCategoryScreenState
                                           children: [
                                             AnimatedContainer(
                                               duration: const Duration(
-                                                  milliseconds: 300,),
+                                                milliseconds: 300,
+                                              ),
                                               width: 24,
                                               height: 24,
                                               decoration: BoxDecoration(
@@ -122,9 +124,11 @@ class _ProfileCreationCategoryScreenState
                                               ),
                                               child:
                                                   _selectedCategory == category
-                                                      ? const Icon(Icons.check,
+                                                      ? const Icon(
+                                                          Icons.check,
                                                           size: 18,
-                                                          color: Colors.white,)
+                                                          color: Colors.white,
+                                                        )
                                                       : null,
                                             ),
                                             const SizedBox(width: 12),
@@ -174,9 +178,9 @@ class _ProfileCreationCategoryScreenState
                                 const SizedBox(width: 20),
                                 Expanded(
                                   child: PrimaryButton(
-                                      text:
-                                          LocaleKeys.category_screen_next.tr(),
-                                      onPressed: (context) {},),
+                                    text: LocaleKeys.category_screen_next.tr(),
+                                    onPressed: (context) {},
+                                  ),
                                 ),
                               ],
                             ),
