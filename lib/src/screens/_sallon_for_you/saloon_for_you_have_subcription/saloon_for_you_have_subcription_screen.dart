@@ -9,6 +9,7 @@ import 'package:saloonprived_app/src/resources/app_assets.dart';
 
 import 'widgets/header_widget.dart';
 import 'widgets/publication_card_widget.dart';
+import 'widgets/repost_modal.dart';
 import 'widgets/suggestions_card_widget.dart';
 
 class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
@@ -21,8 +22,25 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
         comments: comments,
       );
     }
+    if (index == 2) {
+      RepostModal.show(context, post: post);
+    }
   }
 
+  static final post = PostModel(
+    isImage: true,
+    isRepost: false,
+    userImage: AppAssets.imagesProfil1,
+    onPressIcon: () {},
+    images: const [
+      AppAssets.imagesCentent2,
+      AppAssets.imagesCentent3,
+      AppAssets.imagesCentent1,
+    ],
+    name: 'Richachba',
+    userName: '@Richachba',
+    date: "il y'a 1 heure",
+  );
   static final List<Map<String, dynamic>> comments = [
     {
       'username': 'JohnDoe',
@@ -331,6 +349,9 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
                 userName: '@Richachba',
                 date: "il y'a 1 heure",
               ),
+              const SizedBox(
+                height: 10,
+              ),
               PublicationCardWidget(
                 isImage: true,
                 isRepost: false,
@@ -341,12 +362,18 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
                 userName: '@Lucia',
                 date: "il y'a 1 heure",
               ),
+              const SizedBox(
+                height: 10,
+              ),
 
               const SuggestionsCardWidget(
                 userImage: AppAssets.imagesProfil2,
                 backgourdImages: AppAssets.imagesSaloonProfileBack,
                 name: 'ZoecrabbTV',
                 userName: '@zoecrabbtv',
+              ),
+              const SizedBox(
+                height: 10,
               ),
 
               PublicationCardWidget(
@@ -359,6 +386,10 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
                 userName: '@Lucia',
                 date: "il y'a 1 heure",
               ),
+              const SizedBox(
+                height: 10,
+              ),
+
               PublicationCardWidget(
                 isImage: true,
                 isRepost: true,
@@ -386,4 +417,26 @@ class SaloonForYouHaveSubcriptionScreen extends StatelessWidget {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
+}
+
+class PostModel {
+  final bool isImage;
+  final bool isRepost;
+  final String userImage;
+  final Function onPressIcon;
+  final List<String> images;
+  final String name;
+  final String userName;
+  final String date;
+
+  PostModel({
+    required this.isImage,
+    required this.isRepost,
+    required this.userImage,
+    required this.onPressIcon,
+    required this.images,
+    required this.name,
+    required this.userName,
+    required this.date,
+  });
 }

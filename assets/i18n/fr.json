@@ -736,6 +736,12 @@
             "diffusion": "Canal de diffusion",
             "welcome_message": "Message de bienvenue"
         },
+        "repost_modal": {
+            "more_option": "PLUS D'OPTION",
+            "share": "Partager",
+            "message_placeholder": "Donnez votre avis, utilisez @ pour mentionner d’autres utilisateurs",
+            "share_out": "Partager en dehors de saloonprived"
+        },
         "messages_welcome_screen": {
             "messages": "Messages",
             "channel": "chats channel",
