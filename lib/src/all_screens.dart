@@ -47,6 +47,7 @@ import 'screens/_rooms/paid_saloon_buy_access_screen/paid_saloon_buy_access_scre
 
 import 'screens/_sallon_for_you/saloon_for_you_have_subcription/saloon_for_you_have_subcription_screen.dart';
 
+import 'screens/_settings/privacy_policy_settings_screen.dart';
 import 'screens/_settings/virtual_item_settings_screen.dart';
 import 'screens/_settings/settings_main_screen/settings_main_screen.dart';
 
@@ -171,6 +172,8 @@ final Map<String, Widget Function()> allScreens = {
   'messages_welcome_screen.dart': () => const MessagesWelcomeScreen(),
 
   'messages_settings_screen.dart': () => const MessagesSettingsScreen(),
+  'privacy_policy_settings_screen.dart': () =>
+      const PrivacyPolicySettingsScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici

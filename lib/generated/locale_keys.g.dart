@@ -341,7 +341,6 @@ abstract class LocaleKeys {
   static const popup_menu_widget_settings = 'popup_menu_widget.settings';
   static const popup_menu_widget_logout = 'popup_menu_widget.logout';
   static const popup_menu_widget_activity = 'popup_menu_widget.activity';
-
   static const promote_user_dashboard_screen_revenue =
       'promote_user_dashboard_screen.revenue';
   static const promote_user_dashboard_screen_access_price =
@@ -864,10 +863,40 @@ abstract class LocaleKeys {
   static const virtual_item_settings_screen_content_paragraph_9_content = 'virtual_item_settings_screen.content.paragraph_9.content';
   static const virtual_item_settings_screen_content_paragraph_10_title = 'virtual_item_settings_screen.content.paragraph_10.title';
   static const virtual_item_settings_screen_content_paragraph_10_content = 'virtual_item_settings_screen.content.paragraph_10.content';
+
+  static const privacy_policy_settings_screen_title = 'privacy_policy_settings_screen.title';
+  static const privacy_policy_settings_screen_last_update = 'privacy_policy_settings_screen.last_update';
+  static const privacy_policy_settings_screen_next = 'privacy_policy_settings_screen.next';
+  static const privacy_policy_settings_screen_welcome = 'privacy_policy_settings_screen.welcome';
+  static const privacy_policy_settings_screen_content_title = 'privacy_policy_settings_screen.content_title';
+  static const privacy_policy_settings_screen_content_sub_title = 'privacy_policy_settings_screen.content_sub_title';
+  static const privacy_policy_settings_screen_content_preamble = 'privacy_policy_settings_screen.content.preamble';
+  static const privacy_policy_settings_screen_content_paragraph_1_title = 'privacy_policy_settings_screen.content.paragraph_1.title';
+  static const privacy_policy_settings_screen_content_paragraph_1_content = 'privacy_policy_settings_screen.content.paragraph_1.content';
+  static const privacy_policy_settings_screen_content_paragraph_2_title = 'privacy_policy_settings_screen.content.paragraph_2.title';
+  static const privacy_policy_settings_screen_content_paragraph_2_content = 'privacy_policy_settings_screen.content.paragraph_2.content';
+  static const privacy_policy_settings_screen_content_paragraph_3_title = 'privacy_policy_settings_screen.content.paragraph_3.title';
+  static const privacy_policy_settings_screen_content_paragraph_3_content = 'privacy_policy_settings_screen.content.paragraph_3.content';
+  static const privacy_policy_settings_screen_content_paragraph_4_title = 'privacy_policy_settings_screen.content.paragraph_4.title';
+  static const privacy_policy_settings_screen_content_paragraph_4_content = 'privacy_policy_settings_screen.content.paragraph_4.content';
+  static const privacy_policy_settings_screen_content_paragraph_5_title = 'privacy_policy_settings_screen.content.paragraph_5.title';
+  static const privacy_policy_settings_screen_content_paragraph_5_content = 'privacy_policy_settings_screen.content.paragraph_5.content';
+  static const privacy_policy_settings_screen_content_paragraph_6_title = 'privacy_policy_settings_screen.content.paragraph_6.title';
+  static const privacy_policy_settings_screen_content_paragraph_6_content = 'privacy_policy_settings_screen.content.paragraph_6.content';
+  static const privacy_policy_settings_screen_content_paragraph_7_title = 'privacy_policy_settings_screen.content.paragraph_7.title';
+  static const privacy_policy_settings_screen_content_paragraph_7_content = 'privacy_policy_settings_screen.content.paragraph_7.content';
+  static const privacy_policy_settings_screen_content_paragraph_8_title = 'privacy_policy_settings_screen.content.paragraph_8.title';
+  static const privacy_policy_settings_screen_content_paragraph_8_content = 'privacy_policy_settings_screen.content.paragraph_8.content';
+  static const privacy_policy_settings_screen_content_paragraph_9_title = 'privacy_policy_settings_screen.content.paragraph_9.title';
+  static const privacy_policy_settings_screen_content_paragraph_9_content = 'privacy_policy_settings_screen.content.paragraph_9.content';
+  static const privacy_policy_settings_screen_content_paragraph_10_title = 'privacy_policy_settings_screen.content.paragraph_10.title';
+  static const privacy_policy_settings_screen_content_paragraph_10_content = 'privacy_policy_settings_screen.content.paragraph_10.content';
+
   static const messages_settings_screen_messages = 'messages_settings_screen.messages';
   static const messages_settings_screen_channel = 'messages_settings_screen.channel';
   static const messages_settings_screen_diffusion = 'messages_settings_screen.diffusion';
   static const messages_settings_screen_welcome_message = 'messages_settings_screen.welcome_message';
+
   static const messages_welcome_screen_messages = 'messages_welcome_screen.messages';
   static const messages_welcome_screen_channel = 'messages_welcome_screen.channel';
   static const messages_welcome_screen_add_video = 'messages_welcome_screen.add_video';
