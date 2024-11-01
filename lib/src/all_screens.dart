@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/discover_lounge/discover_saloon_adult_screen/discover_saloon_adult_screen.dart';
 import 'package:saloonprived_app/src/screens/profile_creation_category/profile_creation_category_screen.dart';
 
 import 'package:saloonprived_app/src/screens/_dashboard/buy_access_user_dashboard_screen/buy_access_user_dashboard_screen.dart';
@@ -175,6 +176,7 @@ final Map<String, Widget Function()> allScreens = {
   'messages_settings_screen.dart': () => const MessagesSettingsScreen(),
   'privacy_policy_settings_screen.dart': () =>
       const PrivacyPolicySettingsScreen(),
+  'discover_saloon_adult_screen.dart': () => const DiscoverSaloonAdultScreen(),
   'all_subscription_activity_screen.dart': () =>
       const AllSubscriptionActivityScreen(),
 };
