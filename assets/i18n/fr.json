@@ -1321,5 +1321,25 @@
             "delete": "Supprimer",
             "change_media": "Changer le Média",
             "comment_text": "(montrer ce que contient votre salon payant, incitera le fan à rapidement faire un achat) "
+        },
+        "discover_saloon_adult_screen": {
+            "title": "AVERTISSEMENT : ",
+            "subtitle": "CETTE PAGE EST RESERVEE AUX ADULTES",
+            "text1": "Cette page est destinée uniquement aux adultes responsables de plus de 18 ans (ou l'âge de consentement dans la juridiction à partir de laquelle vous accédez au site Web)",
+            "text2": "Les matériaux qui sont disponibles sur cette page incluent des représentations visuelles graphiques et descriptions de nudité et d'activité sexuelle et ne doit pas être accessible à toute personne de moins de 18 ans ou  l'âge du consentement.",
+            "text3": "Accéder à cette page si vous avez moins de 18 ans ou l'âge du consentement peut être interdit par la loi de votre juridiction.\nEn cliquant sur « J'accepte » ci-dessous, vous déclarez que les déclarations suivantes sont exactes :",
+            "text4": "Je suis un adulte d'au moins 18 ans, j’ai l'âge du consentement dans ma juridiction, et j'ai le droit légal d'accéder et de posséder du matériel pour adultes dans mon pays de résidence.",
+            "text5": "je ne permettrai pas  à aucune personne de moins de 18 ans d’avoir accès à l'un des contenus dans cette page.",
+            "text6": "Je choisis volontairement d'accéder à cette page  car je souhaite consulter, lire ou entendre les différents contenus disponibles.",
+            "text7": "je ne trouve pas que des images d’adultes nues, adultes engagés dans des actes sexuels ou autres contenu sexuel soit offensant ou répréhensible.",
+            "text8": "Je quitterai cette page rapidement si je suis offensé de quelque manière que ce soit par des propos sexuels ou tout contenu sexuel.",
+            "text9": "Je comprends et respecterai les normes et les lois dans mon pays de résidence",
+            "text10": "En me connectant et en consultant n'importe quelle partie du site Web, je ne rendrai pas Les propriétaires du site Web ou ses employés responsables de tout contenu situé sur le site Web dans son ensemble.",
+            "text11": "Si vous n'êtes pas d'accord, cliquez sur le bouton ”Je ne suis pas d'accord” et quittez le site Web. vous pouvez également bloquer tout contenu adulte via les paramètres et dans RESTRICTION.",
+            "text12": "Si vous souhaitez continuer sur cette page et voir le contenu disponible, marquer votre accord à cette avertissement.",
+            "text13": "Je reconnais que les conditions du site Web, Le contrat de service régit mon l'utilisation du Site Web, et j'ai examiné et accepté d'être lié par ceux-ci.",
+            "text14": "NE PLUS AFFICHER CE MESSAGE",
+            "btn_refuse": "Je ne suis pas d’accord",
+            "btn_accept": "ENTRER"
         }
     }
