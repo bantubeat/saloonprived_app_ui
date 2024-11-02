@@ -18,7 +18,7 @@ final class AppAssets {
   static const imagesStandUP = 'assets/images/stand_up.png';
   static const imagesCoverLogo = 'assets/images/cover_logo.png';
 
-  static const fakeAvatarImage = 'assets/images/fake_avatar.jpg';
+  static const imagesFakeAvatar = 'assets/images/fake_avatar.jpg';
 
   static const imagesLogoBantubeat = 'assets/images/logo_bantubeat.png';
   static const imagesFeatlinkLogo = 'assets/images/featlink_logo.png';
@@ -38,8 +38,14 @@ final class AppAssets {
   static const imagesCentent3 = 'assets/images/centent_3.jpeg';
   static const imagesAsiatInfir = 'assets/images/asiat_infir.jpeg';
   static const imagesLatina = 'assets/images/latina.jpeg';
+  static const imagesXLogo = 'assets/images/x_logo.png';
   static const imagesPrivedCover = 'assets/images/prived_cover.jpeg';
   static const imagesWhatsAppLogo = 'assets/images/whatsApp_logo.png';
 
   static const imagesError = 'assets/images/error.png';
+  static const imagesLocked = 'assets/images/locked.png';
+  static const imagesValide = 'assets/images/valide.png';
+  static const imagesBzc = 'assets/images/bzc.png';
+  static const imagesSuscribeProfil = 'assets/images/suscribe_profil.jpeg';
+  static const imagesPostLocked = 'assets/images/post_locked.png';
 }

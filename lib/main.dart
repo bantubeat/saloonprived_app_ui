@@ -7,7 +7,6 @@ import 'src/app.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   if (kIsWeb) setPathUrlStrategy();
 
   const supportedLocales = [Locale('fr')];
