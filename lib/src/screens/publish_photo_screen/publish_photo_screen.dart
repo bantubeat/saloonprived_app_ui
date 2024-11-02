@@ -1,7 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
-import 'package:saloonprived_app/src/components/button_with_icon.dart';
 import 'package:saloonprived_app/src/components/custom_switch.dart';
 import 'package:saloonprived_app/src/components/input_text_field.dart';
 import 'package:saloonprived_app/src/components/primary_button.dart';
