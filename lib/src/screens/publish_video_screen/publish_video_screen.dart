@@ -12,7 +12,7 @@ class PublishVideoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     List<String> imageUrls = [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyalm8QeCcnsGHpM6JjHwyTOI_wvHE5y4Cg&s'
-    ];
+    ,];
 
     return Scaffold(
 			backgroundColor: Colors.white,
@@ -259,7 +259,7 @@ class PublishVideoScreen extends StatelessWidget {
                   ),
                 ),
               ),
-            )
+            ),
           
 					],
         ),
