@@ -11,7 +11,7 @@ class PublishVideoScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> imageUrls = [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyalm8QeCcnsGHpM6JjHwyTOI_wvHE5y4Cg&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyalm8QeCcnsGHpM6JjHwyTOI_wvHE5y4Cg&s'
     ];
 
     return Scaffold(
@@ -58,7 +58,7 @@ class PublishVideoScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(20),
                       ),
                     ),
-                    Padding(
+                    Container(
                       padding: const EdgeInsets.all(5),
                       child: SizedBox(
                         width: MediaQuery.of(context).size.width,
@@ -66,17 +66,19 @@ class PublishVideoScreen extends StatelessWidget {
                         child: ListView.builder(
                           itemCount: imageUrls.length,
                           scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index) => ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              margin: const EdgeInsets.symmetric(horizontal: 5),
-                              width: 100,
-                              child: Image.network(
-                                imageUrls[index],
-                                fit: BoxFit.cover,
-                                errorBuilder: (context, error, stackTrace) {
-                                  return const SizedBox();
-                                },
+                          itemBuilder: (context, index) => Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 5),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(10),
+                              child: SizedBox(
+                                width: 100,
+                                child: Image.network(
+                                  imageUrls[index],
+                                  fit: BoxFit.cover,
+                                  errorBuilder: (context, error, stackTrace) {
+                                    return const SizedBox();
+                                  },
+                                ),
                               ),
                             ),
                           ),
@@ -232,7 +234,8 @@ class PublishVideoScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-                  ],
+                  
+									],
                 ),
               ),
             ),
@@ -257,7 +260,8 @@ class PublishVideoScreen extends StatelessWidget {
                 ),
               ),
             )
-          ,],
+          
+					],
         ),
       ),
     );

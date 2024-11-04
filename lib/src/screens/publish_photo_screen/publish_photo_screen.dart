@@ -34,7 +34,7 @@ class PublishPhotoScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: SizedBox(
+    body: SizedBox(
         height: MediaQuery.of(context).size.height,
         child: Stack(
           alignment: Alignment.topCenter,
@@ -112,13 +112,14 @@ class PublishPhotoScreen extends StatelessWidget {
                             size: 12,
                           ),
                           const SizedBox(width: 5),
-                          Text(
-                            LocaleKeys
-                                .publish_video_photo_screen_button_add_other_photos
-                                .tr(),
-                            style: const TextStyle(
-                              color: AppColors.myWhite,
-                              fontSize: 11,
+                          Flexible(
+                            child: Text(
+                              LocaleKeys.publish_video_photo_screen_button_add_other_photos.tr(),
+                              style: const TextStyle(
+                                color: AppColors.myWhite,
+                                fontSize: 11,
+                              ),
+                              overflow: TextOverflow.ellipsis,
                             ),
                           ),
                         ],
@@ -323,6 +324,7 @@ class PublishPhotoScreen extends StatelessWidget {
           ],
         ),
       ),
-    );
+    
+		);
   }
 }
