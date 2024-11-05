@@ -14,6 +14,8 @@ import 'package:saloonprived_app/src/screens/profilcreation_generalconditions_sc
 import 'package:saloonprived_app/src/screens/_activity/current_access_user_subscription_activity_screen/current_access_user_subscription_activity_screen.dart';
 
 import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_config_price_screen/paid_connected_user_saloon_config_price_screen.dart';
+import 'package:saloonprived_app/src/screens/publish_photo_screen/publish_photo_screen.dart';
+import 'package:saloonprived_app/src/screens/publish_video_screen/publish_video_screen.dart';
 
 import 'screens/_activity/all_subscription_activity_screen/all_subscription_activity_screen.dart';
 import 'screens/_chats/messages_welcome_screen/messages_welcome_screen.dart';
@@ -116,6 +118,8 @@ final Map<String, Widget Function()> allScreens = {
       const PaidConnectedUserSaloonUnverifyKycScreen(),
   'paid_connected_user_saloon_no_config_price_screen.dart': () =>
       const PaidConnectedUserSaloonNoConfigPriceScreen(),
+  'publish_photo_screen.dart': () => const PublishPhotoScreen(),
+  'publish_video_screen.dart': () => const PublishVideoScreen(),
   'publish_video_image_camera_screen.dart': () =>
       const PublishVideoImageCameraScreen(
         camera: [],

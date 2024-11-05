@@ -18,6 +18,9 @@ class InputTextField extends StatelessWidget {
   final TextAlign textAlign;
   final bool readOnly;
 
+  final TextAlignVertical? textAlignVertical;
+  final bool expands;
+
   const InputTextField({
     required this.hintText,
     super.key,
@@ -34,6 +37,8 @@ class InputTextField extends StatelessWidget {
     this.height = 45,
     this.maxLine = 1,
     this.minLine = 1,
+    this.textAlignVertical,
+    this.expands = false,
   });
 
   @override
@@ -47,8 +52,10 @@ class InputTextField extends StatelessWidget {
       child: Center(
         child: TextFormField(
           textAlign: textAlign,
-          maxLines: maxLine,
-          minLines: minLine,
+          textAlignVertical: textAlignVertical,
+          maxLines: expands ? null : maxLine,
+          minLines: expands ? null : minLine,
+          expands: expands,
           obscureText: obscureText,
           readOnly: readOnly,
           decoration: InputDecoration(
