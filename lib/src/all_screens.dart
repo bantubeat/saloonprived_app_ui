@@ -40,6 +40,7 @@ import 'screens/_dashboard/access_price_user_dashboard_screen/access_price_user_
 import 'screens/_rooms/free_connected_user_saloon_screen/free_connected_user_saloon_screen.dart';
 
 import 'screens/_rooms/opend_post_saloon_free_and_paid_screen/opend_post_saloon_free_and_paid_screen.dart';
+import 'screens/_rooms/paid_connected_user_saloon_of_5_content_free/paid_connected_user_saloon_of_5_content_free.dart';
 import 'screens/_rooms/paid_connected_user_saloon_unverify_kyc_screen/paid_connected_user_saloon_unverify_kyc_screen.dart';
 
 import 'screens/_rooms/paid_connected_user_saloon_no_access_screen/paid_connected_user_saloon_no_access_screen.dart';
@@ -183,6 +184,8 @@ final Map<String, Widget Function()> allScreens = {
   'discover_saloon_adult_screen.dart': () => const DiscoverSaloonAdultScreen(),
   'all_subscription_activity_screen.dart': () =>
       const AllSubscriptionActivityScreen(),
+  'paid_connected_user_saloon_of_5_content_free.dart': () =>
+      const PaidConnectedUserSaloonOf5ContentFree(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
