@@ -3,15 +3,9 @@ import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 
-class UploadContentLoaderScreen extends StatefulWidget {
+class UploadContentLoaderScreen extends StatelessWidget {
   const UploadContentLoaderScreen({super.key});
 
-  @override
-  State<UploadContentLoaderScreen> createState() =>
-      _UploadContentLoaderScreenState();
-}
-
-class _UploadContentLoaderScreenState extends State<UploadContentLoaderScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
