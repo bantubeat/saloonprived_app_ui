@@ -2,7 +2,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:saloonprived_app/generated/locale_keys.g.dart';
-import 'package:saloonprived_app/src/components/button_with_icon.dart';
 import 'package:saloonprived_app/src/components/my_bottom_navigation_bar.dart';
 import 'package:saloonprived_app/src/config/app_colors.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
