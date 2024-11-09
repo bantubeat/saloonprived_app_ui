@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart' show Widget;
+import 'package:saloonprived_app/src/screens/_rooms/paid_connected_user_saloon_of_5_content_free_screen/paid_connected_user_saloon_of_5_content_free_screen.dart';
 import 'package:saloonprived_app/src/screens/discover_lounge/discover_saloon_adult_screen/discover_saloon_adult_screen.dart';
 import 'package:saloonprived_app/src/screens/profile_creation_category/profile_creation_category_screen.dart';
 
@@ -184,6 +185,8 @@ final Map<String, Widget Function()> allScreens = {
   'discover_saloon_adult_screen.dart': () => const DiscoverSaloonAdultScreen(),
   'all_subscription_activity_screen.dart': () =>
       const AllSubscriptionActivityScreen(),
+  'paid_connected_user_saloon_of_5_content_free_screen.dart': () =>
+      const PaidConnectedUserSaloonOf5ContentFreeScreen(),
   'upload_content_loader_screen.dart': () => const UploadContentLoaderScreen(),
 };
 

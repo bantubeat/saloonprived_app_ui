@@ -822,5 +822,17 @@
         "text14": "NE PLUS AFFICHER CE MESSAGE",
         "btn_refuse": "Je ne suis pas d’accord",
         "btn_accept": "ENTRER"
+    },
+    "paid_connected_user_saloon_of_5_content_free_screen": {
+        "paid_salon": "Mon salon payant",
+        "free_salon": "Mon salon gratuit",
+        "welcome_to_paid_salon": "Bienvenue dans le salon payant",
+        "paid_salon_reserved_for_fans": "Le salon payant est reservé à vos fans qui ont payé un accès",
+        "cannot_upload_videos_yet": "Vous ne pouvez pas encore déposer de vidéos",
+        "must_have_5_content_free": "Pour utiliser le salon payant, vous devez: ",
+        "have_5_content_free": "• Avoir minimum 5 contenus dans votre salon gratuit",
+        "configure_access_price": "• Configurer les prix d'accès à votre salon payant",
+        "validate_identity_procedure": "• Valider la procédure de vérification d'identité",
+        "add_more_video": "Deposer plus de vidéos gratuits"
     }
 }
