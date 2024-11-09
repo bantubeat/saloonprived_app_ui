@@ -71,6 +71,7 @@ import 'screens/_auth/login_screen.dart';
 import 'screens/_auth/register_screen.dart';
 import 'package:saloonprived_app/src/screens/_create_profile/create_profile_restriction_page_screen.dart';
 import 'screens/search/search_screen/search_screen.dart';
+import 'screens/upload_content_loader/upload_content_loader_screen.dart';
 import 'screens/welcome_screen/welcome_screen.dart';
 
 /// Le test unitaire va chercher toute les pages du dossier screens pour se
@@ -183,6 +184,7 @@ final Map<String, Widget Function()> allScreens = {
   'discover_saloon_adult_screen.dart': () => const DiscoverSaloonAdultScreen(),
   'all_subscription_activity_screen.dart': () =>
       const AllSubscriptionActivityScreen(),
+  'upload_content_loader_screen.dart': () => const UploadContentLoaderScreen(),
 };
 
 // Ajoutez d'autres chemins de fichiers ici
