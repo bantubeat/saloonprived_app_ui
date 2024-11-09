@@ -9,8 +9,8 @@ import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 import 'widgets/header_widget.dart';
 
-class PaidConnectedUserSaloonOf5ContentFree extends StatelessWidget {
-  const PaidConnectedUserSaloonOf5ContentFree({super.key});
+class PaidConnectedUserSaloonOf5ContentFreeScreen extends StatelessWidget {
+  const PaidConnectedUserSaloonOf5ContentFreeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -30,46 +30,45 @@ class PaidConnectedUserSaloonOf5ContentFree extends StatelessWidget {
               decoration: const BoxDecoration(
                 color: Colors.white,
               ),
-              child: Wrap(
-                alignment: WrapAlignment.spaceAround,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  InkWell(
-                    onTap: () {},
-                    child: Text(
-                      LocaleKeys
-                          .paid_connected_user_saloon_of_5_content_free_screen_free_salon
-                          .tr(),
-                      style: GoogleFonts.inter(
-                        color: const Color.fromRGBO(0, 0, 0, 0.7),
-                        fontSize: 10,
-                        fontWeight: FontWeight.w400,
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {},
+                      child: Text(
+                        LocaleKeys.paid_connected_user_saloon_of_5_content_free_screen_free_salon.tr(),
+                        style: GoogleFonts.inter(
+                          color: const Color.fromRGBO(0, 0, 0, 0.7),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w400,
+                        ),
+                        textAlign: TextAlign.center,
                       ),
                     ),
                   ),
-                  Column(
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.only(
-                          bottom: 2,
-                        ),
-                        decoration: const BoxDecoration(
-                          border: Border(
-                            bottom:
-                                BorderSide(color: AppColors.primary, width: 2),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.only(bottom: 2),
+                          decoration: const BoxDecoration(
+                            border: Border(
+                              bottom: BorderSide(color: AppColors.primary, width: 2),
+                            ),
+                          ),
+                          child: Text(
+                            LocaleKeys.paid_connected_user_saloon_of_5_content_free_screen_paid_salon.tr(),
+                            style: GoogleFonts.inter(
+                              color: Colors.black,
+                              fontSize: 10,
+                              fontWeight: FontWeight.w700,
+                            ),
+                            textAlign: TextAlign.center,
                           ),
                         ),
-                        child: Text(
-                          LocaleKeys
-                              .paid_connected_user_saloon_of_5_content_free_screen_paid_salon
-                              .tr(),
-                          style: GoogleFonts.inter(
-                            color: Colors.black,
-                            fontSize: 10,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ],
               ),
