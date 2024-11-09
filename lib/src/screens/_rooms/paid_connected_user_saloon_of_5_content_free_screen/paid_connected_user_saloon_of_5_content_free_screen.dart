@@ -8,6 +8,7 @@ import 'package:saloonprived_app/src/config/app_colors.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 import 'widgets/header_widget.dart';
+import 'widgets/rounded_button.dart';
 
 class PaidConnectedUserSaloonOf5ContentFreeScreen extends StatelessWidget {
   const PaidConnectedUserSaloonOf5ContentFreeScreen({super.key});
@@ -30,45 +31,46 @@ class PaidConnectedUserSaloonOf5ContentFreeScreen extends StatelessWidget {
               decoration: const BoxDecoration(
                 color: Colors.white,
               ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+              child: Wrap(
+                alignment: WrapAlignment.spaceAround,
                 children: [
-                  Expanded(
-                    child: InkWell(
-                      onTap: () {},
-                      child: Text(
-                        LocaleKeys.paid_connected_user_saloon_of_5_content_free_screen_free_salon.tr(),
-                        style: GoogleFonts.inter(
-                          color: const Color.fromRGBO(0, 0, 0, 0.7),
-                          fontSize: 10,
-                          fontWeight: FontWeight.w400,
-                        ),
-                        textAlign: TextAlign.center,
+                  InkWell(
+                    onTap: () {},
+                    child: Text(
+                      LocaleKeys
+                          .paid_connected_user_saloon_of_5_content_free_screen_free_salon
+                          .tr(),
+                      style: GoogleFonts.inter(
+                        color: const Color.fromRGBO(0, 0, 0, 0.7),
+                        fontSize: 10,
+                        fontWeight: FontWeight.w400,
                       ),
                     ),
                   ),
-                  Expanded(
-                    child: Column(
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.only(bottom: 2),
-                          decoration: const BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(color: AppColors.primary, width: 2),
-                            ),
-                          ),
-                          child: Text(
-                            LocaleKeys.paid_connected_user_saloon_of_5_content_free_screen_paid_salon.tr(),
-                            style: GoogleFonts.inter(
-                              color: Colors.black,
-                              fontSize: 10,
-                              fontWeight: FontWeight.w700,
-                            ),
-                            textAlign: TextAlign.center,
+                  Column(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.only(
+                          bottom: 2,
+                        ),
+                        decoration: const BoxDecoration(
+                          border: Border(
+                            bottom:
+                                BorderSide(color: AppColors.primary, width: 2),
                           ),
                         ),
-                      ],
-                    ),
+                        child: Text(
+                          LocaleKeys
+                              .paid_connected_user_saloon_of_5_content_free_screen_paid_salon
+                              .tr(),
+                          style: GoogleFonts.inter(
+                            color: Colors.black,
+                            fontSize: 10,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -176,20 +178,12 @@ class PaidConnectedUserSaloonOf5ContentFreeScreen extends StatelessWidget {
                       ],
                     ),
                     SizedBox(height: MediaQuery.of(context).size.height * 0.1),
-                    IntrinsicWidth(
-                      stepWidth: 100,
-                      child: ButtonWithIcon(
-                        text: LocaleKeys
-                            .paid_connected_user_saloon_of_5_content_free_screen_add_more_video
-                            .tr(),
-                        backgroundColor: AppColors.myDark,
-                        color: AppColors.myWhite,
-                        icon: const Icon(
-                          MaterialCommunityIcons.plus_box_multiple_outline,
-                          color: AppColors.myWhite,
-                        ),
-                        onPressed: (_) {},
-                      ),
+                    RoundedButton(
+                      icon: MaterialCommunityIcons.plus_box_multiple_outline,
+                      text: LocaleKeys
+                          .paid_connected_user_saloon_of_5_content_free_screen_add_more_video
+                          .tr(),
+                      onPressed: () {},
                     ),
                     const SizedBox(height: 120),
                   ],
